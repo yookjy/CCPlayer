@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>b0d8d5e2-98df-4c8a-9263-ee6eb6b620c0</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Converters">
+      <UniqueIdentifier>{b0bd7b1c-dc47-42a2-a7f3-73a86baad9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{f8c4bab9-9cc8-422e-a0ee-fdb3811d87a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\en">
+      <UniqueIdentifier>{fd41c307-3392-403c-9881-550b760701be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\ko">
+      <UniqueIdentifier>{bd09d95c-7f4d-41c3-bf3f-e42c2c4e03f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\ja">
+      <UniqueIdentifier>{de9534e3-f558-4489-8417-e23392f12978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\tr">
+      <UniqueIdentifier>{35bd91f1-ed0b-48d2-aa96-bf768e19fc57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\be">
+      <UniqueIdentifier>{983177b5-3b4a-4474-9cb6-df8714f0dae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\ru">
+      <UniqueIdentifier>{f84a7a93-df62-4c76-8a08-eaea19511c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\pt-BR">
+      <UniqueIdentifier>{a47257ef-f5f1-49c2-9191-37697dd00d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\vi">
+      <UniqueIdentifier>{417aebee-5f38-4eab-b697-a2429db1a916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\ro">
+      <UniqueIdentifier>{4ab78a9d-e3ca-45cd-a3fa-83a1cf0fb02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\bg">
+      <UniqueIdentifier>{e5502ad9-d9f9-4ef1-854d-6f5e1c32feed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\es">
+      <UniqueIdentifier>{4be2466a-4795-4bc7-8c69-0647a95d7ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\uk">
+      <UniqueIdentifier>{d8ec91a1-ce20-4952-840f-c3039ee77a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\zh-Hans">
+      <UniqueIdentifier>{93bb3b14-1813-440e-98fa-2c0c902662d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\fa">
+      <UniqueIdentifier>{0d00dc53-6a31-40b0-96ac-8b86c83da5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateTriggers">
+      <UniqueIdentifier>{36f14db8-ef62-4b96-a759-1a2a4d667314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{07872a35-3ecb-4989-a1c9-2067e0bf189f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\fr">
+      <UniqueIdentifier>{189c8cfc-ac29-47bf-b866-9f55dc766c04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="MediaElement.xaml.cpp" />
+    <ClCompile Include="ClosedCaption.xaml.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="ClosedCaptions.xaml.cpp" />
+    <ClCompile Include="MediaTransportControls.xaml.cpp" />
+    <ClCompile Include="ImageClosedCaption.xaml.cpp" />
+    <ClCompile Include="MediaElementCore.cpp" />
+    <ClCompile Include="StateTriggers\BooleanDataTrigger.cpp">
+      <Filter>StateTriggers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="d3dmanagerlock.hxx" />
+    <ClInclude Include="MediaElement.xaml.h" />
+    <ClInclude Include="Converters\Formatter.h">
+      <Filter>Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Helpers\LanguageCodeHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\CodePageHelper.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosedCaption.xaml.h" />
+    <ClInclude Include="ClosedCaptions.xaml.h" />
+    <ClInclude Include="MediaTransportControls.xaml.h" />
+    <ClInclude Include="ImageClosedCaption.xaml.h" />
+    <ClInclude Include="MediaElementCore.h" />
+    <ClInclude Include="StateTriggers\BooleanDataTrigger.h">
+      <Filter>StateTriggers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MediaElement.xaml" />
+    <Page Include="ClosedCaption.xaml" />
+    <Page Include="ClosedCaptions.xaml" />
+    <Page Include="MediaTransportControls.xaml" />
+    <Page Include="ImageClosedCaption.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\en\Resources.resw">
+      <Filter>Strings\en</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\ko\Resources.resw">
+      <Filter>Strings\ko</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\ja\Resources.resw">
+      <Filter>Strings\ja</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\tr\Resources.resw">
+      <Filter>Strings\tr</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\ru\Resources.resw">
+      <Filter>Strings\ru</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\be\Resources.resw">
+      <Filter>Strings\be</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\vi\Resources.resw">
+      <Filter>Strings\vi</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\pt-BR\Resources.resw">
+      <Filter>Strings\pt-BR</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\ro\Resources.resw">
+      <Filter>Strings\ro</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\bg\Resources.resw">
+      <Filter>Strings\bg</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\es\Resources.resw">
+      <Filter>Strings\es</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\uk\Resources.resw">
+      <Filter>Strings\uk</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\zh-Hans\Resources.resw">
+      <Filter>Strings\zh-Hans</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\fa\Resources.resw">
+      <Filter>Strings\fa</Filter>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.UWP.Pro\Strings\fr\Resources.resw">
+      <Filter>Strings\fr</Filter>
+    </PRIResource>
+  </ItemGroup>
+</Project>

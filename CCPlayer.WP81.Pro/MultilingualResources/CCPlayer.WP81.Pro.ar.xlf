@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ar" original="CCPLAYER.WP81.PRO/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1573.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CCPLAYER.WP81.PRO/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="About.Header" translate="yes" xml:space="preserve">
+          <source>about</source>
+          <target state="new">about</target>
+        </trans-unit>
+        <trans-unit id="Buy.Label" translate="yes" xml:space="preserve">
+          <source>buy the pro version</source>
+          <target state="new">buy the pro version</target>
+        </trans-unit>
+        <trans-unit id="VelostepApps.Label" translate="yes" xml:space="preserve">
+          <source>more from L:me</source>
+          <target state="new">more from L:me</target>
+        </trans-unit>
+        <trans-unit id="AboutAbout" translate="yes" xml:space="preserve">
+          <source>version &amp; developers</source>
+          <target state="new">version &amp; developers</target>
+        </trans-unit>
+        <trans-unit id="AboutCredits" translate="yes" xml:space="preserve">
+          <source>credits</source>
+          <target state="new">credits</target>
+        </trans-unit>
+        <trans-unit id="AboutDesign" translate="yes" xml:space="preserve">
+          <source>design</source>
+          <target state="new">design</target>
+        </trans-unit>
+        <trans-unit id="AboutDesigner" translate="yes" xml:space="preserve">
+          <source>Jooyong, Yook</source>
+          <target state="new">Jooyong, Yook</target>
+        </trans-unit>
+        <trans-unit id="AboutDeveloper" translate="yes" xml:space="preserve">
+          <source>Jooyong, Yook</source>
+          <target state="new">Jooyong, Yook</target>
+        </trans-unit>
+        <trans-unit id="AboutDevelopment" translate="yes" xml:space="preserve">
+          <source>development</source>
+          <target state="new">development</target>
+        </trans-unit>
+        <trans-unit id="AboutFacebook" translate="yes" xml:space="preserve">
+          <source>facebook</source>
+          <target state="new">facebook</target>
+        </trans-unit>
+        <trans-unit id="AboutFeedback" translate="yes" xml:space="preserve">
+          <source>support &amp; feedback</source>
+          <target state="new">support &amp; feedback</target>
+        </trans-unit>
+        <trans-unit id="AboutLibraryCreators" translate="yes" xml:space="preserve">
+          <source>Thanks to the creators of the following libraries</source>
+          <target state="new">Thanks to the creators of the following libraries</target>
+        </trans-unit>
+        <trans-unit id="AboutRateReview" translate="yes" xml:space="preserve">
+          <source>rate &amp; review</source>
+          <target state="new">rate &amp; review</target>
+        </trans-unit>
+        <trans-unit id="AboutShare" translate="yes" xml:space="preserve">
+          <source>share this app</source>
+          <target state="new">share this app</target>
+        </trans-unit>
+        <trans-unit id="AboutSpecialPeople1" translate="yes" xml:space="preserve">
+          <source>Bomi, Jung</source>
+          <target state="new">Bomi, Jung</target>
+        </trans-unit>
+        <trans-unit id="AboutSpecialPeople3" translate="yes" xml:space="preserve">
+          <source>Seongmin, Yoon</source>
+          <target state="new">Seongmin, Yoon</target>
+        </trans-unit>
+        <trans-unit id="AboutSpecialThanks" translate="yes" xml:space="preserve">
+          <source>Special thanks</source>
+          <target state="new">Special thanks</target>
+        </trans-unit>
+        <trans-unit id="AboutUserVoice" translate="yes" xml:space="preserve">
+          <source>user voice</source>
+          <target state="new">user voice</target>
+        </trans-unit>
+        <trans-unit id="AboutVersion" translate="yes" xml:space="preserve">
+          <source>version</source>
+          <target state="new">version</target>
+        </trans-unit>
+        <trans-unit id="AboutWhatsNew" translate="yes" xml:space="preserve">
+          <source>what's new</source>
+          <target state="new">what's new</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>CCPlayer</source>
+          <target state="new">CCPlayer</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicISO" translate="yes" xml:space="preserve">
+          <source>Arabic (ISO)</source>
+          <target state="new">Arabic (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicOem" translate="yes" xml:space="preserve">
+          <source>Arabic (OEM)</source>
+          <target state="new">Arabic (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicWindows" translate="yes" xml:space="preserve">
+          <source>Arabic (Windows)</source>
+          <target state="new">Arabic (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetAutoDetect" translate="yes" xml:space="preserve">
+          <source>Auto detection</source>
+          <target state="new">Auto detection</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticISO" translate="yes" xml:space="preserve">
+          <source>Baltic (ISO)</source>
+          <target state="new">Baltic (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticOem" translate="yes" xml:space="preserve">
+          <source>Baltic (OEM)</source>
+          <target state="new">Baltic (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticWindows" translate="yes" xml:space="preserve">
+          <source>Baltic (Windows)</source>
+          <target state="new">Baltic (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Central European (ISO)</source>
+          <target state="new">Central European (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Central European (Windows)</source>
+          <target state="new">Central European (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseSimplifiedGB" translate="yes" xml:space="preserve">
+          <source>Chinese Simplified</source>
+          <target state="new">Chinese Simplified</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseTraditionalBig5" translate="yes" xml:space="preserve">
+          <source>Chinese Traditional</source>
+          <target state="new">Chinese Traditional</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicISO" translate="yes" xml:space="preserve">
+          <source>Cyrillic (ISO)</source>
+          <target state="new">Cyrillic (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicOem" translate="yes" xml:space="preserve">
+          <source>Cyrillic (OEM)</source>
+          <target state="new">Cyrillic (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicWindows" translate="yes" xml:space="preserve">
+          <source>Cyrillic (Windows)</source>
+          <target state="new">Cyrillic (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekOem" translate="yes" xml:space="preserve">
+          <source>Greek (OEM)</source>
+          <target state="new">Greek (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekWindows" translate="yes" xml:space="preserve">
+          <source>Greek (Windows)</source>
+          <target state="new">Greek (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewISO_Visual" translate="yes" xml:space="preserve">
+          <source>Hebrew (ISO-Visual)</source>
+          <target state="new">Hebrew (ISO-Visual)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewOem" translate="yes" xml:space="preserve">
+          <source>Hebrew (OEM)</source>
+          <target state="new">Hebrew (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewWindows" translate="yes" xml:space="preserve">
+          <source>Hebrew (Windows)</source>
+          <target state="new">Hebrew (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetJapaneseShift_JIS" translate="yes" xml:space="preserve">
+          <source>Japanese (Windows)</source>
+          <target state="new">Japanese (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanEUC" translate="yes" xml:space="preserve">
+          <source>Korean (Windows EUC-KR)</source>
+          <target state="new">Korean (Windows EUC-KR)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin3" translate="yes" xml:space="preserve">
+          <source>Latin3 (OEM)</source>
+          <target state="new">Latin3 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin9" translate="yes" xml:space="preserve">
+          <source>Latin9 (OEM)</source>
+          <target state="new">Latin9 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatinIIOem" translate="yes" xml:space="preserve">
+          <source>Central European (OEM)</source>
+          <target state="new">Central European (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIEuroOem" translate="yes" xml:space="preserve">
+          <source>Western European EURO (OEM)</source>
+          <target state="new">Western European EURO (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIOem" translate="yes" xml:space="preserve">
+          <source>Western European (OEM)</source>
+          <target state="new">Western European (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetRussianOem" translate="yes" xml:space="preserve">
+          <source>Russian (OEM)</source>
+          <target state="new">Russian (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetThaiWindows" translate="yes" xml:space="preserve">
+          <source>Thai (Windows)</source>
+          <target state="new">Thai (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishISO" translate="yes" xml:space="preserve">
+          <source>Turkish (ISO)</source>
+          <target state="new">Turkish (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishOem" translate="yes" xml:space="preserve">
+          <source>Turkish (OEM)</source>
+          <target state="new">Turkish (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishWindows" translate="yes" xml:space="preserve">
+          <source>Turkish (Windows)</source>
+          <target state="new">Turkish (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUsOem" translate="yes" xml:space="preserve">
+          <source>Extended ASCII (OEM)</source>
+          <target state="new">Extended ASCII (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16BE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Big Endian)</source>
+          <target state="new">Unicode (UTF-16 Big Endian)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16LE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Little Endian)</source>
+          <target state="new">Unicode (UTF-16 Little Endian)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_8" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-8)</source>
+          <target state="new">Unicode (UTF-8)</target>
+        </trans-unit>
+        <trans-unit id="CharsetVietnameseWindows" translate="yes" xml:space="preserve">
+          <source>Vietnamese (Windows)</source>
+          <target state="new">Vietnamese (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Western European (ISO)</source>
+          <target state="new">Western European (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Western European (Windows)</source>
+          <target state="new">Western European (Windows)</target>
+        </trans-unit>
+        <trans-unit id="FontShadow.Header" translate="yes" xml:space="preserve">
+          <source>Use shadow</source>
+          <target state="new">Use shadow</target>
+        </trans-unit>
+        <trans-unit id="FontSize.Text" translate="yes" xml:space="preserve">
+          <source>font size</source>
+          <target state="new">font size</target>
+        </trans-unit>
+        <trans-unit id="FontSizeOverride.Header" translate="yes" xml:space="preserve">
+          <source>Use font size overriding</source>
+          <target state="new">Use font size overriding</target>
+        </trans-unit>
+        <trans-unit id="FontStyle.Text" translate="yes" xml:space="preserve">
+          <source>font style</source>
+          <target state="new">font style</target>
+        </trans-unit>
+        <trans-unit id="FontStyleOverride.Header" translate="yes" xml:space="preserve">
+          <source>Use font style overriding</source>
+          <target state="new">Use font style overriding</target>
+        </trans-unit>
+        <trans-unit id="FontWeight.Text" translate="yes" xml:space="preserve">
+          <source>font weight</source>
+          <target state="new">font weight</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage.Text" translate="yes" xml:space="preserve">
+          <source>CCPlayer - settings</source>
+          <target state="new">CCPlayer - settings</target>
+        </trans-unit>
+        <trans-unit id="Settings.SubtitleFont.Text" translate="yes" xml:space="preserve">
+          <source>subtitle</source>
+          <target state="new">subtitle</target>
+        </trans-unit>
+        <trans-unit id="SubtitleBackground.Header" translate="yes" xml:space="preserve">
+          <source>Use background of the subtitle</source>
+          <target state="new">Use background of the subtitle</target>
+        </trans-unit>
+        <trans-unit id="Settings.Appbar.Label" translate="yes" xml:space="preserve">
+          <source>settings</source>
+          <target state="new">settings</target>
+        </trans-unit>
+        <trans-unit id="MainHub.Text" translate="yes" xml:space="preserve">
+          <source>CCPlayer</source>
+          <target state="new">CCPlayer</target>
+        </trans-unit>
+        <trans-unit id="Message.Delete.List" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the selected video in the {0}?</source>
+          <target state="new">Are you sure you want to delete the selected video in the {0}?</target>
+        </trans-unit>
+        <trans-unit id="ToUpper" translate="yes" xml:space="preserve">
+          <source>To upper</source>
+          <target state="new">To upper</target>
+        </trans-unit>
+        <trans-unit id="WhatsNew" translate="yes" xml:space="preserve">
+          <source>what's new</source>
+          <target state="new">what's new</target>
+        </trans-unit>
+        <trans-unit id="Credits" translate="yes" xml:space="preserve">
+          <source>credits</source>
+          <target state="new">credits</target>
+        </trans-unit>
+        <trans-unit id="AllVideo.Text" translate="yes" xml:space="preserve">
+          <source>all videos</source>
+          <target state="new">all videos</target>
+        </trans-unit>
+        <trans-unit id="Explorer.Header" translate="yes" xml:space="preserve">
+          <source>explorer</source>
+          <target state="new">explorer</target>
+        </trans-unit>
+        <trans-unit id="Loading" translate="yes" xml:space="preserve">
+          <source>loading {0}...</source>
+          <target state="new">loading {0}...</target>
+        </trans-unit>
+        <trans-unit id="Play" translate="yes" xml:space="preserve">
+          <source>play</source>
+          <target state="new">play</target>
+        </trans-unit>
+        <trans-unit id="Playlist.Header" translate="yes" xml:space="preserve">
+          <source>playlist</source>
+          <target state="new">playlist</target>
+        </trans-unit>
+        <trans-unit id="Remove" translate="yes" xml:space="preserve">
+          <source>remove</source>
+          <target state="new">remove</target>
+        </trans-unit>
+        <trans-unit id="Video" translate="yes" xml:space="preserve">
+          <source>video</source>
+          <target state="new">video</target>
+        </trans-unit>
+        <trans-unit id="Cancel" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="Message.Exit" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to exit CCPlayer?</source>
+          <target state="new">Are you sure you want to exit CCPlayer?</target>
+        </trans-unit>
+        <trans-unit id="Ok" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="new">Ok</target>
+        </trans-unit>
+        <trans-unit id="Complete" translate="yes" xml:space="preserve">
+          <source>complete</source>
+          <target state="new">complete</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00001" translate="yes" xml:space="preserve">
+          <source>First release</source>
+          <target state="new">First release</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedAudioCodec" translate="yes" xml:space="preserve">
+          <source>Can not play this audio codec.
+</source>
+          <target state="new">Can not play this audio codec.
+</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedAudioLicenseCodec" translate="yes" xml:space="preserve">
+          <source>The audio codec has a license in {0}.</source>
+          <target state="new">The audio codec has a license in {0}.</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedVideoCodec" translate="yes" xml:space="preserve">
+          <source>Can not play this video codec.</source>
+          <target state="new">Can not play this video codec.</target>
+        </trans-unit>
+        <trans-unit id="WrongFileFormat" translate="yes" xml:space="preserve">
+          <source>This file is not {0} format.</source>
+          <target state="new">This file is not {0} format.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Cluster" translate="yes" xml:space="preserve">
+          <source>Damaged part of the MKV file. Skipping a position that can be played ...</source>
+          <target state="new">Damaged part of the MKV file. Skipping a position that can be played ...</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Play.NoItems" translate="yes" xml:space="preserve">
+          <source>There is no item to play longer in the playlist.</source>
+          <target state="new">There is no item to play longer in the playlist.</target>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.Play.Suspended" translate="yes" xml:space="preserve">
+          <source>This video has been paused at {0} / {1}</source>
+          <target state="new">This video has been paused at {0} / {1}</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Encoding.Fail" translate="yes" xml:space="preserve">
+          <source>Detection of the encoding of the subtitle file failed.
+If you can not recognize the characters, please change the encoding settings of subtitle. 😉</source>
+          <target state="new">Detection of the encoding of the subtitle file failed.
+If you can not recognize the characters, please change the encoding settings of subtitle. 😉</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Seek.Create" translate="yes" xml:space="preserve">
+          <source>Seek data being created...</source>
+          <target state="new">Seek data being created...</target>
+        </trans-unit>
+        <trans-unit id="AudioBalance.Text" translate="yes" xml:space="preserve">
+          <source>Left / Right Balance</source>
+          <target state="new">Left / Right Balance</target>
+        </trans-unit>
+        <trans-unit id="AudioLanguage.Text" translate="yes" xml:space="preserve">
+          <source>Audio Language</source>
+          <target state="new">Audio Language</target>
+        </trans-unit>
+        <trans-unit id="AudioVolume.Text" translate="yes" xml:space="preserve">
+          <source>Media Volume</source>
+          <target state="new">Media Volume</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRate.Text" translate="yes" xml:space="preserve">
+          <source>Playback rate</source>
+          <target state="new">Playback rate</target>
+        </trans-unit>
+        <trans-unit id="SubtitleFontSize.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle Font Size</source>
+          <target state="new">Subtitle Font Size</target>
+        </trans-unit>
+        <trans-unit id="SubtitleLanguage.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle Language</source>
+          <target state="new">Subtitle Language</target>
+        </trans-unit>
+        <trans-unit id="SubtitleOnOff.Tag" translate="yes" xml:space="preserve">
+          <source>SUBTITLE</source>
+          <target state="new">SUBTITLE</target>
+        </trans-unit>
+        <trans-unit id="SubtitleSync.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle Sync</source>
+          <target state="new">Subtitle Sync</target>
+        </trans-unit>
+        <trans-unit id="SubtitleSyncUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="new">sec</target>
+        </trans-unit>
+        <trans-unit id="Brightness.Text" translate="yes" xml:space="preserve">
+          <source>Video Brightness</source>
+          <target state="new">Video Brightness</target>
+        </trans-unit>
+        <trans-unit id="BrightnessUnit.Text" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <target state="new">%</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00002" translate="yes" xml:space="preserve">
+          <source>Fixed some bugs</source>
+          <target state="new">Fixed some bugs</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00003" translate="yes" xml:space="preserve">
+          <source>Shortcuts subtitle setting (bottom appbar menu ...)</source>
+          <target state="new">Shortcuts subtitle setting (bottom appbar menu ...)</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingContent.Text" translate="yes" xml:space="preserve">
+          <source>No Ad! Full features!</source>
+          <target state="new">No Ad! Full features!</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingTitle.Text" translate="yes" xml:space="preserve">
+          <source>Go buy now! CCPlayer pro!</source>
+          <target state="new">Go buy now! CCPlayer pro!</target>
+        </trans-unit>
+        <trans-unit id="Subtitle" translate="yes" xml:space="preserve">
+          <source>subtitle</source>
+          <target state="new">subtitle</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00004" translate="yes" xml:space="preserve">
+          <source>Fixed a bug related to the subtitle</source>
+          <target state="new">Fixed a bug related to the subtitle</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00005" translate="yes" xml:space="preserve">
+          <source>Improved display performance of the subtitle</source>
+          <target state="new">Improved display performance of the subtitle</target>
+        </trans-unit>
+        <trans-unit id="FontOutline.Header" translate="yes" xml:space="preserve">
+          <source>Use outline</source>
+          <target state="new">Use outline</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00006" translate="yes" xml:space="preserve">
+          <source>Fixed MKV playback bug</source>
+          <target state="new">Fixed MKV playback bug</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00007" translate="yes" xml:space="preserve">
+          <source>Added Text Outline effect (Subtitle settings menu)</source>
+          <target state="new">Added Text Outline effect (Subtitle settings menu)</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00008" translate="yes" xml:space="preserve">
+          <source>Fixed srt bug (skip invalid timecode)</source>
+          <target state="new">Fixed srt bug (skip invalid timecode)</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00009" translate="yes" xml:space="preserve">
+          <source>Improved loading performance in the explore.</source>
+          <target state="new">Improved loading performance in the explore.</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople1" translate="yes" xml:space="preserve">
+          <source>Juan Carlos Ábalos Guerrero</source>
+          <target state="new">Juan Carlos Ábalos Guerrero</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">후안 masabalos@outlook.com (Spanish - español) 스페인어</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslators" translate="yes" xml:space="preserve">
+          <source>Thanks to the translators</source>
+          <target state="new">Thanks to the translators</target>
+        </trans-unit>
+        <trans-unit id="Settings.General.Text" translate="yes" xml:space="preserve">
+          <source>general</source>
+          <target state="new">general</target>
+        </trans-unit>
+        <trans-unit id="HubBackgroundColor.Text" translate="yes" xml:space="preserve">
+          <source>Background color</source>
+          <target state="new">Background color</target>
+        </trans-unit>
+        <trans-unit id="HubForegroundColor.Text" translate="yes" xml:space="preserve">
+          <source>Font color</source>
+          <target state="new">Font color</target>
+        </trans-unit>
+        <trans-unit id="HubSubForegroundColor.Text" translate="yes" xml:space="preserve">
+          <source>Sub font color</source>
+          <target state="new">Sub font color</target>
+        </trans-unit>
+        <trans-unit id="SubtitleFontColor.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle Font Color</source>
+          <target state="new">Subtitle Font Color</target>
+        </trans-unit>
+        <trans-unit id="UseAllVideoHub.Header" translate="yes" xml:space="preserve">
+          <source>Use all videos in hub</source>
+          <target state="new">Use all videos in hub</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.Header.Text" translate="yes" xml:space="preserve">
+          <source>font family</source>
+          <target state="new">font family</target>
+        </trans-unit>
+        <trans-unit id="Settings.Subtitle.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Button.Content" translate="yes" xml:space="preserve">
+          <source>install font</source>
+          <target state="new">install font</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Header.Text" translate="yes" xml:space="preserve">
+          <source>You can install the (* .TTF / OTF) from the font file.</source>
+          <target state="new">You can install the (* .TTF / OTF) from the font file.</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.List.Text" translate="yes" xml:space="preserve">
+          <source>List of installed fonts</source>
+          <target state="new">List of installed fonts</target>
+        </trans-unit>
+        <trans-unit id="FontManager.Button.Content" translate="yes" xml:space="preserve">
+          <source>font manager</source>
+          <target state="new">font manager</target>
+        </trans-unit>
+        <trans-unit id="FontManager.Header.Text" translate="yes" xml:space="preserve">
+          <source>Manage custom fonts. 
+(Be careful when using the font license.)</source>
+          <target state="new">Manage custom fonts. 
+(Be careful when using the font license.)</target>
+        </trans-unit>
+        <trans-unit id="FontManager.Title.Text" translate="yes" xml:space="preserve">
+          <source>font manager</source>
+          <target state="new">font manager</target>
+        </trans-unit>
+        <trans-unit id="Message.Delete.FontFamily" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the font({0})?</source>
+          <target state="new">Are you sure you want to delete the font({0})?</target>
+        </trans-unit>
+        <trans-unit id="SaveTruTypeFontInMKV.Header" translate="yes" xml:space="preserve">
+          <source>Save fonts(TTF) included in MKV</source>
+          <target state="new">Save fonts(TTF) included in MKV</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00010" translate="yes" xml:space="preserve">
+          <source>Supported theme customization</source>
+          <target state="new">Supported theme customization</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00011" translate="yes" xml:space="preserve">
+          <source>Added font manager for subtitle</source>
+          <target state="new">Added font manager for subtitle</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00012" translate="yes" xml:space="preserve">
+          <source>Added on/off option of  the all videos list</source>
+          <target state="new">Added on/off option of  the all videos list</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00013" translate="yes" xml:space="preserve">
+          <source>Modified some UI</source>
+          <target state="new">Modified some UI</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00014" translate="yes" xml:space="preserve">
+          <source>Fixed some bugs</source>
+          <target state="new">Fixed some bugs</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople2" translate="yes" xml:space="preserve">
+          <source>Иван Корниенко</source>
+          <target state="new">Иван Корниенко</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">이반 luciahedreh@gmail.com (Russian - русский) 러시아어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00015" translate="yes" xml:space="preserve">
+          <source>Improved loading performance in the all videos list</source>
+          <target state="new">Improved loading performance in the all videos list</target>
+        </trans-unit>
+        <trans-unit id="Message.Codec.NoLicense" translate="yes" xml:space="preserve">
+          <source>No license : {0}</source>
+          <target state="new">No license : {0}</target>
+        </trans-unit>
+        <trans-unit id="Message.Codec.NotSupported" translate="yes" xml:space="preserve">
+          <source>Not supported : {0}</source>
+          <target state="new">Not supported : {0}</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00016" translate="yes" xml:space="preserve">
+          <source>Supported touch gestures. (audio volume &amp; brightness adjustment)</source>
+          <target state="new">Supported touch gestures. (audio volume &amp; brightness adjustment)</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople3" translate="yes" xml:space="preserve">
+          <source>Meca Cosmin</source>
+          <target state="new">Meca Cosmin</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">코스민 mecacosmin@hotmail.com (Romanian - român) 루마니아어</note>
+        </trans-unit>
+        <trans-unit id="AddFolder" translate="yes" xml:space="preserve">
+          <source>Add folder</source>
+          <target state="new">Add folder</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00017" translate="yes" xml:space="preserve">
+          <source>Added folder management feature</source>
+          <target state="new">Added folder management feature</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00018" translate="yes" xml:space="preserve">
+          <source>Fragmentation of the playback speed options (0.1 units)</source>
+          <target state="new">Fragmentation of the playback speed options (0.1 units)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature1" translate="yes" xml:space="preserve">
+          <source>This feature can be used only in the Pro version.</source>
+          <target state="new">This feature can be used only in the Pro version.</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00019" translate="yes" xml:space="preserve">
+          <source>Added touch gesture (rewind/ forward)
+- Only pro version</source>
+          <target state="new">Added touch gesture (rewind/ forward)
+- Only pro version</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00020" translate="yes" xml:space="preserve">
+          <source>Supported fullscreen video
+- Removed adv on video playback screen
+- Added adv on list &amp; video control panel</source>
+          <target state="new">Supported fullscreen video
+- Removed adv on video playback screen
+- Added adv on list &amp; video control panel</target>
+        </trans-unit>
+        <trans-unit id="SearchButton.Text" translate="yes" xml:space="preserve">
+          <source>search</source>
+          <target state="new">search</target>
+        </trans-unit>
+        <trans-unit id="SearchInResults.Text" translate="yes" xml:space="preserve">
+          <source>search in results</source>
+          <target state="new">search in results</target>
+        </trans-unit>
+        <trans-unit id="SearchVideoTitle.Text" translate="yes" xml:space="preserve">
+          <source>Search in all videos section</source>
+          <target state="new">Search in all videos section</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00021" translate="yes" xml:space="preserve">
+          <source>Added searching in the video list
+- Only pro version</source>
+          <target state="new">Added searching in the video list
+- Only pro version</target>
+        </trans-unit>
+        <trans-unit id="Cache" translate="yes" xml:space="preserve">
+          <source>(loading from cache)</source>
+          <target state="new">(loading from cache)</target>
+        </trans-unit>
+        <trans-unit id="Synchronize" translate="yes" xml:space="preserve">
+          <source>synchronize</source>
+          <target state="new">synchronize</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople4" translate="yes" xml:space="preserve">
+          <source>Sebi Németh</source>
+          <target state="new">Sebi Németh</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">세비 sebezhetetlen98@gmail.com  (Hungarian - Magyar) 헝가리아어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00022" translate="yes" xml:space="preserve">
+          <source>Supported to adjust place of subtitle</source>
+          <target state="new">Supported to adjust place of subtitle</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00023" translate="yes" xml:space="preserve">
+          <source>Some fixes and improvements</source>
+          <target state="new">Some fixes and improvements</target>
+        </trans-unit>
+        <trans-unit id="Close" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="new">Close</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">닫기</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine01" translate="yes" xml:space="preserve">
+          <source>Play was stopped for error occurs.</source>
+          <target state="new">Play was stopped for error occurs.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">오류가 발생하여 재생이 중단되었습니다.</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine02" translate="yes" xml:space="preserve">
+          <source>Network error has occurred.</source>
+          <target state="new">Network error has occurred.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">네트워크 오류가 발생하였습니다.</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine03" translate="yes" xml:space="preserve">
+          <source>Decoding error has occurred.</source>
+          <target state="new">Decoding error has occurred.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">디코드 오류가 발생하였습니다.</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine04" translate="yes" xml:space="preserve">
+          <source>Can't play because the item's file format isn't supported.</source>
+          <target state="new">Can't play because the item's file format isn't supported.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">지원되지 않는 형식의 미디어 포맷입니다.</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine05" translate="yes" xml:space="preserve">
+          <source>It is encrypted media format.</source>
+          <target state="new">It is encrypted media format.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">암호화된 미디어 형식입니다.</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine99" translate="yes" xml:space="preserve">
+          <source>Unknown error has occurred.</source>
+          <target state="new">Unknown error has occurred.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">알 수 없는 오류가 발생하였습니다.</note>
+        </trans-unit>
+        <trans-unit id="Supported.Media.Format" translate="yes" xml:space="preserve">
+          <source>Supported media formats</source>
+          <target state="new">Supported media formats</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">지원되는 미디어 포맷</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00024" translate="yes" xml:space="preserve">
+          <source>Fixed a bug of playback rate button</source>
+          <target state="new">Fixed a bug of playback rate button</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">재생속도 버튼 버그 수정</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00025" translate="yes" xml:space="preserve">
+          <source>Avi/MP4 in XviD codec support (OS bug patches)</source>
+          <target state="new">Avi/MP4 in XviD codec support (OS bug patches)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00026" translate="yes" xml:space="preserve">
+          <source>Change the error message when it fails to play</source>
+          <target state="new">Change the error message when it fails to play</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">재생 실패 오류메세지 출력</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.FileNotFound" translate="yes" xml:space="preserve">
+          <source>Error - File not found</source>
+          <target state="new">Error - File not found</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">[1.5] 재생불가</note>
+        </trans-unit>
+        <trans-unit id="AutoSeekInterval" translate="yes" xml:space="preserve">
+          <source>Proportional to the running time</source>
+          <target state="new">Proportional to the running time</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">상영시간에 비례  (V 1.5)</note>
+        </trans-unit>
+        <trans-unit id="HardwareBackButtonAction.Text" translate="yes" xml:space="preserve">
+          <source>Back key action in the Explorer</source>
+          <target state="new">Back key action in the Explorer</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">탐색기에서 뒤로가기 키 동작</note>
+        </trans-unit>
+        <trans-unit id="MoveToUpperFolder" translate="yes" xml:space="preserve">
+          <source>Move to upper folder</source>
+          <target state="new">Move to upper folder</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">상위폴더로 이동 (V 1.5)</note>
+        </trans-unit>
+        <trans-unit id="SeekTimeInterval.Text" translate="yes" xml:space="preserve">
+          <source>TIme interval of the seeking</source>
+          <target state="new">TIme interval of the seeking</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">시크 시간 간격</note>
+        </trans-unit>
+        <trans-unit id="TerminateApplication" translate="yes" xml:space="preserve">
+          <source>Terminate application</source>
+          <target state="new">Terminate application</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">앱 종료  (V 1.5)</note>
+        </trans-unit>
+        <trans-unit id="NotSupportedCodecDesc" translate="yes" xml:space="preserve">
+          <source>Supported Codec : {0}</source>
+          <target state="new">Supported Codec : {0}</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">[1.5] 추가</note>
+        </trans-unit>
+        <trans-unit id="NotSupportedLicenseCodecDesc" translate="yes" xml:space="preserve">
+          <source>Can not support this codec because expensive license fee than ccplayer price.</source>
+          <target state="new">Can not support this codec because expensive license fee than ccplayer price.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">[1.5] 추가</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.FolderNotFound" translate="yes" xml:space="preserve">
+          <source>Error - Folder not found</source>
+          <target state="new">Error - Folder not found</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">[1.5] 재생불가</note>
+        </trans-unit>
+        <trans-unit id="Message.Error.CodecNotSupported" translate="yes" xml:space="preserve">
+          <source>Error - Not supported codec</source>
+          <target state="new">Error - Not supported codec</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">[1.5] 재생불가</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00027" translate="yes" xml:space="preserve">
+          <source>The new UI / UX</source>
+          <target state="new">The new UI / UX</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00028" translate="yes" xml:space="preserve">
+          <source>Improved performance</source>
+          <target state="new">Improved performance</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00029" translate="yes" xml:space="preserve">
+          <source>Improved stability</source>
+          <target state="new">Improved stability</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00030" translate="yes" xml:space="preserve">
+          <source>Added thumbnail image</source>
+          <target state="new">Added thumbnail image</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople5" translate="yes" xml:space="preserve">
+          <source>Daniel Peichev</source>
+          <target state="new">Daniel Peichev</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">다니엘 antispamcan@gmail.com (Bulgarian - български) 불가리아어</note>
+        </trans-unit>
+        <trans-unit id="FlipToPause.Header" translate="yes" xml:space="preserve">
+          <source>Flip to pause</source>
+          <target state="new">Flip to pause</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">뒤집으면 일시정지</note>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature2" translate="yes" xml:space="preserve">
+          <source>Do you want to buy now?</source>
+          <target state="new">Do you want to buy now?</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00031" translate="yes" xml:space="preserve">
+          <source>Fixed bug for black screen</source>
+          <target state="new">Fixed bug for black screen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.2</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00032" translate="yes" xml:space="preserve">
+          <source>Applied immediately when is changing charset combo</source>
+          <target state="new">Applied immediately when is changing charset combo</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople6" translate="yes" xml:space="preserve">
+          <source>Le Xiazi</source>
+          <target state="new">Le Xiazi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">르시아지 a102103170@outlook.com Le Xiazi (Chinese - 中文) 중국어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00033" translate="yes" xml:space="preserve">
+          <source>Fixed bug for playback rate (when switch pause to play)</source>
+          <target state="new">Fixed bug for playback rate (when switch pause to play)</target>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00034" translate="yes" xml:space="preserve">
+          <source>Added Chinese translation</source>
+          <target state="new">Added Chinese translation</target>
+        </trans-unit>
+        <trans-unit id="ForceUseMediaElement.Header" translate="yes" xml:space="preserve">
+          <source>Disable CCPlayer engine</source>
+          <target state="new">Disable CCPlayer engine</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="OptimizeEntryModel.Header" translate="yes" xml:space="preserve">
+          <source>Optimize for the entry device</source>
+          <target state="new">Optimize for the entry device</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="RemoveCompletedVideo.Text" translate="yes" xml:space="preserve">
+          <source>Remove playlist when playback completed</source>
+          <target state="new">Remove playlist when playback completed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="Settings.Playback.Text" translate="yes" xml:space="preserve">
+          <source>playback</source>
+          <target state="new">playback</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00035" translate="yes" xml:space="preserve">
+          <source>Supported Windows 10 For Phone TP </source>
+          <target state="new">Supported Windows 10 For Phone TP </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00036" translate="yes" xml:space="preserve">
+          <source>Added engine choice option</source>
+          <target state="new">Added engine choice option</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00037" translate="yes" xml:space="preserve">
+          <source>Added remove from playlist when playback completed</source>
+          <target state="new">Added remove from playlist when playback completed</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.5</note>
+        </trans-unit>
+        <trans-unit id="Message.Play.Next" translate="yes" xml:space="preserve">
+          <source>Do you want to play the next video?</source>
+          <target state="new">Do you want to play the next video?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UseConfirmNextPlay.Header" translate="yes" xml:space="preserve">
+          <source>Confirm before to play next video</source>
+          <target state="new">Confirm before to play next video</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople7" translate="yes" xml:space="preserve">
+          <source>Mykola Voytkiv</source>
+          <target state="new">Mykola Voytkiv</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">Mykola Voytkiv voytkiv@msn.com (Ukrainian - Український) 우크라이나어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00038" translate="yes" xml:space="preserve">
+          <source>Improved compatibility of the SRT parser</source>
+          <target state="new">Improved compatibility of the SRT parser</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00039" translate="yes" xml:space="preserve">
+          <source>Added Ukraine translation</source>
+          <target state="new">Added Ukraine translation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00040" translate="yes" xml:space="preserve">
+          <source>Fixed bug of the Lock screen</source>
+          <target state="new">Fixed bug of the Lock screen</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00041" translate="yes" xml:space="preserve">
+          <source>Supported AC3 for Lumia830(Dolbi digital certified device) in the MKV</source>
+          <target state="new">Supported AC3 for Lumia830(Dolbi digital certified device) in the MKV</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00042" translate="yes" xml:space="preserve">
+          <source>Added option that confirm before to play next video</source>
+          <target state="new">Added option that confirm before to play next video</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00043" translate="yes" xml:space="preserve">
+          <source>improved clearness</source>
+          <target state="new">improved clearness</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.5.7</note>
+        </trans-unit>
+        <trans-unit id="NotSupportedDecoder" translate="yes" xml:space="preserve">
+          <source>The media can not be played by {0} decoder.</source>
+          <target state="new">The media can not be played by {0} decoder.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00044" translate="yes" xml:space="preserve">
+          <source>Supported SW decoder &amp; more codecs, extensions (containers)</source>
+          <target state="new">Supported SW decoder &amp; more codecs, extensions (containers)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople8" translate="yes" xml:space="preserve">
+          <source>masoud mohammadi</source>
+          <target state="new">masoud mohammadi</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">masoud mohammadi m4f19@outlook.com (Persian - فارسی) 이란어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00045" translate="yes" xml:space="preserve">
+          <source>Added Persian translation</source>
+          <target state="new">Added Persian translation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7</note>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.Source.SelectAudio" translate="yes" xml:space="preserve">
+          <source>This media file contains too many audio stream, please select one.</source>
+          <target state="new">This media file contains too many audio stream, please select one.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople9" translate="yes" xml:space="preserve">
+          <source>Dinesh Sangwan (xiniuss)</source>
+          <target state="new">Dinesh Sangwan (xiniuss)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7 xiniuss@live.com (hindi - भारतीय) 인도어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00046" translate="yes" xml:space="preserve">
+          <source>Added Hindi translation</source>
+          <target state="new">Added Hindi translation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="StartUpSection.Text" translate="yes" xml:space="preserve">
+          <source>Start Menu</source>
+          <target state="new">Start Menu</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.Create.Password" translate="yes" xml:space="preserve">
+          <source>If you set a password, you can protect your content.</source>
+          <target state="new">If you set a password, you can protect your content.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.Input.Password" translate="yes" xml:space="preserve">
+          <source>Please enter your password.</source>
+          <target state="new">Please enter your password.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.Remove.Password" translate="yes" xml:space="preserve">
+          <source>Please enter your password to disable the protection.</source>
+          <target state="new">Please enter your password to disable the protection.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00047" translate="yes" xml:space="preserve">
+          <source>Folder protection feature (Only pro version)</source>
+          <target state="new">Folder protection feature (Only pro version)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00048" translate="yes" xml:space="preserve">
+          <source>Select startup menu option (Only pro version)</source>
+          <target state="new">Select startup menu option (Only pro version)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00049" translate="yes" xml:space="preserve">
+          <source>Improved  performance of the SW decoder</source>
+          <target state="new">Improved  performance of the SW decoder</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="UseGpuShader.Header" translate="yes" xml:space="preserve">
+          <source>Use GPU shader in s/w decoder</source>
+          <target state="new">Use GPU shader in s/w decoder</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanMS" translate="yes" xml:space="preserve">
+          <source>Korean (Windows MS949)</source>
+          <target state="new">Korean (Windows MS949)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00050" translate="yes" xml:space="preserve">
+          <source>Fixed a bug of the shader color conversion.</source>
+          <target state="new">Fixed a bug of the shader color conversion.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.2</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00051" translate="yes" xml:space="preserve">
+          <source>Subtitle flicker bug</source>
+          <target state="new">Subtitle flicker bug</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.3</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00052" translate="yes" xml:space="preserve">
+          <source>Disable ASS effector </source>
+          <target state="new">Disable ASS effector </target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.3</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00053" translate="yes" xml:space="preserve">
+          <source>24Bit audio playback (down-sampling)</source>
+          <target state="new">24Bit audio playback (down-sampling)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.3</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00054" translate="yes" xml:space="preserve">
+          <source>Compatibility of the codecs</source>
+          <target state="new">Compatibility of the codecs</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.4</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00055" translate="yes" xml:space="preserve">
+          <source>App crash (starting playback)</source>
+          <target state="new">App crash (starting playback)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.4</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00056" translate="yes" xml:space="preserve">
+          <source>Volume gesture bug (Hungarian)</source>
+          <target state="new">Volume gesture bug (Hungarian)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.4</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00057" translate="yes" xml:space="preserve">
+          <source>Supported internal Timed Text format</source>
+          <target state="new">Supported internal Timed Text format</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.6</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00058" translate="yes" xml:space="preserve">
+          <source>Playback bug (avi etc)</source>
+          <target state="new">Playback bug (avi etc)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.8</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00059" translate="yes" xml:space="preserve">
+          <source>Crash when the font name is empty of the SMI subtitle.</source>
+          <target state="new">Crash when the font name is empty of the SMI subtitle.</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="RateReminder.CustomReminderText" translate="yes" xml:space="preserve">
+          <source>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</source>
+          <target state="new">It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Fill" translate="yes" xml:space="preserve">
+          <source>Fill</source>
+          <target state="new">Fill</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Uniform" translate="yes" xml:space="preserve">
+          <source>Natural ratio</source>
+          <target state="new">Natural ratio</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.UniformToFill" translate="yes" xml:space="preserve">
+          <source>Fill (Natural ratio)</source>
+          <target state="new">Fill (Natural ratio)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="AspectRatio.Text" translate="yes" xml:space="preserve">
+          <source>Aspect Ratio</source>
+          <target state="new">Aspect Ratio</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00060" translate="yes" xml:space="preserve">
+          <source>Aspect Ratios</source>
+          <target state="new">Aspect Ratios</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="RemoveAds.Label" translate="yes" xml:space="preserve">
+          <source>Remove advertising</source>
+          <target state="new">Remove advertising</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="UnlockFeatures.Label" translate="yes" xml:space="preserve">
+          <source>Unlock Pro version features</source>
+          <target state="new">Unlock Pro version features</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00061" translate="yes" xml:space="preserve">
+          <source>In app products (Ad, Features)</source>
+          <target state="new">In app products (Ad, Features)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.7.9</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00062" translate="yes" xml:space="preserve">
+          <source>Pinch to Zoom (Only Pro Feature &amp; CCP Engine)</source>
+          <target state="new">Pinch to Zoom (Only Pro Feature &amp; CCP Engine)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.0</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople10" translate="yes" xml:space="preserve">
+          <source>Hayrullah</source>
+          <target state="new">Hayrullah</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.1 rthayru@live.com (rthayru@gmail.com) (Turkish - Türk) 터키어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00063" translate="yes" xml:space="preserve">
+          <source>Subtitle flicker bug</source>
+          <target state="new">Subtitle flicker bug</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00064" translate="yes" xml:space="preserve">
+          <source>Zoom in : max 4X</source>
+          <target state="new">Zoom in : max 4X</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00065" translate="yes" xml:space="preserve">
+          <source>Turkish translation</source>
+          <target state="new">Turkish translation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00066" translate="yes" xml:space="preserve">
+          <source>S/W decoder performance</source>
+          <target state="new">S/W decoder performance</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00067" translate="yes" xml:space="preserve">
+          <source>ASS/SSA subtitle bug</source>
+          <target state="new">ASS/SSA subtitle bug</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.3</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00068" translate="yes" xml:space="preserve">
+          <source>Supported font collection file (.TTC, .OTC)</source>
+          <target state="new">Supported font collection file (.TTC, .OTC)</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.4</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00069" translate="yes" xml:space="preserve">
+          <source>Bugs related to font management</source>
+          <target state="new">Bugs related to font management</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.4</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00070" translate="yes" xml:space="preserve">
+          <source>XviD codec in MKV/3G2 container</source>
+          <target state="new">XviD codec in MKV/3G2 container</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00071" translate="yes" xml:space="preserve">
+          <source>Some FLV file's playback bugs</source>
+          <target state="new">Some FLV file's playback bugs</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00072" translate="yes" xml:space="preserve">
+          <source>Added option that toggle on/off of the "all video hub"</source>
+          <target state="new">Added option that toggle on/off of the "all video hub"</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.5</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00073" translate="yes" xml:space="preserve">
+          <source>Crash bug when start playing in some mkv</source>
+          <target state="new">Crash bug when start playing in some mkv</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.7</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00074" translate="yes" xml:space="preserve">
+          <source>Skip some subtitles</source>
+          <target state="new">Skip some subtitles</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.7</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00075" translate="yes" xml:space="preserve">
+          <source>Display battery level &amp; current time on control panel</source>
+          <target state="new">Display battery level &amp; current time on control panel</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.8</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00076" translate="yes" xml:space="preserve">
+          <source>Improved subtitle's charset detection</source>
+          <target state="new">Improved subtitle's charset detection</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.8.9</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople11" translate="yes" xml:space="preserve">
+          <source>Eduardo Rodrigues</source>
+          <target state="new">Eduardo Rodrigues</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.0 포르투갈어(포르투갈, 브라질어)</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00077" translate="yes" xml:space="preserve">
+          <source>Portuguese, French translation</source>
+          <target state="new">Portuguese, French translation</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.0</note>
+        </trans-unit>
+        <trans-unit id="AboutTranslatePeople12" translate="yes" xml:space="preserve">
+          <source>Pierre Kergaravat</source>
+          <target state="new">Pierre Kergaravat</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.0 프랑스어</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00078" translate="yes" xml:space="preserve">
+          <source>Supported .webm extension</source>
+          <target state="new">Supported .webm extension</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.0</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00079" translate="yes" xml:space="preserve">
+          <source>Updated Libraries</source>
+          <target state="new">Updated Libraries</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.1</note>
+        </trans-unit>
+        <trans-unit id="UpdateHistory00080" translate="yes" xml:space="preserve">
+          <source>Supported .asf video files</source>
+          <target state="new">Supported .asf video files</target>
+          <note from="MultilingualBuild" annotates="source" priority="2">V 1.9.1</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

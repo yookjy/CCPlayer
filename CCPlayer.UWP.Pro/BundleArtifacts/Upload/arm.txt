@@ -1,0 +1,15 @@
+MainPackage=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\Upload\CCPlayer.UWP.Pro_2017.820.146.0_ARM.appx
+SymbolPackage=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\Upload\CCPlayer.UWP.Pro_2017.820.146.0\CCPlayer.UWP.Pro_2017.820.146.0_ARM.appxsym
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-bg.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-de.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-en.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-es.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-fa.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-ja.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-ko.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-pt.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-ru.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-tr.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-uk.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-vi.appx
+ResourcePack=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Pro\bin\ARM\Release\CCPlayer.UWP.Pro_2017.820.146.0_language-zh-hans.appx

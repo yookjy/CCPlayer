@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props" Condition="Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1BDDDB2B-6E62-4D98-AD3F-EA7E109C4205}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCPlayer.WP81</RootNamespace>
+    <AssemblyName>CCPlayer.WP81</AssemblyName>
+    <DefaultLanguage>en</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
+    <NuGetPackageImportStamp>b93ac789</NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_PHONE_APP;ANY_CPU</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ARM;</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <Optimize>false</Optimize>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ARM;</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\EnumToStringConverter.cs" />
+    <Compile Include="Converters\InverseBooleanConverter.cs" />
+    <Compile Include="Converters\NumberToBoolConverter.cs" />
+    <Compile Include="Converters\FolderButtonVisibilityConverter.cs" />
+    <Compile Include="Converters\FontWeightConverter.cs" />
+    <Compile Include="Converters\TimeConverter2.cs" />
+    <Compile Include="Converters\SelectionModeToBoolConverter.cs" />
+    <Compile Include="Converters\VerticalAlignmentConverter.cs" />
+    <Compile Include="Converters\WrapGridMaximumRowsOrColumnsConverter.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Helpers\InAppProductHelper.cs" />
+    <Compile Include="ViewModel\PlaybackSettingViewModel.cs" />
+    <Compile Include="Views\Advertising\AdMainPage.xaml.cs">
+      <DependentUpon>AdMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Advertising\AdTransportControl.xaml.cs">
+      <DependentUpon>AdTransportControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FolderButton.xaml.cs">
+      <DependentUpon>FolderButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\FlyoutHelper.cs" />
+    <Compile Include="Helpers\FontHelper.cs" />
+    <Compile Include="Helpers\JumpListHelper.cs" />
+    <Compile Include="Converters\SubtitleExistConverter.cs" />
+    <Compile Include="Converters\FileSizeConverter.cs" />
+    <Compile Include="Converters\VisiblilityConverter.cs" />
+    <Compile Include="Helpers\NavigationHelper.cs" />
+    <Compile Include="Helpers\VersionHelper.cs" />
+    <Compile Include="Managers\ContinuationManager.cs" />
+    <Compile Include="Managers\SuspensionManager.cs" />
+    <Compile Include="Models\DataAccess\BaseDAO.cs" />
+    <Compile Include="Models\DataAccess\FolderDAO.cs" />
+    <Compile Include="Models\DialogContent.cs" />
+    <Compile Include="Models\FileInfo.cs" />
+    <Compile Include="Models\FolderInfo.cs" />
+    <Compile Include="Models\ItemInfo.cs" />
+    <Compile Include="Models\DataAccess\FileDAO.cs" />
+    <Compile Include="Models\MediaInfo.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\SubtitleContext.cs" />
+    <Compile Include="Models\SubtitleInfo.cs" />
+    <Compile Include="strings\CCPlayerConstant.cs" />
+    <Compile Include="ViewModel\AllVideoViewModel.cs" />
+    <Compile Include="ViewModel\CCPlayerViewModel.subtitle.cs" />
+    <Compile Include="ViewModel\ExplorerViewModel.cs" />
+    <Compile Include="ViewModel\CCPlayerViewModel.cs" />
+    <Compile Include="ViewModel\TransportControlViewModel.cs" />
+    <Compile Include="ViewModel\MediaSearchViewModel.cs" />
+    <Compile Include="ViewModel\PlaylistViewModel.cs" />
+    <Compile Include="ViewModel\SettingsViewModel.cs" />
+    <Compile Include="ViewModel\GeneralSettingViewModel.cs" />
+    <Compile Include="ViewModel\SubtitleSettingViewModel.cs" />
+    <Compile Include="Views\AllSettings.xaml.cs">
+      <DependentUpon>AllSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BasicPage.cs" />
+    <Compile Include="Views\CCPlayerElement.xaml.cs">
+      <DependentUpon>CCPlayerElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Common\CloseFlyoutAction.cs" />
+    <Compile Include="Views\Common\ExtendedGoToSatateAction.cs" />
+    <Compile Include="Views\Common\ExtendedVisualStateManager.cs" />
+    <Compile Include="Views\Common\INavigable.cs" />
+    <Compile Include="Views\Common\CCPFlyout.cs" />
+    <Compile Include="Views\HubButtonGroup.xaml.cs">
+      <DependentUpon>HubButtonGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.IAPs.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAccess\SettingDAO.cs" />
+    <Compile Include="Models\Settings.cs" />
+    <Compile Include="Views\GeneralSettings.xaml.cs">
+      <DependentUpon>GeneralSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MediaSearch.xaml.cs">
+      <DependentUpon>MediaSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlaybackSettings.xaml.cs">
+      <DependentUpon>PlaybackSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SubtitleSettings.xaml.cs">
+      <DependentUpon>SubtitleSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\StringFormatConverter.cs" />
+    <Compile Include="Converters\ThemePathConverter.cs" />
+    <Compile Include="Converters\TimeConverter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\AboutViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelLocator.cs" />
+    <Compile Include="Views\TransportControl.xaml.cs">
+      <DependentUpon>TransportControl.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avcodec-57.dll">
+      <Link>avcodec-57.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avdevice-57.dll">
+      <Link>avdevice-57.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avfilter-6.dll">
+      <Link>avfilter-6.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avformat-57.dll">
+      <Link>avformat-57.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avutil-55.dll">
+      <Link>avutil-55.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\swresample-2.dll">
+      <Link>swresample-2.dll</Link>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\swscale-4.dll">
+      <Link>swscale-4.dll</Link>
+    </Content>
+    <Content Include="Assets\Dark\appbar.cursor.move.png" />
+    <Content Include="Assets\Dark\appbar.globe.wire.png" />
+    <Content Include="Assets\Dark\appbar.power.png" />
+    <Content Include="Assets\Dark\appbar.sound.0.png" />
+    <Content Include="Assets\Dark\appbar.sound.1.png" />
+    <Content Include="Assets\Dark\appbar.sound.2.png" />
+    <Content Include="Assets\Dark\appbar.sound.3.png" />
+    <Content Include="Assets\Dark\appbar.sound.left.right.png" />
+    <Content Include="Assets\Dark\appbar.sound.mute.png" />
+    <Content Include="Assets\Dark\appbar.text.size.png" />
+    <Content Include="Assets\Dark\appbar.timer.forward.png" />
+    <Content Include="Assets\Dark\appbar.timer.play.png" />
+    <Content Include="Assets\Light\appbar.cursor.move.png" />
+    <Content Include="Assets\Light\appbar.globe.wire.png" />
+    <Content Include="Assets\Light\appbar.power.png" />
+    <Content Include="Assets\Light\appbar.sound.0.png" />
+    <Content Include="Assets\Light\appbar.sound.1.png" />
+    <Content Include="Assets\Light\appbar.sound.2.png" />
+    <Content Include="Assets\Light\appbar.sound.3.png" />
+    <Content Include="Assets\Light\appbar.sound.left.right.png" />
+    <Content Include="Assets\Light\appbar.sound.mute.png" />
+    <Content Include="Assets\Light\appbar.text.size.png" />
+    <Content Include="Assets\Light\appbar.timer.forward.png" />
+    <Content Include="Assets\Light\appbar.timer.play.png" />
+    <Content Include="Assets\AssociationLogo.png" />
+    <Content Include="Assets\Logo.scale-240.png" />
+    <Content Include="Assets\SmallLogo.scale-240.png" />
+    <Content Include="Assets\SplashScreen.scale-240.png" />
+    <Content Include="Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="Assets\StoreLogo.scale-240.png" />
+    <Content Include="Assets\WideLogo.scale-240.png" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="StoreManifest.xml" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <PRIResource Include="strings\ar\Resources.resw" />
+    <PRIResource Include="strings\pt\Resources.resw" />
+    <PRIResource Include="strings\fr\Resources.resw" />
+    <PRIResource Include="strings\tr\Resources.resw" />
+    <PRIResource Include="strings\zh-Hans\Resources.resw" />
+    <PRIResource Include="strings\hi\Resources.resw" />
+    <PRIResource Include="strings\fa\Resources.resw" />
+    <PRIResource Include="strings\uk\Resources.resw" />
+    <PRIResource Include="strings\bg\Resources.resw" />
+    <PRIResource Include="strings\hu\Resources.resw" />
+    <PRIResource Include="strings\ja\Resources.resw" />
+    <PRIResource Include="strings\ro\Resources.resw" />
+    <PRIResource Include="strings\ru\Resources.resw" />
+    <PRIResource Include="strings\es\Resources.resw" />
+    <PRIResource Include="Strings\ko\Resources.resw" />
+    <PRIResource Include="Strings\en\Resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Assets\Styles\CommonStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Assets\Styles\JumpList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Advertising\AdMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Advertising\AdTransportControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FolderButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AllSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CCPlayerElement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HubButtonGroup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GeneralSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MediaSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlaybackSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SubtitleSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TransportControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\NativeHelper\NativeHelper.vcxproj">
+      <Project>{1c5c16c1-f0bd-4cab-bfba-60442e89a8e0}</Project>
+      <Name>NativeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Xaml\Velostep.Xaml.csproj">
+      <Project>{25fa02c7-de47-48d3-8ff5-d885779f6167}</Project>
+      <Name>Velostep.Xaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.HWCodecs\CCPlayer.HWCodecs.csproj">
+      <Project>{b6a2285b-a13c-4940-874e-a6c1cc6f9c95}</Project>
+      <Name>CCPlayer.HWCodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Common\Velostep.Common.csproj">
+      <Project>{0a748ef0-ef48-4931-b8a4-74cd32c84bf5}</Project>
+      <Name>Velostep.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Encoding.Converter\Velostep.Encoding.Converter.csproj">
+      <Project>{5720fed7-3c83-4eb3-808e-1d742e2aaefa}</Project>
+      <Name>Velostep.Encoding.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Encoding\Velostep.Encoding.csproj">
+      <Project>{fa4980e7-b08f-42a1-9d9f-7044953089c4}</Project>
+      <Name>Velostep.Encoding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FFmpegSupport\FFmpegSupport.WindowsPhone\FFmpegSupport.WindowsPhone.vcxproj">
+      <Project>{5b24d6d9-fe0d-45ae-b310-633ecfd71c66}</Project>
+      <Name>FFmpegSupport.WindowsPhone</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MFWrapper\MFWrapper.vcxproj">
+      <Project>{7d4b2e30-47da-43c0-9913-3ec6adabff77}</Project>
+      <Name>CCPlayer.UI.Xaml.Controls.WP81</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AppPromo">
+      <HintPath>..\packages\AppPromo.1.0.0.9\lib\wpa81\AppPromo.winmd</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.Extras.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.2.0.37227, Culture=neutral, PublicKeyToken=2d6752c4fdf70b88, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCL">
+      <HintPath>..\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0">
+      <Name>Behaviors SDK %28XAML%29</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows Phone</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WP81, Version=3.18.0">
+      <Name>SQLite for Windows Phone 8.1 %28SQLite.WP81, Version=3.18.0%29</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.ar.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.bg.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.es.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.fa.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.fr.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.hi.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.hu.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.ja.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.ko.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.pt.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.ro.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.ru.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.tr.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.uk.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.WP81.Pro.zh-Hans.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets'))" />
+  </Target>
+  <Import Project="..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets" Condition="Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

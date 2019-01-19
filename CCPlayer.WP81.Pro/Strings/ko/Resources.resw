@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Header" xml:space="preserve">
+    <value>CCPlayer 정보</value>
+  </data>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>프로버전 구입</value>
+  </data>
+  <data name="VelostepApps.Label" xml:space="preserve">
+    <value>라임(L:me)에서 만든 앱들</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>버전 및 개발자</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>크레딧</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>디자인</value>
+  </data>
+  <data name="AboutDesigner" xml:space="preserve">
+    <value>육주용</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>육주용</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>개발</value>
+  </data>
+  <data name="AboutFacebook" xml:space="preserve">
+    <value>페이스북</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>앱 지원 및 피드백</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>라이브러리 제작자</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>평가 및 리뷰</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>앱 공유</value>
+  </data>
+  <data name="AboutSpecialPeople1" xml:space="preserve">
+    <value>정보미</value>
+  </data>
+  <data name="AboutSpecialPeople3" xml:space="preserve">
+    <value>윤성민 (abcduser)</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>특별히 도움을 주신 분들</value>
+  </data>
+  <data name="AboutUserVoice" xml:space="preserve">
+    <value>건의사항</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>버전</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>업데이트 내역</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>아랍어 (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>아랍어 (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>아랍어 (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>자동 검출</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>발트어 (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>발트어 (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>발트어 (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>중앙 유럽어 (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>중앙 유럽어 (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>중국어 간체 </value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>중국어 번체</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>키릴 자모 (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>키릴 자모 (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>키릴 자모 (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>그리스어 (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>그리스어 (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>히브리어 (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>히브리어 (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>히브리어 (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>일본어 (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>한국어 (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>라틴3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>라틴9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>중앙 유럽어 (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>서유럽 EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>서유럽어 (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>러시아어 (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>태국어 (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>터키어 (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>터키어 (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>터키어 (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>확장 아스키 (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>유니코드 (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>유니코드 (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>유니코드 (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>베트남어 (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>서유럽어 (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>서유럽어 (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>그림자 효과 사용</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>글자 크기</value>
+  </data>
+  <data name="FontSizeOverride.Header" xml:space="preserve">
+    <value>글자 크기 덮어쓰기 사용</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>글자 스타일</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>글자 스타일 덮어쓰기 사용</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>글자 굵기</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>CCPlayer - 설정</value>
+  </data>
+  <data name="Settings.SubtitleFont.Text" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>자막 뒷배경 사용</value>
+  </data>
+  <data name="Settings.Appbar.Label" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="MainHub.Text" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="Message.Delete.List" xml:space="preserve">
+    <value>선택한 비디오를 {0}에서 삭제하시겠습니까?</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>상위 폴더</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>업데이트 이력</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>도움을 주신 분들</value>
+  </data>
+  <data name="AllVideo.Text" xml:space="preserve">
+    <value>모든 비디오</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>탐색기</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>{0} 로딩중...</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="Playlist.Header" xml:space="preserve">
+    <value>재생 목록</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>비디오</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Message.Exit" xml:space="preserve">
+    <value>CCPlayer를 종료하시겠습니까?</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>완료</value>
+  </data>
+  <data name="UpdateHistory00001" xml:space="preserve">
+    <value>최초 릴리즈</value>
+  </data>
+  <data name="NotSupportedAudioCodec" xml:space="preserve">
+    <value>재생할 수 없는 오디오 코덱입니다.
+</value>
+  </data>
+  <data name="NotSupportedAudioLicenseCodec" xml:space="preserve">
+    <value>이 음성 코덱은 {0}에서 라이센스를 보유하고 있습니다.</value>
+  </data>
+  <data name="NotSupportedVideoCodec" xml:space="preserve">
+    <value>재생할수 없는 비디오 코덱입니다.</value>
+  </data>
+  <data name="WrongFileFormat" xml:space="preserve">
+    <value>이 파일은 {0} 포맷이 아닙니다.</value>
+  </data>
+  <data name="Message.Error.Cluster" xml:space="preserve">
+    <value>MKV 파일의 일부가 손상되어, 재생할 수 있는 위치를 탐색중입니다...</value>
+  </data>
+  <data name="Message.Info.Play.NoItems" xml:space="preserve">
+    <value>플레이리스트에 더 이상 재생할 항목이 없습니다.</value>
+  </data>
+  <data name="Message.Confirm.Play.Suspended" xml:space="preserve">
+    <value>이 비디오는 {0} / {1}에서 일시정지 되었습니다.</value>
+  </data>
+  <data name="Message.Info.Encoding.Fail" xml:space="preserve">
+    <value>자막파일의 인코딩 검색이 실패하였습니다.
+글자를 알아볼 수 없으면, 자막 설정에서 인코딩을 변경하세요. 😉</value>
+  </data>
+  <data name="Message.Info.Seek.Create" xml:space="preserve">
+    <value>탐색 데이터 생성중...</value>
+  </data>
+  <data name="AudioBalance.Text" xml:space="preserve">
+    <value>좌 / 우 음량 균형</value>
+  </data>
+  <data name="AudioLanguage.Text" xml:space="preserve">
+    <value>음성 언어</value>
+  </data>
+  <data name="AudioVolume.Text" xml:space="preserve">
+    <value>미디어 음량</value>
+  </data>
+  <data name="PlaybackRate.Text" xml:space="preserve">
+    <value>재생 속도</value>
+  </data>
+  <data name="SubtitleFontSize.Text" xml:space="preserve">
+    <value>자막 글자 크기</value>
+  </data>
+  <data name="SubtitleLanguage.Text" xml:space="preserve">
+    <value>자막 언어</value>
+  </data>
+  <data name="SubtitleOnOff.Tag" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="SubtitleSync.Text" xml:space="preserve">
+    <value>자막 속도</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="Brightness.Text" xml:space="preserve">
+    <value>영상 밝기</value>
+  </data>
+  <data name="BrightnessUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="UpdateHistory00002" xml:space="preserve">
+    <value>버그 수정</value>
+  </data>
+  <data name="UpdateHistory00003" xml:space="preserve">
+    <value>자막 설정 바로가기 (하단 앱바 메뉴 ... )</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>광고 제거! 모든 기능!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>지금 바로 CCPlayer Pro 구매!</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="UpdateHistory00004" xml:space="preserve">
+    <value>자막 관련 버그 수정</value>
+  </data>
+  <data name="UpdateHistory00005" xml:space="preserve">
+    <value>자막 재생 성능 향상</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>윤곽선 효과 사용</value>
+  </data>
+  <data name="UpdateHistory00006" xml:space="preserve">
+    <value>MKV 재생 버그 수정</value>
+  </data>
+  <data name="UpdateHistory00007" xml:space="preserve">
+    <value>자막 윤곽선 효과 추가 (자막 설정 메뉴)</value>
+  </data>
+  <data name="UpdateHistory00008" xml:space="preserve">
+    <value>srt 자막 버그 수정 (잘못된 타임코드 스킵)</value>
+  </data>
+  <data name="UpdateHistory00009" xml:space="preserve">
+    <value>탐색기 목록 로딩 속도 개선</value>
+  </data>
+  <data name="AboutTranslatePeople1" xml:space="preserve">
+    <value>Juan Carlos Ábalos Guerrero</value>
+    <comment>후안 masabalos@outlook.com (Spanish - español) 스페인어</comment>
+  </data>
+  <data name="AboutTranslators" xml:space="preserve">
+    <value>번역해주신 분들</value>
+  </data>
+  <data name="HubBackgroundColor.Text" xml:space="preserve">
+    <value>배경 색상</value>
+  </data>
+  <data name="HubForegroundColor.Text" xml:space="preserve">
+    <value>글자 색상</value>
+  </data>
+  <data name="HubSubForegroundColor.Text" xml:space="preserve">
+    <value>보조 글자 색상</value>
+  </data>
+  <data name="SubtitleFontColor.Text" xml:space="preserve">
+    <value>자막 글자 색상</value>
+  </data>
+  <data name="UseAllVideoHub.Header" xml:space="preserve">
+    <value>모든 비디오 목록 사용</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>폰트 패밀리</value>
+  </data>
+  <data name="Settings.Subtitle.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>폰트 설치하기</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>폰트파일(*.TTF/OTF)로부터 설치할 수 있습니다.</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>설치된 폰트 목록</value>
+  </data>
+  <data name="FontManager.Button.Content" xml:space="preserve">
+    <value>폰트 매니저</value>
+  </data>
+  <data name="FontManager.Header.Text" xml:space="preserve">
+    <value>설치한 사용자 폰트를 관리합니다. 
+(유료 폰트 사용에 대한 법적 책임은 본인에게 있습니다.)</value>
+  </data>
+  <data name="FontManager.Title.Text" xml:space="preserve">
+    <value>폰트 매니저</value>
+  </data>
+  <data name="Message.Delete.FontFamily" xml:space="preserve">
+    <value>{0} 폰트를 삭제하시겠습니까?</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>MKV내의 트루타입폰트 저장</value>
+  </data>
+  <data name="UpdateHistory00010" xml:space="preserve">
+    <value>테마 커스터마이징 지원</value>
+  </data>
+  <data name="UpdateHistory00011" xml:space="preserve">
+    <value>폰트 선택/관리기능 추가 </value>
+  </data>
+  <data name="UpdateHistory00012" xml:space="preserve">
+    <value>모든 비디오 메뉴 on/off 메뉴 추가</value>
+  </data>
+  <data name="UpdateHistory00013" xml:space="preserve">
+    <value>기타 UI 수정</value>
+  </data>
+  <data name="UpdateHistory00014" xml:space="preserve">
+    <value>기타 버그 수정</value>
+  </data>
+  <data name="AboutTranslatePeople2" xml:space="preserve">
+    <value>Иван Корниенко</value>
+    <comment>이반 luciahedreh@gmail.com (Russian - русский) 러시아어</comment>
+  </data>
+  <data name="UpdateHistory00015" xml:space="preserve">
+    <value>모든 비디오 목록 로딩 속도 개선</value>
+  </data>
+  <data name="Message.Codec.NoLicense" xml:space="preserve">
+    <value>라이센스 없음 : {0}</value>
+  </data>
+  <data name="Message.Codec.NotSupported" xml:space="preserve">
+    <value>지원 안됨 : {0}</value>
+  </data>
+  <data name="UpdateHistory00016" xml:space="preserve">
+    <value>터치 제스쳐 지원 (화면밝기, 음량 조절)</value>
+  </data>
+  <data name="AboutTranslatePeople3" xml:space="preserve">
+    <value>Meca Cosmin</value>
+    <comment>코스민 mecacosmin@hotmail.com (Romanian - român) 루마니아어</comment>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>폴더 추가</value>
+  </data>
+  <data name="UpdateHistory00017" xml:space="preserve">
+    <value>사용자 폴더 추가 기능</value>
+  </data>
+  <data name="UpdateHistory00018" xml:space="preserve">
+    <value>재생속도 옵션 세분화 (0.1단위)</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>프로버전에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="UpdateHistory00019" xml:space="preserve">
+    <value>터치 제스쳐 추가 (빨리감기/되감기)
+- 프로버전에서만 지원</value>
+  </data>
+  <data name="UpdateHistory00020" xml:space="preserve">
+    <value>비디오 재생화면위의 광고제거
+- 리스트 및 컨트롤 패널에 광고추가</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>검색</value>
+  </data>
+  <data name="SearchInResults.Text" xml:space="preserve">
+    <value>결과내에서 검색</value>
+  </data>
+  <data name="SearchVideoTitle.Text" xml:space="preserve">
+    <value>모든 비디오 섹션에서 검색</value>
+  </data>
+  <data name="UpdateHistory00021" xml:space="preserve">
+    <value>비디오 리스트내 검색기능 추가
+- 프로버전에서만 지원</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>(캐시로 부터 로딩)</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>동기화</value>
+  </data>
+  <data name="AboutTranslatePeople4" xml:space="preserve">
+    <value>Sebi Németh</value>
+    <comment>세비 sebezhetetlen98@gmail.com  (Hungarian - Magyar) 헝가리아어</comment>
+  </data>
+  <data name="UpdateHistory00022" xml:space="preserve">
+    <value>자막 위치 조정기능 추가</value>
+  </data>
+  <data name="UpdateHistory00023" xml:space="preserve">
+    <value>기타 버그 수정 및 개선</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫기</value>
+    <comment>닫기</comment>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>오류가 발생하여 재생이 중단되었습니다.</value>
+    <comment>오류가 발생하여 재생이 중단되었습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>네트워크 오류가 발생하였습니다.</value>
+    <comment>네트워크 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>디코드 오류가 발생하였습니다.</value>
+    <comment>디코드 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>지원되지 않는 형식의 미디어 포맷입니다.</value>
+    <comment>지원되지 않는 형식의 미디어 포맷입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>암호화된 미디어 형식입니다.</value>
+    <comment>암호화된 미디어 형식입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>알 수 없는 오류가 발생하였습니다.</value>
+    <comment>알 수 없는 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Supported.Media.Format" xml:space="preserve">
+    <value>지원되는 미디어 포맷</value>
+    <comment>지원되는 미디어 포맷</comment>
+  </data>
+  <data name="UpdateHistory00024" xml:space="preserve">
+    <value>재생속도 버튼 버그 수정</value>
+    <comment>재생속도 버튼 버그 수정</comment>
+  </data>
+  <data name="UpdateHistory00025" xml:space="preserve">
+    <value>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</value>
+    <comment>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</comment>
+  </data>
+  <data name="UpdateHistory00026" xml:space="preserve">
+    <value>재생 실패 오류메세지 출력</value>
+    <comment>재생 실패 오류메세지 출력</comment>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>에러 - 파일 없음</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>상영시간에 비례</value>
+    <comment>상영시간에 비례  (V 1.5)</comment>
+  </data>
+  <data name="HardwareBackButtonAction.Text" xml:space="preserve">
+    <value>탐색기에서 뒤로가기키 동작</value>
+    <comment>탐색기에서 뒤로가기 키 동작</comment>
+  </data>
+  <data name="MoveToUpperFolder" xml:space="preserve">
+    <value>상위폴더로 이동</value>
+    <comment>상위폴더로 이동 (V 1.5)</comment>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>탐색(시크) 시간 간격</value>
+    <comment>시크 시간 간격</comment>
+  </data>
+  <data name="TerminateApplication" xml:space="preserve">
+    <value>앱 종료</value>
+    <comment>앱 종료  (V 1.5)</comment>
+  </data>
+  <data name="NotSupportedCodecDesc" xml:space="preserve">
+    <value>재생 가능 코덱 : {0}</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="NotSupportedLicenseCodecDesc" xml:space="preserve">
+    <value>라이센스 비용이 앱가격 보다 비싸기 때문에 재생해 드리지 못합니다.</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>에러 - 폴더 없음</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="Message.Error.CodecNotSupported" xml:space="preserve">
+    <value>에러 - 지원불가 코덱</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="UpdateHistory00027" xml:space="preserve">
+    <value>새로운 UI / UX</value>
+  </data>
+  <data name="UpdateHistory00028" xml:space="preserve">
+    <value>성능 향상</value>
+  </data>
+  <data name="UpdateHistory00029" xml:space="preserve">
+    <value>안정성 향상</value>
+  </data>
+  <data name="UpdateHistory00030" xml:space="preserve">
+    <value>썸네일 이미지 지원</value>
+  </data>
+  <data name="AboutTranslatePeople5" xml:space="preserve">
+    <value>Daniel Peichev</value>
+    <comment>다니엘 antispamcan@gmail.com (Bulgarian - български) 불가리아어</comment>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>뒤집으면 일시정지</value>
+    <comment>뒤집으면 일시정지</comment>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>지금 구매하시겠습니까?</value>
+  </data>
+  <data name="UpdateHistory00031" xml:space="preserve">
+    <value>검정화면 버그 수정</value>
+    <comment>V 1.5.2</comment>
+  </data>
+  <data name="UpdateHistory00032" xml:space="preserve">
+    <value>자막 문자셋 변경시 즉시 반영</value>
+  </data>
+  <data name="AboutTranslatePeople6" xml:space="preserve">
+    <value>Le Xiazi</value>
+    <comment>르시아지 a102103170@outlook.com Le Xiazi (Chinese - 中文) 중국어</comment>
+  </data>
+  <data name="UpdateHistory00033" xml:space="preserve">
+    <value>일시정지 &lt;=&gt; 재생시 배속재생 버그 수정</value>
+  </data>
+  <data name="UpdateHistory00034" xml:space="preserve">
+    <value>중국어 번역 추가</value>
+  </data>
+  <data name="ForceUseMediaElement.Header" xml:space="preserve">
+    <value>CCPlayer 엔진 사용안함</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="OptimizeEntryModel.Header" xml:space="preserve">
+    <value>저사양 폰 재생 최적화</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="RemoveCompletedVideo.Text" xml:space="preserve">
+    <value>재생완료시 재생목록에서 제거</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00035" xml:space="preserve">
+    <value>Windows 10 For Phone TP  지원</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00036" xml:space="preserve">
+    <value>재생엔진 선택 옵션 추가</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00037" xml:space="preserve">
+    <value>재생완료시 재생목록에서 자동 제거 옵션 추가</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Message.Play.Next" xml:space="preserve">
+    <value>다음 비디오를 재생하시겠습니까?</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UseConfirmNextPlay.Header" xml:space="preserve">
+    <value>다음 비디오 재생 여부 확인</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="AboutTranslatePeople7" xml:space="preserve">
+    <value>Mykola Voytkiv</value>
+    <comment>Mykola Voytkiv voytkiv@msn.com (Ukrainian - Український) 우크라이나어</comment>
+  </data>
+  <data name="UpdateHistory00038" xml:space="preserve">
+    <value>SRT자막 파서 호환성 향상</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00039" xml:space="preserve">
+    <value>우크라이나어 번역 추가</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00040" xml:space="preserve">
+    <value>화면잠김 오류 수정</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00041" xml:space="preserve">
+    <value>루미아 830(돌비 인증 기기) MKV에서 AC3지원</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00042" xml:space="preserve">
+    <value>다음 비디오 재생 여부 확인 옵션 추가</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00043" xml:space="preserve">
+    <value>영상의 선명도 향상</value>
+    <comment>V 1.5.7</comment>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>이 미디어는 {0}디코더로 재생할 수 없습니다.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00044" xml:space="preserve">
+    <value>SW디코더 및 더 많은 코덱, 확장자(컨테이너) 지원</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople8" xml:space="preserve">
+    <value>masoud mohammadi</value>
+    <comment>masoud mohammadi m4f19@outlook.com (Persian - فارسی) 이란어</comment>
+  </data>
+  <data name="UpdateHistory00045" xml:space="preserve">
+    <value>페르시아어 번역 추가</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="Message.Confirm.Source.SelectAudio" xml:space="preserve">
+    <value>이 미디어 파일에는 너무 많은 오디오 스트림이 포함되어 있습니다. 하나를 선택하세요.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople9" xml:space="preserve">
+    <value>Dinesh Sangwan (xiniuss)</value>
+    <comment>V 1.7 xiniuss@live.com (hindi - भारतीय) 인도어</comment>
+  </data>
+  <data name="UpdateHistory00046" xml:space="preserve">
+    <value>힌디 번역 추가</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="StartUpSection.Text" xml:space="preserve">
+    <value>시작 화면</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Create.Password" xml:space="preserve">
+    <value>패스워드를 설정하면 컨텐츠를 보호할 수 있습니다.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Input.Password" xml:space="preserve">
+    <value>패스워드를 입력하세요.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Remove.Password" xml:space="preserve">
+    <value>보호기능을 해제하기 위해 패스워드를 입력하세요.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00047" xml:space="preserve">
+    <value>폴더 보호기능 추가 (pro버전만 지원)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00048" xml:space="preserve">
+    <value>시작메뉴 선택 옵션 추가 (pro버전만 지원)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00049" xml:space="preserve">
+    <value>SW디코더 성능 향상</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>SW디코더에서 GPU의 쉐이더 사용</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>한국어 (Windows MS949)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00050" xml:space="preserve">
+    <value>색공간 변환 버그 수정 (GPU 쉐이더 모드)</value>
+    <comment>V 1.7.2</comment>
+  </data>
+  <data name="UpdateHistory00051" xml:space="preserve">
+    <value>자막 플릭커 버그 </value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00052" xml:space="preserve">
+    <value>ASS 이펙터 무시</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00053" xml:space="preserve">
+    <value>24Bit 오디오 재생 (다운샘플링)</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00054" xml:space="preserve">
+    <value>코덱 호환성</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00055" xml:space="preserve">
+    <value>재생시 앱 크래시</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00056" xml:space="preserve">
+    <value>볼륨 제스쳐 버그 (헝가리안)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00057" xml:space="preserve">
+    <value>Timed Text 내장 자막 지원</value>
+    <comment>V 1.7.6</comment>
+  </data>
+  <data name="UpdateHistory00058" xml:space="preserve">
+    <value>재생버그 (avi 등)</value>
+    <comment>V 1.7.8</comment>
+  </data>
+  <data name="UpdateHistory00059" xml:space="preserve">
+    <value>SMI 자막에서 폰트명이 비었을때 발생하는 충돌</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>CCPlayer를 사용해보니 어떠신가요? 여러분의 소중한 의견을 듣고 싶습니다. 지금 별점과 함께 리뷰를 작성해주시겠습니까?</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>꽉찬화면</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>원본비율</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>꽉찬화면 (원본비율)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatio.Text" xml:space="preserve">
+    <value>화면 비율</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00060" xml:space="preserve">
+    <value>화면비율</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RemoveAds.Label" xml:space="preserve">
+    <value>광고 제거</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UnlockFeatures.Label" xml:space="preserve">
+    <value>Pro기능 잠금해제</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00061" xml:space="preserve">
+    <value>앱내 제품 (광고제거, 기능해제)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00062" xml:space="preserve">
+    <value>줌 제스쳐지원(프로 &amp; CCP의 경우)</value>
+    <comment>V 1.8.0</comment>
+  </data>
+  <data name="AboutTranslatePeople10" xml:space="preserve">
+    <value>Hayrullah</value>
+    <comment>V 1.8.1 rthayru@live.com (rthayru@gmail.com) (Turkish - Türk) 터키어</comment>
+  </data>
+  <data name="UpdateHistory00063" xml:space="preserve">
+    <value>일부 자막 깜빡임 버그</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00064" xml:space="preserve">
+    <value>확대 줌 : 최대 4X</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00065" xml:space="preserve">
+    <value>터키어 번역</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00066" xml:space="preserve">
+    <value>S/W 디코더 성능</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00067" xml:space="preserve">
+    <value>ASS/SSA 자막 버그</value>
+    <comment>V 1.8.3</comment>
+  </data>
+  <data name="Settings.General.Text" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Settings.Playback.Text" xml:space="preserve">
+    <value>재생</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00068" xml:space="preserve">
+    <value>폰트 컬렉션 파일 지원 (.TTC, .OTC)</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00069" xml:space="preserve">
+    <value>폰트관리에 관련된 버그</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00070" xml:space="preserve">
+    <value>MKV/3G2 컨테이너에서 XviD 코덱 오류</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00071" xml:space="preserve">
+    <value>일부 FLV 파일의 재생 오류</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00072" xml:space="preserve">
+    <value>"모든 비디오" 목록의 사용 여부 옵션 추가</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00073" xml:space="preserve">
+    <value>일부 MKV에서 재생 시작시 앱 크래시 에러</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00074" xml:space="preserve">
+    <value>일부 자막이 스킵되어 표시되지 않는 현상</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00075" xml:space="preserve">
+    <value>재생패널 위 배터리 레벨 및 현재 시간 표시</value>
+    <comment>V 1.8.8</comment>
+  </data>
+  <data name="UpdateHistory00076" xml:space="preserve">
+    <value>자막 파일 인코딩 자동검출 성능 개선</value>
+    <comment>V 1.8.9</comment>
+  </data>
+  <data name="AboutTranslatePeople11" xml:space="preserve">
+    <value>Eduardo Rodrigues</value>
+    <comment>V 1.9.0 포르투갈어(포르투갈, 브라질어)</comment>
+  </data>
+  <data name="UpdateHistory00077" xml:space="preserve">
+    <value>포르투갈어, 프랑스어 번역추가</value>
+    <comment>V 1.9.0</comment>
+  </data>
+  <data name="AboutTranslatePeople12" xml:space="preserve">
+    <value>Pierre Kergaravat</value>
+    <comment>V 1.9.0 프랑스어</comment>
+  </data>
+  <data name="UpdateHistory00078" xml:space="preserve">
+    <value>.webm 형식 지원</value>
+    <comment>V 1.9.0</comment>
+  </data>
+</root>

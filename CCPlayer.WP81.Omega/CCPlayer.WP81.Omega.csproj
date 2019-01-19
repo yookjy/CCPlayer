@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props" Condition="Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2272F21-AE1F-4F8F-B064-991D3C699F35}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCPlayer.WP81.Omega</RootNamespace>
+    <AssemblyName>CCPlayer.WP81.Omega</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{76F1466A-8B6D-4E39-A767-685A06062A39};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>arm</AppxBundlePlatforms>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ANY_CPU;OMEGA</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ANY_CPU;OMEGA</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ARM;OMEGA</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP;ARM;OMEGA</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_PHONE_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_PHONE_APP;OMEGA</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avcodec-57.dll">
+      <Link>avcodec-57.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avdevice-57.dll">
+      <Link>avdevice-57.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avfilter-6.dll">
+      <Link>avfilter-6.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avformat-57.dll">
+      <Link>avformat-57.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\avutil-55.dll">
+      <Link>avutil-55.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\swresample-2.dll">
+      <Link>swresample-2.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\..\ffmpeg\Build\WindowsPhone8.1\ARM\bin\swscale-4.dll">
+      <Link>swscale-4.dll</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\AssociationLogo.png">
+      <Link>Assets\AssociationLogo.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.cursor.move.png">
+      <Link>Assets\Dark\appbar.cursor.move.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.globe.wire.png">
+      <Link>Assets\Dark\appbar.globe.wire.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.power.png">
+      <Link>Assets\Dark\appbar.power.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.0.png">
+      <Link>Assets\Dark\appbar.sound.0.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.1.png">
+      <Link>Assets\Dark\appbar.sound.1.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.2.png">
+      <Link>Assets\Dark\appbar.sound.2.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.3.png">
+      <Link>Assets\Dark\appbar.sound.3.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.left.right.png">
+      <Link>Assets\Dark\appbar.sound.left.right.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.sound.mute.png">
+      <Link>Assets\Dark\appbar.sound.mute.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.text.size.png">
+      <Link>Assets\Dark\appbar.text.size.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.timer.forward.png">
+      <Link>Assets\Dark\appbar.timer.forward.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Dark\appbar.timer.play.png">
+      <Link>Assets\Dark\appbar.timer.play.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.cursor.move.png">
+      <Link>Assets\Light\appbar.cursor.move.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.globe.wire.png">
+      <Link>Assets\Light\appbar.globe.wire.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.power.png">
+      <Link>Assets\Light\appbar.power.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.0.png">
+      <Link>Assets\Light\appbar.sound.0.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.1.png">
+      <Link>Assets\Light\appbar.sound.1.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.2.png">
+      <Link>Assets\Light\appbar.sound.2.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.3.png">
+      <Link>Assets\Light\appbar.sound.3.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.left.right.png">
+      <Link>Assets\Light\appbar.sound.left.right.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.sound.mute.png">
+      <Link>Assets\Light\appbar.sound.mute.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.text.size.png">
+      <Link>Assets\Light\appbar.text.size.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.timer.forward.png">
+      <Link>Assets\Light\appbar.timer.forward.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Light\appbar.timer.play.png">
+      <Link>Assets\Light\appbar.timer.play.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Logo.scale-240.png">
+      <Link>Assets\Logo.scale-240.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\SmallLogo.scale-240.png">
+      <Link>Assets\SmallLogo.scale-240.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\SplashScreen.scale-240.png">
+      <Link>Assets\SplashScreen.scale-240.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\Square71x71Logo.scale-240.png">
+      <Link>Assets\Square71x71Logo.scale-240.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\StoreLogo.scale-240.png">
+      <Link>Assets\StoreLogo.scale-240.png</Link>
+    </Content>
+    <Content Include="..\CCPlayer.WP81.Pro\Assets\WideLogo.scale-240.png">
+      <Link>Assets\WideLogo.scale-240.png</Link>
+    </Content>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\uk\Resources.resw">
+      <Link>strings\uk\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\fa\Resources.resw">
+      <Link>strings\fa\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\hi\Resources.resw">
+      <Link>strings\hi\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\zh-Hans\Resources.resw">
+      <Link>strings\zh-Hans\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\tr\Resources.resw">
+      <Link>strings\tr\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\fr\Resources.resw">
+      <Link>strings\fr\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\pt\Resources.resw">
+      <Link>strings\pt\Resources.resw</Link>
+    </PRIResource>
+    <None Include="Package.StoreAssociation.xml" />
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\es\Resources.resw">
+      <Link>strings\es\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\ru\Resources.resw">
+      <Link>strings\ru\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\ro\Resources.resw">
+      <Link>strings\ro\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\ja\Resources.resw">
+      <Link>strings\ja\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\hu\Resources.resw">
+      <Link>strings\hu\Resources.resw</Link>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\EnumToStringConverter.cs">
+      <Link>Converters\EnumToStringConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\FileSizeConverter.cs">
+      <Link>Converters\FileSizeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\FolderButtonVisibilityConverter.cs">
+      <Link>Converters\FolderButtonVisibilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\FontWeightConverter.cs">
+      <Link>Converters\FontWeightConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\InverseBooleanConverter.cs">
+      <Link>Converters\InverseBooleanConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\NumberToBoolConverter.cs">
+      <Link>Converters\NumberToBoolConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\SelectionModeToBoolConverter.cs">
+      <Link>Converters\SelectionModeToBoolConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\StringFormatConverter.cs">
+      <Link>Converters\StringFormatConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\SubtitleExistConverter.cs">
+      <Link>Converters\SubtitleExistConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\ThemePathConverter.cs">
+      <Link>Converters\ThemePathConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\TimeConverter.cs">
+      <Link>Converters\TimeConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\TimeConverter2.cs">
+      <Link>Converters\TimeConverter2.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\VerticalAlignmentConverter.cs">
+      <Link>Converters\VerticalAlignmentConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\VisiblilityConverter.cs">
+      <Link>Converters\VisiblilityConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Converters\WrapGridMaximumRowsOrColumnsConverter.cs">
+      <Link>Converters\WrapGridMaximumRowsOrColumnsConverter.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Extensions\Extensions.cs">
+      <Link>Extensions\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Helpers\FlyoutHelper.cs">
+      <Link>Helpers\FlyoutHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Helpers\FontHelper.cs">
+      <Link>Helpers\FontHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Helpers\JumpListHelper.cs">
+      <Link>Helpers\JumpListHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Helpers\NavigationHelper.cs">
+      <Link>Helpers\NavigationHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Helpers\VersionHelper.cs">
+      <Link>Helpers\VersionHelper.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Managers\ContinuationManager.cs">
+      <Link>Managers\ContinuationManager.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Managers\SuspensionManager.cs">
+      <Link>Managers\SuspensionManager.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\DataAccess\BaseDAO.cs">
+      <Link>Models\DataAccess\BaseDAO.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\DataAccess\FileDAO.cs">
+      <Link>Models\DataAccess\FileDAO.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\DataAccess\FolderDAO.cs">
+      <Link>Models\DataAccess\FolderDAO.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\DataAccess\SettingDAO.cs">
+      <Link>Models\DataAccess\SettingDAO.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\DialogContent.cs">
+      <Link>Models\DialogContent.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\FileInfo.cs">
+      <Link>Models\FileInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\FolderInfo.cs">
+      <Link>Models\FolderInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\ItemInfo.cs">
+      <Link>Models\ItemInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\MediaInfo.cs">
+      <Link>Models\MediaInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\Message.cs">
+      <Link>Models\Message.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\Settings.cs">
+      <Link>Models\Settings.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\SubtitleContext.cs">
+      <Link>Models\SubtitleContext.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Models\SubtitleInfo.cs">
+      <Link>Models\SubtitleInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Strings\CCPlayerConstant.cs">
+      <Link>strings\CCPlayerConstant.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\AboutViewModel.cs">
+      <Link>ViewModel\AboutViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\AllVideoViewModel.cs">
+      <Link>ViewModel\AllVideoViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\CCPlayerViewModel.cs">
+      <Link>ViewModel\CCPlayerViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\CCPlayerViewModel.subtitle.cs">
+      <Link>ViewModel\CCPlayerViewModel.subtitle.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\ExplorerViewModel.cs">
+      <Link>ViewModel\ExplorerViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\GeneralSettingViewModel.cs">
+      <Link>ViewModel\GeneralSettingViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\MainViewModel.cs">
+      <Link>ViewModel\MainViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\MediaSearchViewModel.cs">
+      <Link>ViewModel\MediaSearchViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\PlaybackSettingViewModel.cs">
+      <Link>ViewModel\PlaybackSettingViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\PlaylistViewModel.cs">
+      <Link>ViewModel\PlaylistViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\SettingsViewModel.cs">
+      <Link>ViewModel\SettingsViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\SubtitleSettingViewModel.cs">
+      <Link>ViewModel\SubtitleSettingViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\TransportControlViewModel.cs">
+      <Link>ViewModel\TransportControlViewModel.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\ViewModel\ViewModelLocator.cs">
+      <Link>ViewModel\ViewModelLocator.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Advertising\AdMainPage.xaml.cs">
+      <Link>Views\Advertising\AdMainPage.xaml.cs</Link>
+      <DependentUpon>AdMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Advertising\AdTransportControl.xaml.cs">
+      <Link>Views\Advertising\AdTransportControl.xaml.cs</Link>
+      <DependentUpon>AdTransportControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\AllSettings.xaml.cs">
+      <Link>Views\AllSettings.xaml.cs</Link>
+      <DependentUpon>AllSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\BasicPage.cs">
+      <Link>Views\BasicPage.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\CCPlayerElement.xaml.cs">
+      <Link>Views\CCPlayerElement.xaml.cs</Link>
+      <DependentUpon>CCPlayerElement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Common\CCPFlyout.cs">
+      <Link>Views\Common\CCPFlyout.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Common\CloseFlyoutAction.cs">
+      <Link>Views\Common\CloseFlyoutAction.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Common\ExtendedGoToSatateAction.cs">
+      <Link>Views\Common\ExtendedGoToSatateAction.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Common\ExtendedVisualStateManager.cs">
+      <Link>Views\Common\ExtendedVisualStateManager.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\Common\INavigable.cs">
+      <Link>Views\Common\INavigable.cs</Link>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\FolderButton.xaml.cs">
+      <Link>Views\FolderButton.xaml.cs</Link>
+      <DependentUpon>FolderButton.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\GeneralSettings.xaml.cs">
+      <Link>Views\GeneralSettings.xaml.cs</Link>
+      <DependentUpon>GeneralSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\HubButtonGroup.xaml.cs">
+      <Link>Views\HubButtonGroup.xaml.cs</Link>
+      <DependentUpon>HubButtonGroup.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\MainPage.xaml.cs">
+      <Link>Views\MainPage.xaml.cs</Link>
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\MediaSearch.xaml.cs">
+      <Link>Views\MediaSearch.xaml.cs</Link>
+      <DependentUpon>MediaSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\PlaybackSettings.xaml.cs">
+      <Link>Views\PlaybackSettings.xaml.cs</Link>
+      <DependentUpon>PlaybackSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\SubtitleSettings.xaml.cs">
+      <Link>Views\SubtitleSettings.xaml.cs</Link>
+      <DependentUpon>SubtitleSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\CCPlayer.WP81.Pro\Views\TransportControl.xaml.cs">
+      <Link>Views\TransportControl.xaml.cs</Link>
+      <DependentUpon>TransportControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\MainPage.IAPs.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="..\CCPlayer.WP81.Pro\Assets\Styles\CommonStyle.xaml">
+      <Link>Assets\Styles\CommonStyle.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Assets\Styles\JumpList.xaml">
+      <Link>Assets\Styles\JumpList.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\Advertising\AdMainPage.xaml">
+      <Link>Views\Advertising\AdMainPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\Advertising\AdTransportControl.xaml">
+      <Link>Views\Advertising\AdTransportControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\AllSettings.xaml">
+      <Link>Views\AllSettings.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\CCPlayerElement.xaml">
+      <Link>Views\CCPlayerElement.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\FolderButton.xaml">
+      <Link>Views\FolderButton.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\GeneralSettings.xaml">
+      <Link>Views\GeneralSettings.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\HubButtonGroup.xaml">
+      <Link>Views\HubButtonGroup.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\MainPage.xaml">
+      <Link>Views\MainPage.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\MediaSearch.xaml">
+      <Link>Views\MediaSearch.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\PlaybackSettings.xaml">
+      <Link>Views\PlaybackSettings.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\SubtitleSettings.xaml">
+      <Link>Views\SubtitleSettings.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="..\CCPlayer.WP81.Pro\Views\TransportControl.xaml">
+      <Link>Views\TransportControl.xaml</Link>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="AppPromo">
+      <HintPath>..\packages\AppPromo.1.0.0.9\lib\wpa81\AppPromo.winmd</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.2.0.37222, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.Extras.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.2.0.37227, Culture=neutral, PublicKeyToken=2d6752c4fdf70b88, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.2.0.0\lib\wpa81\GalaSoft.MvvmLight.Platform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCL">
+      <HintPath>..\packages\SQLitePCL.3.8.7.2\lib\wpa81\SQLitePCL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="BehaviorsXamlSDKManaged, Version=12.0">
+      <Name>Behaviors SDK %28XAML%29</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, version=12.0">
+      <Name>Microsoft Visual C++ 2013 Runtime Package for Windows Phone</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.WP81, Version=3.11.1">
+      <Name>SQLite for Windows Phone 8.1</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\ko\Resources.resw">
+      <Link>strings\ko\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\en\Resources.resw">
+      <Link>strings\en\Resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\CCPlayer.WP81.Pro\Strings\bg\Resources.resw">
+      <Link>strings\bg\Resources.resw</Link>
+    </PRIResource>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\NativeHelper\NativeHelper.vcxproj">
+      <Project>{1c5c16c1-f0bd-4cab-bfba-60442e89a8e0}</Project>
+      <Name>NativeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Xaml\Velostep.Xaml.csproj">
+      <Project>{25fa02c7-de47-48d3-8ff5-d885779f6167}</Project>
+      <Name>Velostep.Xaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FFmpegSupport\FFmpegSupport.WindowsPhone\FFmpegSupport.WindowsPhone.vcxproj">
+      <Project>{5b24d6d9-fe0d-45ae-b310-633ecfd71c66}</Project>
+      <Name>FFmpegSupport.WindowsPhone</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Common\Velostep.Common.csproj">
+      <Project>{0a748ef0-ef48-4931-b8a4-74cd32c84bf5}</Project>
+      <Name>Velostep.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Encoding.Converter\Velostep.Encoding.Converter.csproj">
+      <Project>{5720fed7-3c83-4eb3-808e-1d742e2aaefa}</Project>
+      <Name>Velostep.Encoding.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Velostep.Encoding\Velostep.Encoding.csproj">
+      <Project>{fa4980e7-b08f-42a1-9d9f-7044953089c4}</Project>
+      <Name>Velostep.Encoding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.HWCodecs\CCPlayer.HWCodecs.csproj">
+      <Project>{b6a2285b-a13c-4940-874e-a6c1cc6f9c95}</Project>
+      <Name>CCPlayer.HWCodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MFWrapper\MFWrapper.vcxproj">
+      <Project>{7d4b2e30-47da-43c0-9913-3ec6adabff77}</Project>
+      <Name>CCPlayer.UI.Xaml.Controls.WP81</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(TargetPlatformIdentifier)' == '' ">
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.props'))" />
+    <Error Condition="!Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets'))" />
+  </Target>
+  <Import Project="..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets" Condition="Exists('..\packages\SQLitePCL.3.8.7.2\build\wpa81\SQLitePCL.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

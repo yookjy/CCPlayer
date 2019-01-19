@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="D3DB5ACE.CCPlayerPro" Publisher="CN=EE455185-6EB8-40D1-9357-60BDBB29945E" Version="2017.820.146.0" />
+  <mp:PhoneIdentity PhoneProductId="043d3f4d-22eb-49f8-9de0-4f4bbd4cd88c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>CCPlayer Pro</DisplayName>
+    <PublisherDisplayName>L:me</PublisherDisplayName>
+    <Logo>Assets\StoreLogo50x50.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CCPlayer.UWP.Pro.App">
+      <uap:VisualElements DisplayName="ms-resource:ApplicationTitle" Square150x150Logo="Assets\SquareLogo150x150.png" Square44x44Logo="Assets\SquareLogo44x44.png" Description="CCPlayer.UWP.Pro" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\WideLogo310x150.png" ShortName="ms-resource:ApplicationTitle" Square310x310Logo="Assets\SquareLogo310x310.png" Square71x71Logo="Assets\SquareLogo71x71.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen620x300.png" BackgroundColor="transparent" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="portraitFlipped" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.mediaPlayback">
+          <uap:MediaPlayback>
+            <uap:Codec Name="mpeg2" />
+            <uap:Codec Name="mpeg4" />
+          </uap:MediaPlayback>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileOpenPicker">
+          <uap:FileOpenPicker>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.mp4</uap:FileType>
+              <uap:FileType>.mkv</uap:FileType>
+              <uap:FileType>.avi</uap:FileType>
+              <uap:FileType>.flv</uap:FileType>
+              <uap:FileType>.3gp</uap:FileType>
+              <uap:FileType>.m4v</uap:FileType>
+              <uap:FileType>.asf</uap:FileType>
+              <uap:FileType>.mov</uap:FileType>
+              <uap:FileType>.3g2</uap:FileType>
+              <uap:FileType>.mts</uap:FileType>
+              <uap:FileType>.mpg</uap:FileType>
+              <uap:FileType>.ts</uap:FileType>
+              <uap:FileType>.webm</uap:FileType>
+              <uap:FileType>.rmvb</uap:FileType>
+              <uap:FileType>.wm</uap:FileType>
+              <uap:FileType>.wmv</uap:FileType>
+              <uap:FileType>.mp4v</uap:FileType>
+              <uap:FileType>.pyv</uap:FileType>
+              <uap:FileType>.3gpp</uap:FileType>
+              <uap:FileType>.3gp2</uap:FileType>
+              <uap:FileType>.dat</uap:FileType>
+              <uap:FileType>.4ccp</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileOpenPicker>
+        </uap:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap:FileTypeAssociation Name="ccplayer_file_association">
+            <uap:DisplayName>ms-resource:ApplicationTitle</uap:DisplayName>
+            <uap:Logo>Assets\FileAssociationLogo.png</uap:Logo>
+            <uap:SupportedFileTypes>
+              <uap:FileType ContentType="video/mp4">.mp4</uap:FileType>
+              <uap:FileType ContentType="video/x-matroska">.mkv</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-asf">.asf</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-asf">.asr</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-asf">.asx</uap:FileType>
+              <uap:FileType ContentType="video/avi">.avi</uap:FileType>
+              <uap:FileType ContentType="video/x-flv">.flv</uap:FileType>
+              <uap:FileType ContentType="video/x-m4v">.m4v</uap:FileType>
+              <uap:FileType ContentType="video/quicktime">.mov</uap:FileType>
+              <uap:FileType ContentType="video/mpeg">.mpe</uap:FileType>
+              <uap:FileType ContentType="video/mpeg">.mpg</uap:FileType>
+              <uap:FileType ContentType="video/mpeg">.mpeg</uap:FileType>
+              <uap:FileType ContentType="video/mp2t">.ts</uap:FileType>
+              <uap:FileType ContentType="video/webm">.webm</uap:FileType>
+              <uap:FileType ContentType="application/vnd.rn-realmedia-vbr">.rmvb</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-wm">.wm</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-wmx">.wmx</uap:FileType>
+              <uap:FileType ContentType="video/x-ms-wmv">.wmv</uap:FileType>
+              <uap:FileType ContentType="video/vnd.ms-playready.media.pyv">.pyv</uap:FileType>
+              <uap:FileType ContentType="video/3gpp">.3gp</uap:FileType>
+              <uap:FileType ContentType="video/3gpp">.3gpp</uap:FileType>
+              <uap:FileType ContentType="video/3gpp2">.3g2</uap:FileType>
+              <uap:FileType ContentType="video/3gpp2">.3gp2</uap:FileType>
+              <uap:FileType ContentType="video/mp2t">.mts</uap:FileType>
+              <uap:FileType>.mp4v</uap:FileType>
+              <uap:FileType ContentType="video/mp2t">.m2ts</uap:FileType>
+              <uap:FileType ContentType="text/html">.smi</uap:FileType>
+              <uap:FileType>.srt</uap:FileType>
+              <uap:FileType>.ass</uap:FileType>
+              <uap:FileType>.ssa</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>CCPlayer.UWP.FFmpeg.dll</Path>
+        <ActivatableClass ActivatableClassId="FFmpegSource.FFmpegByteStreamHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FFmpegSource.FFmpegSchemeHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FFmpegDecoder.FFmpegUncompressedVideoDecoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FFmpegDecoder.FFmpegUncompressedAudioDecoder" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <Capability Name="privateNetworkClientServer" />
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <uap:Capability Name="enterpriseAuthentication" />
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="removableStorage" />
+    <uap:Capability Name="videosLibrary" />
+  </Capabilities>
+</Package>

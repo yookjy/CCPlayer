@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="D3DB5ACE.CCPlayerOmega" Publisher="CN=EE455185-6EB8-40D1-9357-60BDBB29945E" Version="2016.205.190.41" />
+  <mp:PhoneIdentity PhoneProductId="3413b3da-f104-409a-b655-94404744c33c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>CCPlayer Omega</DisplayName>
+    <PublisherDisplayName>L:me apps</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CCPlayer.WP81.App">
+      <m3:VisualElements DisplayName="CCPlayer Omega" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="CCPlayer.WP81" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\WideLogo.png" Square71x71Logo="Assets\Square71x71Logo.png">
+          <m3:ShowNameOnTiles>
+            <m3:ShowOn Tile="square150x150Logo" />
+            <m3:ShowOn Tile="wide310x150Logo" />
+          </m3:ShowNameOnTiles>
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+        <m3:ApplicationView MinWidth="width320" />
+        <!--Used in XAML Designer. DO NOT REMOVE-->
+      </m3:VisualElements>
+      <Extensions>
+        <Extension Category="windows.fileTypeAssociation">
+          <FileTypeAssociation Name="ccplayer">
+            <DisplayName>ccplayer file association</DisplayName>
+            <Logo>Assets\AssociationLogo.png</Logo>
+            <SupportedFileTypes>
+              <FileType ContentType="application/x-truetype-font">.otf</FileType>
+              <FileType ContentType="text/html">.smi</FileType>
+              <FileType ContentType="text/html">.srt</FileType>
+              <FileType ContentType="text/html">.ass</FileType>
+              <FileType ContentType="text/html">.ssa</FileType>
+              <FileType ContentType="video/mp4">.mp4</FileType>
+              <FileType ContentType="video/avi">.avi</FileType>
+              <FileType ContentType="video/x-matroska">.mkv</FileType>
+              <FileType ContentType="audio/x-ms-wmv">.wmv</FileType>
+              <FileType ContentType="video/3gpp">.3gp</FileType>
+              <FileType ContentType="video/3gpp2">.3g2</FileType>
+              <FileType ContentType="video/x-flv">.flv</FileType>
+              <FileType ContentType="video/quicktime">.mov</FileType>
+              <FileType ContentType="video/mpg">.mpg</FileType>
+              <FileType>.rmvb</FileType>
+              <FileType>.dat</FileType>
+              <FileType>.ts</FileType>
+              <FileType>.mts</FileType>
+              <FileType>.m4v</FileType>
+              <FileType ContentType="video/webm">.webm</FileType>
+              <FileType ContentType="video/x-ms-asf">.asf</FileType>
+            </SupportedFileTypes>
+          </FileTypeAssociation>
+        </Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>FFmpegSupport.WindowsPhone.dll</Path>
+        <ActivatableClass ActivatableClassId="FFmpegSource.FFmpegByteStreamHandler" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FFmpegDecoder.FFmpegUncompressedVideoDecoder" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="FFmpegDecoder.FFmpegUncompressedAudioDecoder" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+    <Capability Name="videosLibrary" />
+    <Capability Name="removableStorage" />
+    <Capability Name="musicLibrary" />
+    <Capability Name="picturesLibrary" />
+  </Capabilities>
+</Package>

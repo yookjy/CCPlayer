@@ -1,0 +1,1238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="fa" original="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Buy.Label" translate="yes" xml:space="preserve">
+          <source>buy the pro version</source>
+          <target state="final">خرید نسخه پرو</target>
+        </trans-unit>
+        <trans-unit id="Thanks.LibraryCreators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to library's creators</source>
+          <target state="final">با تشکر از سازندگان کتابخانه ها</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Pro</source>
+          <target state="translated">CCPlayer UWP Pro</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicISO" translate="yes" xml:space="preserve">
+          <source>Arabic (ISO)</source>
+          <target state="final">عربی (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicOem" translate="yes" xml:space="preserve">
+          <source>Arabic (OEM)</source>
+          <target state="final">عربی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicWindows" translate="yes" xml:space="preserve">
+          <source>Arabic (Windows)</source>
+          <target state="final">عربی )ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetAutoDetect" translate="yes" xml:space="preserve">
+          <source>Auto detection</source>
+          <target state="final">تشخیص خودکار</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticISO" translate="yes" xml:space="preserve">
+          <source>Baltic (ISO)</source>
+          <target state="final">بالتیک (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticOem" translate="yes" xml:space="preserve">
+          <source>Baltic (OEM)</source>
+          <target state="final">بالتیک (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticWindows" translate="yes" xml:space="preserve">
+          <source>Baltic (Windows)</source>
+          <target state="final">بالتیک (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Central European (ISO)</source>
+          <target state="final">اروپای مرکزی (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Central European (Windows)</source>
+          <target state="final">اروپای مرکزی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseSimplifiedGB" translate="yes" xml:space="preserve">
+          <source>Chinese Simplified</source>
+          <target state="final">چینی (ساده شده)</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseTraditionalBig5" translate="yes" xml:space="preserve">
+          <source>Chinese Traditional</source>
+          <target state="final">چینی (سنتی)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicISO" translate="yes" xml:space="preserve">
+          <source>Cyrillic (ISO)</source>
+          <target state="final">سیریلیک (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicOem" translate="yes" xml:space="preserve">
+          <source>Cyrillic (OEM)</source>
+          <target state="final">سیریلیک (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicWindows" translate="yes" xml:space="preserve">
+          <source>Cyrillic (Windows)</source>
+          <target state="final">سیریلیک (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekOem" translate="yes" xml:space="preserve">
+          <source>Greek (OEM)</source>
+          <target state="final">یونانی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekWindows" translate="yes" xml:space="preserve">
+          <source>Greek (Windows)</source>
+          <target state="final">یونانی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewISO_Visual" translate="yes" xml:space="preserve">
+          <source>Hebrew (ISO-Visual)</source>
+          <target state="final">عبری (ایزو-بصری)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewOem" translate="yes" xml:space="preserve">
+          <source>Hebrew (OEM)</source>
+          <target state="final">ابری (او ای ام)
+</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewWindows" translate="yes" xml:space="preserve">
+          <source>Hebrew (Windows)</source>
+          <target state="final">عبری (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetJapaneseShift_JIS" translate="yes" xml:space="preserve">
+          <source>Japanese (Windows)</source>
+          <target state="final">ژاپنی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanEUC" translate="yes" xml:space="preserve">
+          <source>Korean (Windows EUC-KR)</source>
+          <target state="final">کره ای (ویندوز EUC-کره ای)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin3" translate="yes" xml:space="preserve">
+          <source>Latin3 (OEM)</source>
+          <target state="final">لاتین 3 (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin9" translate="yes" xml:space="preserve">
+          <source>Latin9 (OEM)</source>
+          <target state="final">لاتین 9 (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatinIIOem" translate="yes" xml:space="preserve">
+          <source>Central European (OEM)</source>
+          <target state="final">اروپای مرکزی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIEuroOem" translate="yes" xml:space="preserve">
+          <source>Western European EURO (OEM)</source>
+          <target state="final">اروپای غربی یورو (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIOem" translate="yes" xml:space="preserve">
+          <source>Western European (OEM)</source>
+          <target state="final">اروپای غربی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetRussianOem" translate="yes" xml:space="preserve">
+          <source>Russian (OEM)</source>
+          <target state="final">روسی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetThaiWindows" translate="yes" xml:space="preserve">
+          <source>Thai (Windows)</source>
+          <target state="final">تایلندی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishISO" translate="yes" xml:space="preserve">
+          <source>Turkish (ISO)</source>
+          <target state="final">ترکی (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishOem" translate="yes" xml:space="preserve">
+          <source>Turkish (OEM)</source>
+          <target state="final">ترکی (او ای ام)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishWindows" translate="yes" xml:space="preserve">
+          <source>Turkish (Windows)</source>
+          <target state="final">ترکی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUsOem" translate="yes" xml:space="preserve">
+          <source>Extended ASCII (OEM)</source>
+          <target state="final">Extended ASCII (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16BE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Big Endian)</source>
+          <target state="final">یونیکد (یو تی اف-16 هندی بزرگ)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16LE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Little Endian)</source>
+          <target state="final">یونیکد (یو تی اف-16 هندی کوچک)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_8" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-8)</source>
+          <target state="final">یونیکد (یو تی اف-8)</target>
+        </trans-unit>
+        <trans-unit id="CharsetVietnameseWindows" translate="yes" xml:space="preserve">
+          <source>Vietnamese (Windows)</source>
+          <target state="final">ویتنامی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Western European (ISO)</source>
+          <target state="final">اروپای غربی (ایزو)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Western European (Windows)</source>
+          <target state="final">اروپای غربی (ویندوز)</target>
+        </trans-unit>
+        <trans-unit id="FontShadow.Header" translate="yes" xml:space="preserve">
+          <source>Use shadow</source>
+          <target state="final">یو اس ای (سایه)</target>
+        </trans-unit>
+        <trans-unit id="FontSize.Text" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="final">اندازه فونت</target>
+        </trans-unit>
+        <trans-unit id="FontStyle.Text" translate="yes" xml:space="preserve">
+          <source>Font style</source>
+          <target state="final">حالت فونت</target>
+        </trans-unit>
+        <trans-unit id="FontStyleOverride.Header" translate="yes" xml:space="preserve">
+          <source>Use font style overriding</source>
+          <target state="final">استفاده از حالت فونت برجسته</target>
+        </trans-unit>
+        <trans-unit id="FontWeight.Text" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="final">وزن فونت</target>
+        </trans-unit>
+        <trans-unit id="SubtitleBackground.Header" translate="yes" xml:space="preserve">
+          <source>Use background of the subtitle</source>
+          <target state="final">استفاده از تصویر زمینه برای زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="SubtitleSyncUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="final">ثانیه</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingContent.Text" translate="yes" xml:space="preserve">
+          <source>No Ad! Full features!</source>
+          <target state="final">بدون تبلیغات! با امکانات کامل!</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingTitle.Text" translate="yes" xml:space="preserve">
+          <source>Go buy now! CCPlayer pro!</source>
+          <target state="final">برو به خرید! پخش کننده سی سی پلیر پرو!</target>
+        </trans-unit>
+        <trans-unit id="FontOutline.Header" translate="yes" xml:space="preserve">
+          <source>Use outline</source>
+          <target state="final">استفاده از خط خارجی</target>
+        </trans-unit>
+        <trans-unit id="Thanks.Translators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to the translators</source>
+          <target state="final">تشکر از مترجم ها</target>
+        </trans-unit>
+        <trans-unit id="SubtitleColor.Text" translate="yes" xml:space="preserve">
+          <source>Font color</source>
+          <target state="final">رنگ فونت</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.Header.Text" translate="yes" xml:space="preserve">
+          <source>Font family</source>
+          <target state="final">گروه فونت</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Button.Content" translate="yes" xml:space="preserve">
+          <source>Install font</source>
+          <target state="final">نصب فونت</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Header.Text" translate="yes" xml:space="preserve">
+          <source>Install font from file (*.ttf/ttc/otf/otc)</source>
+          <target state="final">نصب فونت از روی فایل (*.ttf/ttc/otf/otc)</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.List.Text" translate="yes" xml:space="preserve">
+          <source>Installed fonts</source>
+          <target state="final">فونت های نصب شده</target>
+        </trans-unit>
+        <trans-unit id="SaveTruTypeFontInMKV.Header" translate="yes" xml:space="preserve">
+          <source>Save fonts included in the media</source>
+          <target state="final">ذخیره فونت از داخل رسانه</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature1" translate="yes" xml:space="preserve">
+          <source>This feature can be used only in the Pro version.</source>
+          <target state="final">این قابلیت تنها در نسخه پرو در دسترس است.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine01" translate="yes" xml:space="preserve">
+          <source>Play was stopped because an error occurred.</source>
+          <target state="final">به دلیل رخ دادن خطا، پخش متوقف شد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine02" translate="yes" xml:space="preserve">
+          <source>Network error has occurred.</source>
+          <target state="final">خطا در شبکه رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine03" translate="yes" xml:space="preserve">
+          <source>Decoding error has occurred.</source>
+          <target state="final">خطایی در دیکد رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine04" translate="yes" xml:space="preserve">
+          <source>Can't play because the item's file format isn't supported.</source>
+          <target state="final">به دلیل عدم پشتیبانی از فرمت، فایل قابل پخش نیست.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine05" translate="yes" xml:space="preserve">
+          <source>It is encrypted media format.</source>
+          <target state="final">این یک رسانه رمز گذاری شده است.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine99" translate="yes" xml:space="preserve">
+          <source>Unknown error has occurred.</source>
+          <target state="final">خطای نا شناخته رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FileNotFound" translate="yes" xml:space="preserve">
+          <source>Error - File not found</source>
+          <target state="final">خطا - فایل پیدا نشد.</target>
+        </trans-unit>
+        <trans-unit id="AutoSeekInterval" translate="yes" xml:space="preserve">
+          <source>Depending on running time</source>
+          <target state="final">وابسته به مدت زمان اجرا</target>
+        </trans-unit>
+        <trans-unit id="HardwareBackButtonWithinVideo.Header" translate="yes" xml:space="preserve">
+          <source>Back button within video menu</source>
+          <target state="final">دکمه بازگشت به فهرست ویدیو </target>
+        </trans-unit>
+        <trans-unit id="SeekTimeInterval.Text" translate="yes" xml:space="preserve">
+          <source>Time interval of the seeking</source>
+          <target state="final">زمان پرش به عقب و جلو</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FolderNotFound" translate="yes" xml:space="preserve">
+          <source>Error - Folder not found</source>
+          <target state="final">خطا - پوشه یافت نشد</target>
+        </trans-unit>
+        <trans-unit id="FlipToPause.Header" translate="yes" xml:space="preserve">
+          <source>Flip to pause</source>
+          <target state="final">توقف پخش با چرخش</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature2" translate="yes" xml:space="preserve">
+          <source>Do you want to buy now?</source>
+          <target state="final">آیا می خواهید بخرید؟</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedDecoder" translate="yes" xml:space="preserve">
+          <source>The media can not be played by {0} decoder.</source>
+          <target state="final">این رسانه نمی تواند با {0} دیکد کننده پخش شود.</target>
+        </trans-unit>
+        <trans-unit id="UseGpuShader.Header" translate="yes" xml:space="preserve">
+          <source>Use GPU shader within SW decoder</source>
+          <target state="final">استفاده از GPU sahder به همراه دیکد کننده SW</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanMS" translate="yes" xml:space="preserve">
+          <source>Korean (Windows MS949)</source>
+          <target state="final">کره ای (ویندوز MS949)</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.HM" translate="yes" xml:space="preserve">
+          <source>{0}hr {1}min</source>
+          <target state="final">{0}ساعت {1} دقیقه</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.MS" translate="yes" xml:space="preserve">
+          <source>{0}min {1}sec</source>
+          <target state="final">{0}دقیقه {1}ثانیه</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.S" translate="yes" xml:space="preserve">
+          <source>{0}sec</source>
+          <target state="final">{0} ثانیه</target>
+        </trans-unit>
+        <trans-unit id="Format.Folder.Video.Count" translate="yes" xml:space="preserve">
+          <source>{0} videos</source>
+          <target state="final">{0} ویدیو</target>
+        </trans-unit>
+        <trans-unit id="List.File.Text" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="final">فایل</target>
+        </trans-unit>
+        <trans-unit id="List.Folder.Text" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <target state="final">پوشه</target>
+        </trans-unit>
+        <trans-unit id="OrderBy.Text" translate="yes" xml:space="preserve">
+          <source>Sort by:</source>
+          <target state="final">چینش بر اساس:</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Ascending" translate="yes" xml:space="preserve">
+          <source>Added date</source>
+          <target state="final">زمان اضافه شدن</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Ascending" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="final">نام</target>
+        </trans-unit>
+        <trans-unit id="Folder.AddButton.Text" translate="yes" xml:space="preserve">
+          <source>Add this folder into Explorer</source>
+          <target state="final">این پوشه را به اکسپلورر اضافه کن</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Descending" translate="yes" xml:space="preserve">
+          <source>Added date (Descending)</source>
+          <target state="final">تاریخ اضافه شدن (کاهشی)</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Descending" translate="yes" xml:space="preserve">
+          <source>Name (Descending)</source>
+          <target state="final">نام (کاهشی)</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Attachment" translate="yes" xml:space="preserve">
+          <source>Attachment</source>
+          <target state="final">پیوست</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="final">صدا</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Subtitle" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="final">زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="final">ویدیو</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.Text" translate="yes" xml:space="preserve">
+          <source>Enjoy with subtitle :)</source>
+          <target state="final">از زیرنویس لذت ببرید :)</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="final">گذرواژه</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate.Text" translate="yes" xml:space="preserve">
+          <source>It will be saved after white spaces removed.</source>
+          <target state="final">بعد از بین رفتن فضای خالی، ذخیره می شود</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate1.Title" translate="yes" xml:space="preserve">
+          <source>Password length should be minimum of 4 characters.</source>
+          <target state="final">طول گذرواژه بایستی حداقل 4 کراکتر باشد</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate2.Title" translate="yes" xml:space="preserve">
+          <source>It includes a white space in the input string.</source>
+          <target state="final">در طوالی ورودی فضای خالی وجود دارد</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Use.Header" translate="yes" xml:space="preserve">
+          <source>Use app protection</source>
+          <target state="final">استفاده از حفاظت اپ</target>
+        </trans-unit>
+        <trans-unit id="Button.Change.Content" translate="yes" xml:space="preserve">
+          <source>Change</source>
+          <target state="final">تغییر</target>
+        </trans-unit>
+        <trans-unit id="Button.Ok.Content" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="final">قبول</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Hint.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password's hint</source>
+          <target state="final">راهنمای گذرواژه</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Commit.Content" translate="yes" xml:space="preserve">
+          <source>Modify file extension</source>
+          <target state="final">تنظیم افزونه</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Content" translate="yes" xml:space="preserve">
+          <source>Make sure that {0} extension exists already with the same name in the folder.</source>
+          <target state="final">اطمینان حاصل کنید که {0} افزونه در پوشه ای به همان نام وجود دارد.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Title" translate="yes" xml:space="preserve">
+          <source>Failed to change extension.</source>
+          <target state="final">خطا در تغییر افزونه</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.FilePicker.Content" translate="yes" xml:space="preserve">
+          <source>Choose to chage file</source>
+          <target state="final">برای تغییر فایل انتخاب کنید</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Header.Text" translate="yes" xml:space="preserve">
+          <source>Change the file extension that to hide in other apps</source>
+          <target state="final">افزونه فایل را برای مخفی شدن درون سایر اپ ها تغییر دهید</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success.Title" translate="yes" xml:space="preserve">
+          <source>The changed file will not appear in other apps.</source>
+          <target state="final">فایل تغییر یافته در میان دیگر اپ ها ظاهر نخواهد شد.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success1.Content" translate="yes" xml:space="preserve">
+          <source>{0} and {1} files extension has been changed to {2}.</source>
+          <target state="final">{0} و {1} افزونه فایل به {2} تغییر کرده اند.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success2.Content" translate="yes" xml:space="preserve">
+          <source>{0} file extension has been changed to {1}.</source>
+          <target state="final">{0} افزونه فایل به {1} تغییر کرده است. </target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Text" translate="yes" xml:space="preserve">
+          <source>Protect your privacy by activating the app protection.</source>
+          <target state="final">با فعال کردن حفاظت از حریم شخصی خود مراقبت کنید.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Title" translate="yes" xml:space="preserve">
+          <source>Password has been changed.</source>
+          <target state="final">گذرواژه تغییر کرده است.</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOff" translate="yes" xml:space="preserve">
+          <source>Turn off</source>
+          <target state="final">خاموش</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOn" translate="yes" xml:space="preserve">
+          <source>Turn on</source>
+          <target state="final">روشن</target>
+        </trans-unit>
+        <trans-unit id="Theme.Header.Text" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="final">پوسته</target>
+        </trans-unit>
+        <trans-unit id="Button.Clear.Content" translate="yes" xml:space="preserve">
+          <source>Clear</source>
+          <target state="final">پاک کردن</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Period.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's retention period</source>
+          <target state="final">دوره نگهداری از نمایه ها</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Size.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's disk usage</source>
+          <target state="final">فضای اشغال شده توسط نمایه ها</target>
+        </trans-unit>
+        <trans-unit id="UseDefaultSWDecoder.Header" translate="yes" xml:space="preserve">
+          <source>Use SW decoder as default decoder</source>
+          <target state="final">استفاده از دیکد کننده SW به عنوان پیش فرض</target>
+        </trans-unit>
+        <trans-unit id="App.Version.Text" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="final">نسخه</target>
+        </trans-unit>
+        <trans-unit id="Developer.Header.Text" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+          <target state="final">توسعه دهنده</target>
+        </trans-unit>
+        <trans-unit id="Developer.Name.Content" translate="yes" xml:space="preserve">
+          <source>Jooyong, Yook</source>
+          <target state="final">Jooyong, Yook</target>
+        </trans-unit>
+        <trans-unit id="Feedback.BugReport.Content" translate="yes" xml:space="preserve">
+          <source>Bug report</source>
+          <target state="final">گزارش خرابی</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Header.Text" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="final">بازخورد</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Suggest.Content" translate="yes" xml:space="preserve">
+          <source>Suggest</source>
+          <target state="final">پیشنهاد</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Facebook.Content" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="final">فیسبوک</target>
+        </trans-unit>
+        <trans-unit id="Feedback.ReviewRate.Content" translate="yes" xml:space="preserve">
+          <source>Review &amp; Rating</source>
+          <target state="final">بازبینی و امتیازدهی</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Description.Text" translate="yes" xml:space="preserve">
+          <source>Please enter a password.</source>
+          <target state="final">لطفا گذرواژه را وارد کنید</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.InvalidPassword.Text" translate="yes" xml:space="preserve">
+          <source>Password is incorrect.</source>
+          <target state="final">گذرواژه اشتباه است</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Title.Text" translate="yes" xml:space="preserve">
+          <source>App protection mode is executing.</source>
+          <target state="final">حالت حفاظت از اپ فعال است</target>
+        </trans-unit>
+        <trans-unit id="Button.CCPClose.Content" translate="yes" xml:space="preserve">
+          <source>Exit CCPlayer</source>
+          <target state="final">خروج از برنامه</target>
+        </trans-unit>
+        <trans-unit id="Button.Login.Content" translate="yes" xml:space="preserve">
+          <source>Authenticate</source>
+          <target state="final">هویت سنجی</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Tag" translate="yes" xml:space="preserve">
+          <source>App protection : Executing</source>
+          <target state="final">حالت حفاظت از اپ : اجرا شده</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Text" translate="yes" xml:space="preserve">
+          <source>App protection : Stopped</source>
+          <target state="final">حالت حفاظت از اپ : متوقف شده</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.Settings.Title.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">تنظیمات</target>
+        </trans-unit>
+        <trans-unit id="Message.Check.MovePlayList.Content" translate="yes" xml:space="preserve">
+          <source>Move to playlist after adding.</source>
+          <target state="final">جا به جایی لیست پخش پس از اضافه کردن</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Tag" translate="yes" xml:space="preserve">
+          <source>Uncheck all</source>
+          <target state="final">حذف همه انتخاب ها</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Text" translate="yes" xml:space="preserve">
+          <source>Check all</source>
+          <target state="final">انتخاب همه</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Back.Text" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="final">بازگشت</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Check.Text" translate="yes" xml:space="preserve">
+          <source>Check</source>
+          <target state="final">انتخاب</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Delete.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="final">حذف</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Refresh.Text" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="final">بارگذاری مجدد</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Remove.Text" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="final">زدودن</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddFolder.Text" translate="yes" xml:space="preserve">
+          <source>Add folder</source>
+          <target state="final">اضافه کردن پوشه</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddToPlayList.Text" translate="yes" xml:space="preserve">
+          <source>Add to playlist</source>
+          <target state="final">اضافه به فهرست پخش</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.NewPlayList.Text" translate="yes" xml:space="preserve">
+          <source>New playlist</source>
+          <target state="final">فهرست پخش جدید</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.Upper.Text" translate="yes" xml:space="preserve">
+          <source>To upper</source>
+          <target state="final">با بالاتر</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Rename.Text" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="final">تغییر نام</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Reorder.Text" translate="yes" xml:space="preserve">
+          <source>Reorder</source>
+          <target state="final">سفارش مجدد</target>
+        </trans-unit>
+        <trans-unit id="Button.Cancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">لغو </target>
+        </trans-unit>
+        <trans-unit id="Button.Close.Content" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="final">بستن</target>
+        </trans-unit>
+        <trans-unit id="Button.Play.Content" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="final">پخش</target>
+        </trans-unit>
+        <trans-unit id="Button.Save.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="final">ذخیره</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Format.Text" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <target state="final">فرمت</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.RunningTime.Text" translate="yes" xml:space="preserve">
+          <source>Running time</source>
+          <target state="final">زمان اجرا</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Title.Text" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="final">عنوان</target>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Media files are not deleted from the disk.</source>
+          <target state="final">فایل رسانه از دیسک حذف نشده است.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.AddPlayList" translate="yes" xml:space="preserve">
+          <source>An error occurred while adding playlists.</source>
+          <target state="final">در هنگام اضافه کردن فهرست پخش، خطایی رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.CheckFile" translate="yes" xml:space="preserve">
+          <source>There may be a temporary error. Please try again later.
+If the same error still occurs, make sure the file is defective.</source>
+          <target state="final">این ممکن است یک خطای موقت باشد. لطفا بعدا تلاش کنید. 
+اگر مجددا با همان خطا مواجه شدید، معیوب بودن فایل را کنترل کنید.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DuplicatedName" translate="yes" xml:space="preserve">
+          <source>The name is already in use. Please enter a different name.</source>
+          <target state="final">این نام پیش تر استفاده شده است. لطفا نام دیگری را وارد کنید.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.LoadMedia" translate="yes" xml:space="preserve">
+          <source>Could not read media information.</source>
+          <target state="final">توانایی خواندن رسانه وجود ندارد. </target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Remove" translate="yes" xml:space="preserve">
+          <source>An error occurred trying to remove.</source>
+          <target state="final">خطایی در حین زدودن رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Retry" translate="yes" xml:space="preserve">
+          <source>Please try again later.
+If the same error still occurs, reinstall the app.</source>
+          <target state="final">لطفا بعدا تلاش کنید.
+اگر همین خطا مجددا رخ داد، اپ را مجددا نصب کنید.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Save" translate="yes" xml:space="preserve">
+          <source>An error occurred during save.</source>
+          <target state="final">خطایی در هنگام ذخیره سازی رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Update" translate="yes" xml:space="preserve">
+          <source>The error occurred during update.</source>
+          <target state="final">خطایی در حین به روز رسانی رخ داد.</target>
+        </trans-unit>
+        <trans-unit id="Message.Information.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Delete the playlist.</source>
+          <target state="final">حذف فهرست پخش.</target>
+        </trans-unit>
+        <trans-unit id="PlayList.New.Title" translate="yes" xml:space="preserve">
+          <source>Enter playlist name</source>
+          <target state="final">وارد نمودن نام فهرست پخش</target>
+        </trans-unit>
+        <trans-unit id="PlayList.NowPlaying.Text" translate="yes" xml:space="preserve">
+          <source>Now playing</source>
+          <target state="final">در حال پخش</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Description" translate="yes" xml:space="preserve">
+          <source>Information, feedback, review &amp; rating</source>
+          <target state="final">اطلاعات، بازخورد، بازبینی و امتیازدهی</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Title" translate="yes" xml:space="preserve">
+          <source>App</source>
+          <target state="final">اپ</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Description" translate="yes" xml:space="preserve">
+          <source>Password, Lock</source>
+          <target state="final">گذرواژه، قفل</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Title" translate="yes" xml:space="preserve">
+          <source>App protection</source>
+          <target state="final">حفاظت اپ</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Description" translate="yes" xml:space="preserve">
+          <source>Install &amp; Remove</source>
+          <target state="final">نصب و زدودن</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Title" translate="yes" xml:space="preserve">
+          <source>Font</source>
+          <target state="final">فونت</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Description" translate="yes" xml:space="preserve">
+          <source>Theme, Thumbnail</source>
+          <target state="final">پوسته، نمایه</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Title" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="final">عمومی</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Description" translate="yes" xml:space="preserve">
+          <source>Seeking, Decoder</source>
+          <target state="final">پرش، دیکد کننده</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Title" translate="yes" xml:space="preserve">
+          <source>Playback</source>
+          <target state="final">پخش</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Description" translate="yes" xml:space="preserve">
+          <source>Font, Style, Color</source>
+          <target state="final">فونت، حالت، رنگ</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Title" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="final">زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="Theme.Dark.Text" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="final">تیره</target>
+        </trans-unit>
+        <trans-unit id="Theme.Light.Text" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="final">روشن</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Days.Content" translate="yes" xml:space="preserve">
+          <source>{0} days</source>
+          <target state="final">{0} روز</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.ResetPausedTime.Text" translate="yes" xml:space="preserve">
+          <source>Reset time</source>
+          <target state="final">تنظیم مجدد زمان</target>
+        </trans-unit>
+        <trans-unit id="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Volume booster</source>
+          <target state="final">تقویت کننده صدا</target>
+        </trans-unit>
+        <trans-unit id="PercentageUnit.Text" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <target state="final">%</target>
+        </trans-unit>
+        <trans-unit id="SecondUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="final">ثانیه</target>
+        </trans-unit>
+        <trans-unit id="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Aspect ratio</source>
+          <target state="final">نسبت تصویر</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Fill" translate="yes" xml:space="preserve">
+          <source>Fill</source>
+          <target state="final">تمام صفحه</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Uniform" translate="yes" xml:space="preserve">
+          <source>Uniform</source>
+          <target state="final">یک اندازه</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.UniformToFill" translate="yes" xml:space="preserve">
+          <source>Uniform to fill</source>
+          <target state="final">یک اندازه تا تمام صفحه</target>
+        </trans-unit>
+        <trans-unit id="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio options</source>
+          <target state="final">گزینه های  صدا</target>
+        </trans-unit>
+        <trans-unit id="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Left / Right balance</source>
+          <target state="final">بالانس چپ/راست</target>
+        </trans-unit>
+        <trans-unit id="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio languages</source>
+          <target state="final">زبان صدا</target>
+        </trans-unit>
+        <trans-unit id="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio sync</source>
+          <target state="final">همگام سازی صدا</target>
+        </trans-unit>
+        <trans-unit id="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio volume</source>
+          <target state="final">حجم صدا</target>
+        </trans-unit>
+        <trans-unit id="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Brightness</source>
+          <target state="final">روشنایی</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle options</source>
+          <target state="final">گزینه های زیر نویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle charsets</source>
+          <target state="final">کاراکترهای زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle size</source>
+          <target state="final">اندازه زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionImport.Text" translate="yes" xml:space="preserve">
+          <source>Import external subtitle</source>
+          <target state="final">وارد کردن زیرنویس </target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle languages</source>
+          <target state="final">زبان های زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionPosition.Text" translate="yes" xml:space="preserve">
+          <source>Move subtitle position</source>
+          <target state="final">جا به جایی زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSetting.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle settings</source>
+          <target state="translated">تنظیمات زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle sync</source>
+          <target state="final">همگام سازی زیرنویس</target>
+        </trans-unit>
+        <trans-unit id="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Close playback window</source>
+          <target state="final">بستن پنجره پخش</target>
+        </trans-unit>
+        <trans-unit id="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Decoder</source>
+          <target state="final">دیکد کننده</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Display rotation</source>
+          <target state="final">چرخش صفحه</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise180" translate="yes" xml:space="preserve">
+          <source>Clockwise 180°</source>
+          <target state="final">180 درجه در جهت ساعت</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise270" translate="yes" xml:space="preserve">
+          <source>Clockwise 270°</source>
+          <target state="final">270 درجه در جهت ساعت</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise90" translate="yes" xml:space="preserve">
+          <source>Clockwise 90°</source>
+          <target state="final">90 درجه در جهت ساعت</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="final">هیچکدام</target>
+        </trans-unit>
+        <trans-unit id="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast forward</source>
+          <target state="final">سریع به جلو</target>
+        </trans-unit>
+        <trans-unit id="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast rewind</source>
+          <target state="final">سریع به عقب</target>
+        </trans-unit>
+        <trans-unit id="FullWindow.Tag" translate="yes" xml:space="preserve">
+          <source>Full screen mode</source>
+          <target state="final">حالت تمام صفحه</target>
+        </trans-unit>
+        <trans-unit id="FullWindow2.Tag" translate="yes" xml:space="preserve">
+          <source>Window mode</source>
+          <target state="final">حالت پنجره</target>
+        </trans-unit>
+        <trans-unit id="HorizontalMirror.Label" translate="yes" xml:space="preserve">
+          <source>Horizontal mirror</source>
+          <target state="final">آینه افقی</target>
+        </trans-unit>
+        <trans-unit id="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Lock control panel</source>
+          <target state="final">صفحه کنترل قفل</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback speed (rate)</source>
+          <target state="final">نرخ سرعت پخش</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback repeat</source>
+          <target state="final">تکرار پخش</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.All" translate="yes" xml:space="preserve">
+          <source>Infinity</source>
+          <target state="final">بی نهایت</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="final">هیچکدام</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.Once" translate="yes" xml:space="preserve">
+          <source>Once</source>
+          <target state="final">یک بار</target>
+        </trans-unit>
+        <trans-unit id="PlayPause.Tag" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="final">پخش </target>
+        </trans-unit>
+        <trans-unit id="PlayPause2.Tag" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="final">توقف</target>
+        </trans-unit>
+        <trans-unit id="RotationLock.Label" translate="yes" xml:space="preserve">
+          <source>Rotation lock</source>
+          <target state="final">قفل چرخش</target>
+        </trans-unit>
+        <trans-unit id="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video options</source>
+          <target state="final">گزینه های ویدیو</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.BaseFontSize" translate="yes" xml:space="preserve">
+          <source>24</source>
+          <target state="final">24</target>
+        </trans-unit>
+        <trans-unit id="Explorer.Title.Text" translate="yes" xml:space="preserve">
+          <source>Folders &amp; Files</source>
+          <target state="final">پوشه ها و فایل ها</target>
+        </trans-unit>
+        <trans-unit id="Explorer.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Add Folder button (top right) to add the folder that contains the movies.</source>
+          <target state="final">بر روی دکمه اضافه کردن پوشه کلیک کنید (بالا راست) تا پوشه حاوی فیلم را اضافه نمایید.</target>
+        </trans-unit>
+        <trans-unit id="Loading.Playback.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Preparing to play video.</source>
+          <target state="translated">لطفا صبر کنید، در حال آماده سازی برای پخش ویدیو.</target>
+        </trans-unit>
+        <trans-unit id="UseLimeEngine.Header" translate="yes" xml:space="preserve">
+          <source>Use L:me media component (recommended)</source>
+          <target state="final">از جز L:me استفاده کنید (توصیه شده)</target>
+        </trans-unit>
+        <trans-unit id="RateReminder.CustomReminderText" translate="yes" xml:space="preserve">
+          <source>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</source>
+          <target state="final">به نظر می رسد، مدتی است که از اپ استفاده می کنید، بسیار خوشحال می شویم که نظرتان را بشنویم. آیا مایل هستید که به اپ امتیاز داده یا بازخورد بفرستید؟</target>
+        </trans-unit>
+        <trans-unit id="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video Zoom In/Out</source>
+          <target state="final">بزرگ/کوچک نمایی</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Content" translate="yes" xml:space="preserve">
+          <source>The purchase history of the two products was found as follows: 
+ - {0}
+ - {1}
+You can use without restrictions.</source>
+          <target state="final">تاریخچه پرداخت برای دو محصول یافت شد:
+- {0}
+- {1}
+می توانید بدون محدودیت استفاده کنید.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Title" translate="yes" xml:space="preserve">
+          <source>Congratulations. Migration was successful!</source>
+          <target state="final">تبریک! ادغام با موفقیت انجام شد!</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Button.Retry" translate="yes" xml:space="preserve">
+          <source>Retry</source>
+          <target state="final">سعی مجدد</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Content" translate="yes" xml:space="preserve">
+          <source>It is no longer available because the trial has expired.</source>
+          <target state="final">به دلیل پایان یافتن تاریخ نسخه آزمایشی، بیش از این در دسترس نیست.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Title" translate="yes" xml:space="preserve">
+          <source>Trial expired.</source>
+          <target state="final">تاریخ نسخه آزمایشی به پایان رسید.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.ExpiredLeftDay.Title" translate="yes" xml:space="preserve">
+          <source>Trial (Left {0} days)</source>
+          <target state="final">تاریخ نسخه آزمایشی (مانده {0} روز)</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Content" translate="yes" xml:space="preserve">
+          <source>Please try again later.</source>
+          <target state="final">لطفا بعدا مجدد سعی کنید.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Title" translate="yes" xml:space="preserve">
+          <source>The purchase failed.</source>
+          <target state="final">خرید نا موفق بود.</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.IAPs.Button.Text" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="final">خرید</target>
+        </trans-unit>
+        <trans-unit id="Subtitle.Language.Sub.All" translate="yes" xml:space="preserve">
+          <source>Display all</source>
+          <target state="final">نمایش همه</target>
+        </trans-unit>
+        <trans-unit id="BeginLandscape.Header" translate="yes" xml:space="preserve">
+          <source>Start playback in landscape mode</source>
+          <target state="final">پخش را در حالت عرضی شروع کن</target>
+        </trans-unit>
+        <trans-unit id="Picker.Choose.Title" translate="yes" xml:space="preserve">
+          <source>Choose an item</source>
+          <target state="final">یک گزینه را انتخاب کن</target>
+        </trans-unit>
+        <trans-unit id="Policies.Header.Text" translate="yes" xml:space="preserve">
+          <source>App policies</source>
+          <target state="final">سیاست های اپ</target>
+        </trans-unit>
+        <trans-unit id="Policies.Private.Content" translate="yes" xml:space="preserve">
+          <source>Private policy</source>
+          <target state="final">سیاست های حریم شخصی</target>
+        </trans-unit>
+        <trans-unit id="Exit.Information.Text" translate="yes" xml:space="preserve">
+          <source>Press "Back" once again to exit</source>
+          <target state="final">یک بار دیگر دکمه "بازگشت" را برای خروج بزنید</target>
+        </trans-unit>
+        <trans-unit id="Developer.CheerUp.Content" translate="yes" xml:space="preserve">
+          <source>Cheer up developer</source>
+          <target state="final">تشویق توسعه دهنده</target>
+        </trans-unit>
+        <trans-unit id="Developer.Donation.Text" translate="yes" xml:space="preserve">
+          <source>Please cheer me up to make a better good CCPlayer</source>
+          <target state="final">لطفا من را برای ساخت نسخه بهتری از پخش کننده سی سی تشویق کنید</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Content" translate="yes" xml:space="preserve">
+          <source>Thank you so much! 
+I'll try to make a better CCPlayer. </source>
+          <target state="final">بسیار از شما ممنونم!
+سعی می کنم که پخش کننده سی سی را بهتر کنم.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thanks for coffee!</source>
+          <target state="final">بابت قهوه ممنون!
+</target>
+        </trans-unit>
+        <trans-unit id="DefaultCharset.Text" translate="yes" xml:space="preserve">
+          <source>Default Character set</source>
+          <target state="final">کاراکتر پیش فرض انتخاب شد</target>
+        </trans-unit>
+        <trans-unit id="SuspendToPause.Header" translate="yes" xml:space="preserve">
+          <source>App suspend to pause</source>
+          <target state="final">توقف در هنگام رفتن اپ به پس زمینه</target>
+        </trans-unit>
+        <trans-unit id="DefaultDecoderType.Text" translate="yes" xml:space="preserve">
+          <source>Default decoder</source>
+          <target state="translated">دیکد کننده پیش فرض</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FailServerAuthentication" translate="yes" xml:space="preserve">
+          <source>The authentication failed. Check your id or password.</source>
+          <target state="new">The authentication failed. Check your id or password.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Password" translate="yes" xml:space="preserve">
+          <source>Please input password.</source>
+          <target state="new">Please input password.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.ServerAddress" translate="yes" xml:space="preserve">
+          <source>Please input server address.</source>
+          <target state="new">Please input server address.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DisconnectedServer" translate="yes" xml:space="preserve">
+          <source>The server connection has been lost. Please reconnect.</source>
+          <target state="new">The server connection has been lost. Please reconnect.</target>
+        </trans-unit>
+        <trans-unit id="Button.Connect.Content" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="translated">‏‏متصل شود</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.UNC.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: \\server\share</source>
+          <target state="new">ex: \\server\share</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FolderPicker.Text" translate="yes" xml:space="preserve">
+          <source>Local folder</source>
+          <target state="new">Local folder</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.UNC.Text" translate="yes" xml:space="preserve">
+          <source>Universal Naming Convention</source>
+          <target state="new">Universal Naming Convention</target>
+        </trans-unit>
+        <trans-unit id="Server.Connect.General.Text" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="translated">‏‏متصل شود</target>
+        </trans-unit>
+        <trans-unit id="Server.Disonnect.General.Text" translate="yes" xml:space="preserve">
+          <source>Disconnect</source>
+          <target state="translated">‏‏قطع ارتباط</target>
+        </trans-unit>
+        <trans-unit id="Server.Password.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">رمز عبور</target>
+        </trans-unit>
+        <trans-unit id="Server.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Connect button (top right) to connect to the server.</source>
+          <target state="new">Click the Connect button (top right) to connect to the server.</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FTP.Text" translate="yes" xml:space="preserve">
+          <source>FTP</source>
+          <target state="final">FTP</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.WebDAV.Text" translate="yes" xml:space="preserve">
+          <source>WebDAV</source>
+          <target state="final">WebDAV</target>
+        </trans-unit>
+        <trans-unit id="Server.Path.WebDAV.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: webdav</source>
+          <target state="new">ex: webdav</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Host.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: my.server.com or 192.168.0.1</source>
+          <target state="new">ex: my.server.com or 192.168.0.1</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFolder.Header" translate="yes" xml:space="preserve">
+          <source>Local folders</source>
+          <target state="new">Local folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFile.Header" translate="yes" xml:space="preserve">
+          <source>DLNA files</source>
+          <target state="new">DLNA files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFolder.Header" translate="yes" xml:space="preserve">
+          <source>DLNA folders</source>
+          <target state="new">DLNA folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFile.Header" translate="yes" xml:space="preserve">
+          <source>FTP files</source>
+          <target state="new">FTP files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFolder.Header" translate="yes" xml:space="preserve">
+          <source>FTP folders</source>
+          <target state="new">FTP folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFile.Header" translate="yes" xml:space="preserve">
+          <source>Local files</source>
+          <target state="new">Local files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFile.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV files</source>
+          <target state="new">WebDAV files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFolder.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV folders</source>
+          <target state="new">WebDAV folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.Title.Text" translate="yes" xml:space="preserve">
+          <source>Load unsupported thumbnail</source>
+          <target state="final">بارگذاری نمایه های پشتیبانی نشده</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UserName" translate="yes" xml:space="preserve">
+          <source>Please input user id.</source>
+          <target state="new">Please input user id.</target>
+        </trans-unit>
+        <trans-unit id="Server.UserName.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>User Id</source>
+          <target state="translated">شناسه کاربری</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.Direct.Text" translate="yes" xml:space="preserve">
+          <source>URL direct play</source>
+          <target state="new">URL direct play</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Subtitle.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable subtitle address.
+(Be careful case sensitive)</source>
+          <target state="new">Direct playable subtitle address.
+(Be careful case sensitive)</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Video.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable video address.
+(Be careful case sensitive)</source>
+          <target state="new">Direct playable video address.
+(Be careful case sensitive)</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptySubtitleUrl" translate="yes" xml:space="preserve">
+          <source>Pelase input subtitle url</source>
+          <target state="new">Pelase input subtitle url</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptyVideoUrl" translate="yes" xml:space="preserve">
+          <source>Please input video url</source>
+          <target state="new">Please input video url</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UnsupportedExtension" translate="yes" xml:space="preserve">
+          <source>Not supported file extension.</source>
+          <target state="new">Not supported file extension.</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitleAd" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Ad</source>
+          <target state="new">CCPlayer UWP Ad</target>
+        </trans-unit>
+        <trans-unit id="Message.Alert.Title" translate="yes" xml:space="preserve">
+          <source>Alert</source>
+          <target state="new">Alert</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialCanceled" translate="yes" xml:space="preserve">
+          <source>Didn't finish ad. Couldn't unlock network playback.</source>
+          <target state="new">Didn't finish ad. Couldn't unlock network playback.</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialFailed" translate="yes" xml:space="preserve">
+          <source>Couldn't unlock playback because ad not supported area or request failed. 
+(Supported countries : Australia, Brazil, Canada, France, Germany, Italy, Japan, Spain, United Kindom, United States)</source>
+          <target state="new">Couldn't unlock playback because ad not supported area or request failed. 
+(Supported countries : Australia, Brazil, Canada, France, Germany, Italy, Japan, Spain, United Kindom, United States)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialQuestion" translate="yes" xml:space="preserve">
+          <source>Watch the video ad to unlock network play. 
+(required internet connection)</source>
+          <target state="new">Watch the video ad to unlock network play. 
+(required internet connection)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialSucceed" translate="yes" xml:space="preserve">
+          <source>Network playback locking was unlocked.</source>
+          <target state="new">Network playback locking was unlocked.</target>
+        </trans-unit>
+        <trans-unit id="Message.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="new">Thank you!</target>
+        </trans-unit>
+        <trans-unit id="Cloud.OneDrive.Text" translate="yes" xml:space="preserve">
+          <source>OneDrive</source>
+          <target state="new">OneDrive</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFile.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive files</source>
+          <target state="new">OneDrive files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFolder.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive folders</source>
+          <target state="new">OneDrive folders</target>
+        </trans-unit>
+        <trans-unit id="Loading.MediaInformation.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Reading the media information.</source>
+          <target state="new">Please wait... Reading the media information.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.NotImplements" translate="yes" xml:space="preserve">
+          <source>The cause is not yet implemented the the feature by Microsoft.</source>
+          <target state="new">The cause is not yet implemented the the feature by Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.XboxIssue" translate="yes" xml:space="preserve">
+          <source>This feature is not yet supported on Xbox.</source>
+          <target state="new">This feature is not yet supported on Xbox.</target>
+        </trans-unit>
+        <trans-unit id="RotationSyncWithDeviceSwitch.Header" translate="yes" xml:space="preserve">
+          <source>Use rotate regardless device settings</source>
+          <target state="new">Use rotate regardless device settings</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

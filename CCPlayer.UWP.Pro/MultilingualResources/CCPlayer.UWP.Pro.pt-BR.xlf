@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="pt-BR" original="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Buy.Label" translate="yes" xml:space="preserve">
+          <source>buy the pro version</source>
+          <target state="translated">comprar a versão pro</target>
+        </trans-unit>
+        <trans-unit id="Thanks.LibraryCreators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to library's creators</source>
+          <target state="translated">Agradecemos aos criadores da biblioteca</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Pro</source>
+          <target state="translated">CCPlayer UWP Pro</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicISO" translate="yes" xml:space="preserve">
+          <source>Arabic (ISO)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Árabe (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicOem" translate="yes" xml:space="preserve">
+          <source>Arabic (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Árabe (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicWindows" translate="yes" xml:space="preserve">
+          <source>Arabic (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Árabe (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetAutoDetect" translate="yes" xml:space="preserve">
+          <source>Auto detection</source>
+          <target state="translated">Auto detecção</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticISO" translate="yes" xml:space="preserve">
+          <source>Baltic (ISO)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Báltico (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticOem" translate="yes" xml:space="preserve">
+          <source>Baltic (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Báltico (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticWindows" translate="yes" xml:space="preserve">
+          <source>Baltic (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Báltico (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Central European (ISO)</source>
+          <target state="translated">Europeu Central (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Central European (Windows)</source>
+          <target state="translated">Europeu Central (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseSimplifiedGB" translate="yes" xml:space="preserve">
+          <source>Chinese Simplified</source>
+          <target state="translated">Chinês Simplificado</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseTraditionalBig5" translate="yes" xml:space="preserve">
+          <source>Chinese Traditional</source>
+          <target state="translated" state-qualifier="tm-suggestion">Chinese Traditional</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicISO" translate="yes" xml:space="preserve">
+          <source>Cyrillic (ISO)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Cirílico (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicOem" translate="yes" xml:space="preserve">
+          <source>Cyrillic (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Cirílico (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicWindows" translate="yes" xml:space="preserve">
+          <source>Cyrillic (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Cirílico (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekOem" translate="yes" xml:space="preserve">
+          <source>Greek (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Grego (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekWindows" translate="yes" xml:space="preserve">
+          <source>Greek (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Grego (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewISO_Visual" translate="yes" xml:space="preserve">
+          <source>Hebrew (ISO-Visual)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Hebraico (ISO-Visual)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewOem" translate="yes" xml:space="preserve">
+          <source>Hebrew (OEM)</source>
+          <target state="translated">Hebraico (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewWindows" translate="yes" xml:space="preserve">
+          <source>Hebrew (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Hebraico (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetJapaneseShift_JIS" translate="yes" xml:space="preserve">
+          <source>Japanese (Windows)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Japonês (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanEUC" translate="yes" xml:space="preserve">
+          <source>Korean (Windows EUC-KR)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Coreano (EUC-KR Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin3" translate="yes" xml:space="preserve">
+          <source>Latin3 (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Latin3 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin9" translate="yes" xml:space="preserve">
+          <source>Latin9 (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Latin9 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatinIIOem" translate="yes" xml:space="preserve">
+          <source>Central European (OEM)</source>
+          <target state="translated">Europa Central (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIEuroOem" translate="yes" xml:space="preserve">
+          <source>Western European EURO (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">EURO Europeu Ocidental (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIOem" translate="yes" xml:space="preserve">
+          <source>Western European (OEM)</source>
+          <target state="translated">Europeu Ocidental (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetRussianOem" translate="yes" xml:space="preserve">
+          <source>Russian (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Russo (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetThaiWindows" translate="yes" xml:space="preserve">
+          <source>Thai (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tailandês (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishISO" translate="yes" xml:space="preserve">
+          <source>Turkish (ISO)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Turco (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishOem" translate="yes" xml:space="preserve">
+          <source>Turkish (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Turco (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishWindows" translate="yes" xml:space="preserve">
+          <source>Turkish (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Turco (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUsOem" translate="yes" xml:space="preserve">
+          <source>Extended ASCII (OEM)</source>
+          <target state="translated" state-qualifier="mt-suggestion">ASCII estendido (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16BE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Big Endian)</source>
+          <target state="translated">Unicode (UTF-16 Indiano Grande)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16LE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Little Endian)</source>
+          <target state="translated">Unicode (UTF-16 Indiano Pequeno)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_8" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-8)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Unicode (UTF-8)</target>
+        </trans-unit>
+        <trans-unit id="CharsetVietnameseWindows" translate="yes" xml:space="preserve">
+          <source>Vietnamese (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Vietnamita (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Western European (ISO)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Europeu Ocidental (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Western European (Windows)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Europeu Ocidental (Windows)</target>
+        </trans-unit>
+        <trans-unit id="FontShadow.Header" translate="yes" xml:space="preserve">
+          <source>Use shadow</source>
+          <target state="translated" state-qualifier="mt-suggestion">Usar sombra</target>
+        </trans-unit>
+        <trans-unit id="FontSize.Text" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="translated" state-qualifier="mt-suggestion">Tamanho da fonte</target>
+        </trans-unit>
+        <trans-unit id="FontStyle.Text" translate="yes" xml:space="preserve">
+          <source>Font style</source>
+          <target state="translated" state-qualifier="mt-suggestion">Estilo da fonte</target>
+        </trans-unit>
+        <trans-unit id="FontStyleOverride.Header" translate="yes" xml:space="preserve">
+          <source>Use font style overriding</source>
+          <target state="translated">Usar estilo da fonte primordial</target>
+        </trans-unit>
+        <trans-unit id="FontWeight.Text" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="translated">Espessura da fonte</target>
+        </trans-unit>
+        <trans-unit id="SubtitleBackground.Header" translate="yes" xml:space="preserve">
+          <source>Use background of the subtitle</source>
+          <target state="translated">Usar plano de fundo na legenda</target>
+        </trans-unit>
+        <trans-unit id="SubtitleSyncUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="translated">seg</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingContent.Text" translate="yes" xml:space="preserve">
+          <source>No Ad! Full features!</source>
+          <target state="translated" state-qualifier="mt-suggestion">Nenhum anúncio! Todos os recursos!</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingTitle.Text" translate="yes" xml:space="preserve">
+          <source>Go buy now! CCPlayer pro!</source>
+          <target state="translated">Compre agora! CCPlayer pro!</target>
+        </trans-unit>
+        <trans-unit id="FontOutline.Header" translate="yes" xml:space="preserve">
+          <source>Use outline</source>
+          <target state="translated">Usar contorno</target>
+        </trans-unit>
+        <trans-unit id="Thanks.Translators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to the translators</source>
+          <target state="translated" state-qualifier="mt-suggestion">Obrigado aos tradutores</target>
+        </trans-unit>
+        <trans-unit id="SubtitleColor.Text" translate="yes" xml:space="preserve">
+          <source>Font color</source>
+          <target state="translated" state-qualifier="mt-suggestion">Cor da fonte</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.Header.Text" translate="yes" xml:space="preserve">
+          <source>Font family</source>
+          <target state="translated" state-qualifier="tm-suggestion">Família de fontes</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Button.Content" translate="yes" xml:space="preserve">
+          <source>Install font</source>
+          <target state="translated" state-qualifier="mt-suggestion">Instalar fonte</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Header.Text" translate="yes" xml:space="preserve">
+          <source>Install font from file (*.ttf/ttc/otf/otc)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Instalar a fonte do arquivo (*.ttf/ttc/otf/otc)</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.List.Text" translate="yes" xml:space="preserve">
+          <source>Installed fonts</source>
+          <target state="translated" state-qualifier="mt-suggestion">Fontes instaladas</target>
+        </trans-unit>
+        <trans-unit id="SaveTruTypeFontInMKV.Header" translate="yes" xml:space="preserve">
+          <source>Save fonts included in the media</source>
+          <target state="translated" state-qualifier="mt-suggestion">Salvar as fontes incluídas na mídia</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature1" translate="yes" xml:space="preserve">
+          <source>This feature can be used only in the Pro version.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Esse recurso pode ser usado somente na versão Pro.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine01" translate="yes" xml:space="preserve">
+          <source>Play was stopped because an error occurred.</source>
+          <target state="translated">A execução foi interrompida porque ocorreu um erro.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine02" translate="yes" xml:space="preserve">
+          <source>Network error has occurred.</source>
+          <target state="translated">Ocorreu um erro de rede.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine03" translate="yes" xml:space="preserve">
+          <source>Decoding error has occurred.</source>
+          <target state="translated">Ocorreu um erro de decodificação .</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine04" translate="yes" xml:space="preserve">
+          <source>Can't play because the item's file format isn't supported.</source>
+          <target state="translated">Não pode ser executado porque não há suporte para o formato de arquivo do item.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine05" translate="yes" xml:space="preserve">
+          <source>It is encrypted media format.</source>
+          <target state="translated" state-qualifier="mt-suggestion">É um formato de mídia criptografada.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine99" translate="yes" xml:space="preserve">
+          <source>Unknown error has occurred.</source>
+          <target state="translated">Ocorreu um erro desconhecido desconhecido.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FileNotFound" translate="yes" xml:space="preserve">
+          <source>Error - File not found</source>
+          <target state="translated">Erro - Arquivo não encontrado</target>
+        </trans-unit>
+        <trans-unit id="AutoSeekInterval" translate="yes" xml:space="preserve">
+          <source>Depending on running time</source>
+          <target state="translated" state-qualifier="mt-suggestion">Dependendo do tempo de execução</target>
+        </trans-unit>
+        <trans-unit id="HardwareBackButtonWithinVideo.Header" translate="yes" xml:space="preserve">
+          <source>Back button within video menu</source>
+          <target state="translated">Botão de voltar dentro do menu de vídeo</target>
+        </trans-unit>
+        <trans-unit id="SeekTimeInterval.Text" translate="yes" xml:space="preserve">
+          <source>Time interval of the seeking</source>
+          <target state="translated">Intervalo de tempo da busca</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FolderNotFound" translate="yes" xml:space="preserve">
+          <source>Error - Folder not found</source>
+          <target state="translated">Erro - Pasta não encontrada</target>
+        </trans-unit>
+        <trans-unit id="FlipToPause.Header" translate="yes" xml:space="preserve">
+          <source>Flip to pause</source>
+          <target state="translated">Girar para pausar</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature2" translate="yes" xml:space="preserve">
+          <source>Do you want to buy now?</source>
+          <target state="translated">Deseja comprar agora?</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedDecoder" translate="yes" xml:space="preserve">
+          <source>The media can not be played by {0} decoder.</source>
+          <target state="translated">A mídia não pode ser executada pelo decodificador {0}.</target>
+        </trans-unit>
+        <trans-unit id="UseGpuShader.Header" translate="yes" xml:space="preserve">
+          <source>Use GPU shader within SW decoder</source>
+          <target state="translated">Usar GPU shader dentro do decodificador SW</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanMS" translate="yes" xml:space="preserve">
+          <source>Korean (Windows MS949)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Coreano (MS949 Windows)</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.HM" translate="yes" xml:space="preserve">
+          <source>{0}hr {1}min</source>
+          <target state="translated">{0}hr {1}min</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.MS" translate="yes" xml:space="preserve">
+          <source>{0}min {1}sec</source>
+          <target state="translated">{0}min {1}seg</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.S" translate="yes" xml:space="preserve">
+          <source>{0}sec</source>
+          <target state="translated">{0} seg</target>
+        </trans-unit>
+        <trans-unit id="Format.Folder.Video.Count" translate="yes" xml:space="preserve">
+          <source>{0} videos</source>
+          <target state="translated" state-qualifier="tm-suggestion">{0} vídeos</target>
+        </trans-unit>
+        <trans-unit id="List.File.Text" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="translated" state-qualifier="tm-suggestion">Arquivo</target>
+        </trans-unit>
+        <trans-unit id="List.Folder.Text" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pasta</target>
+        </trans-unit>
+        <trans-unit id="OrderBy.Text" translate="yes" xml:space="preserve">
+          <source>Sort by:</source>
+          <target state="translated" state-qualifier="mt-suggestion">Ordenar por:</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Ascending" translate="yes" xml:space="preserve">
+          <source>Added date</source>
+          <target state="translated" state-qualifier="tm-suggestion">Data de adição</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Ascending" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated" state-qualifier="tm-suggestion">Nome</target>
+        </trans-unit>
+        <trans-unit id="Folder.AddButton.Text" translate="yes" xml:space="preserve">
+          <source>Add this folder into Explorer</source>
+          <target state="translated" state-qualifier="mt-suggestion">Adicionar esta pasta no Explorer</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Descending" translate="yes" xml:space="preserve">
+          <source>Added date (Descending)</source>
+          <target state="translated">Data de adição (Decrescente)</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Descending" translate="yes" xml:space="preserve">
+          <source>Name (Descending)</source>
+          <target state="translated" state-qualifier="tm-suggestion">Nome (Decrescente)</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Attachment" translate="yes" xml:space="preserve">
+          <source>Attachment</source>
+          <target state="translated" state-qualifier="tm-suggestion">Anexo</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="translated" state-qualifier="tm-suggestion">Áudio</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Subtitle" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="translated">Legenda</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="translated" state-qualifier="tm-suggestion">Vídeo</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.Text" translate="yes" xml:space="preserve">
+          <source>Enjoy with subtitle :)</source>
+          <target state="translated">Desfrute com legenda :)</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Senha</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate.Text" translate="yes" xml:space="preserve">
+          <source>It will be saved after white spaces removed.</source>
+          <target state="translated">Será salvo após a remoção dos espaços em branco.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate1.Title" translate="yes" xml:space="preserve">
+          <source>Password length should be minimum of 4 characters.</source>
+          <target state="translated">Comprimento da senha deve ser no mínimo de 4 caracteres.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate2.Title" translate="yes" xml:space="preserve">
+          <source>It includes a white space in the input string.</source>
+          <target state="translated">Inclui um espaço em branco na sequência de entrada.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Use.Header" translate="yes" xml:space="preserve">
+          <source>Use app protection</source>
+          <target state="translated">Usar proteção do aplicativo</target>
+        </trans-unit>
+        <trans-unit id="Button.Change.Content" translate="yes" xml:space="preserve">
+          <source>Change</source>
+          <target state="translated" state-qualifier="tm-suggestion">Alterar</target>
+        </trans-unit>
+        <trans-unit id="Button.Ok.Content" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated" state-qualifier="tm-suggestion">OK</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Hint.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password's hint</source>
+          <target state="translated" state-qualifier="mt-suggestion">Dica da senha</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Commit.Content" translate="yes" xml:space="preserve">
+          <source>Modify file extension</source>
+          <target state="translated">Modificar a extensão do arquivo.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Content" translate="yes" xml:space="preserve">
+          <source>Make sure that {0} extension exists already with the same name in the folder.</source>
+          <target state="translated">Certifique-se de que a extensão {0} já existe com o mesmo nome na pasta.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Title" translate="yes" xml:space="preserve">
+          <source>Failed to change extension.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Falha ao alterar a extensão.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.FilePicker.Content" translate="yes" xml:space="preserve">
+          <source>Choose to chage file</source>
+          <target state="translated">Escolha para alterar o arquivo</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Header.Text" translate="yes" xml:space="preserve">
+          <source>Change the file extension that to hide in other apps</source>
+          <target state="translated">Altere a extensão do arquivo para ocultar em outros aplicativos</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success.Title" translate="yes" xml:space="preserve">
+          <source>The changed file will not appear in other apps.</source>
+          <target state="translated" state-qualifier="mt-suggestion">O arquivo alterado não aparecerá em outros aplicativos.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success1.Content" translate="yes" xml:space="preserve">
+          <source>{0} and {1} files extension has been changed to {2}.</source>
+          <target state="translated">a extensão de arquivos {0} e {1} foi alterado para {2}.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success2.Content" translate="yes" xml:space="preserve">
+          <source>{0} file extension has been changed to {1}.</source>
+          <target state="translated">a extensão de arquivo {0} foi alterado para {1}.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Text" translate="yes" xml:space="preserve">
+          <source>Protect your privacy by activating the app protection.</source>
+          <target state="translated">Proteja a sua privacidade, ativando a proteção do aplicativo.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Title" translate="yes" xml:space="preserve">
+          <source>Password has been changed.</source>
+          <target state="translated">A senha foi alterada.</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOff" translate="yes" xml:space="preserve">
+          <source>Turn off</source>
+          <target state="translated">Desligar</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOn" translate="yes" xml:space="preserve">
+          <source>Turn on</source>
+          <target state="translated" state-qualifier="tm-suggestion">Ligar</target>
+        </trans-unit>
+        <trans-unit id="Theme.Header.Text" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="translated" state-qualifier="tm-suggestion">Tema</target>
+        </trans-unit>
+        <trans-unit id="Button.Clear.Content" translate="yes" xml:space="preserve">
+          <source>Clear</source>
+          <target state="translated" state-qualifier="tm-suggestion">Limpar</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Period.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's retention period</source>
+          <target state="translated">Período de retenção das miniaturas</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Size.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's disk usage</source>
+          <target state="translated">Uso do disco das miniaturas</target>
+        </trans-unit>
+        <trans-unit id="UseDefaultSWDecoder.Header" translate="yes" xml:space="preserve">
+          <source>Use SW decoder as default decoder</source>
+          <target state="translated">Usar o decodificador SW como o decodificador padrão</target>
+        </trans-unit>
+        <trans-unit id="App.Version.Text" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated" state-qualifier="tm-suggestion">Versão</target>
+        </trans-unit>
+        <trans-unit id="Developer.Header.Text" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+          <target state="translated">Desenvolvedor</target>
+        </trans-unit>
+        <trans-unit id="Developer.Name.Content" translate="yes" xml:space="preserve">
+          <source>Jooyong, Yook</source>
+          <target state="translated" state-qualifier="mt-suggestion">Jooyong, Yook</target>
+        </trans-unit>
+        <trans-unit id="Feedback.BugReport.Content" translate="yes" xml:space="preserve">
+          <source>Bug report</source>
+          <target state="translated" state-qualifier="mt-suggestion">Relatório de bug</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Header.Text" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated">Feedback</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Suggest.Content" translate="yes" xml:space="preserve">
+          <source>Suggest</source>
+          <target state="translated">Sugestão</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Facebook.Content" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="translated" state-qualifier="tm-suggestion">Facebook</target>
+        </trans-unit>
+        <trans-unit id="Feedback.ReviewRate.Content" translate="yes" xml:space="preserve">
+          <source>Review &amp; Rating</source>
+          <target state="translated">Revisão &amp; Classificação</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Description.Text" translate="yes" xml:space="preserve">
+          <source>Please enter a password.</source>
+          <target state="translated">Por favor, insira uma senha.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.InvalidPassword.Text" translate="yes" xml:space="preserve">
+          <source>Password is incorrect.</source>
+          <target state="translated" state-qualifier="tm-suggestion">Senha incorreta.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Title.Text" translate="yes" xml:space="preserve">
+          <source>App protection mode is executing.</source>
+          <target state="translated">O modo de proteção do aplicativo está em execução.</target>
+        </trans-unit>
+        <trans-unit id="Button.CCPClose.Content" translate="yes" xml:space="preserve">
+          <source>Exit CCPlayer</source>
+          <target state="translated">Sair do CCPlayer</target>
+        </trans-unit>
+        <trans-unit id="Button.Login.Content" translate="yes" xml:space="preserve">
+          <source>Authenticate</source>
+          <target state="translated" state-qualifier="tm-suggestion">Autenticar</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Tag" translate="yes" xml:space="preserve">
+          <source>App protection : Executing</source>
+          <target state="translated">Proteção do App: Executando</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Text" translate="yes" xml:space="preserve">
+          <source>App protection : Stopped</source>
+          <target state="translated">Proteção do App: Parado</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.Settings.Title.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated" state-qualifier="tm-suggestion">Configurações</target>
+        </trans-unit>
+        <trans-unit id="Message.Check.MovePlayList.Content" translate="yes" xml:space="preserve">
+          <source>Move to playlist after adding.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Mover para lista de reprodução após a adição.</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Tag" translate="yes" xml:space="preserve">
+          <source>Uncheck all</source>
+          <target state="translated" state-qualifier="tm-suggestion">Desmarcar tudo</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Text" translate="yes" xml:space="preserve">
+          <source>Check all</source>
+          <target state="translated" state-qualifier="tm-suggestion">Selecionar tudo</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Back.Text" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="translated" state-qualifier="tm-suggestion">Voltar</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Check.Text" translate="yes" xml:space="preserve">
+          <source>Check</source>
+          <target state="translated" state-qualifier="tm-suggestion">Verificar</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Delete.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated" state-qualifier="tm-suggestion">Excluir</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Refresh.Text" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="translated" state-qualifier="tm-suggestion">Atualizar</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Remove.Text" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="translated" state-qualifier="tm-suggestion">Remover</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddFolder.Text" translate="yes" xml:space="preserve">
+          <source>Add folder</source>
+          <target state="translated" state-qualifier="tm-suggestion">Adicionar pasta</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddToPlayList.Text" translate="yes" xml:space="preserve">
+          <source>Add to playlist</source>
+          <target state="translated">Adicionar à lista de reprodução</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.NewPlayList.Text" translate="yes" xml:space="preserve">
+          <source>New playlist</source>
+          <target state="translated" state-qualifier="mt-suggestion">Nova lista de reprodução</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.Upper.Text" translate="yes" xml:space="preserve">
+          <source>To upper</source>
+          <target state="translated" state-qualifier="mt-suggestion">A parte superior</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Rename.Text" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated" state-qualifier="tm-suggestion">Renomear</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Reorder.Text" translate="yes" xml:space="preserve">
+          <source>Reorder</source>
+          <target state="translated" state-qualifier="tm-suggestion">Reordenar</target>
+        </trans-unit>
+        <trans-unit id="Button.Cancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated" state-qualifier="tm-suggestion">Cancelar</target>
+        </trans-unit>
+        <trans-unit id="Button.Close.Content" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated" state-qualifier="tm-suggestion">Fechar</target>
+        </trans-unit>
+        <trans-unit id="Button.Play.Content" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated" state-qualifier="tm-suggestion">Executar</target>
+        </trans-unit>
+        <trans-unit id="Button.Save.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated" state-qualifier="tm-suggestion">Salvar</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Format.Text" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <target state="translated" state-qualifier="tm-suggestion">Formato</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.RunningTime.Text" translate="yes" xml:space="preserve">
+          <source>Running time</source>
+          <target state="translated" state-qualifier="mt-suggestion">Tempo de execução</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Title.Text" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="translated" state-qualifier="tm-suggestion">Título</target>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Media files are not deleted from the disk.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Arquivos de mídia não são excluídos do disco.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.AddPlayList" translate="yes" xml:space="preserve">
+          <source>An error occurred while adding playlists.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Ocorreu um erro ao adicionar listas de reprodução.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.CheckFile" translate="yes" xml:space="preserve">
+          <source>There may be a temporary error. Please try again later.
+If the same error still occurs, make sure the file is defective.</source>
+          <target state="translated">Pode haver um erro temporário. Por favor, tente novamente mais tarde. 
+Se o mesmo erro ainda ocorrer, verifique se o arquivo está com defeito.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DuplicatedName" translate="yes" xml:space="preserve">
+          <source>The name is already in use. Please enter a different name.</source>
+          <target state="translated" state-qualifier="mt-suggestion">O nome já está em uso. Por favor, digite um nome diferente.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.LoadMedia" translate="yes" xml:space="preserve">
+          <source>Could not read media information.</source>
+          <target state="translated">Não foi possível ler as informações de mídia.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Remove" translate="yes" xml:space="preserve">
+          <source>An error occurred trying to remove.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Um erro ocorreu ao tentar remover.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Retry" translate="yes" xml:space="preserve">
+          <source>Please try again later.
+If the same error still occurs, reinstall the app.</source>
+          <target state="translated">Por favor, tente novamente mais tarde. 
+Se o mesmo erro ainda ocorrer, reinstale o aplicativo.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Save" translate="yes" xml:space="preserve">
+          <source>An error occurred during save.</source>
+          <target state="translated">Ocorreu um erro ao tentar salvar.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Update" translate="yes" xml:space="preserve">
+          <source>The error occurred during update.</source>
+          <target state="translated">Ocorreu um erro durante a atualização.</target>
+        </trans-unit>
+        <trans-unit id="Message.Information.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Delete the playlist.</source>
+          <target state="translated">Excluir à lista de reprodução.</target>
+        </trans-unit>
+        <trans-unit id="PlayList.New.Title" translate="yes" xml:space="preserve">
+          <source>Enter playlist name</source>
+          <target state="translated" state-qualifier="mt-suggestion">Digite o nome da lista de reprodução</target>
+        </trans-unit>
+        <trans-unit id="PlayList.NowPlaying.Text" translate="yes" xml:space="preserve">
+          <source>Now playing</source>
+          <target state="translated" state-qualifier="tm-suggestion">Em execução</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Description" translate="yes" xml:space="preserve">
+          <source>Information, feedback, review &amp; rating</source>
+          <target state="translated">Informações, comentários, revisão &amp; classificação</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Title" translate="yes" xml:space="preserve">
+          <source>App</source>
+          <target state="translated" state-qualifier="tm-suggestion">Aplicativo</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Description" translate="yes" xml:space="preserve">
+          <source>Password, Lock</source>
+          <target state="translated">Senha, Bloqueio</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Title" translate="yes" xml:space="preserve">
+          <source>App protection</source>
+          <target state="translated">Proteção do Aplicativo</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Description" translate="yes" xml:space="preserve">
+          <source>Install &amp; Remove</source>
+          <target state="translated">Instalar &amp; Remover</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Title" translate="yes" xml:space="preserve">
+          <source>Font</source>
+          <target state="translated" state-qualifier="tm-suggestion">Fonte</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Description" translate="yes" xml:space="preserve">
+          <source>Theme, Thumbnail</source>
+          <target state="translated">Tema, Miniatura</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Title" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="tm-suggestion">Geral</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Description" translate="yes" xml:space="preserve">
+          <source>Seeking, Decoder</source>
+          <target state="translated">Buscador, Decodificador</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Title" translate="yes" xml:space="preserve">
+          <source>Playback</source>
+          <target state="translated" state-qualifier="tm-suggestion">Reprodução</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Description" translate="yes" xml:space="preserve">
+          <source>Font, Style, Color</source>
+          <target state="translated">Fonte, Estilo, Cor</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Title" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="translated">Legenda</target>
+        </trans-unit>
+        <trans-unit id="Theme.Dark.Text" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="translated" state-qualifier="tm-suggestion">Escuro</target>
+        </trans-unit>
+        <trans-unit id="Theme.Light.Text" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="translated" state-qualifier="tm-suggestion">Claro</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Days.Content" translate="yes" xml:space="preserve">
+          <source>{0} days</source>
+          <target state="translated" state-qualifier="tm-suggestion">{0} dias</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.ResetPausedTime.Text" translate="yes" xml:space="preserve">
+          <source>Reset time</source>
+          <target state="translated" state-qualifier="mt-suggestion">Tempo de restauração</target>
+        </trans-unit>
+        <trans-unit id="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Volume booster</source>
+          <target state="translated" state-qualifier="mt-suggestion">Impulsionador de volume</target>
+        </trans-unit>
+        <trans-unit id="PercentageUnit.Text" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <target state="translated" state-qualifier="mt-suggestion">%</target>
+        </trans-unit>
+        <trans-unit id="SecondUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="translated">seg</target>
+        </trans-unit>
+        <trans-unit id="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Aspect ratio</source>
+          <target state="translated" state-qualifier="tm-suggestion">Proporção</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Fill" translate="yes" xml:space="preserve">
+          <source>Fill</source>
+          <target state="translated" state-qualifier="tm-suggestion">Preenchimento</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Uniform" translate="yes" xml:space="preserve">
+          <source>Uniform</source>
+          <target state="translated" state-qualifier="tm-suggestion">Uniforme</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.UniformToFill" translate="yes" xml:space="preserve">
+          <source>Uniform to fill</source>
+          <target state="translated" state-qualifier="mt-suggestion">Uniforme para preencher</target>
+        </trans-unit>
+        <trans-unit id="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio options</source>
+          <target state="translated" state-qualifier="mt-suggestion">Opções de áudio</target>
+        </trans-unit>
+        <trans-unit id="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Left / Right balance</source>
+          <target state="translated">Balanço para Esquerda / Direita</target>
+        </trans-unit>
+        <trans-unit id="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio languages</source>
+          <target state="translated" state-qualifier="mt-suggestion">Idiomas de áudio</target>
+        </trans-unit>
+        <trans-unit id="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio sync</source>
+          <target state="translated">Sincronização do áudio</target>
+        </trans-unit>
+        <trans-unit id="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio volume</source>
+          <target state="translated">Volume do áudio</target>
+        </trans-unit>
+        <trans-unit id="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Brightness</source>
+          <target state="translated" state-qualifier="tm-suggestion">Brilho</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle options</source>
+          <target state="translated">Opções de legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle charsets</source>
+          <target state="translated">Caracteres variados da legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle size</source>
+          <target state="translated">Tamanho da legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionImport.Text" translate="yes" xml:space="preserve">
+          <source>Import external subtitle</source>
+          <target state="translated">Importar legenda externa</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle languages</source>
+          <target state="translated">Idiomas de legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionPosition.Text" translate="yes" xml:space="preserve">
+          <source>Move subtitle position</source>
+          <target state="translated" state-qualifier="mt-suggestion">Mover a posição da legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSetting.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle settings</source>
+          <target state="translated">Configurações das legendas</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle sync</source>
+          <target state="translated">Sincronização da legenda</target>
+        </trans-unit>
+        <trans-unit id="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Close playback window</source>
+          <target state="translated">Fechar janela de reprodução</target>
+        </trans-unit>
+        <trans-unit id="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Decoder</source>
+          <target state="translated" state-qualifier="tm-suggestion">Decodificador</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Display rotation</source>
+          <target state="translated" state-qualifier="mt-suggestion">Exibir a rotação</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise180" translate="yes" xml:space="preserve">
+          <source>Clockwise 180°</source>
+          <target state="translated">180° no sentido horário</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise270" translate="yes" xml:space="preserve">
+          <source>Clockwise 270°</source>
+          <target state="translated">270° no sentido horário </target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise90" translate="yes" xml:space="preserve">
+          <source>Clockwise 90°</source>
+          <target state="translated" state-qualifier="mt-suggestion">Para a direita 90°</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nada</target>
+        </trans-unit>
+        <trans-unit id="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast forward</source>
+          <target state="translated">Avanço rápido</target>
+        </trans-unit>
+        <trans-unit id="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast rewind</source>
+          <target state="translated" state-qualifier="mt-suggestion">Retrocesso rápido</target>
+        </trans-unit>
+        <trans-unit id="FullWindow.Tag" translate="yes" xml:space="preserve">
+          <source>Full screen mode</source>
+          <target state="translated" state-qualifier="tm-suggestion">Modo de tela inteira</target>
+        </trans-unit>
+        <trans-unit id="FullWindow2.Tag" translate="yes" xml:space="preserve">
+          <source>Window mode</source>
+          <target state="translated" state-qualifier="mt-suggestion">Modo de janela</target>
+        </trans-unit>
+        <trans-unit id="HorizontalMirror.Label" translate="yes" xml:space="preserve">
+          <source>Horizontal mirror</source>
+          <target state="translated" state-qualifier="mt-suggestion">Espelho horizontal</target>
+        </trans-unit>
+        <trans-unit id="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Lock control panel</source>
+          <target state="translated">Painel de controle do bloqueio</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback speed (rate)</source>
+          <target state="translated" state-qualifier="mt-suggestion">Velocidade de reprodução (taxa)</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback repeat</source>
+          <target state="translated">Repetir a reprodução</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.All" translate="yes" xml:space="preserve">
+          <source>Infinity</source>
+          <target state="translated" state-qualifier="tm-suggestion">Infinito</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">Nada</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.Once" translate="yes" xml:space="preserve">
+          <source>Once</source>
+          <target state="translated">Uma vez</target>
+        </trans-unit>
+        <trans-unit id="PlayPause.Tag" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated" state-qualifier="tm-suggestion">Executar</target>
+        </trans-unit>
+        <trans-unit id="PlayPause2.Tag" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="translated" state-qualifier="tm-suggestion">Pausar</target>
+        </trans-unit>
+        <trans-unit id="RotationLock.Label" translate="yes" xml:space="preserve">
+          <source>Rotation lock</source>
+          <target state="translated" state-qualifier="tm-suggestion">Bloqueio de rotação</target>
+        </trans-unit>
+        <trans-unit id="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video options</source>
+          <target state="translated" state-qualifier="mt-suggestion">Opções de vídeo</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.BaseFontSize" translate="yes" xml:space="preserve">
+          <source>24</source>
+          <target state="translated" state-qualifier="tm-suggestion">24</target>
+        </trans-unit>
+        <trans-unit id="Explorer.Title.Text" translate="yes" xml:space="preserve">
+          <source>Folders &amp; Files</source>
+          <target state="translated">Pastas &amp; Arquivos</target>
+        </trans-unit>
+        <trans-unit id="Explorer.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Add Folder button (top right) to add the folder that contains the movies.</source>
+          <target state="translated">Clique no botão Adicionar Pasta (superior direito) para adicionar a pasta que contém os filmes.</target>
+        </trans-unit>
+        <trans-unit id="Loading.Playback.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Preparing to play video.</source>
+          <target state="translated">Por favor, espere! Preparando-se para executar o vídeo.</target>
+        </trans-unit>
+        <trans-unit id="UseLimeEngine.Header" translate="yes" xml:space="preserve">
+          <source>Use L:me media component (recommended)</source>
+          <target state="translated">Usar componente de mídia L:me (recomendado)</target>
+        </trans-unit>
+        <trans-unit id="RateReminder.CustomReminderText" translate="yes" xml:space="preserve">
+          <source>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</source>
+          <target state="translated">Parece que você tem usado o aplicativo por um tempo, agora nós adoraríamos ouvir seus comentários. Gostaria de classificar o aplicativo ou fornecer um comentário?</target>
+        </trans-unit>
+        <trans-unit id="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video Zoom In/Out</source>
+          <target state="translated">Zoom do Vídeo Ampliar/Reduzir</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Content" translate="yes" xml:space="preserve">
+          <source>The purchase history of the two products was found as follows: 
+ - {0}
+ - {1}
+You can use without restrictions.</source>
+          <target state="translated">O histórico de compra dos dois produtos foi encontrado da seguinte forma: 
+ - {0}
+ - {1}
+Você pode usar sem restrições.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Title" translate="yes" xml:space="preserve">
+          <source>Congratulations. Migration was successful!</source>
+          <target state="translated">Parabéns! A migração foi bem sucedida.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Button.Retry" translate="yes" xml:space="preserve">
+          <source>Retry</source>
+          <target state="translated" state-qualifier="tm-suggestion">Repetir</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Content" translate="yes" xml:space="preserve">
+          <source>It is no longer available because the trial has expired.</source>
+          <target state="translated">Não está mais disponível porque a versão de testes expirou.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Title" translate="yes" xml:space="preserve">
+          <source>Trial expired.</source>
+          <target state="translated">A versão de testes expirou</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.ExpiredLeftDay.Title" translate="yes" xml:space="preserve">
+          <source>Trial (Left {0} days)</source>
+          <target state="translated">Versão de testes (restante {0} dias)</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Content" translate="yes" xml:space="preserve">
+          <source>Please try again later.</source>
+          <target state="translated" state-qualifier="mt-suggestion">Por favor, tente novamente mais tarde.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Title" translate="yes" xml:space="preserve">
+          <source>The purchase failed.</source>
+          <target state="translated" state-qualifier="mt-suggestion">A compra falhou.</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.IAPs.Button.Text" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated" state-qualifier="tm-suggestion">Comprar</target>
+        </trans-unit>
+        <trans-unit id="Subtitle.Language.Sub.All" translate="yes" xml:space="preserve">
+          <source>Display all</source>
+          <target state="translated" state-qualifier="tm-suggestion">Exibir todos</target>
+        </trans-unit>
+        <trans-unit id="BeginLandscape.Header" translate="yes" xml:space="preserve">
+          <source>Start playback in landscape mode</source>
+          <target state="translated" state-qualifier="mt-suggestion">Iniciar a reprodução em modo paisagem</target>
+        </trans-unit>
+        <trans-unit id="Picker.Choose.Title" translate="yes" xml:space="preserve">
+          <source>Choose an item</source>
+          <target state="translated" state-qualifier="mt-suggestion">Escolha um item</target>
+        </trans-unit>
+        <trans-unit id="Policies.Header.Text" translate="yes" xml:space="preserve">
+          <source>App policies</source>
+          <target state="translated">Políticas do aplicativo</target>
+        </trans-unit>
+        <trans-unit id="Policies.Private.Content" translate="yes" xml:space="preserve">
+          <source>Private policy</source>
+          <target state="translated">Política da privada</target>
+        </trans-unit>
+        <trans-unit id="Exit.Information.Text" translate="yes" xml:space="preserve">
+          <source>Press "Back" once again to exit</source>
+          <target state="translated" state-qualifier="mt-suggestion">Pressione "Voltar" novamente para sair</target>
+        </trans-unit>
+        <trans-unit id="Developer.CheerUp.Content" translate="yes" xml:space="preserve">
+          <source>Cheer up developer</source>
+          <target state="translated" state-qualifier="mt-suggestion">Anime-se desenvolvedor</target>
+        </trans-unit>
+        <trans-unit id="Developer.Donation.Text" translate="yes" xml:space="preserve">
+          <source>Please cheer me up to make a better good CCPlayer</source>
+          <target state="translated">Por favor, me animar para fazer o bom CCPlayer ainda melhor</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Content" translate="yes" xml:space="preserve">
+          <source>Thank you so much! 
+I'll try to make a better CCPlayer. </source>
+          <target state="translated">Muito obrigado! 
+Vou tentar fazer o CCPlayer melhor. </target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thanks for coffee!</source>
+          <target state="translated" state-qualifier="mt-suggestion">Obrigado pelo café!</target>
+        </trans-unit>
+        <trans-unit id="DefaultCharset.Text" translate="yes" xml:space="preserve">
+          <source>Default Character set</source>
+          <target state="translated">Conjunto de Caracteres padrão</target>
+        </trans-unit>
+        <trans-unit id="SuspendToPause.Header" translate="yes" xml:space="preserve">
+          <source>App suspend to pause</source>
+          <target state="translated">Suspender o Aplicativo para pausar</target>
+        </trans-unit>
+        <trans-unit id="DefaultDecoderType.Text" translate="yes" xml:space="preserve">
+          <source>Default decoder</source>
+          <target state="translated">Decodificador padrão</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FailServerAuthentication" translate="yes" xml:space="preserve">
+          <source>The authentication failed. Check your id or password.</source>
+          <target state="new">The authentication failed. Check your id or password.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Password" translate="yes" xml:space="preserve">
+          <source>Please input password.</source>
+          <target state="new">Please input password.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.ServerAddress" translate="yes" xml:space="preserve">
+          <source>Please input server address.</source>
+          <target state="new">Please input server address.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DisconnectedServer" translate="yes" xml:space="preserve">
+          <source>The server connection has been lost. Please reconnect.</source>
+          <target state="new">The server connection has been lost. Please reconnect.</target>
+        </trans-unit>
+        <trans-unit id="Button.Connect.Content" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="translated">Connect</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.UNC.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: \\server\share</source>
+          <target state="new">ex: \\server\share</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FolderPicker.Text" translate="yes" xml:space="preserve">
+          <source>Local folder</source>
+          <target state="new">Local folder</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.UNC.Text" translate="yes" xml:space="preserve">
+          <source>Universal Naming Convention</source>
+          <target state="translated">Convenção de nomenclatura universal (UNC)</target>
+        </trans-unit>
+        <trans-unit id="Server.Connect.General.Text" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="final">Connect</target>
+        </trans-unit>
+        <trans-unit id="Server.Disonnect.General.Text" translate="yes" xml:space="preserve">
+          <source>Disconnect</source>
+          <target state="final">Disconnect</target>
+        </trans-unit>
+        <trans-unit id="Server.Password.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">Password</target>
+        </trans-unit>
+        <trans-unit id="Server.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Connect button (top right) to connect to the server.</source>
+          <target state="new">Click the Connect button (top right) to connect to the server.</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FTP.Text" translate="yes" xml:space="preserve">
+          <source>FTP</source>
+          <target state="final">FTP</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.WebDAV.Text" translate="yes" xml:space="preserve">
+          <source>WebDAV</source>
+          <target state="final">WebDAV</target>
+        </trans-unit>
+        <trans-unit id="Server.Path.WebDAV.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: webdav</source>
+          <target state="new">ex: webdav</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Host.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: my.server.com or 192.168.0.1</source>
+          <target state="new">ex: my.server.com or 192.168.0.1</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFolder.Header" translate="yes" xml:space="preserve">
+          <source>Local folders</source>
+          <target state="new">Local folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFile.Header" translate="yes" xml:space="preserve">
+          <source>DLNA files</source>
+          <target state="new">DLNA files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFolder.Header" translate="yes" xml:space="preserve">
+          <source>DLNA folders</source>
+          <target state="new">DLNA folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFile.Header" translate="yes" xml:space="preserve">
+          <source>FTP files</source>
+          <target state="new">FTP files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFolder.Header" translate="yes" xml:space="preserve">
+          <source>FTP folders</source>
+          <target state="new">FTP folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFile.Header" translate="yes" xml:space="preserve">
+          <source>Local files</source>
+          <target state="new">Local files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFile.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV files</source>
+          <target state="new">WebDAV files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFolder.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV folders</source>
+          <target state="new">WebDAV folders</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.Title.Text" translate="yes" xml:space="preserve">
+          <source>Load unsupported thumbnail</source>
+          <target state="translated">Carragamento de miniatura não suportado</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UserName" translate="yes" xml:space="preserve">
+          <source>Please input user id.</source>
+          <target state="new">Please input user id.</target>
+        </trans-unit>
+        <trans-unit id="Server.UserName.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>User Id</source>
+          <target state="translated">Identificação do Usuário</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.Direct.Text" translate="yes" xml:space="preserve">
+          <source>URL direct play</source>
+          <target state="new">URL direct play</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Subtitle.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable subtitle address.
+(Be careful case sensitive)</source>
+          <target state="new">Direct playable subtitle address.
+(Be careful case sensitive)</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Video.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable video address.
+(Be careful case sensitive)</source>
+          <target state="new">Direct playable video address.
+(Be careful case sensitive)</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptySubtitleUrl" translate="yes" xml:space="preserve">
+          <source>Pelase input subtitle url</source>
+          <target state="new">Pelase input subtitle url</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptyVideoUrl" translate="yes" xml:space="preserve">
+          <source>Please input video url</source>
+          <target state="new">Please input video url</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UnsupportedExtension" translate="yes" xml:space="preserve">
+          <source>Not supported file extension.</source>
+          <target state="new">Not supported file extension.</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitleAd" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Ad</source>
+          <target state="new">CCPlayer UWP Ad</target>
+        </trans-unit>
+        <trans-unit id="Message.Alert.Title" translate="yes" xml:space="preserve">
+          <source>Alert</source>
+          <target state="new">Alert</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialCanceled" translate="yes" xml:space="preserve">
+          <source>Didn't finish ad. Couldn't unlock network playback.</source>
+          <target state="new">Didn't finish ad. Couldn't unlock network playback.</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialFailed" translate="yes" xml:space="preserve">
+          <source>Couldn't unlock playback because ad not supported area or request failed. 
+(Supported countries : Australia, Brazil, Canada, France, Germany, Italy, Japan, Spain, United Kindom, United States)</source>
+          <target state="new">Couldn't unlock playback because ad not supported area or request failed. 
+(Supported countries : Australia, Brazil, Canada, France, Germany, Italy, Japan, Spain, United Kindom, United States)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialQuestion" translate="yes" xml:space="preserve">
+          <source>Watch the video ad to unlock network play. 
+(required internet connection)</source>
+          <target state="new">Watch the video ad to unlock network play. 
+(required internet connection)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialSucceed" translate="yes" xml:space="preserve">
+          <source>Network playback locking was unlocked.</source>
+          <target state="new">Network playback locking was unlocked.</target>
+        </trans-unit>
+        <trans-unit id="Message.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="new">Thank you!</target>
+        </trans-unit>
+        <trans-unit id="Cloud.OneDrive.Text" translate="yes" xml:space="preserve">
+          <source>OneDrive</source>
+          <target state="new">OneDrive</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFile.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive files</source>
+          <target state="new">OneDrive files</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFolder.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive folders</source>
+          <target state="new">OneDrive folders</target>
+        </trans-unit>
+        <trans-unit id="Loading.MediaInformation.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Reading the media information.</source>
+          <target state="new">Please wait... Reading the media information.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.NotImplements" translate="yes" xml:space="preserve">
+          <source>The cause is not yet implemented the the feature by Microsoft.</source>
+          <target state="new">The cause is not yet implemented the the feature by Microsoft.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.XboxIssue" translate="yes" xml:space="preserve">
+          <source>This feature is not yet supported on Xbox.</source>
+          <target state="new">This feature is not yet supported on Xbox.</target>
+        </trans-unit>
+        <trans-unit id="RotationSyncWithDeviceSwitch.Header" translate="yes" xml:space="preserve">
+          <source>Use rotate regardless device settings</source>
+          <target state="new">Use rotate regardless device settings</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

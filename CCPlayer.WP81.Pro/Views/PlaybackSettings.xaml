@@ -1,0 +1,82 @@
+﻿<UserControl
+    x:Class="CCPlayer.WP81.Views.PlaybackSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.WP81.Views"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:velostep="using:Velostep.Xaml.Controls"
+    xmlns:helper="using:CCPlayer.WP81.Helpers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding PlaybackSetting, Source={StaticResource Locator}}"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <StackPanel>
+        <!-- Flip to pause -->
+        <ToggleSwitch x:Name="FlipToPauseSwitch" 
+                      x:Uid="FlipToPause"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding UseFlipToPause, Mode=TwoWay}">
+            <i:Interaction.Behaviors>
+                <ic:EventTriggerBehavior EventName="Toggled">
+                    <ic:InvokeCommandAction Command="{Binding ToggledCommand}" CommandParameter="FlipToPause" />
+                </ic:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </ToggleSwitch>
+        <!-- Seek Interval-->
+        <Grid Margin="0,0,0,6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Uid="SeekTimeInterval" 
+                       Text="시크 타임 간격"
+                       Grid.Row="0"
+                       Foreground="{ThemeResource ToggleSwitchHeaderForegroundThemeBrush}" 
+                       FontSize="{StaticResource TextStyleMediumFontSize}" />
+            <ComboBox Grid.Row="1"
+                      ItemsSource="{Binding SeekTimeIntervalSource}"
+                      SelectedValue="{Binding Settings.Playback.SeekTimeInterval, Mode=TwoWay}"
+                      DisplayMemberPath="Name"
+                      SelectedValuePath="Key">
+            </ComboBox>
+        </Grid>
+        <!-- Remove Completed palyback playlist -->
+        <ToggleSwitch x:Name="RemoveCompletedVideoSwitch"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding Settings.Playback.RemoveCompletedVideo, Mode=TwoWay}">
+            <ToggleSwitch.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock x:Uid="RemoveCompletedVideo"
+                               TextWrapping="Wrap"
+                               Margin="0,0,-110,0"/>
+                </DataTemplate>
+            </ToggleSwitch.HeaderTemplate>
+        </ToggleSwitch>
+        <!-- Use MS MediaElement -->
+        <ToggleSwitch x:Name="ForceUseMediaElementSwitch"
+                      x:Uid="ForceUseMediaElement"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding Settings.Playback.ForceUseMediaElement, Mode=TwoWay}"/>
+        <!-- Optimize entry device -->
+        <ToggleSwitch x:Name="OptimizeEntryModelSwitch"
+                      x:Uid="OptimizeEntryModel"
+                      IsEnabled="{Binding Settings.Playback.ForceUseMediaElement}"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding Settings.Playback.UseOptimizationEntryModel, Mode=TwoWay}"/>
+        <!-- Auto play next file -->
+        <ToggleSwitch x:Name="UseConfirmNextPlaySwitch"
+                      x:Uid="UseConfirmNextPlay"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding Settings.Playback.UseConfirmNextPlay, Mode=TwoWay}" />
+
+        <!-- Convert Color space module -->
+        <ToggleSwitch x:Name="UseGpuShaderSwitch"
+                      x:Uid="UseGpuShader"
+                      FontSize="{StaticResource TextStyleLargeFontSize}"
+                      IsOn="{Binding Settings.Playback.UseGpuShader, Mode=TwoWay}"/>
+    </StackPanel>
+</UserControl>

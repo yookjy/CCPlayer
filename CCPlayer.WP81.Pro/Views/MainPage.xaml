@@ -1,0 +1,506 @@
+﻿<Page
+    x:Name="Main"
+    x:Class="CCPlayer.WP81.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.WP81.Views"
+    xmlns:ad="using:CCPlayer.WP81.Views.Advertising"
+    xmlns:ap="using:AppPromo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:converter="using:CCPlayer.WP81.Converters"
+    xmlns:lime="using:Lime.Xaml.Controls"
+    xmlns:helper="using:CCPlayer.WP81.Helpers"
+    xmlns:common="using:CCPlayer.WP81.Views.Common"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <CommonNavigationTransitionInfo IsStaggeringEnabled="True"/>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <Page.Resources>
+        <converter:InverseBooleanConverter x:Key="InverseBooleanConverter" />
+        <converter:TimeConverter x:Key="TimeConverter" />
+        <converter:VisibilityConverter x:Key="VisibilityConverter"/>
+        <converter:SelectionModeToBoolConverter x:Key="SelectionModeToBoolConverter" />
+
+        <Style x:Key="HubSectionHeaderStyle" TargetType="HubSection">
+            <Setter Property="HeaderTemplate" >
+                <Setter.Value>
+                    <DataTemplate>
+                        <Grid Width="{Binding DataContext.HubWidth, ElementName=AllVideoSection}">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock x:Uid="AllVideo"
+                                       Foreground="{StaticResource Foreground}"
+                                       FontSize="{StaticResource HubSectionHeaderFontSize}" />
+                            <StackPanel Grid.ColumnSpan="2" Grid.Row="1" Margin="0,6,0,-36">
+                                <TextBlock Text="{Binding DataContext.SearchFolderPath, ElementName=AllVideoSection}"
+                                           Margin="6,0,0,0"
+                                           Visibility="{Binding DataContext.SearchFolderPathVisibility, ElementName=AllVideoSection}" 
+                                           Foreground="{StaticResource SubForeground}"
+                                           FontSize="{StaticResource TextStyleSmallFontSize}" />
+                                <ProgressBar Margin="0,6,0,0"
+                                             IsIndeterminate="True" 
+                                             Visibility="{Binding DataContext.SearchFolderPathVisibility, ElementName=AllVideoSection}" 
+                                             Width="{Binding DataContext.HubWidth, ElementName=AllVideoSection}"/>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate x:Key="PlayedFileItemTemplate">
+            <Grid Margin="0,0,0,15" >
+                <Grid.ChildrenTransitions>
+                    <TransitionCollection>
+                        <EntranceThemeTransition FromHorizontalOffset="150"/>
+                    </TransitionCollection>
+                </Grid.ChildrenTransitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Grid HorizontalAlignment="Left" 
+                          Width="{StaticResource ThumbnailWidth}" 
+                          Height="{StaticResource FolderHeight}">
+                        <Grid.ChildrenTransitions>
+                            <TransitionCollection>
+                                <AddDeleteThemeTransition />
+                            </TransitionCollection>
+                        </Grid.ChildrenTransitions>
+                        <Rectangle Fill="{StaticResource FolderBackground}" />
+                        <Image Source="{Binding Thumbnail}"  
+                               Margin="0" 
+                               VerticalAlignment="Center" 
+                               HorizontalAlignment="Center" />
+                        <Grid Margin="3"
+                              HorizontalAlignment="Left"
+                              VerticalAlignment="Top"
+                              Visibility="{Binding SubtitleExt, Converter={StaticResource VisibilityConverter}}">
+                            <Border CornerRadius="2" 
+                                    Opacity="0.7"
+                                    Background="{StaticResource SubForeground}" />
+                            <TextBlock Text="{Binding SubtitleExt}"
+                                       FontSize="8"
+                                       Padding="3,1"  
+                                       Foreground="White" 
+                                       FontWeight="ExtraBold"
+                                       Grid.Column="1"
+                                       Grid.Row="1"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       FontFamily="{StaticResource FontFamily}" />
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Column="1"
+                          Margin="6,0,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.ColumnSpan="2"
+                                   Foreground="{StaticResource Foreground}"
+                                   FontSize="{StaticResource TextStyleMediumFontSize}"
+                                   TextWrapping="Wrap"
+                                   FontWeight="Medium"
+                                   FontFamily="{StaticResource FontFamily}">
+                            <Run Text="{Binding OccuredError}" 
+                                 FontSize="12"
+                                 Foreground="{StaticResource SubForeground}" 
+                                 FontWeight="Bold" />
+                            <Run Text="{Binding Name}"  />
+                        </TextBlock>
+                        <TextBlock Text="{Binding Size, Converter={StaticResource FileSizeConverter}}"
+                               Foreground="{StaticResource Foreground}"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Left"
+                               Grid.Row="1"
+                               FontFamily="{StaticResource FontFamily}"/>
+                        <StackPanel Orientation="Horizontal"
+						            HorizontalAlignment="Right"
+                                    Grid.Column="1"
+                                    Grid.Row="1">
+                            <TextBlock Text="{Binding PausedTime, Converter={StaticResource TimeConverter}}"
+						               Foreground="{StaticResource Foreground}"
+						               FontWeight="SemiBold"
+						               Grid.Column="2" FontFamily="{StaticResource FontFamily}" />
+                            <TextBlock Text="/" 
+						               Foreground="{StaticResource Foreground}"
+						               Margin="3,0"/>
+                            <TextBlock Text="{Binding RunningTime, Converter={StaticResource TimeConverter}}"
+						               Foreground="{StaticResource Foreground}"
+						               FontWeight="Medium"
+						               Grid.Column="2" FontFamily="{StaticResource FontFamily}" />
+                        </StackPanel>
+                    </Grid>
+                    <ProgressBar Margin="6,6,6,0" 
+                                 Grid.Row="1"
+                                 Grid.ColumnSpan="2"
+					             Value="{Binding PlaybackProgress}" 
+					             IsEnabled="False" FontFamily="{StaticResource FontFamily}" />
+                </Grid>
+            </Grid>
+        </DataTemplate>
+
+    </Page.Resources>
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="CmdBar" Visibility="Collapsed"
+                    ClosedDisplayMode="Minimal" Opacity="0.7" >
+            <CommandBar.SecondaryCommands>
+                <AppBarButton x:Name="RemoveAds" x:Uid="RemoveAds" Label="광고 제거" />
+                <AppBarButton x:Name="UnlockFeatures" x:Uid="UnlockFeatures" Label="Pro 기능 잠금해제" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+    
+    <Grid x:Name="LayoutRoot" 
+          DataContext="{Binding Main, Source={StaticResource Locator}}"
+          Background="{StaticResource Background}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <ap:RateReminder x:Name="RateReminder"
+                         RunsBeforeReminder="5"
+                         DaysBeforeReminder="5"/>
+        <!--Margin="0,24,0,56"-->
+        <Hub x:Name="MainHub" 
+             DefaultSectionIndex="{Binding Settings.General.StartUpSection}"
+             Margin="0,12,0,6"  
+             Foreground="{StaticResource Foreground}">
+            <i:Interaction.Behaviors>
+                <ic:EventTriggerBehavior EventName="SectionsInViewChanged">
+                    <ic:InvokeCommandAction Command="{Binding SectionsInViewChangedCommand}"/>
+                </ic:EventTriggerBehavior>
+            </i:Interaction.Behaviors>
+            <!-- 탐색기 -->
+            <Hub.HeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Uid="MainHub" FontSize="56" FontWeight="Normal"/>
+                        <TextBlock Text="{Binding AppVersion}" 
+                                   Margin="12,0,0,3" 
+                                   Opacity="0.6" 
+                                   FontWeight="Normal" 
+                                   FontSize="42" 
+                                   VerticalAlignment="Bottom" />
+                    </StackPanel>
+                </DataTemplate>
+            </Hub.HeaderTemplate>
+            <HubSection x:Uid="Explorer"
+                        x:Name="ExplorerSection"
+                        Foreground="{StaticResource Foreground}"
+                        DataContext="{Binding Explorer, Source={StaticResource Locator}}">
+                <DataTemplate>
+                    <Grid>
+                        <ScrollViewer VerticalScrollMode="Auto">
+                            <StackPanel>
+                                <ListView x:Name="ExplorerFolderListView"
+                                        ItemsSource="{Binding ExplorerFolderSource}"
+                                        IsItemClickEnabled ="true"
+                                        ItemContainerStyle="{StaticResource MediaFileItemContainerStyle}">
+                                    <i:Interaction.Behaviors>
+                                        <ic:EventTriggerBehavior EventName="ItemClick">
+                                            <ic:InvokeCommandAction Command="{Binding FolderClickCommand}" />
+                                        </ic:EventTriggerBehavior>
+                                    </i:Interaction.Behaviors>
+                                    <ListView.ItemTemplate>
+                                        <DataTemplate>
+                                            <local:FolderButton IsHighlight="{Binding IsHighlight}" 
+                                                                Margin="0,0,0,15" 
+                                                                ErrorText="{Binding OccuredError}"
+                                                                Text="{Binding Name}"
+                                                                Glyph1="{Binding Glyph1}"
+                                                                Glyph2="{Binding Glyph2}"
+                                                                FolderType="{Binding Type}"
+                                                                Command1="{Binding ButtonTappedCommand1}"
+                                                                Command2="{Binding ButtonTappedCommand2}"
+                                                                Height="{StaticResource FolderHeight}"/>
+                                        </DataTemplate>
+                                    </ListView.ItemTemplate>
+                                </ListView>
+                                <!--                                               -->
+                                <ListView x:Name="ExplorerFileListView"
+                                          SelectionMode="{Binding SelectionMode, Mode=TwoWay}"
+                                          ItemsSource="{Binding ExplorerFileSource}"
+                                          SelectedItem="{Binding SelectedFileItem, Mode=TwoWay}"
+                                          IsItemClickEnabled ="{Binding SelectionMode, Converter={StaticResource SelectionModeToBoolConverter}}"
+                                          ItemTemplate="{StaticResource FileItemTemplate}" 
+                                          ItemContainerStyle="{StaticResource MediaFileItemContainerStyle}">
+                                    <i:Interaction.Behaviors>
+                                        <ic:EventTriggerBehavior EventName="ItemClick">
+                                            <ic:InvokeCommandAction Command="{Binding FileClickCommand}" />
+                                        </ic:EventTriggerBehavior>
+                                        <ic:EventTriggerBehavior EventName="SelectionChanged">
+                                            <ic:InvokeCommandAction Command="{Binding ExplorerFileSelectionChangedCommand}" />
+                                        </ic:EventTriggerBehavior>
+                                    </i:Interaction.Behaviors>
+                                </ListView>
+                            </StackPanel>
+                        </ScrollViewer>
+                        <local:HubButtonGroup Visible="{Binding ButtonGroupVisible}"
+                                              Glyph1="&#xE133;"
+                                              SymbolScale1="0.8"
+                                              Command1="{Binding CheckListButtonClickCommand}"
+                                              IsEnable1="{Binding CheckListButtonEnable}"
+                                              Glyph2="&#xE117;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SynchronizeButtonClickCommand}"
+                                              Glyph3="&#xE115;"
+                                              SymbolScale3="1.05"
+                                              Command3="{Binding Main.NavigateToSettingsCommand, Source={StaticResource Locator}}" />
+                        <local:HubButtonGroup Visible="{Binding ButtonGroupVisible, Converter={StaticResource InverseBooleanConverter}}"
+                                              Glyph1="&#xE112;"
+                                              SymbolScale1="0.9"
+                                              Command1="{Binding BackButtonClickCommand}"
+                                              CommandParam1="{Binding ElementName=ExplorerFileListView}"
+                                              Glyph2="&#xE0A2;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SelectAllButtonClickCommand}"
+                                              CommandParam2="{Binding ElementName=ExplorerFileListView}"
+                                              Glyph3="&#xE29B;"
+                                              SymbolScale3="1.1"
+                                              Command3="{Binding PlayButtonClickCommand}"
+                                              CommandParam3="{Binding ElementName=ExplorerFileListView}"
+                                              IsEnable3="{Binding PlayButtonEnable}"/>
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <!-- 모든 비디오 -->
+            <HubSection x:Name="AllVideoSection" 
+                        Style="{StaticResource HubSectionHeaderStyle}"
+                        Foreground="{StaticResource Foreground}"
+                        DataContext="{Binding AllVideo, Source={StaticResource Locator}}" >
+                <DataTemplate>
+                    <Grid>
+                        <SemanticZoom Style="{StaticResource AlphaJumpListStyle}"
+                                    Margin="6,0,0,0">
+                            <SemanticZoom.ZoomedInView>
+                                <ListView x:Name="AllVideoListView"
+                                          SelectionMode="{Binding SelectionMode, Mode=TwoWay}"
+                                          ItemsSource="{Binding AllVideoCollection.View}"
+                                          SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+                                          IsItemClickEnabled ="{Binding SelectionMode, Converter={StaticResource SelectionModeToBoolConverter}}"
+                                          ItemTemplate="{StaticResource FileItemTemplate}"
+                                          ItemContainerStyle="{StaticResource MediaFileItemContainerStyle}">
+                                    <ListView.GroupStyle>
+                                        <GroupStyle HeaderTemplate="{StaticResource AlphaGroupHeaderTemplate}"
+                                                HeaderContainerStyle="{StaticResource JumpListListHeaderContainerStyle}"
+                                                HidesIfEmpty="True" />
+                                    </ListView.GroupStyle>
+                                    <i:Interaction.Behaviors>
+                                        <ic:EventTriggerBehavior EventName="ItemClick">
+                                            <ic:InvokeCommandAction Command="{Binding ItemClickCommand}" />
+                                        </ic:EventTriggerBehavior>
+                                        <ic:EventTriggerBehavior EventName="SelectionChanged">
+                                            <ic:InvokeCommandAction Command="{Binding SelectionChangedCommand}" />
+                                        </ic:EventTriggerBehavior>
+                                    </i:Interaction.Behaviors>
+                                </ListView>
+                            </SemanticZoom.ZoomedInView>
+                            <SemanticZoom.ZoomedOutView>
+                                <GridView ItemsSource="{Binding AllVideoCollection.View.CollectionGroups}"
+                                        Style="{StaticResource AlphaJumpListPickerStyle}" />
+                            </SemanticZoom.ZoomedOutView>
+                        </SemanticZoom>
+                        <local:HubButtonGroup Visible="{Binding ButtonGroupVisible}"
+                                              Glyph1="&#xE133;"
+                                              SymbolScale1="0.8"
+                                              Command1="{Binding CheckListButtonClickCommand}"
+                                              IsEnable1="{Binding CheckListButtonEnable}"
+                                              Glyph2="&#xE117;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SynchronizeButtonClickCommand}"
+                                              IsEnable2="{Binding SynchronizeButtonEnable}"
+                                              Glyph3="&#xE11A;"
+                                              SymbolScale3="1.1"
+                                              Command3="{Binding MediaSearchButtonClickCommand}"
+                                              IsEnable3="{Binding MediaSearchButtonEnable}"
+                                              Glyph4="&#xE115;"
+                                              SymbolScale4="1.05"
+                                              Command4="{Binding Main.NavigateToSettingsCommand, Source={StaticResource Locator}}" />
+                        <local:HubButtonGroup Visible="{Binding ButtonGroupVisible, Converter={StaticResource InverseBooleanConverter}}"
+                                              Glyph1="&#xE112;"
+                                              SymbolScale1="0.9"
+                                              Command1="{Binding BackButtonClickCommand}"
+                                              CommandParam1="{Binding ElementName=AllVideoListView}"
+                                              Glyph2="&#xE0A2;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SelectAllButtonClickCommand}"
+                                              CommandParam2="{Binding ElementName=AllVideoListView}"
+                                              Glyph3="&#xE29B;"
+                                              SymbolScale3="1.1"
+                                              Command3="{Binding PlayButtonClickCommand}"
+                                              CommandParam3="{Binding ElementName=AllVideoListView}"
+                                              IsEnable3="{Binding PlayButtonEnable}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <!-- 재생목록 -->
+            <HubSection x:Uid="Playlist"
+                        x:Name="PlaylistSection"
+                        Foreground="{StaticResource Foreground}"
+                        DataContext="{Binding Playlist, Source={StaticResource Locator}}">
+
+                <DataTemplate>
+                    <Grid>
+                        <ListView x:Name="PlaylistListView"
+                                  ReorderMode="{Binding ReorderMode, Mode=TwoWay}"
+                                  SelectionMode="{Binding SelectionMode, Mode=TwoWay}"
+                                  ItemsSource="{Binding PlaylistSource}"
+                                  SelectedItem="{Binding SelectedItem, Mode=TwoWay}"  
+                                  IsItemClickEnabled ="{Binding SelectionMode, Converter={StaticResource SelectionModeToBoolConverter}}"
+                                  ItemTemplate="{StaticResource PlayedFileItemTemplate}" 
+                                  ItemContainerStyle="{StaticResource MediaFileItemContainerStyle}">
+                            <i:Interaction.Behaviors>
+                                <ic:EventTriggerBehavior EventName="ItemClick">
+                                    <ic:InvokeCommandAction Command="{Binding ItemClickCommand}" />
+                                </ic:EventTriggerBehavior>
+                                <ic:EventTriggerBehavior EventName="SelectionChanged">
+                                    <ic:InvokeCommandAction Command="{Binding SelectionChangedCommand}" />
+                                </ic:EventTriggerBehavior>
+                            </i:Interaction.Behaviors>
+                        </ListView>
+                        <local:HubButtonGroup Visible="{Binding MainButtonGroupVisible}"
+                                              Glyph1="&#xE133;"
+                                              SymbolScale1="0.8"
+                                              Command1="{Binding CheckListButtonClickCommand}"
+                                              IsEnable1="{Binding CheckListButtonEnable}"
+                                              Glyph2="&#xE117;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SynchronizeButtonClickCommand}"
+                                              Glyph3="&#xE174;"
+                                              SymbolScale3="1.05"
+                                              Command3="{Binding ReorderButtonClickCommand}" 
+                                              IsEnable3="{Binding ReorderButtonEnable}"
+                                              Glyph4="&#xE115;"
+                                              SymbolScale4="1.05"
+                                              Command4="{Binding Main.NavigateToSettingsCommand, Source={StaticResource Locator}}" />
+                        <local:HubButtonGroup Visible="{Binding CheckListButtonGroupVisible}"
+                                              Glyph1="&#xE112;"
+                                              SymbolScale1="0.9"
+                                              Command1="{Binding BackButtonClickCommand}"
+                                              CommandParam1="{Binding ElementName=PlaylistListView}"
+                                              Glyph2="&#xE0A2;"
+                                              SymbolScale2="0.75"
+                                              Command2="{Binding SelectAllButtonClickCommand}"
+                                              CommandParam2="{Binding ElementName=PlaylistListView}"
+                                              Glyph3="&#xE121;"
+                                              SymbolScale3="1.1"
+                                              Command3="{Binding ResetPositionClickCommand}"
+                                              CommandParam3="{Binding ElementName=PlaylistListView}"
+                                              IsEnable3="{Binding RemoveButtonEnable}"
+                                              Glyph4="&#xE107;"
+                                              SymbolScale4="1.1"
+                                              Command4="{Binding RemoveButtonClickCommand}"
+                                              CommandParam4="{Binding ElementName=PlaylistListView}"
+                                              IsEnable4="{Binding RemoveButtonEnable}"/>
+                        <local:HubButtonGroup Visible="{Binding ReorderButtonGroupVisible}"
+                                              Glyph1="&#xE112;"
+                                              SymbolScale1="0.9"
+                                              Command1="{Binding BackButtonClickCommand}"
+                                              CommandParam1="{Binding ElementName=PlaylistListView}"
+                                              Glyph2="&#xE10B;"
+                                              SymbolScale2="1"
+                                              Command2="{Binding AcceptButtonClickCommand}"
+                                              CommandParam2="{Binding ElementName=PlaylistListView}" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <!-- 앱 정보 -->
+            <HubSection x:Uid="About"
+                        x:Name="AboutSection"
+                        Foreground="{StaticResource Foreground}"
+                        DataContext="{Binding About, Source={StaticResource Locator}}">
+                <DataTemplate>
+                    <lime:AppInfomation CreatorList="{Binding CreatorList}"
+                                            WhatsNewList="{Binding WhatsNewList}"
+                                            CreditsList="{Binding CreditsList}"
+                                            PaidAppId="{Binding PaidAppId}"
+                                            FacebookId="{Binding FacebookId}"
+                                            ItemBackgroundColor="{StaticResource FolderBackground}" >
+                        <i:Interaction.Behaviors>
+                            <ic:EventTriggerBehavior EventName="FlyoutOpened">
+                                <ic:InvokeCommandAction Command="{Binding DataContext.FlyoutOpenedCommand, ElementName=AboutSection}" />
+                            </ic:EventTriggerBehavior>
+                        </i:Interaction.Behaviors>
+                    </lime:AppInfomation>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+
+        <Grid x:Name="AdPanel" Grid.Row="1" Margin="0,0,0,0">
+            <ad:AdMainPage />
+        </Grid>
+        <!-- 검색 패널 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 검색 버튼 클릭시로 이전하자..........!!!!!!!!!!!!!!!!!!!!!-->
+        <!--<local:MediaSearch Visibility="Collapsed">
+            <i:Interaction.Behaviors>
+                <ic:DataTriggerBehavior ComparisonCondition="Equal" Value="True" Binding="{Binding IsSearchOpened}" >
+                    <ic:ChangePropertyAction PropertyName="IsSearchOpened" Value="True" TargetObject="{Binding Main, Source={StaticResource Locator}}" />
+                </ic:DataTriggerBehavior>
+                <ic:DataTriggerBehavior ComparisonCondition="Equal" Value="False" Binding="{Binding IsSearchOpened}" >
+                    <ic:ChangePropertyAction PropertyName="IsSearchOpened" Value="False" TargetObject="{Binding Main, Source={StaticResource Locator}}" />
+                </ic:DataTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </local:MediaSearch>-->
+
+        <!-- 재생 패널 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 재생 요청시로 이전하자..........!!!!!!!!!!!!!!!!!!!!!!! -->
+        <!--<local:CCPlayerElement Visibility="Collapsed" >
+            --><!-- 변경상태를 메인 VM에 전달 --><!--
+            <i:Interaction.Behaviors>
+                <ic:DataTriggerBehavior ComparisonCondition="Equal" Value="True" Binding="{Binding IsPlayerOpened}" >
+                    <ic:ChangePropertyAction PropertyName="IsPlayerOpened" Value="True" TargetObject="{Binding Main, Source={StaticResource Locator}}" />
+                </ic:DataTriggerBehavior>
+                <ic:DataTriggerBehavior ComparisonCondition="Equal" Value="False" Binding="{Binding IsPlayerOpened}" >
+                    <ic:ChangePropertyAction PropertyName="IsPlayerOpened" Value="False" TargetObject="{Binding Main, Source={StaticResource Locator}}" />
+                </ic:DataTriggerBehavior>
+            </i:Interaction.Behaviors>
+        </local:CCPlayerElement>-->
+
+        <local:CCPlayerElement Visibility="Collapsed"
+                               Width="320"
+                               Height="180"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Bottom" 
+                               Grid.RowSpan="2" />
+        
+        <local:AllSettings Visibility="Collapsed" Grid.RowSpan="2" />
+
+        <lime:LoadingPanel Grid.RowSpan="2"
+                           IsDependOnParent="False"
+                           IsShow="{Binding LoadingPanelVisible}"
+                           Text="{Binding LoadingPanelText}"
+                           ProgressMode="Ring"
+                           BackgroundOpactiy="0.5"/>
+        
+    </Grid>
+    
+</Page>

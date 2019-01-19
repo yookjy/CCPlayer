@@ -1,0 +1,194 @@
+﻿<UserControl
+    x:Name="GeneralSetting"
+    x:Class="CCPlayer.UWP.Views.Controls.GeneralSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.UWP.Views.Controls"
+    xmlns:converter="using:CCPlayer.UWP.Converters"
+    xmlns:model="using:CCPlayer.UWP.Xaml.Controls"
+    xmlns:lime="using:Lime.Xaml.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding GeneralSetting, Source={StaticResource Locator}}"
+    d:DesignHeight="1000"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <converter:FileSizeConverter x:Key="FileSizeConverter" />
+        <converter:BooleanToObjectConverter x:Key="BooleanToObjectConverter" />
+
+        <Style x:Key="InnerToggleSwitchStyle" TargetType="ToggleSwitch" BasedOn="{StaticResource ToggleSwitchStyle}">
+            <Setter Property="Margin" Value="0,6"/>
+        </Style>
+
+        <Style x:Key="SettingItemListContainerStyle" TargetType="GridViewItem" >
+            <Setter Property="Margin" Value="6,0" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+        </Style>
+
+        <Style x:Key="SettingItemTileContainerStyle" TargetType="GridViewItem" BasedOn="{StaticResource SettingItemListContainerStyle}">
+            <Setter Property="Margin" Value="0" />
+        </Style>
+
+        <!--<DataTemplate x:Key="SettingItemTileStyleTemplate" x:DataType="model:MenuItem">
+            <Grid>
+                <Grid Tapped="{x:Bind ItemTapped}" Background="Transparent">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <FontIcon Grid.Row="0"
+                              Glyph="{x:Bind Glyph}"
+                              VerticalAlignment="Bottom"
+                              HorizontalAlignment="Center"
+                              Foreground="{StaticResource SystemControlForegroundAccentBrush}"
+                              FontSize="42" />
+                    <StackPanel Grid.Row="1" Padding="6,12,6,0"
+                                VerticalAlignment="Top"
+                                HorizontalAlignment="Center">
+                        <TextBlock Text="{Binding Name}" Style="{StaticResource SettingItemTextBaseStyle}" />
+                        <TextBlock Text="{Binding Description}" Style="{StaticResource SettingItemTextSubStyle}"/>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </DataTemplate>-->
+
+        <DataTemplate x:Key="SettingItemListStyleTemplate" x:DataType="model:KeyName">
+            <Grid>
+                <CheckBox IsChecked="{x:Bind Key, Mode=TwoWay, Converter={StaticResource BooleanToObjectConverter}}" 
+                          Content="{x:Bind Name}"
+                          Tapped="{x:Bind ItemTapped}"
+                          Width="125"></CheckBox>
+            </Grid>
+        </DataTemplate>
+
+    </UserControl.Resources>
+
+    <ScrollViewer>
+        <StackPanel>
+            <!-- 테마 -->
+            <Grid Margin="0,6,0,18"
+                      x:Name="ThemeComboBox">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="Theme/Header" 
+                           Text="[테마]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <ComboBox x:Name="ThemeList"
+                          Grid.Row="1"
+                          Margin="0,6"
+                          ItemsSource="{Binding ThemeSource}"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Key"
+                          SelectedValue="{Binding Settings.General.Theme, Mode=TwoWay}">
+                </ComboBox>
+            </Grid>
+            <!-- 비디오메뉴에서 H/W Back Button 사용 -->
+            <ToggleSwitch x:Name="HardwareBackButtonInExplorerSwitch" 
+                          x:Uid="HardwareBackButtonWithinVideo"
+                          Header="[비디오메뉴에서 H/W Back Button 사용]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.General.UseHardwareBackButtonWithinVideo, Mode=TwoWay}"/>
+            <!-- 장치설정에 독립적인 회전잠금 사용 -->
+            <!--<ToggleSwitch x:Uid="RotationSyncWithDeviceSwitch"
+                          Header="[장치설정에 독립적인 회전잠금 사용]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.General.UseIndependentRotationLock, Mode=TwoWay}"/>-->
+            <!-- 지원되지 않는 로컬 썸네일 로드 -->
+            <Grid Margin="0,6,0,18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="Thumbnail/Unsupported/Title" 
+                           Text="[지원되지 않는 썸네일 로드]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <ScrollViewer Grid.Row="1" HorizontalScrollMode="Disabled" HorizontalScrollBarVisibility="Disabled" >
+                    <GridView x:Name="SettingGridView" 
+                          SelectionMode="None"
+                          ItemsSource="{x:Bind Vm.UnsupportedThumbnailSource}"
+                          ItemTemplate="{StaticResource SettingItemListStyleTemplate}"
+                          ItemContainerStyle="{StaticResource SettingItemListContainerStyle}">
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <ItemsWrapGrid x:Name="SettingItemsWrapGrid" 
+                                               Orientation="Horizontal"
+                                               HorizontalAlignment="Stretch"
+                                               VerticalAlignment="Stretch"
+                                               MaximumRowsOrColumns="4">
+                                </ItemsWrapGrid>
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+                </ScrollViewer>
+            </Grid>
+            <!-- 썸네일 캐시 보관 주기 -->
+            <Grid Margin="0,6,0,18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="Thumbnail/Retention/Period" 
+                           Text="[썸네일 보관 주기]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <ComboBox x:Name="ThumbnailRetentionPeriodList"
+                          Grid.Row="1"
+                          Margin="0,6"
+                          ItemsSource="{Binding ThumbnailRetentionPeriodSource}"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Key"
+                          SelectedValue="{Binding Settings.Thumbnail.RetentionPeriod, Mode=TwoWay}">
+                </ComboBox>
+            </Grid>
+            <!-- 썸네일 캐시 정리 -->
+            <Grid Margin="0,6,0,18"
+                  Loaded="{x:Bind Vm.LoadedEventHandler}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock x:Uid="Thumbnail/Retention/Size" 
+                           Text="[디스크 사용량]"
+                           Grid.Row="0"
+                           Grid.ColumnSpan="2"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <TextBlock Grid.Column="0"
+                           Grid.Row="1"
+                           HorizontalAlignment="Right"
+                           Text="{x:Bind Vm.ThumbnailRetentionSize, Mode=OneWay, Converter={StaticResource FileSizeConverter}, ConverterParameter=true}" 
+                           Foreground="{ThemeResource SystemControlForegroundAccentBrush}"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <Button x:Uid="Button/Clear"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        Tapped="{x:Bind Vm.ClearThumbnailCacheTappedEventHandler}"
+                        Margin="12,0,0,0"/>
+            </Grid>
+            <!-- 설정 초기화 -->
+            <!--<Grid Margin="0,6,0,18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="[모든 설정 초기화]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <Button Content="[초기화]"
+                        Grid.Row="1"
+                        Tapped="{x:Bind Vm.ResetSettingsTappedEventHandler}"
+                        Margin="0,0,0,0"/>
+            </Grid>-->
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

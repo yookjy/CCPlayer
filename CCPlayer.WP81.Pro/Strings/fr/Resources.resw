@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Header" xml:space="preserve">
+    <value>à propos</value>
+  </data>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>acheter la version pro</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>version &amp; developpeurs</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>crédits</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>design</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>developpement</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>support &amp; retours</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>Merci aux créateurs des bibliothèques logicielles suivantes</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>évaluer &amp; commenter</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>partager cette application</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>remerciements particuliers</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>quoi de neuf</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Ajouter une ombre</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>taille de police</value>
+  </data>
+  <data name="FontSizeOverride.Header" xml:space="preserve">
+    <value>Remplacement de la taille de police </value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>style de police</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Remplacement du style de police </value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>épaisseur de police</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>CCPlayer - paramètres</value>
+  </data>
+  <data name="Settings.SubtitleFont.Text" xml:space="preserve">
+    <value>sous-titres</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Ajouter un arrière plan aux sous-titres</value>
+  </data>
+  <data name="Settings.Appbar.Label" xml:space="preserve">
+    <value>paramètres</value>
+  </data>
+  <data name="Message.Delete.List" xml:space="preserve">
+    <value>Etes vous sûr de vouloir supprimer la vidéo selectionnée dans le {0}?</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>Remonter</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>quoi de neuf</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>crédits</value>
+  </data>
+  <data name="AllVideo.Text" xml:space="preserve">
+    <value>toutes les vidéos</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>explorateur</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>chargement {0}...</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>vidéo</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="Message.Exit" xml:space="preserve">
+    <value>Etes vous sûr de vouloir quitter CCPlayer? </value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>complet
+</value>
+  </data>
+  <data name="UpdateHistory00001" xml:space="preserve">
+    <value>Première version</value>
+  </data>
+  <data name="NotSupportedAudioCodec" xml:space="preserve">
+    <value>Codec audio non reconnu.
+</value>
+  </data>
+  <data name="NotSupportedAudioLicenseCodec" xml:space="preserve">
+    <value>Ce codec audio a une licence {0}.</value>
+  </data>
+  <data name="NotSupportedVideoCodec" xml:space="preserve">
+    <value>Codec vidéo non reconnu.</value>
+  </data>
+  <data name="WrongFileFormat" xml:space="preserve">
+    <value>Format de fichier erronné</value>
+  </data>
+  <data name="Message.Error.Cluster" xml:space="preserve">
+    <value>Une partier du fichier MKV est endommagée. Avancer à une partie qui peut être lue...</value>
+  </data>
+  <data name="Message.Info.Play.NoItems" xml:space="preserve">
+    <value>Il n'y a plus rien à lire dans la playlist.</value>
+  </data>
+  <data name="Message.Confirm.Play.Suspended" xml:space="preserve">
+    <value>Cette vidéo est en pause à {0} / {1}</value>
+  </data>
+  <data name="Message.Info.Encoding.Fail" xml:space="preserve">
+    <value>Echec de detection de l'encodage du sous-titre.
+Si vous ne reconnaissez pas les caractères, changer les paramètres d'encodage des sous-titres. 😉</value>
+  </data>
+  <data name="Message.Info.Seek.Create" xml:space="preserve">
+    <value>Données de recherche créées...</value>
+  </data>
+  <data name="AudioBalance.Text" xml:space="preserve">
+    <value>Balance Gauche / Droite</value>
+  </data>
+  <data name="AudioLanguage.Text" xml:space="preserve">
+    <value>Langue audio</value>
+  </data>
+  <data name="AudioVolume.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="SubtitleFontSize.Text" xml:space="preserve">
+    <value>Taille des sous-titres</value>
+  </data>
+  <data name="SubtitleLanguage.Text" xml:space="preserve">
+    <value>Langue des sous-titres</value>
+  </data>
+  <data name="SubtitleOnOff.Tag" xml:space="preserve">
+    <value>Sous-titres</value>
+  </data>
+  <data name="SubtitleSync.Text" xml:space="preserve">
+    <value>Synchronisation des sous-titres</value>
+  </data>
+  <data name="Brightness.Text" xml:space="preserve">
+    <value>Luminsoté</value>
+  </data>
+  <data name="UpdateHistory00002" xml:space="preserve">
+    <value>Bugs corrigés</value>
+  </data>
+  <data name="UpdateHistory00003" xml:space="preserve">
+    <value>Edition des raccourics vers les sous-titres (bar de menu du bas)</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>Pas de publicités ! Fonctions complètes !</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>Achetez donc CCPlayer Pro !</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>Sous-titres</value>
+  </data>
+  <data name="UpdateHistory00004" xml:space="preserve">
+    <value>Correction d'un bug relatif aux sous-titres</value>
+  </data>
+  <data name="UpdateHistory00005" xml:space="preserve">
+    <value>Amélioration des performances d'affichage des sous-titres</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Utiliser des contours</value>
+  </data>
+  <data name="UpdateHistory00006" xml:space="preserve">
+    <value>Correction d'un bug dans la lecture des MKV</value>
+  </data>
+  <data name="UpdateHistory00007" xml:space="preserve">
+    <value>Ajout des contours de texte (Menu paramètres des sous-titres)</value>
+  </data>
+  <data name="UpdateHistory00008" xml:space="preserve">
+    <value>Correction d'un bug sur les srt</value>
+  </data>
+  <data name="UpdateHistory00009" xml:space="preserve">
+    <value>Amélioration des performances de chargement</value>
+  </data>
+  <data name="AboutTranslators" xml:space="preserve">
+    <value>Merci aux traducteurs</value>
+  </data>
+  <data name="Settings.General.Text" xml:space="preserve">
+    <value>général</value>
+  </data>
+  <data name="HubBackgroundColor.Text" xml:space="preserve">
+    <value>Couleur de fond</value>
+  </data>
+  <data name="HubForegroundColor.Text" xml:space="preserve">
+    <value>Couleur de police</value>
+  </data>
+  <data name="HubSubForegroundColor.Text" xml:space="preserve">
+    <value>Couleur d'arrière plan de la police</value>
+  </data>
+  <data name="SubtitleFontColor.Text" xml:space="preserve">
+    <value>Couleur de police des sous-titres</value>
+  </data>
+  <data name="UseAllVideoHub.Header" xml:space="preserve">
+    <value>Utiliser "toutes les vidéos" dans le hub</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>famille de police</value>
+  </data>
+  <data name="Settings.Subtitle.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>Installer une police</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>Vous pouvez instaler le (* .TTF / OTF) à partir du fichier de police.</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>Liste de polices installées</value>
+  </data>
+  <data name="FontManager.Button.Content" xml:space="preserve">
+    <value>Gestionnaire de polices</value>
+  </data>
+  <data name="FontManager.Header.Text" xml:space="preserve">
+    <value>Gestion des polices personnelles (attention aux licences)</value>
+  </data>
+  <data name="FontManager.Title.Text" xml:space="preserve">
+    <value>Gestionnaire de polices</value>
+  </data>
+  <data name="Message.Delete.FontFamily" xml:space="preserve">
+    <value>Etes vous sûr de vouloir supprimer la police({0})?</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>Sauvegarder les polices MKV(TTF) inclus dans le MKV</value>
+  </data>
+  <data name="UpdateHistory00010" xml:space="preserve">
+    <value>Personnalisation du thème</value>
+  </data>
+  <data name="UpdateHistory00011" xml:space="preserve">
+    <value>Ajout d'un gestionnaire de polices</value>
+  </data>
+  <data name="UpdateHistory00012" xml:space="preserve">
+    <value>Ajout d'un option on/off pour la liste de vidéos</value>
+  </data>
+  <data name="UpdateHistory00013" xml:space="preserve">
+    <value>Modification de l'interface</value>
+  </data>
+  <data name="UpdateHistory00014" xml:space="preserve">
+    <value>Coorection de bugs</value>
+  </data>
+  <data name="UpdateHistory00015" xml:space="preserve">
+    <value>Amélioration des performances dans le chargement de la liste des vidéos</value>
+  </data>
+  <data name="Message.Codec.NoLicense" xml:space="preserve">
+    <value>Pas de licence : {0}</value>
+  </data>
+  <data name="Message.Codec.NotSupported" xml:space="preserve">
+    <value>Non supporté: {0}</value>
+  </data>
+  <data name="UpdateHistory00016" xml:space="preserve">
+    <value>Support de la gestuelle tactille. (volume audio , ajustement de la luminosité)</value>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Ajouter un dossier</value>
+  </data>
+  <data name="UpdateHistory00017" xml:space="preserve">
+    <value>Ajout d'un gestionnaire de dossier</value>
+  </data>
+  <data name="UpdateHistory00018" xml:space="preserve">
+    <value>Fragmentation de l'option de vitesse de lecture (0.1 unité)</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>Cette fonctionnalité nécessite la versionPro.</value>
+  </data>
+  <data name="UpdateHistory00019" xml:space="preserve">
+    <value>Ajout de la gestuelle tactile (avance/retour)
+- Seulement sur la version Pro</value>
+  </data>
+  <data name="UpdateHistory00020" xml:space="preserve">
+    <value>Support du plein écran
+- publicité supprimé de l'écran de lecture
+- publicité sur le panneau de liste de lecture</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>recherche</value>
+  </data>
+  <data name="SearchInResults.Text" xml:space="preserve">
+    <value>recherche dans les résultats</value>
+  </data>
+  <data name="SearchVideoTitle.Text" xml:space="preserve">
+    <value>Recherche dans section "toutes les vidéos"</value>
+  </data>
+  <data name="UpdateHistory00021" xml:space="preserve">
+    <value>Ajout de la recherche dans la liste de vidéo
+- Seulement sur la version Pro</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>(chargement à partir du cache)</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>synchronizer</value>
+  </data>
+  <data name="UpdateHistory00022" xml:space="preserve">
+    <value>Ajout de l'ajustement de la disposition des sous-titres</value>
+  </data>
+  <data name="UpdateHistory00023" xml:space="preserve">
+    <value>Améliorations et corrections</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Fermer</value>
+    <comment>닫기</comment>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>La lecture s'est arrêtée suite à des erreurs</value>
+    <comment>오류가 발생하여 재생이 중단되었습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Erreur de réseau.</value>
+    <comment>네트워크 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Erruer de décodage.</value>
+    <comment>디코드 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Ne peut pas être lu car le format de fichier n'est pas pris en charge.</value>
+    <comment>지원되지 않는 형식의 미디어 포맷입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>Format de média crypté.</value>
+    <comment>암호화된 미디어 형식입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Erreur inconnue.</value>
+    <comment>알 수 없는 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Supported.Media.Format" xml:space="preserve">
+    <value>formats de média supportés</value>
+    <comment>지원되는 미디어 포맷</comment>
+  </data>
+  <data name="UpdateHistory00025" xml:space="preserve">
+    <value>Support des Avi/MP4 dans le codec XviD</value>
+    <comment>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</comment>
+  </data>
+  <data name="UpdateHistory00026" xml:space="preserve">
+    <value>Changement du message d'erreur à l'echec de lecture</value>
+    <comment>재생 실패 오류메세지 출력</comment>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Erreur - Fichier on trouvé</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Proportion dans le temps en cours</value>
+    <comment>상영시간에 비례  (V 1.5)</comment>
+  </data>
+  <data name="HardwareBackButtonAction.Text" xml:space="preserve">
+    <value>Touche de retour dans l'explorateur</value>
+    <comment>탐색기에서 뒤로가기 키 동작</comment>
+  </data>
+  <data name="MoveToUpperFolder" xml:space="preserve">
+    <value>Déplacement vers le dossier parent</value>
+    <comment>상위폴더로 이동 (V 1.5)</comment>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>Intervalle de temps dans la recherche</value>
+    <comment>시크 시간 간격</comment>
+  </data>
+  <data name="TerminateApplication" xml:space="preserve">
+    <value>Mettre fin à l'application</value>
+    <comment>앱 종료  (V 1.5)</comment>
+  </data>
+  <data name="NotSupportedCodecDesc" xml:space="preserve">
+    <value>Codec pris en charge :  {0}</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="NotSupportedLicenseCodecDesc" xml:space="preserve">
+    <value>Ce codec n'est pas pris en charge à cause de frais de licence plus élevés que le prix de ccplayer.</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Erreur - Dossier non trouvé</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="Message.Error.CodecNotSupported" xml:space="preserve">
+    <value>Erreur - Codec non pris en charge</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="UpdateHistory00027" xml:space="preserve">
+    <value>Le nouveau UI / UX</value>
+  </data>
+  <data name="UpdateHistory00028" xml:space="preserve">
+    <value>Amélioration des performances</value>
+  </data>
+  <data name="UpdateHistory00029" xml:space="preserve">
+    <value>Amélioration de la stabilité</value>
+  </data>
+  <data name="UpdateHistory00030" xml:space="preserve">
+    <value>Ajout de la vignette de l'image</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Retourner pour mettre en pause</value>
+    <comment>뒤집으면 일시정지</comment>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Voulez vous l'acheter maintenant ?</value>
+  </data>
+  <data name="UpdateHistory00031" xml:space="preserve">
+    <value>Correction de bugs pour l'écran noir</value>
+    <comment>V 1.5.2</comment>
+  </data>
+  <data name="UpdateHistory00033" xml:space="preserve">
+    <value>Correction d'un bug à propos du taux de lecteure (en passant de pause à lecture)</value>
+  </data>
+  <data name="UpdateHistory00034" xml:space="preserve">
+    <value>Ajout de la traduction chinoise</value>
+  </data>
+  <data name="ForceUseMediaElement.Header" xml:space="preserve">
+    <value>Désactiver le moteur CCPlayer</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="OptimizeEntryModel.Header" xml:space="preserve">
+    <value>Optimizer pour le dispositif d'entrée</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="RemoveCompletedVideo.Text" xml:space="preserve">
+    <value>Suppression de la liste de lecture quand elle est terminée</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Settings.Playback.Text" xml:space="preserve">
+    <value>lecture</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00035" xml:space="preserve">
+    <value>Support de windows 10 pour les mobiles TP</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00036" xml:space="preserve">
+    <value>Ajout de l'option de choix du moteur</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00037" xml:space="preserve">
+    <value>Ajout de la suppression de la liste de lecture quand elle est terminée</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Message.Play.Next" xml:space="preserve">
+    <value>Voulez vous lire la vidéo suivante ?</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UseConfirmNextPlay.Header" xml:space="preserve">
+    <value>Confirmation avant de lire la vidéo suivante</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00038" xml:space="preserve">
+    <value>Amélioration de la comptabilité de l'analyseur de sous-titres</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00039" xml:space="preserve">
+    <value>Ajout de la traduction ukrainienne</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00040" xml:space="preserve">
+    <value>Correction d'un bug sur l'écran de verrouillage</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00041" xml:space="preserve">
+    <value>Support de l'AC3 pour le Lumia830 (appareil certifié Dolbi digital) dans les MKV</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00042" xml:space="preserve">
+    <value>Ajout d'un option de confirmation avant de lire la vidéo suivante</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00043" xml:space="preserve">
+    <value>Amélioration de la netteté</value>
+    <comment>V 1.5.7</comment>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>Le média ne peut pas être lu par le decodeur {0}.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00044" xml:space="preserve">
+    <value>Support du SW decodeur &amp; plus de codecs et d'extensions</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00045" xml:space="preserve">
+    <value>Ajout de la traduction perse</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="Message.Confirm.Source.SelectAudio" xml:space="preserve">
+    <value>Le fichier média contient trop de flux audio, selectionnez en une</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00046" xml:space="preserve">
+    <value>Ajout de la traduction indienne</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="StartUpSection.Text" xml:space="preserve">
+    <value>Menu démarrer</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Create.Password" xml:space="preserve">
+    <value>Si vous appliquez un mot de passe vous pouvez protéger votre contenu.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Input.Password" xml:space="preserve">
+    <value>Entrez votre mot de passe.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Remove.Password" xml:space="preserve">
+    <value>Entrez votre mot de passe pour descativer la protection.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00047" xml:space="preserve">
+    <value>Protection des dossier (Version Pro seulement)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00048" xml:space="preserve">
+    <value>Option de selction du menu demarrer (Version Pro seulement)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00049" xml:space="preserve">
+    <value>Amélioartion des performance du décodeur SW</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>Utilisation du GPU shader dans le decodeur SW</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00050" xml:space="preserve">
+    <value>Correction d'un bug dans conversion de la couleur du shader</value>
+    <comment>V 1.7.2</comment>
+  </data>
+  <data name="UpdateHistory00051" xml:space="preserve">
+    <value>Bug du scintillement des sous-titres</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00052" xml:space="preserve">
+    <value>Desactivation de l'effecteur de SSA</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00053" xml:space="preserve">
+    <value>lecture audio 24Bits</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00054" xml:space="preserve">
+    <value>Compatibilté des codecs</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00055" xml:space="preserve">
+    <value>L'application plante au demarrage de la lecture</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00056" xml:space="preserve">
+    <value>Bug de gestion de volume (Hungarian)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00057" xml:space="preserve">
+    <value>Support du format interne Timed Text</value>
+    <comment>V 1.7.6</comment>
+  </data>
+  <data name="UpdateHistory00058" xml:space="preserve">
+    <value>Bug de lecture (avic etc)</value>
+    <comment>V 1.7.8</comment>
+  </data>
+  <data name="UpdateHistory00059" xml:space="preserve">
+    <value>Plante quand le nom de la police ne contient pas de sous-titre SMI</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>Vous utilisez l'application depuis quelque temps et nous aimerions avoir votre avis. Voulez vous notez l'application et faire un commentaire ?</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Remplir</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Ratio d'origine</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Remplir (Ratio d'origine)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatio.Text" xml:space="preserve">
+    <value>Ratio</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00060" xml:space="preserve">
+    <value>Ratios</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RemoveAds.Label" xml:space="preserve">
+    <value>Retirer la publicité</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UnlockFeatures.Label" xml:space="preserve">
+    <value>Débloquer les fonctionnalités de la version Pro</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00061" xml:space="preserve">
+    <value>Achats intégrés (publicité, fonctionnalités)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00062" xml:space="preserve">
+    <value>Pincer pour zoomer (Version pro et moteur CCP)</value>
+    <comment>V 1.8.0</comment>
+  </data>
+  <data name="UpdateHistory00063" xml:space="preserve">
+    <value>Bug du scintillement des sous-titres</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00064" xml:space="preserve">
+    <value>Zoom max : 4X</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00065" xml:space="preserve">
+    <value>Traduction turque</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00066" xml:space="preserve">
+    <value>Performance du decodeur S/W</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00067" xml:space="preserve">
+    <value>Big des sous-titres ASS/SSA </value>
+    <comment>V 1.8.3</comment>
+  </data>
+  <data name="UpdateHistory00068" xml:space="preserve">
+    <value>Support des fcihiers de police (.TTC, .OTC)</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00069" xml:space="preserve">
+    <value>Bugs à propos de lgestion des polices</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00070" xml:space="preserve">
+    <value>Codec XviD dans les MKV/3G2</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00071" xml:space="preserve">
+    <value>Bugs dans la lecture de fichiers FLV</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00072" xml:space="preserve">
+    <value>Ajourt d'un option "on/off" dans le concentrateur de vidéo</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00073" xml:space="preserve">
+    <value>Plante au demarrage de la lecture de fichiers MKV</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00074" xml:space="preserve">
+    <value>Passe des sous-titres</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00075" xml:space="preserve">
+    <value>Affiche le niveau de baterrie et l'heure sur le panneau de contrôle</value>
+    <comment>V 1.8.8</comment>
+  </data>
+  <data name="UpdateHistory00076" xml:space="preserve">
+    <value>Amélioration de la détection des jeux de caractères des sous-titres</value>
+    <comment>V 1.8.9</comment>
+  </data>
+  <data name="UpdateHistory00077" xml:space="preserve">
+    <value>Traduction portugaise, brésielienne et française</value>
+    <comment>V 1.9.0</comment>
+  </data>
+</root>

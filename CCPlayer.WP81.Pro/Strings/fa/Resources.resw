@@ -1,0 +1,878 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Header" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>خرید نسخه حرفه ای</value>
+  </data>
+  <data name="VelostepApps.Label" xml:space="preserve">
+    <value>نرم افزار های بیشتر از این شرکت</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>نسخه و توسعه دهندگان</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>سازندگان</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>طراحی</value>
+  </data>
+  <data name="AboutDesigner" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>توسعه</value>
+  </data>
+  <data name="AboutFacebook" xml:space="preserve">
+    <value>فیسبوک</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>پشتیبانی و بازخورد</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>تشکر از سازندگان کتابخانه های زیر</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>رتبه و نظر</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>به اشتراک گذاشتن این نرم افزار</value>
+  </data>
+  <data name="AboutSpecialPeople1" xml:space="preserve">
+    <value>Bomi, Jung</value>
+  </data>
+  <data name="AboutSpecialPeople3" xml:space="preserve">
+    <value>Seongmin, Yoon</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>تشکر ویژه</value>
+  </data>
+  <data name="AboutUserVoice" xml:space="preserve">
+    <value>صدای کاربر</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>نسخه</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>چه چیزی جدید است؟</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arabic (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arabic (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arabic (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Auto detection</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltic (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltic (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltic (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Central European (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Central European (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Chinese Simplified</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Chinese Traditional</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Cyrillic (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Cyrillic (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Cyrillic (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Greek (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Greek (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>Hebrew (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>Hebrew (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>Hebrew (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japanese (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Korean (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latin9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Central European (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Western European EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Western European (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Russian (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Thai (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Turkish (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Turkish (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Turkish (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Extended ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnamese (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Western European (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Western European (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>استفاده از سایه</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>اندازه فونت</value>
+  </data>
+  <data name="FontSizeOverride.Header" xml:space="preserve">
+    <value>استفاده از اندازه فونت مهم</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>حالت فونت</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>استفاده از حالت فونت مهم</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>وزن فونت</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>تنظیمات-CCPlayer</value>
+  </data>
+  <data name="Settings.SubtitleFont.Text" xml:space="preserve">
+    <value>زیرنویس</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>استفاده از پس زمینه زیرنویس</value>
+  </data>
+  <data name="Settings.Appbar.Label" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="MainHub.Text" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="Message.Delete.List" xml:space="preserve">
+    <value>آیا مطمئنید که میخواهید ویدئو را پاک کنید از{0}؟</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>به بالاتر</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>چه چیزی جدید است؟</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>سسازندگان</value>
+  </data>
+  <data name="AllVideo.Text" xml:space="preserve">
+    <value>تمامی ویدئو ها</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>جستجوگر</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>درحال بارگیری {0}...</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>پخش</value>
+  </data>
+  <data name="Playlist.Header" xml:space="preserve">
+    <value>لیست پخش</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>حذف کردن</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>ویدئو</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>لغو</value>
+  </data>
+  <data name="Message.Exit" xml:space="preserve">
+    <value>آیا مطمئنید که میخواهید از برنامه خارج شوید؟</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>قبول</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>کامل شدن</value>
+  </data>
+  <data name="UpdateHistory00001" xml:space="preserve">
+    <value>عرضه اولیه</value>
+  </data>
+  <data name="NotSupportedAudioCodec" xml:space="preserve">
+    <value>این کدک صوتی قابل پخش نیست
+</value>
+  </data>
+  <data name="NotSupportedAudioLicenseCodec" xml:space="preserve">
+    <value>این کدک صوتی یک مجوز در {0} دارد</value>
+  </data>
+  <data name="NotSupportedVideoCodec" xml:space="preserve">
+    <value>این کدک تصویری قابل پخش نیست</value>
+  </data>
+  <data name="WrongFileFormat" xml:space="preserve">
+    <value>این فایل با فرمت {0} نیست.</value>
+  </data>
+  <data name="Message.Error.Cluster" xml:space="preserve">
+    <value>بخشی از فایل mkv آسیب دیده است.ردکردن به قسمتی که قابل پخش است</value>
+  </data>
+  <data name="Message.Info.Play.NoItems" xml:space="preserve">
+    <value>هیچ آیتمی برای اجرا کردن در این پلی لیست وجودندارد</value>
+  </data>
+  <data name="Message.Confirm.Play.Suspended" xml:space="preserve">
+    <value>این ویدئو متوقف شده است در {0} / {1}</value>
+  </data>
+  <data name="Message.Info.Encoding.Fail" xml:space="preserve">
+    <value>شناسایی رمزگذاری فایل زیرنویس با مشکل مواجه شد.اگر کاراکتر ها برای شما نامفهوم است لطفا تنظیمات رمزگذاری زیرنویس را تغییر دهید</value>
+  </data>
+  <data name="Message.Info.Seek.Create" xml:space="preserve">
+    <value>به دنبال داده های در حال ساخته شدن...</value>
+  </data>
+  <data name="AudioBalance.Text" xml:space="preserve">
+    <value>بالانس چپ / راست</value>
+  </data>
+  <data name="AudioLanguage.Text" xml:space="preserve">
+    <value>زبان صدا</value>
+  </data>
+  <data name="AudioVolume.Text" xml:space="preserve">
+    <value>بلنذی صدای محتوای دیجیتال</value>
+  </data>
+  <data name="PlaybackRate.Text" xml:space="preserve">
+    <value>نرخ بازنواخت</value>
+  </data>
+  <data name="SubtitleFontSize.Text" xml:space="preserve">
+    <value>اندازه فونت زیرنویس</value>
+  </data>
+  <data name="SubtitleLanguage.Text" xml:space="preserve">
+    <value>زبان زیرنویس</value>
+  </data>
+  <data name="SubtitleOnOff.Tag" xml:space="preserve">
+    <value>زیرنویس</value>
+  </data>
+  <data name="SubtitleSync.Text" xml:space="preserve">
+    <value>همگام سازی زیرنویس</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>ثانیه</value>
+  </data>
+  <data name="Brightness.Text" xml:space="preserve">
+    <value>روشنایی تصویر</value>
+  </data>
+  <data name="BrightnessUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="UpdateHistory00002" xml:space="preserve">
+    <value>اصلاح برخی از اشکالات</value>
+  </data>
+  <data name="UpdateHistory00003" xml:space="preserve">
+    <value>میانبر تنظیمات زیرنویس (زیر منو نوار برنامه...)</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>بدون تبیغات!با تمامی امکانات!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>همین حالا نسخه حرفه ای را خریداری کنید!</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>زیرنویس</value>
+  </data>
+  <data name="UpdateHistory00004" xml:space="preserve">
+    <value>رفع یک اشکال مرتبط با زیرنویس</value>
+  </data>
+  <data name="UpdateHistory00005" xml:space="preserve">
+    <value>بهبود عملکرد صفحه نمایش از زیرنویس</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>استفاده از راس مطلب</value>
+  </data>
+  <data name="UpdateHistory00006" xml:space="preserve">
+    <value>رفع اشکال بازنواخت MKV</value>
+  </data>
+  <data name="UpdateHistory00007" xml:space="preserve">
+    <value>اضافه شدن افکت های خارج ازخط برای حروف (منو تنظیمات زیرنویس)</value>
+  </data>
+  <data name="UpdateHistory00008" xml:space="preserve">
+    <value>رفع اشکال srt (ردکردن تایم کد های نادرست)</value>
+  </data>
+  <data name="UpdateHistory00009" xml:space="preserve">
+    <value>بهبود عملکرد بارگیری در جستجو</value>
+  </data>
+  <data name="AboutTranslatePeople1" xml:space="preserve">
+    <value>Juan Carlos Ábalos Guerrero</value>
+    <comment>후안 masabalos@outlook.com (Spanish - español) 스페인어</comment>
+  </data>
+  <data name="AboutTranslators" xml:space="preserve">
+    <value>تشکراز مترجمین</value>
+  </data>
+  <data name="HubBackgroundColor.Text" xml:space="preserve">
+    <value>رنگ پس زمینه</value>
+  </data>
+  <data name="HubForegroundColor.Text" xml:space="preserve">
+    <value>رنگ فونت</value>
+  </data>
+  <data name="HubSubForegroundColor.Text" xml:space="preserve">
+    <value>رنگ زیر فونت</value>
+  </data>
+  <data name="SubtitleFontColor.Text" xml:space="preserve">
+    <value>رنگ فونت زیرنویس</value>
+  </data>
+  <data name="UseAllVideoHub.Header" xml:space="preserve">
+    <value>استفاده از تمامی ویدئوها در یک قطب</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>خانواده فونت ها</value>
+  </data>
+  <data name="Settings.Subtitle.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>نصب فونت</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>شما میتوانید فونت های با فرمت (* .TTF / OTF) نصب کنید</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>فهرست فونت های نصب شده</value>
+  </data>
+  <data name="FontManager.Button.Content" xml:space="preserve">
+    <value>مدیریت فونت ها</value>
+  </data>
+  <data name="FontManager.Header.Text" xml:space="preserve">
+    <value>مدیریت فونت های سفارشی (هنگام استفاده از مجوز فونت مراقب باشید)</value>
+  </data>
+  <data name="FontManager.Title.Text" xml:space="preserve">
+    <value>مدیریت فونت</value>
+  </data>
+  <data name="Message.Delete.FontFamily" xml:space="preserve">
+    <value>آیا مطمئنید که میخواهید فونت {0} را پاک کنید؟</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>حفظ فونت های {TTF} شامل شده در MKV</value>
+  </data>
+  <data name="UpdateHistory00010" xml:space="preserve">
+    <value>پشتیبانی از شخصی سازی تم ها</value>
+  </data>
+  <data name="UpdateHistory00011" xml:space="preserve">
+    <value>اضافه شدن مدیریت فونت ها برای زیرنویس</value>
+  </data>
+  <data name="UpdateHistory00012" xml:space="preserve">
+    <value>اضافه شدن گزینه فعال/غیرفعال برای تمامی لیست های ویدئو</value>
+  </data>
+  <data name="UpdateHistory00013" xml:space="preserve">
+    <value>اصلاح جزئی رابط کاربری</value>
+  </data>
+  <data name="UpdateHistory00014" xml:space="preserve">
+    <value>رفع اشکال برخی باگ ها</value>
+  </data>
+  <data name="AboutTranslatePeople2" xml:space="preserve">
+    <value>Иван Корниенко</value>
+    <comment>이반 luciahedreh@gmail.com (Russian - русский) 러시아어</comment>
+  </data>
+  <data name="UpdateHistory00015" xml:space="preserve">
+    <value>بهبود عملکرد بارگیری درتمام لیست های ویدئو</value>
+  </data>
+  <data name="Message.Codec.NoLicense" xml:space="preserve">
+    <value>بدون مجوز : {0}</value>
+  </data>
+  <data name="Message.Codec.NotSupported" xml:space="preserve">
+    <value>پشتیبانی نشده : {0}</value>
+  </data>
+  <data name="UpdateHistory00016" xml:space="preserve">
+    <value>پشتیبانی از ژست های حرکتی (تنظیم بلندی صدا و روشنایی)</value>
+  </data>
+  <data name="AboutTranslatePeople3" xml:space="preserve">
+    <value>Meca Cosmin</value>
+    <comment>코스민 mecacosmin@hotmail.com (Romanian - român) 루마니아어</comment>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>اضافه کردن پوشه</value>
+  </data>
+  <data name="UpdateHistory00017" xml:space="preserve">
+    <value>اضافه شدن قابلیت مدیریت پوشه ها</value>
+  </data>
+  <data name="UpdateHistory00018" xml:space="preserve">
+    <value>انتخاب های تکه تکه شدن سرعت بازنواخت (0.1 واحد)</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>این قابلیت فقط درنسخه حرفه ای قابل استفاده است.آیا میخواهید نسخه حرفه ای را خریداری کنید؟</value>
+  </data>
+  <data name="UpdateHistory00019" xml:space="preserve">
+    <value>اضافه شدن ژست های حرکتی (عقب بردن / جلوبردن) -فقط در نسخه حرفه ای</value>
+  </data>
+  <data name="UpdateHistory00020" xml:space="preserve">
+    <value>پشتیبانی از ویدئو تمام صفحه -حذف تبلیغات از صفحه نمایش ویدئو   -اضافه شدن تبلیغات به پنل کنترل لیست ها و ویدئو ها</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>جستجوگر</value>
+  </data>
+  <data name="SearchInResults.Text" xml:space="preserve">
+    <value>نتایج جستجو</value>
+  </data>
+  <data name="SearchVideoTitle.Text" xml:space="preserve">
+    <value>جستجو در منطقه تمام ویدئو ها</value>
+  </data>
+  <data name="UpdateHistory00021" xml:space="preserve">
+    <value>اضافه شدن جستجو در لیست ویدئو    -فقط در نسخه حرفه ای</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>(درحال بارگیری از حافظه کش)</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>همگام سازی</value>
+  </data>
+  <data name="AboutTranslatePeople4" xml:space="preserve">
+    <value>Sebi Németh</value>
+    <comment>세비 sebezhetetlen98@gmail.com  (Hungarian - Magyar) 헝가리아어</comment>
+  </data>
+  <data name="UpdateHistory00022" xml:space="preserve">
+    <value>پشتیبانی از تنظیم محل قرارگیری زیرنویس</value>
+  </data>
+  <data name="UpdateHistory00023" xml:space="preserve">
+    <value>برخی بهبودها و رفع اشکالات</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>بستن</value>
+    <comment>닫기</comment>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>پخش بخاطر خطا متوقف شد</value>
+    <comment>오류가 발생하여 재생이 중단되었습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>خطای شبکه اتفاق افتاده است</value>
+    <comment>네트워크 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>خطای دکودینگ اتفاق افتاده است</value>
+    <comment>디코드 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>نمیتوان پخش کرد چون فرمت فایل پشتیبانی نشده است</value>
+    <comment>지원되지 않는 형식의 미디어 포맷입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>این یک فرمت فایل رمزگذاری شده است</value>
+    <comment>암호화된 미디어 형식입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>یک خطای ناشناخته رخ داده است</value>
+    <comment>알 수 없는 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Supported.Media.Format" xml:space="preserve">
+    <value>فرمت های مولتی مدیا پشتیبانی شده</value>
+    <comment>지원되는 미디어 포맷</comment>
+  </data>
+  <data name="UpdateHistory00024" xml:space="preserve">
+    <value>رفع اشکال دکمه نرخ بازنواخت</value>
+    <comment>재생속도 버튼 버그 수정</comment>
+  </data>
+  <data name="UpdateHistory00025" xml:space="preserve">
+    <value>پشتیبانی از Avi/MP4 در کدک XviD (بهبود اشکال سیستم عامل)</value>
+    <comment>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</comment>
+  </data>
+  <data name="UpdateHistory00026" xml:space="preserve">
+    <value>تغئیر پیام خطا هنگامی که ناتوان از پخش است</value>
+    <comment>재생 실패 오류메세지 출력</comment>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>خطا-فایل پیدا نشد</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>متناسب بازمان در حال اجرا</value>
+    <comment>상영시간에 비례  (V 1.5)</comment>
+  </data>
+  <data name="HardwareBackButtonAction.Text" xml:space="preserve">
+    <value>عمل دکمه بازگشت در جستجوگر</value>
+    <comment>탐색기에서 뒤로가기 키 동작</comment>
+  </data>
+  <data name="MoveToUpperFolder" xml:space="preserve">
+    <value>حرکت به پوشه بالایی</value>
+    <comment>상위폴더로 이동 (V 1.5)</comment>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>فاصله زمانی دنبال گشتن</value>
+    <comment>시크 시간 간격</comment>
+  </data>
+  <data name="TerminateApplication" xml:space="preserve">
+    <value>خاتمه دادن به نرم افزار</value>
+    <comment>앱 종료  (V 1.5)</comment>
+  </data>
+  <data name="NotSupportedCodecDesc" xml:space="preserve">
+    <value>کدک های پشتیبانی شده : {0}</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="NotSupportedLicenseCodecDesc" xml:space="preserve">
+    <value>این کدک پشتیبانی نمیشود چون قیمت مجوز آن از نرم افزار نیز بیشتر است</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>خطا-پوشه پیدا نشد</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="Message.Error.CodecNotSupported" xml:space="preserve">
+    <value>خطا-کدک پشتیبانی نشده</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="UpdateHistory00027" xml:space="preserve">
+    <value>رابط کاربری جدید</value>
+  </data>
+  <data name="UpdateHistory00028" xml:space="preserve">
+    <value>بهبود عملکرد</value>
+  </data>
+  <data name="UpdateHistory00029" xml:space="preserve">
+    <value>بهبود پایداری</value>
+  </data>
+  <data name="UpdateHistory00030" xml:space="preserve">
+    <value>اضافه شدن عکس کوچک</value>
+  </data>
+  <data name="AboutTranslatePeople5" xml:space="preserve">
+    <value>Daniel Peichev</value>
+    <comment>다니엘 antispamcan@gmail.com (Bulgarian - български) 불가리아어</comment>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>تکان دادن برای توقف</value>
+    <comment>뒤집으면 일시정지</comment>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="UpdateHistory00031" xml:space="preserve">
+    <value>رفع اشکال برای صفحه سیاه</value>
+    <comment>V 1.5.2</comment>
+  </data>
+  <data name="UpdateHistory00032" xml:space="preserve">
+    <value>تغئیرحالت سریع زمان تعویض مجموعه نویسه ها</value>
+  </data>
+  <data name="AboutTranslatePeople6" xml:space="preserve">
+    <value>Le Xiazi</value>
+    <comment>르시아지 a102103170@outlook.com Le Xiazi (Chinese - 中文) 중국어</comment>
+  </data>
+  <data name="UpdateHistory00033" xml:space="preserve">
+    <value>رفع اشکال نرخ بازنواخت (زمان تغئیرحالت از توقف به پخش)</value>
+  </data>
+  <data name="UpdateHistory00034" xml:space="preserve">
+    <value>اضافه شدن ترجمه چینی</value>
+  </data>
+  <data name="ForceUseMediaElement.Header" xml:space="preserve">
+    <value>غیرفعال کردن موتور نرم افزار</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="OptimizeEntryModel.Header" xml:space="preserve">
+    <value>بهینه سازی برای ورود دستگاه</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="RemoveCompletedVideo.Text" xml:space="preserve">
+    <value>پاک کردن لیست پخش هنگامی که بازنواخت به پایان میرسد</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00035" xml:space="preserve">
+    <value>پشتیباتی از ویندوز 10 موبایل پیشنمایش فنی</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00036" xml:space="preserve">
+    <value>اضافه شدن حق انتخاب موتور</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00037" xml:space="preserve">
+    <value>اضافه شدن پاک کردن از لیست پخش هنگامی که بازنواخت به پایان رسید</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Message.Play.Next" xml:space="preserve">
+    <value>آیا میخواهید ویدئو بعدی نمایش داده شود؟</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UseConfirmNextPlay.Header" xml:space="preserve">
+    <value>تائید قبل از پخش ویدئو بعدی</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="AboutTranslatePeople7" xml:space="preserve">
+    <value>Mykola Voytkiv</value>
+    <comment>Mykola Voytkiv voytkiv@msn.com (Ukrainian - Український) 우크라이나어</comment>
+  </data>
+  <data name="UpdateHistory00038" xml:space="preserve">
+    <value>بهبود سازگار تجزیه کننده srt</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00039" xml:space="preserve">
+    <value>پشتیبانی از زبان اوکراینی</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00040" xml:space="preserve">
+    <value>رفع مشکلات مربوط به صفحه قفل</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00041" xml:space="preserve">
+    <value>پشتیبانی از AC3 برای لومیا 830 (ابزار دارای دالبی دیجیتال) در MKV</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00042" xml:space="preserve">
+    <value>اضافه شدن ویژگی تائید قبل از پخش ویدئو بعدی</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00043" xml:space="preserve">
+    <value>بهبود وضوح</value>
+    <comment>V 1.5.7</comment>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>The media can not be played by {0} decoder.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00044" xml:space="preserve">
+    <value>Supported SW decoder &amp; more codecs, extensions (containers)</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople8" xml:space="preserve">
+    <value>مسعود محمدی</value>
+    <comment>masoud mohammadi m4f19@outlook.com (Persian - فارسی) 이란어</comment>
+  </data>
+  <data name="UpdateHistory00045" xml:space="preserve">
+    <value>Added Persian translation</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="Message.Confirm.Source.SelectAudio" xml:space="preserve">
+    <value>This media file contains too many audio stream, please select one.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople9" xml:space="preserve">
+    <value>Dinesh Sangwan (xiniuss)</value>
+    <comment>V 1.7 xiniuss@live.com (hindi - भारतीय) 인도어</comment>
+  </data>
+  <data name="UpdateHistory00046" xml:space="preserve">
+    <value>Added Hindi translation</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="StartUpSection.Text" xml:space="preserve">
+    <value>Start Menu</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Create.Password" xml:space="preserve">
+    <value>If you set a password, you can protect your content.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Input.Password" xml:space="preserve">
+    <value>Please enter your password.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Remove.Password" xml:space="preserve">
+    <value>Please enter your password to disable the protection.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00047" xml:space="preserve">
+    <value>Folder protection feature (Only pro version)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00048" xml:space="preserve">
+    <value>Select startup menu option (Only pro version)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00049" xml:space="preserve">
+    <value>Improved  performance of the SW decoder</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>Use GPU shader in s/w decoder</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Korean (Windows MS949)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00050" xml:space="preserve">
+    <value>Fixed a bug of the shader color conversion.</value>
+    <comment>V 1.7.2</comment>
+  </data>
+  <data name="UpdateHistory00051" xml:space="preserve">
+    <value>Subtitle flicker bug</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00052" xml:space="preserve">
+    <value>Disable ASS effector </value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00053" xml:space="preserve">
+    <value>24Bit audio playback (down-sampling)</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00054" xml:space="preserve">
+    <value>Compatibility of the codecs</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00055" xml:space="preserve">
+    <value>App crash (starting playback)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00056" xml:space="preserve">
+    <value>Volume gesture bug (Hungarian)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00057" xml:space="preserve">
+    <value>Supported internal Timed Text format</value>
+    <comment>V 1.7.6</comment>
+  </data>
+  <data name="UpdateHistory00058" xml:space="preserve">
+    <value>Playback bug (avi etc)</value>
+    <comment>V 1.7.8</comment>
+  </data>
+  <data name="UpdateHistory00059" xml:space="preserve">
+    <value>Crash when the font name is empty of the SMI subtitle.</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Fill</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Natural ratio</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Fill (Natural ratio)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatio.Text" xml:space="preserve">
+    <value>Aspect Ratio</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00060" xml:space="preserve">
+    <value>Aspect Ratios</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RemoveAds.Label" xml:space="preserve">
+    <value>Remove advertising</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UnlockFeatures.Label" xml:space="preserve">
+    <value>Unlock Pro version features</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00061" xml:space="preserve">
+    <value>In app products (Ad, Features)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00062" xml:space="preserve">
+    <value>Pinch to Zoom (Only Pro Feature &amp; CCP Engine)</value>
+    <comment>V 1.8.0</comment>
+  </data>
+  <data name="AboutTranslatePeople10" xml:space="preserve">
+    <value>Hayrullah</value>
+    <comment>V 1.8.1 rthayru@live.com (rthayru@gmail.com) (Turkish - Türk) 터키어</comment>
+  </data>
+  <data name="UpdateHistory00063" xml:space="preserve">
+    <value>Subtitle flicker bug</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00064" xml:space="preserve">
+    <value>Zoom in : max 4X</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00065" xml:space="preserve">
+    <value>Turkish translation</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00066" xml:space="preserve">
+    <value>S/W decoder performance</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00067" xml:space="preserve">
+    <value>ASS/SSA subtitle bug</value>
+    <comment>V 1.8.3</comment>
+  </data>
+  <data name="Settings.General.Text" xml:space="preserve">
+    <value>کلی</value>
+  </data>
+  <data name="Settings.Playback.Text" xml:space="preserve">
+    <value>ن بازنواخت</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00068" xml:space="preserve">
+    <value>Supported font collection file (.TTC, .OTC)</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00069" xml:space="preserve">
+    <value>Bugs related to font management</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00070" xml:space="preserve">
+    <value>XviD codec in MKV/3G2 container</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00071" xml:space="preserve">
+    <value>Some FLV file's playback bugs</value>
+    <comment>V 1.8.5</comment>
+  </data>
+</root>

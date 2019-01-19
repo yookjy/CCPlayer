@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Decoder">
+      <UniqueIdentifier>{40d1a456-df04-4742-813c-719b471f32e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{eacfa884-93cf-478e-b599-8377883eece8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Information">
+      <UniqueIdentifier>{9f91eda9-db63-4028-be35-1b46c87901a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Subtitle">
+      <UniqueIdentifier>{7f58c082-86ab-4922-823f-8b3a822e21d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8f1fe143-10c1-4054-9905-e0c4e736253e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider">
+      <UniqueIdentifier>{86ba8fac-12f6-4b85-adcf-db62df67545a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider\Attachment">
+      <UniqueIdentifier>{77e64e9d-ff2f-4a6b-a2ee-4c80e9aa6fbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider\Subtitle">
+      <UniqueIdentifier>{58cabc1c-5f37-4f8f-9664-c60ac7b9fe1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider\Video">
+      <UniqueIdentifier>{3de050ee-4ed4-48a8-9209-d832cebfd42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider\Audio">
+      <UniqueIdentifier>{68794906-8150-4de4-9769-a9b732ff3c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Provider\Resources">
+      <UniqueIdentifier>16281da5-1784-4814-9dde-5a7f425362fc</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Decoder\ColorSpaceConvertModule.cpp">
+      <Filter>Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Decoder\FFmpegUncompressedAudioDecoder.cpp">
+      <Filter>Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Decoder\FFmpegUncompressedVideoDecoder.cpp">
+      <Filter>Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CAVCodecContext.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FFmpegByteStreamHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FFmpegReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FFmpegSource.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FFmpegStream.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\MFSampleProvider.cpp">
+      <Filter>Source\Provider</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Attachment\AttachmentProvider.cpp">
+      <Filter>Source\Provider\Attachment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Audio\AACSampleProvider.cpp">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Audio\AC3SampleProvider.cpp">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Audio\MP3SampleProvider.cpp">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Audio\WMASampleProvider.cpp">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\SubtitleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\H264AVCSampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\H264SampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\MP4SampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\VC1SampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\WMVSampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtitle\Subtitle.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Information\MediaInformation.cpp">
+      <Filter>Information</Filter>
+    </ClCompile>
+    <ClCompile Include="Information\ThumbnailReader.cpp">
+      <Filter>Information</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FFmpegSchemeHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\SRTSampleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\PGSSampleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\XSUBSampleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\ASSSampleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Decoder\Decoder.cpp">
+      <Filter>Decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtitle\ExternalSubtitleReader.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Subtitle\ExternalSubtitleSource.cpp">
+      <Filter>Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Subtitle\SAMISampleProvider.cpp">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Provider\Video\HEVCSampleProvider.cpp">
+      <Filter>Source\Provider\Video</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Common\AsyncCB.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CritSec.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ExtensionsDefs.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\LinkList.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\OpQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SafeQueue.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\ColorSpaceConvertModule.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\DirectXVideoTransform.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\FFmpegUncompressedAudioDecoder.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\FFmpegUncompressedVideoDecoder.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\TextureLock.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\VideoBufferLock.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CAVCodecContext.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FFmpegByteStreamHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FFmpegReader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FFmpegSource.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FFmpegStream.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\MFSampleProvider.h">
+      <Filter>Source\Provider</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Attachment\AttachmentProvider.h">
+      <Filter>Source\Provider\Attachment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Audio\AACSampleProvider.h">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Audio\AC3SampleProvider.h">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Audio\MP3SampleProvider.h">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Audio\WMASampleProvider.h">
+      <Filter>Source\Provider\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\SubtitleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\H264AVCSampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\H264SampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\MP4SampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\VC1SampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\WMVSampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Subtitle\Subtitle.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Information\MediaInformation.h">
+      <Filter>Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Information\ThumbnailReader.h">
+      <Filter>Information</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FFmpegSchemeHandler.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\SRTSampleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\PGSSampleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\XSUBSampleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\ASSSampleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Decoder\Decoder.h">
+      <Filter>Decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtitle\ExternalSubtitleReader.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Subtitle\ExternalSubtitleSource.h">
+      <Filter>Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Subtitle\SAMISampleProvider.h">
+      <Filter>Source\Provider\Subtitle</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\FFmpegMacro.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Provider\Video\HEVCSampleProvider.h">
+      <Filter>Source\Provider\Video</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Decoder\PixelShader.hlsl">
+      <Filter>Decoder</Filter>
+    </FxCompile>
+    <FxCompile Include="Decoder\VertexShader.hlsl">
+      <Filter>Decoder</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPlayer.UWP.FFmpeg.rc">
+      <Filter>Source\Provider\Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

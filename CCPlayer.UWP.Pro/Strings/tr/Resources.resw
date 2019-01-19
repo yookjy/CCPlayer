@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>tam sürümü satın al</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>Kütüphane oluşturucularına teşekkürler</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arapça (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arapça (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arapça (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Otomatik algıla</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltık (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltık (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltık (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Orta Avrupa (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Orta Avrupa (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Basitleştirilmiş Çince</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Geleneksel Çince</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Kiril (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Kiril (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Kiril (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Yunanca (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Yunanca (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>İbranice (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>İbranice (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>İbranice (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japonca (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Korece (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latince3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latince9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Orta Avrupa (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Batı Avrupa EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Batı Avrupa (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Rusça (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Tay Dili (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Türkçe (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Türkçe (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Türkçe (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Genişletilmiş ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnamca (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Batı Avrupa (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Batı Avrupa (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Gölge kullan</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>Yazı tipi boyutu</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>Yazı tipi stili</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Yazı tipi stilini geçersiz kıl</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>Yazı tipi genişliği</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Altyazıda arkaplan kullan</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>sn</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>Reklamsız! Tüm özellikleri kullanın!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>CCPlayer pro'yu şimdi satın al!</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Kontur kullan</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>Çevirmenlere teşekkürler</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>Yazı tipi ailesi</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>Yazı tipi yükle</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>Dosyadan yazı tipi yükle (*.ttf/ttc/otf/otc)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>Yüklü yazı tipleri</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>Geçerli medyadan yazı tipi kaydet</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>Bu özellik sadece Pro sürümde kullanılabilir.</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>Sorun oluştuğu için oynatma durduruldu</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Ağ hatası oluştu</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Kod çözme hatası oluştu.</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Öğenin dosya tipi desteklenmediği için oynatılamıyor.</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>Kütüphane oluşturucularına teşekkürler</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Bilinmeyen bir hata oluştu.</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Hata - Dosya bulunamadı</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Oynatma süresine bağlı</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>Video menüsünde geri tuşunu göster</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>İleri / geri sarma zaman aralığı</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Hata - Klasör bulunamadı</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Yüz üstü çevirince duraklat</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Şimdi satın almak istiyor musunuz?</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>Medya {0} kod çözücüsüyle oynatılamaz.</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>SW kod çözücü içinde GPU Gölgelendirici kullan</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Korece (Windows MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0}saat {1}dk</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0}dk {1}sn</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0}sn</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} video</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>Dosya</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>Klasör</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>Sıralama ölçütü:</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>Eklenme tarihi</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>Ad</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>Bu klasörü tarayıcıya ekle</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>Eklenme tarihi (Azalan)</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>Ad (Azalan)</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>Ek</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>Ses</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>Altyazı</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>Altyazının keyfini çıkarın :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>Boşlukları kaldırıldıktan sonra kaydet.</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>Şifre uzunluğu en az 4 karakter olmalıdır.
+</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>Giriş dizesinde bir boşluk var.</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>Değiştir</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>İpucu</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>Dosya uzantısını değiştir</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>Bu klasörde zaten aynı ada sahip {0} uzantısının olmadığından emin olun.</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>Uzantı değiştirme başarısız oldu.</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>Dosyayı değiştirmek için seçin</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>Video dosyalarını diğer uygulamalarda gizlemek için uzantısını değiştirin</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>Uzantısı değiştirilen dosya diğer uygulamalarda görünmez.</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>{0} ve {1} dosya uzantısı {2} olarak değiştirildi.</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>{0} dosya uzantısı {1} olarak değiştirildi.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>Uygulama güvenliğini etkinleştirerek gizliliğinizi koruyun.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>Şifre değiştirildi.</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>Aç</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>Küçük resim saklanma süresi</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>Küçük resim disk kullanımı</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>Varsayılan çözücü olarak SW kullan</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>Sürüm</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>Geliştirici</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>Hata raporu</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>Geri bildirim</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>Öner</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>Gözden geçirme ve Değerlendirme</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>Lütfen bir şifre girin.</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>Şifre yanlış.</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>Uygulama güvenlik modu yürütülüyor.</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>CCPlayer'dan çık</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>Kimlik doğrulaması</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>Güvenlik: Yürütülüyor</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>Güvenlik: Durduruldu</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>Ekledikten sonra oynatma listesine taşı.</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>Tüm işaretleri kaldır</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>Tümünü işaretle</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>Geri</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>Kontrol</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>Sil</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>Yenile</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>Kaldır</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>Klasör ekle</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>Oynatma listesine ekle</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>Yeni oynatma listesi</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>Üst için</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>Yeniden adlandır</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>Yeniden sırala</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>Oynat</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>Kaydet</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>Biçim</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>Çalışma süresi</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>Başlık</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>Medya dosyaları diskten silinmedi.</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>Oynatma listeleri eklenirken bir hata oluştu.</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>Geçici bir hata olabilir. Lütfen daha sonra yeniden deneyin.
+Aynı hata devam ederse, dosyanın bozuk olmadığından emin olun.</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>Ad zaten kullanılıyor. Lütfen farklı bir ad girin.</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>Medya bilgileri okunamadı.</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>Kaldırmaya çalışırken bir hata oluştu</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>Lütfen daha sonra tekrar deneyin.
+Aynı hata devam ederse, uygulamayı yeniden yükleyin.</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>Kayıt sırasında bir hata oluştu.</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>Güncelleme sırasında hata oluştu.</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>Oynatma listesini sil.</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>Oynatma listesinin adını girin</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>Şimdi Yürütülüyor</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>Bilgi, geri bildirim, gözden geçir ve değerlendir</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>Uygulama</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>Şifre, Kilit</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>Güvenlik</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>Yükleme ve Kaldırma</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>Yazı tipi</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>Tema, Küçük resim</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>Genel</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>Arama, Kod çözücü</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>Kayıttan yürüt</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>Yazı tipi, Stil, Renk</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>Alt yazı</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>Koyu
+</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>Açık</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} gün</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>Zamanı sıfırla</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ses yükseltici</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>sn</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>En-boy oranı</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Dolgu</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Tek tip</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Tek tip doldur</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ses seçenekleri</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Sol / sağ denge</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seslendirme dilleri</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ses eşitleme</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ses seviyesi</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Parlaklık</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Altyazı seçenekleri</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Altyazı karakterleri</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Altyazı boyutu</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>Dışardan altyazı yükle</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Altyazı dilleri</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>Altyazı konumunu değiştir</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>Altyazı ayarları</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Altyazı eşitleme</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Oynatma penceresini kapat</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Çözücü</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ekran döndürme</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>Saat yönünde 180 °</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>Saat yönünde 270 °</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>Saat yönünde 90 °</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>Yok
+</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hızlı ileri sar</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Hızlı geri sar</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>Tam ekran modu</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>Pencere modu</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>Yatay ayna</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kontrol panelini kilitle</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Oynatma hızı (oran)</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tekrar oynat</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>Sonsuz</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>Yok</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>Bir kere</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>Oynat</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>Duraklat</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>Ekran yön kilidi</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video seçenekleri</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>Dosya ve klasörler</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>Filmleri içeren klasörü eklemek için Klasör Ekle (sağ üstte) düğmesini tıklayın.</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>Lütfen bekleyin, video oynatma için hazırlanıyor.</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>L:me medya bileşenleri kullan (önerilen)</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>Bir süredir uygulamayı kullanıyor gibi görünüyorsunuz, yorumlarınızı duymak isteriz. Uygulamaya puan vermek ve geri bildirimde bulunmak istermisiniz?</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video Yakınlaş/Uzaklaş</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>Satın al</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>İki ürün için satın alma geçmişi aşağıdaki gibidir:
+- {0}
+- {1}
+Kısıtlama olmadan kullanabilirsiniz.</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>Tebrikler. Geçiş başarılı oldu!</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>Yeniden dene</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>Deneme süresi dolduğu için artık kullanılamıyor.</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>Deneme süresi doldu.</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>Deneme ({0} gün kaldı)</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>Lütfen daha sonra tekrar deneyin.</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>Satıl alma başarısız oldu.</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>Tümünü göster</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>Bir öğe seçin</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>Bağlan</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>Evrensel Adlandırma Kuralı (UNC)</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>Bağlan</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>Bağlantıyı kes</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>Desteklenmeyen küçük resim yükle</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>Kullanıcı Kimliği</value>
+  </data>
+</root>

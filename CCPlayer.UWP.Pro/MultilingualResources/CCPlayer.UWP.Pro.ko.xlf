@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ko" original="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CCPLAYER.UWP.PRO/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="Buy.Label" translate="yes" xml:space="preserve">
+          <source>buy the pro version</source>
+          <target state="translated">프로버전 구매</target>
+        </trans-unit>
+        <trans-unit id="Thanks.LibraryCreators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to library's creators</source>
+          <target state="translated">라이브러리 제작자</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitle" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Pro</source>
+          <target state="translated">CCPlayer UWP Pro</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicISO" translate="yes" xml:space="preserve">
+          <source>Arabic (ISO)</source>
+          <target state="translated">아랍어 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicOem" translate="yes" xml:space="preserve">
+          <source>Arabic (OEM)</source>
+          <target state="translated">아랍어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetArabicWindows" translate="yes" xml:space="preserve">
+          <source>Arabic (Windows)</source>
+          <target state="translated">아랍어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetAutoDetect" translate="yes" xml:space="preserve">
+          <source>Auto detection</source>
+          <target state="translated">자동 검출</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticISO" translate="yes" xml:space="preserve">
+          <source>Baltic (ISO)</source>
+          <target state="translated">발트어 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticOem" translate="yes" xml:space="preserve">
+          <source>Baltic (OEM)</source>
+          <target state="translated">발트어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetBalticWindows" translate="yes" xml:space="preserve">
+          <source>Baltic (Windows)</source>
+          <target state="translated">발트어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Central European (ISO)</source>
+          <target state="translated">중앙 유럽어 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCentralEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Central European (Windows)</source>
+          <target state="translated">중앙 유럽어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseSimplifiedGB" translate="yes" xml:space="preserve">
+          <source>Chinese Simplified</source>
+          <target state="translated">중국어 간체</target>
+        </trans-unit>
+        <trans-unit id="CharsetChineseTraditionalBig5" translate="yes" xml:space="preserve">
+          <source>Chinese Traditional</source>
+          <target state="translated">중국어 번체</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicISO" translate="yes" xml:space="preserve">
+          <source>Cyrillic (ISO)</source>
+          <target state="translated">크릴 자모 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicOem" translate="yes" xml:space="preserve">
+          <source>Cyrillic (OEM)</source>
+          <target state="translated">크릴 자모 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetCyrillicWindows" translate="yes" xml:space="preserve">
+          <source>Cyrillic (Windows)</source>
+          <target state="translated">크릴 자모 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekOem" translate="yes" xml:space="preserve">
+          <source>Greek (OEM)</source>
+          <target state="translated">그리스어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetGreekWindows" translate="yes" xml:space="preserve">
+          <source>Greek (Windows)</source>
+          <target state="translated">그리스어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewISO_Visual" translate="yes" xml:space="preserve">
+          <source>Hebrew (ISO-Visual)</source>
+          <target state="translated">히브리어 (ISO-Visual)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewOem" translate="yes" xml:space="preserve">
+          <source>Hebrew (OEM)</source>
+          <target state="translated">히브리어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetHebrewWindows" translate="yes" xml:space="preserve">
+          <source>Hebrew (Windows)</source>
+          <target state="translated">히브리어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetJapaneseShift_JIS" translate="yes" xml:space="preserve">
+          <source>Japanese (Windows)</source>
+          <target state="translated">일본어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanEUC" translate="yes" xml:space="preserve">
+          <source>Korean (Windows EUC-KR)</source>
+          <target state="translated">한국어 (Windows EUC-KR)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin3" translate="yes" xml:space="preserve">
+          <source>Latin3 (OEM)</source>
+          <target state="translated">라틴3 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatin9" translate="yes" xml:space="preserve">
+          <source>Latin9 (OEM)</source>
+          <target state="translated">라틴9 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetLatinIIOem" translate="yes" xml:space="preserve">
+          <source>Central European (OEM)</source>
+          <target state="translated">중앙 유럽어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIEuroOem" translate="yes" xml:space="preserve">
+          <source>Western European EURO (OEM)</source>
+          <target state="translated">서유럽 EURO (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetMultilingualLatinIOem" translate="yes" xml:space="preserve">
+          <source>Western European (OEM)</source>
+          <target state="translated">서유럽어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetRussianOem" translate="yes" xml:space="preserve">
+          <source>Russian (OEM)</source>
+          <target state="translated">러시아어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetThaiWindows" translate="yes" xml:space="preserve">
+          <source>Thai (Windows)</source>
+          <target state="translated">태국어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishISO" translate="yes" xml:space="preserve">
+          <source>Turkish (ISO)</source>
+          <target state="translated">터키어 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishOem" translate="yes" xml:space="preserve">
+          <source>Turkish (OEM)</source>
+          <target state="translated">터키어 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetTurkishWindows" translate="yes" xml:space="preserve">
+          <source>Turkish (Windows)</source>
+          <target state="translated">터키어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUsOem" translate="yes" xml:space="preserve">
+          <source>Extended ASCII (OEM)</source>
+          <target state="translated">확장 아스키 (OEM)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16BE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Big Endian)</source>
+          <target state="translated">유니코드 (UTF-16 Big Endian)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_16LE" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-16 Little Endian)</source>
+          <target state="translated">유니코드 (UTF-16 Little Endian)</target>
+        </trans-unit>
+        <trans-unit id="CharsetUTF_8" translate="yes" xml:space="preserve">
+          <source>Unicode (UTF-8)</source>
+          <target state="translated">유니코드 (UTF-8)</target>
+        </trans-unit>
+        <trans-unit id="CharsetVietnameseWindows" translate="yes" xml:space="preserve">
+          <source>Vietnamese (Windows)</source>
+          <target state="translated">베트남어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanISO" translate="yes" xml:space="preserve">
+          <source>Western European (ISO)</source>
+          <target state="translated">서유럽어 (ISO)</target>
+        </trans-unit>
+        <trans-unit id="CharsetWesternEuropeanWindows" translate="yes" xml:space="preserve">
+          <source>Western European (Windows)</source>
+          <target state="translated">서유럽어 (Windows)</target>
+        </trans-unit>
+        <trans-unit id="FontShadow.Header" translate="yes" xml:space="preserve">
+          <source>Use shadow</source>
+          <target state="translated">그림자 효과 사용</target>
+        </trans-unit>
+        <trans-unit id="FontSize.Text" translate="yes" xml:space="preserve">
+          <source>Font size</source>
+          <target state="translated">글자 크기</target>
+        </trans-unit>
+        <trans-unit id="FontStyle.Text" translate="yes" xml:space="preserve">
+          <source>Font style</source>
+          <target state="translated">글자 스타일</target>
+        </trans-unit>
+        <trans-unit id="FontStyleOverride.Header" translate="yes" xml:space="preserve">
+          <source>Use font style overriding</source>
+          <target state="translated">글자 스타일 재정의</target>
+        </trans-unit>
+        <trans-unit id="FontWeight.Text" translate="yes" xml:space="preserve">
+          <source>Font weight</source>
+          <target state="translated">글자 굵기</target>
+        </trans-unit>
+        <trans-unit id="SubtitleBackground.Header" translate="yes" xml:space="preserve">
+          <source>Use background of the subtitle</source>
+          <target state="translated">배경 효과 사용</target>
+        </trans-unit>
+        <trans-unit id="SubtitleSyncUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="translated">초</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingContent.Text" translate="yes" xml:space="preserve">
+          <source>No Ad! Full features!</source>
+          <target state="translated">광고없음! 모든 기능!</target>
+        </trans-unit>
+        <trans-unit id="AdvertisingTitle.Text" translate="yes" xml:space="preserve">
+          <source>Go buy now! CCPlayer pro!</source>
+          <target state="translated">바로 지금 CCPlayer Pro 구매!</target>
+        </trans-unit>
+        <trans-unit id="FontOutline.Header" translate="yes" xml:space="preserve">
+          <source>Use outline</source>
+          <target state="translated">윤곽선 사용</target>
+        </trans-unit>
+        <trans-unit id="Thanks.Translators.Text" translate="yes" xml:space="preserve">
+          <source>Thanks to the translators</source>
+          <target state="translated">번역 참여자</target>
+        </trans-unit>
+        <trans-unit id="SubtitleColor.Text" translate="yes" xml:space="preserve">
+          <source>Font color</source>
+          <target state="translated">글자 색상</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.Header.Text" translate="yes" xml:space="preserve">
+          <source>Font family</source>
+          <target state="translated">글꼴 그룹</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Button.Content" translate="yes" xml:space="preserve">
+          <source>Install font</source>
+          <target state="translated">글꼴 설치</target>
+        </trans-unit>
+        <trans-unit id="FontExternal.Import.Header.Text" translate="yes" xml:space="preserve">
+          <source>Install font from file (*.ttf/ttc/otf/otc)</source>
+          <target state="translated">글꼴 파일 설치 (*.ttf/ttc/otf/otc)</target>
+        </trans-unit>
+        <trans-unit id="FontFamily.List.Text" translate="yes" xml:space="preserve">
+          <source>Installed fonts</source>
+          <target state="translated">설치된 글꼴 목록</target>
+        </trans-unit>
+        <trans-unit id="SaveTruTypeFontInMKV.Header" translate="yes" xml:space="preserve">
+          <source>Save fonts included in the media</source>
+          <target state="translated">재생시 미디어에 포함된 글꼴을 설치</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature1" translate="yes" xml:space="preserve">
+          <source>This feature can be used only in the Pro version.</source>
+          <target state="translated">이 기능은 프로버전에서만 사용할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine01" translate="yes" xml:space="preserve">
+          <source>Play was stopped because an error occurred.</source>
+          <target state="translated">오류가 발생하여 재생이 중단되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine02" translate="yes" xml:space="preserve">
+          <source>Network error has occurred.</source>
+          <target state="translated">네트워크 오류가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine03" translate="yes" xml:space="preserve">
+          <source>Decoding error has occurred.</source>
+          <target state="translated">디코딩 오류가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine04" translate="yes" xml:space="preserve">
+          <source>Can't play because the item's file format isn't supported.</source>
+          <target state="translated">지원되지 않는 형식의 미디어 포맷입니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine05" translate="yes" xml:space="preserve">
+          <source>It is encrypted media format.</source>
+          <target state="translated">암호화된 미디어 형식입니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.MFEngine99" translate="yes" xml:space="preserve">
+          <source>Unknown error has occurred.</source>
+          <target state="translated">알 수 없는 오류가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FileNotFound" translate="yes" xml:space="preserve">
+          <source>Error - File not found</source>
+          <target state="translated">오류 - 파일일 찾을 수 없음</target>
+        </trans-unit>
+        <trans-unit id="AutoSeekInterval" translate="yes" xml:space="preserve">
+          <source>Depending on running time</source>
+          <target state="translated">상영시간에 따라</target>
+        </trans-unit>
+        <trans-unit id="HardwareBackButtonWithinVideo.Header" translate="yes" xml:space="preserve">
+          <source>Back button within video menu</source>
+          <target state="translated">탐색기에서 뒤로가기 키 사용</target>
+        </trans-unit>
+        <trans-unit id="SeekTimeInterval.Text" translate="yes" xml:space="preserve">
+          <source>Time interval of the seeking</source>
+          <target state="translated">탐색 시간 간격</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FolderNotFound" translate="yes" xml:space="preserve">
+          <source>Error - Folder not found</source>
+          <target state="translated">오류 - 폴더를 찾을 수 없음</target>
+        </trans-unit>
+        <trans-unit id="FlipToPause.Header" translate="yes" xml:space="preserve">
+          <source>Flip to pause</source>
+          <target state="translated">뒤집으면 일시 정지</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.Pro.Feature2" translate="yes" xml:space="preserve">
+          <source>Do you want to buy now?</source>
+          <target state="translated">지금 바로 구매하시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="NotSupportedDecoder" translate="yes" xml:space="preserve">
+          <source>The media can not be played by {0} decoder.</source>
+          <target state="translated">이 미디어는 {0} 디코더로 재생할 수 없습니다. </target>
+        </trans-unit>
+        <trans-unit id="UseGpuShader.Header" translate="yes" xml:space="preserve">
+          <source>Use GPU shader within SW decoder</source>
+          <target state="translated">SW디코더에서 GPU 쉐이더 사용</target>
+        </trans-unit>
+        <trans-unit id="CharsetKoreanMS" translate="yes" xml:space="preserve">
+          <source>Korean (Windows MS949)</source>
+          <target state="translated">한국어 (Windows MS949)</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.HM" translate="yes" xml:space="preserve">
+          <source>{0}hr {1}min</source>
+          <target state="translated">{0}시간 {1}분</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.MS" translate="yes" xml:space="preserve">
+          <source>{0}min {1}sec</source>
+          <target state="translated">{0}분 {1}초</target>
+        </trans-unit>
+        <trans-unit id="Format.Duration.Time.S" translate="yes" xml:space="preserve">
+          <source>{0}sec</source>
+          <target state="translated">{0}초</target>
+        </trans-unit>
+        <trans-unit id="Format.Folder.Video.Count" translate="yes" xml:space="preserve">
+          <source>{0} videos</source>
+          <target state="translated">{0} 동영상</target>
+        </trans-unit>
+        <trans-unit id="List.File.Text" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <target state="translated">파일</target>
+        </trans-unit>
+        <trans-unit id="List.Folder.Text" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <target state="translated">폴더</target>
+        </trans-unit>
+        <trans-unit id="OrderBy.Text" translate="yes" xml:space="preserve">
+          <source>Sort by:</source>
+          <target state="translated">정렬기준:</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Ascending" translate="yes" xml:space="preserve">
+          <source>Added date</source>
+          <target state="translated">추가된 날짜</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Ascending" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="translated">이름</target>
+        </trans-unit>
+        <trans-unit id="Folder.AddButton.Text" translate="yes" xml:space="preserve">
+          <source>Add this folder into Explorer</source>
+          <target state="translated">이 폴더를 탐색기에 추가</target>
+        </trans-unit>
+        <trans-unit id="Sort.CreatedDate.Descending" translate="yes" xml:space="preserve">
+          <source>Added date (Descending)</source>
+          <target state="translated">추가된 날짜 (내림차순)</target>
+        </trans-unit>
+        <trans-unit id="Sort.Name.Descending" translate="yes" xml:space="preserve">
+          <source>Name (Descending)</source>
+          <target state="translated">이름 (내림차순)</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Attachment" translate="yes" xml:space="preserve">
+          <source>Attachment</source>
+          <target state="translated">첨부</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Audio" translate="yes" xml:space="preserve">
+          <source>Audio</source>
+          <target state="translated">오디오</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Subtitle" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="translated">자막</target>
+        </trans-unit>
+        <trans-unit id="Stream.Type.Video" translate="yes" xml:space="preserve">
+          <source>Video</source>
+          <target state="translated">비디오</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.BaseFontSize" translate="yes" xml:space="preserve">
+          <source>24</source>
+          <target state="translated">24</target>
+        </trans-unit>
+        <trans-unit id="Sample.Subtitle.Text" translate="yes" xml:space="preserve">
+          <source>Enjoy with subtitle :)</source>
+          <target state="translated">즐겁게 시청하세요 :)</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">패스워드</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate.Text" translate="yes" xml:space="preserve">
+          <source>It will be saved after white spaces removed.</source>
+          <target state="translated">공백은 입력해도 제거 되고 저장 됩니다.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate1.Title" translate="yes" xml:space="preserve">
+          <source>Password length should be minimum of 4 characters.</source>
+          <target state="translated">패스워드는 4글자 이상이어야 합니다.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate2.Title" translate="yes" xml:space="preserve">
+          <source>It includes a white space in the input string.</source>
+          <target state="translated">입력한 패스워드에 공백이 포함되어 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Use.Header" translate="yes" xml:space="preserve">
+          <source>Use app protection</source>
+          <target state="translated">앱 보호 사용</target>
+        </trans-unit>
+        <trans-unit id="Button.Change.Content" translate="yes" xml:space="preserve">
+          <source>Change</source>
+          <target state="translated">변경</target>
+        </trans-unit>
+        <trans-unit id="Button.Ok.Content" translate="yes" xml:space="preserve">
+          <source>Ok</source>
+          <target state="translated">확인</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Hint.Header.Text" translate="yes" xml:space="preserve">
+          <source>Password's hint</source>
+          <target state="translated">패스워드 힌트</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Commit.Content" translate="yes" xml:space="preserve">
+          <source>Modify file extension</source>
+          <target state="translated">확장자 변경</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Content" translate="yes" xml:space="preserve">
+          <source>Make sure that {0} extension exists already with the same name in the folder.</source>
+          <target state="translated">해당 폴더내에 이미 동일한 이름으로 {0} 확장자가 존재하는지 확인하십시오.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Fail.Title" translate="yes" xml:space="preserve">
+          <source>Failed to change extension.</source>
+          <target state="translated">확장자 변경이 실패하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.FilePicker.Content" translate="yes" xml:space="preserve">
+          <source>Choose to chage file</source>
+          <target state="translated">변경할 파일 선택</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Header.Text" translate="yes" xml:space="preserve">
+          <source>Change the file extension that to hide in other apps</source>
+          <target state="translated">다른앱에서 파일을 볼 수 없도록 확장자 변경</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success.Title" translate="yes" xml:space="preserve">
+          <source>The changed file will not appear in other apps.</source>
+          <target state="translated">변경된 파일들은 다른 앱에서는 나타나지 않게 됩니다.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success1.Content" translate="yes" xml:space="preserve">
+          <source>{0} and {1} files extension has been changed to {2}.</source>
+          <target state="translated">{0} 외 {1}개 파일의 확장자가 {2}로 변경되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="FileAssociation.Change.Success2.Content" translate="yes" xml:space="preserve">
+          <source>{0} file extension has been changed to {1}.</source>
+          <target state="translated">{0} 파일의 확장자가 {1}로 변경되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Text" translate="yes" xml:space="preserve">
+          <source>Protect your privacy by activating the app protection.</source>
+          <target state="translated">앱 보호 기능을 작동시켜 사생활을 보호하세요.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Password.Validate3.Title" translate="yes" xml:space="preserve">
+          <source>Password has been changed.</source>
+          <target state="translated">패스워드가 변경되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOff" translate="yes" xml:space="preserve">
+          <source>Turn off</source>
+          <target state="translated">끄기</target>
+        </trans-unit>
+        <trans-unit id="Button.AppLock.TurnOn" translate="yes" xml:space="preserve">
+          <source>Turn on</source>
+          <target state="translated">켜기</target>
+        </trans-unit>
+        <trans-unit id="Theme.Header.Text" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="translated">테마</target>
+        </trans-unit>
+        <trans-unit id="Button.Clear.Content" translate="yes" xml:space="preserve">
+          <source>Clear</source>
+          <target state="translated">비우기</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Period.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's retention period</source>
+          <target state="translated">썸네일의 보존 기간</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Size.Text" translate="yes" xml:space="preserve">
+          <source>Thumbnail's disk usage</source>
+          <target state="translated">썸네일의 디스크 사용량</target>
+        </trans-unit>
+        <trans-unit id="UseDefaultSWDecoder.Header" translate="yes" xml:space="preserve">
+          <source>Use SW decoder as default decoder</source>
+          <target state="translated">SW디코더를 기본 더코더로 사용</target>
+        </trans-unit>
+        <trans-unit id="App.Version.Text" translate="yes" xml:space="preserve">
+          <source>Version</source>
+          <target state="translated">버전</target>
+        </trans-unit>
+        <trans-unit id="Developer.Header.Text" translate="yes" xml:space="preserve">
+          <source>Developer</source>
+          <target state="translated">개발자</target>
+        </trans-unit>
+        <trans-unit id="Developer.Name.Content" translate="yes" xml:space="preserve">
+          <source>Jooyong, Yook</source>
+          <target state="translated">육주용</target>
+        </trans-unit>
+        <trans-unit id="Feedback.BugReport.Content" translate="yes" xml:space="preserve">
+          <source>Bug report</source>
+          <target state="translated">버그 리포트</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Header.Text" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated">피드백</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Suggest.Content" translate="yes" xml:space="preserve">
+          <source>Suggest</source>
+          <target state="translated">제안</target>
+        </trans-unit>
+        <trans-unit id="Feedback.Facebook.Content" translate="yes" xml:space="preserve">
+          <source>Facebook</source>
+          <target state="translated">페이스북</target>
+        </trans-unit>
+        <trans-unit id="Feedback.ReviewRate.Content" translate="yes" xml:space="preserve">
+          <source>Review &amp; Rating</source>
+          <target state="translated">리뷰 &amp; 평가</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Description.Text" translate="yes" xml:space="preserve">
+          <source>Please enter a password.</source>
+          <target state="translated">패스워드를 입력하십시오.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.InvalidPassword.Text" translate="yes" xml:space="preserve">
+          <source>Password is incorrect.</source>
+          <target state="translated">패스워드가 올바르지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="AppLock.Login.Title.Text" translate="yes" xml:space="preserve">
+          <source>App protection mode is executing.</source>
+          <target state="translated">앱 보호 모드가 실행중입니다.</target>
+        </trans-unit>
+        <trans-unit id="Button.CCPClose.Content" translate="yes" xml:space="preserve">
+          <source>Exit CCPlayer</source>
+          <target state="translated">CCPlayer 종료</target>
+        </trans-unit>
+        <trans-unit id="Button.Login.Content" translate="yes" xml:space="preserve">
+          <source>Authenticate</source>
+          <target state="translated">인증</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Tag" translate="yes" xml:space="preserve">
+          <source>App protection : Executing</source>
+          <target state="translated">앱 보호 : 실행중</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.AppLock.Switch.Text" translate="yes" xml:space="preserve">
+          <source>App protection : Stopped</source>
+          <target state="translated">앱 보호 : 정지됨</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.Settings.Title.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">설정</target>
+        </trans-unit>
+        <trans-unit id="Message.Check.MovePlayList.Content" translate="yes" xml:space="preserve">
+          <source>Move to playlist after adding.</source>
+          <target state="translated">추가 후 재생목록으로 이동</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Tag" translate="yes" xml:space="preserve">
+          <source>Uncheck all</source>
+          <target state="translated">선택 취소</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.AllCheck.Text" translate="yes" xml:space="preserve">
+          <source>Check all</source>
+          <target state="translated">전체 선택</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Back.Text" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="translated">이전</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Check.Text" translate="yes" xml:space="preserve">
+          <source>Check</source>
+          <target state="translated">선택</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Delete.Text" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="translated">삭제</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Refresh.Text" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="translated">새로 고침</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Common.Remove.Text" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="translated">제거</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddFolder.Text" translate="yes" xml:space="preserve">
+          <source>Add folder</source>
+          <target state="translated">폴더 추가</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.AddToPlayList.Text" translate="yes" xml:space="preserve">
+          <source>Add to playlist</source>
+          <target state="translated">재생목록에 추가</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.NewPlayList.Text" translate="yes" xml:space="preserve">
+          <source>New playlist</source>
+          <target state="translated">새 재생 목록</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.Explorer.Upper.Text" translate="yes" xml:space="preserve">
+          <source>To upper</source>
+          <target state="translated">상위로 이동</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Rename.Text" translate="yes" xml:space="preserve">
+          <source>Rename</source>
+          <target state="translated">이름 변경</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.Reorder.Text" translate="yes" xml:space="preserve">
+          <source>Reorder</source>
+          <target state="translated">순서 변경</target>
+        </trans-unit>
+        <trans-unit id="Button.Cancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="translated">취소</target>
+        </trans-unit>
+        <trans-unit id="Button.Close.Content" translate="yes" xml:space="preserve">
+          <source>Close</source>
+          <target state="translated">닫기</target>
+        </trans-unit>
+        <trans-unit id="Button.Play.Content" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated">재생</target>
+        </trans-unit>
+        <trans-unit id="Button.Save.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="translated">저장</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Format.Text" translate="yes" xml:space="preserve">
+          <source>Format</source>
+          <target state="translated">포맷</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.RunningTime.Text" translate="yes" xml:space="preserve">
+          <source>Running time</source>
+          <target state="translated">상영시간</target>
+        </trans-unit>
+        <trans-unit id="Media.Information.Title.Text" translate="yes" xml:space="preserve">
+          <source>Title</source>
+          <target state="translated">타이틀</target>
+        </trans-unit>
+        <trans-unit id="Message.Confirm.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Media files are not deleted from the disk.</source>
+          <target state="translated">미디어 파일이 디스크에서 제거되는것은 아닙니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.AddPlayList" translate="yes" xml:space="preserve">
+          <source>An error occurred while adding playlists.</source>
+          <target state="translated">재생목록 추가중 에러가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.CheckFile" translate="yes" xml:space="preserve">
+          <source>There may be a temporary error. Please try again later.
+If the same error still occurs, make sure the file is defective.</source>
+          <target state="translated">일시적인 오류일 수도 있으니 잠시 후 다시 시도하십시오.
+동일한 에러가 계속 발생하면, 파일에 결함이 없는지 확인 하십시오.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DuplicatedName" translate="yes" xml:space="preserve">
+          <source>The name is already in use. Please enter a different name.</source>
+          <target state="translated">이미 존재하는 이름입니다. 다른 이름을 입력하십시오.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.LoadMedia" translate="yes" xml:space="preserve">
+          <source>Could not read media information.</source>
+          <target state="translated">미디어 정보를 읽을 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Remove" translate="yes" xml:space="preserve">
+          <source>An error occurred trying to remove.</source>
+          <target state="translated">제거중에 에러가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Retry" translate="yes" xml:space="preserve">
+          <source>Please try again later.
+If the same error still occurs, reinstall the app.</source>
+          <target state="translated">나중에 다시 시도하십시오.
+동일한 에러가 계속 발생하면, 앱을 재설치하십시오.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Save" translate="yes" xml:space="preserve">
+          <source>An error occurred during save.</source>
+          <target state="translated">저장중에 에러가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Update" translate="yes" xml:space="preserve">
+          <source>The error occurred during update.</source>
+          <target state="translated">업데이트중 에러가 발생하였습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Information.DeletePlayList" translate="yes" xml:space="preserve">
+          <source>Delete the playlist.</source>
+          <target state="translated">재생목록을 삭제합니다.</target>
+        </trans-unit>
+        <trans-unit id="PlayList.New.Title" translate="yes" xml:space="preserve">
+          <source>Enter playlist name</source>
+          <target state="translated">재생 목록 이름 입력</target>
+        </trans-unit>
+        <trans-unit id="PlayList.NowPlaying.Text" translate="yes" xml:space="preserve">
+          <source>Now playing</source>
+          <target state="translated">지금 재생 중</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Description" translate="yes" xml:space="preserve">
+          <source>Information, feedback, review &amp; rating</source>
+          <target state="translated">정보, 피드백, 리뷰 및 평가</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.App.Title" translate="yes" xml:space="preserve">
+          <source>App</source>
+          <target state="translated">앱</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Description" translate="yes" xml:space="preserve">
+          <source>Password, Lock</source>
+          <target state="translated">비밀번호, 잠금</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.AppLock.Title" translate="yes" xml:space="preserve">
+          <source>App protection</source>
+          <target state="translated">앱 보호</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Description" translate="yes" xml:space="preserve">
+          <source>Install &amp; Remove</source>
+          <target state="translated">설치 및 제거 관리</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Font.Title" translate="yes" xml:space="preserve">
+          <source>Font</source>
+          <target state="translated">글꼴</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Description" translate="yes" xml:space="preserve">
+          <source>Theme, Thumbnail</source>
+          <target state="translated">테마, 썸네일</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.General.Title" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated">일반</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Description" translate="yes" xml:space="preserve">
+          <source>Seeking, Decoder</source>
+          <target state="translated">탐색, 디코더</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Playback.Title" translate="yes" xml:space="preserve">
+          <source>Playback</source>
+          <target state="translated">재생</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Description" translate="yes" xml:space="preserve">
+          <source>Font, Style, Color</source>
+          <target state="translated">글꼴, 스타일, 색상</target>
+        </trans-unit>
+        <trans-unit id="Settings.Menu.Subtitle.Title" translate="yes" xml:space="preserve">
+          <source>Subtitle</source>
+          <target state="translated">자막</target>
+        </trans-unit>
+        <trans-unit id="Theme.Dark.Text" translate="yes" xml:space="preserve">
+          <source>Dark</source>
+          <target state="translated">어둡게</target>
+        </trans-unit>
+        <trans-unit id="Theme.Light.Text" translate="yes" xml:space="preserve">
+          <source>Light</source>
+          <target state="translated">밝게</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Retention.Days.Content" translate="yes" xml:space="preserve">
+          <source>{0} days</source>
+          <target state="translated">{0} 일</target>
+        </trans-unit>
+        <trans-unit id="TopMenu.PlayList.ResetPausedTime.Text" translate="yes" xml:space="preserve">
+          <source>Reset time</source>
+          <target state="translated">시간 초기화</target>
+        </trans-unit>
+        <trans-unit id="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Volume booster</source>
+          <target state="translated">음량 증폭</target>
+        </trans-unit>
+        <trans-unit id="PercentageUnit.Text" translate="yes" xml:space="preserve">
+          <source>%</source>
+          <target state="needs-review-translation">%</target>
+        </trans-unit>
+        <trans-unit id="SecondUnit.Text" translate="yes" xml:space="preserve">
+          <source>sec</source>
+          <target state="translated">초</target>
+        </trans-unit>
+        <trans-unit id="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Aspect ratio</source>
+          <target state="translated">화면 비율</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Fill" translate="yes" xml:space="preserve">
+          <source>Fill</source>
+          <target state="translated">꽉찬화면</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.Uniform" translate="yes" xml:space="preserve">
+          <source>Uniform</source>
+          <target state="translated">비율유지</target>
+        </trans-unit>
+        <trans-unit id="AspectRatioItems.UniformToFill" translate="yes" xml:space="preserve">
+          <source>Uniform to fill</source>
+          <target state="translated">비율유지 꽉찬화면</target>
+        </trans-unit>
+        <trans-unit id="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio options</source>
+          <target state="translated">오디오 옵션</target>
+        </trans-unit>
+        <trans-unit id="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Left / Right balance</source>
+          <target state="translated">좌 / 우 균형</target>
+        </trans-unit>
+        <trans-unit id="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio languages</source>
+          <target state="translated">오디오 언어</target>
+        </trans-unit>
+        <trans-unit id="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio sync</source>
+          <target state="translated">오디오 싱크</target>
+        </trans-unit>
+        <trans-unit id="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Audio volume</source>
+          <target state="translated">음량</target>
+        </trans-unit>
+        <trans-unit id="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Brightness</source>
+          <target state="translated">밝기</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle options</source>
+          <target state="translated">자막 옵션</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle charsets</source>
+          <target state="translated">자막 문자셋</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle size</source>
+          <target state="translated">자막 크기</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionImport.Text" translate="yes" xml:space="preserve">
+          <source>Import external subtitle</source>
+          <target state="translated">외부 자막 열기</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle languages</source>
+          <target state="translated">자막 언어</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionPosition.Text" translate="yes" xml:space="preserve">
+          <source>Move subtitle position</source>
+          <target state="translated">자막 위치 이동</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSetting.Text" translate="yes" xml:space="preserve">
+          <source>Subtitle settings</source>
+          <target state="translated">자막 표시 설정</target>
+        </trans-unit>
+        <trans-unit id="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Subtitle sync</source>
+          <target state="translated">자막 싱크</target>
+        </trans-unit>
+        <trans-unit id="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Close playback window</source>
+          <target state="translated">재생 창 닫기</target>
+        </trans-unit>
+        <trans-unit id="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Decoder</source>
+          <target state="translated">디코더</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Display rotation</source>
+          <target state="translated">화면 회전</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise180" translate="yes" xml:space="preserve">
+          <source>Clockwise 180°</source>
+          <target state="translated">시계방향 180°</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise270" translate="yes" xml:space="preserve">
+          <source>Clockwise 270°</source>
+          <target state="translated">시계방향 270°</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.Clockwise90" translate="yes" xml:space="preserve">
+          <source>Clockwise 90°</source>
+          <target state="translated">시계방향 90°</target>
+        </trans-unit>
+        <trans-unit id="DisplayRotationItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">회전안함</target>
+        </trans-unit>
+        <trans-unit id="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast forward</source>
+          <target state="translated">빨리 감기</target>
+        </trans-unit>
+        <trans-unit id="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Fast rewind</source>
+          <target state="translated">뒤로 감기</target>
+        </trans-unit>
+        <trans-unit id="FullWindow.Tag" translate="yes" xml:space="preserve">
+          <source>Full screen mode</source>
+          <target state="translated">전체 화면 모드</target>
+        </trans-unit>
+        <trans-unit id="FullWindow2.Tag" translate="yes" xml:space="preserve">
+          <source>Window mode</source>
+          <target state="translated">창모드</target>
+        </trans-unit>
+        <trans-unit id="HorizontalMirror.Label" translate="yes" xml:space="preserve">
+          <source>Horizontal mirror</source>
+          <target state="translated">좌우 바꿈</target>
+        </trans-unit>
+        <trans-unit id="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Lock control panel</source>
+          <target state="translated">제어 패널 잠금</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback speed (rate)</source>
+          <target state="translated">재생 속도</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Playback repeat</source>
+          <target state="translated">반복 재생</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.All" translate="yes" xml:space="preserve">
+          <source>Infinity</source>
+          <target state="translated">계속</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.None" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target state="translated">반복 안함</target>
+        </trans-unit>
+        <trans-unit id="PlaybackRepeatItems.Once" translate="yes" xml:space="preserve">
+          <source>Once</source>
+          <target state="translated">한번만</target>
+        </trans-unit>
+        <trans-unit id="PlayPause.Tag" translate="yes" xml:space="preserve">
+          <source>Play</source>
+          <target state="translated">재생</target>
+        </trans-unit>
+        <trans-unit id="PlayPause2.Tag" translate="yes" xml:space="preserve">
+          <source>Pause</source>
+          <target state="translated">일시정지</target>
+        </trans-unit>
+        <trans-unit id="RotationLock.Label" translate="yes" xml:space="preserve">
+          <source>Rotation lock</source>
+          <target state="translated">회전 잠금</target>
+        </trans-unit>
+        <trans-unit id="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video options</source>
+          <target state="translated">비디오 옵션</target>
+        </trans-unit>
+        <trans-unit id="Explorer.Title.Text" translate="yes" xml:space="preserve">
+          <source>Folders &amp; Files</source>
+          <target state="translated">폴더 &amp; 파일</target>
+        </trans-unit>
+        <trans-unit id="Explorer.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Add Folder button (top right) to add the folder that contains the movies.</source>
+          <target state="translated">폴더 추가 버튼(우측 상단)을 클릭해서 영화가 담겨있는 폴더를 추가하세요.</target>
+        </trans-unit>
+        <trans-unit id="Loading.Playback.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Preparing to play video.</source>
+          <target state="translated">비디오 재생을 위해 준비중입니다. </target>
+        </trans-unit>
+        <trans-unit id="UseLimeEngine.Header" translate="yes" xml:space="preserve">
+          <source>Use L:me media component (recommended)</source>
+          <target state="translated">L:me 미디어 콤포넌트 사용 (권장)</target>
+        </trans-unit>
+        <trans-unit id="RateReminder.CustomReminderText" translate="yes" xml:space="preserve">
+          <source>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</source>
+          <target state="translated">CCPlayer를 사용해보니 어떠신가요? 여러분의 소중한 의견을 듣고 싶습니다. 지금 별점과 함께 리뷰를 작성해주시겠습니까?</target>
+        </trans-unit>
+        <trans-unit id="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Video Zoom In/Out</source>
+          <target state="translated">화면 확대 및 축소</target>
+        </trans-unit>
+        <trans-unit id="MainMenu.IAPs.Button.Text" translate="yes" xml:space="preserve">
+          <source>Purchase</source>
+          <target state="translated">구매</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Content" translate="yes" xml:space="preserve">
+          <source>The purchase history of the two products was found as follows: 
+ - {0}
+ - {1}
+You can use without restrictions.</source>
+          <target state="translated">다음 2건의 구매이력이 존재합니다 : 
+ - {0}
+ - {1}
+제약없이 사용할 수 있습니다.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Migrate.Success.Title" translate="yes" xml:space="preserve">
+          <source>Congratulations. Migration was successful!</source>
+          <target state="translated">축하합니다. 마이그레이션에 성공하였습니다!</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Button.Retry" translate="yes" xml:space="preserve">
+          <source>Retry</source>
+          <target state="translated">재시도</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Content" translate="yes" xml:space="preserve">
+          <source>It is no longer available because the trial has expired.</source>
+          <target state="translated">체험판이 만료되어 더 이상 사용할 수 없습니다.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Expired.Title" translate="yes" xml:space="preserve">
+          <source>Trial expired.</source>
+          <target state="translated">체험판 만료됨.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.ExpiredLeftDay.Title" translate="yes" xml:space="preserve">
+          <source>Trial (Left {0} days)</source>
+          <target state="translated">체험판 ({0} 일 남음)</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Content" translate="yes" xml:space="preserve">
+          <source>Please try again later.</source>
+          <target state="translated">나중에 다시 시도하세요.</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Purchase.Failed.Title" translate="yes" xml:space="preserve">
+          <source>The purchase failed.</source>
+          <target state="translated">구매가 실패되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Subtitle.Language.Sub.All" translate="yes" xml:space="preserve">
+          <source>Display all</source>
+          <target state="translated">모두 표시</target>
+        </trans-unit>
+        <trans-unit id="BeginLandscape.Header" translate="yes" xml:space="preserve">
+          <source>Start playback in landscape mode</source>
+          <target state="translated">가로모드로 재생시작</target>
+        </trans-unit>
+        <trans-unit id="Picker.Choose.Title" translate="yes" xml:space="preserve">
+          <source>Choose an item</source>
+          <target state="translated">아이템 선택</target>
+        </trans-unit>
+        <trans-unit id="Policies.Header.Text" translate="yes" xml:space="preserve">
+          <source>App policies</source>
+          <target state="translated">앱 정책</target>
+        </trans-unit>
+        <trans-unit id="Policies.Private.Content" translate="yes" xml:space="preserve">
+          <source>Private policy</source>
+          <target state="translated">개인정보취급방침</target>
+        </trans-unit>
+        <trans-unit id="Exit.Information.Text" translate="yes" xml:space="preserve">
+          <source>Press "Back" once again to exit</source>
+          <target state="translated">"뒤로" 버튼을 한번 더 누르면 종료됩니다</target>
+        </trans-unit>
+        <trans-unit id="Developer.CheerUp.Content" translate="yes" xml:space="preserve">
+          <source>Cheer up developer</source>
+          <target state="translated">개발자 응원하기</target>
+        </trans-unit>
+        <trans-unit id="Developer.Donation.Text" translate="yes" xml:space="preserve">
+          <source>Please cheer me up to make a better good CCPlayer</source>
+          <target state="translated">더 좋은 CCPlayer를 만들 수 있도록 개발자를 응원해주세요~ </target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Content" translate="yes" xml:space="preserve">
+          <source>Thank you so much! 
+I'll try to make a better CCPlayer. </source>
+          <target state="translated">커피 응원 감사합니다!
+더욱 좋은 CCPlayer를 만들도록 노력하겠습니다. ^0^</target>
+        </trans-unit>
+        <trans-unit id="IAPs.Donation.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thanks for coffee!</source>
+          <target state="translated">대박 감사합니다~</target>
+        </trans-unit>
+        <trans-unit id="DefaultCharset.Text" translate="yes" xml:space="preserve">
+          <source>Default Character set</source>
+          <target state="translated">기본 문자 인코딩</target>
+        </trans-unit>
+        <trans-unit id="SuspendToPause.Header" translate="yes" xml:space="preserve">
+          <source>App suspend to pause</source>
+          <target state="translated">백그라운드 전환시 일시정지</target>
+        </trans-unit>
+        <trans-unit id="DefaultDecoderType.Text" translate="yes" xml:space="preserve">
+          <source>Default decoder</source>
+          <target state="translated">기본 디코더</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.FailServerAuthentication" translate="yes" xml:space="preserve">
+          <source>The authentication failed. Check your id or password.</source>
+          <target state="translated">서버 인증에 실패하였습니다. 아이디 혹은 패스워드를 확인하세요.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.Password" translate="yes" xml:space="preserve">
+          <source>Please input password.</source>
+          <target state="translated">패스워드를 입력하세요.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.ServerAddress" translate="yes" xml:space="preserve">
+          <source>Please input server address.</source>
+          <target state="translated">서버 주소를 입력하세요.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.DisconnectedServer" translate="yes" xml:space="preserve">
+          <source>The server connection has been lost. Please reconnect.</source>
+          <target state="translated">서버와 접속이 끊어졌습니다. 다시 접속하세요.</target>
+        </trans-unit>
+        <trans-unit id="Button.Connect.Content" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="translated">연결</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.UNC.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: \\server\share</source>
+          <target state="translated">예: \\server\share</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FolderPicker.Text" translate="yes" xml:space="preserve">
+          <source>Local folder</source>
+          <target state="translated">로컬 폴더</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.UNC.Text" translate="yes" xml:space="preserve">
+          <source>Universal Naming Convention</source>
+          <target state="translated">범용 명명 규칙 (UNC)</target>
+        </trans-unit>
+        <trans-unit id="Server.Connect.General.Text" translate="yes" xml:space="preserve">
+          <source>Connect</source>
+          <target state="translated">연결</target>
+        </trans-unit>
+        <trans-unit id="Server.Disonnect.General.Text" translate="yes" xml:space="preserve">
+          <source>Disconnect</source>
+          <target state="translated">연결해제</target>
+        </trans-unit>
+        <trans-unit id="Server.Password.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Password</source>
+          <target state="translated">패스워드</target>
+        </trans-unit>
+        <trans-unit id="Server.NoItem.Text" translate="yes" xml:space="preserve">
+          <source>Click the Connect button (top right) to connect to the server.</source>
+          <target state="translated">연결 버튼(우측상단)을 클릭하여 서버에 접속하세요.</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.FTP.Text" translate="yes" xml:space="preserve">
+          <source>FTP</source>
+          <target state="final">FTP</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.WebDAV.Text" translate="yes" xml:space="preserve">
+          <source>WebDAV</source>
+          <target state="final">WebDAV</target>
+        </trans-unit>
+        <trans-unit id="Server.Path.WebDAV.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: webdav</source>
+          <target state="translated">예: webdav</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Host.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>ex: my.server.com or 192.168.0.1</source>
+          <target state="translated">예: my.server.com or 192.168.0.1</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFolder.Header" translate="yes" xml:space="preserve">
+          <source>Local folders</source>
+          <target state="translated">로컬 폴더</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFile.Header" translate="yes" xml:space="preserve">
+          <source>DLNA files</source>
+          <target state="translated">DLNA 파일</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.DLNAFolder.Header" translate="yes" xml:space="preserve">
+          <source>DLNA folders</source>
+          <target state="translated">DLNA 폴더</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFile.Header" translate="yes" xml:space="preserve">
+          <source>FTP files</source>
+          <target state="translated">FTP 파일</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.FTPFolder.Header" translate="yes" xml:space="preserve">
+          <source>FTP folders</source>
+          <target state="translated">FTP 폴더</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.LocalFile.Header" translate="yes" xml:space="preserve">
+          <source>Local files</source>
+          <target state="translated">Local 파일</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFile.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV files</source>
+          <target state="translated">WebDAV 파일</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.WebDAVFolder.Header" translate="yes" xml:space="preserve">
+          <source>WebDAV folders</source>
+          <target state="translated">WebDAV 폴더</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.Title.Text" translate="yes" xml:space="preserve">
+          <source>Load unsupported thumbnail</source>
+          <target state="translated">지원되지 않는 썸네일을 로드</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UserName" translate="yes" xml:space="preserve">
+          <source>Please input user id.</source>
+          <target state="translated">아이디를 입력하세요.</target>
+        </trans-unit>
+        <trans-unit id="Server.UserName.General.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>User Id</source>
+          <target state="translated">유저 아이디</target>
+        </trans-unit>
+        <trans-unit id="AddFolder.Direct.Text" translate="yes" xml:space="preserve">
+          <source>URL direct play</source>
+          <target state="final">URL 직접 재생</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Subtitle.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable subtitle address.
+(Be careful case sensitive)</source>
+          <target state="translated">재생 가능한 자막파일의 웹 주소.
+(대소문자 구분에 주의!)</target>
+        </trans-unit>
+        <trans-unit id="Server.Address.Video.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Direct playable video address.
+(Be careful case sensitive)</source>
+          <target state="translated">재생가능한 비디오파일의 웹 주소.
+(대소문자 구분에 주의!)</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptySubtitleUrl" translate="yes" xml:space="preserve">
+          <source>Pelase input subtitle url</source>
+          <target state="translated">자막 파일의 주소를 입력하세요.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.EmptyVideoUrl" translate="yes" xml:space="preserve">
+          <source>Please input video url</source>
+          <target state="translated">비디오 파일의 주소를 입력하세요.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.UnsupportedExtension" translate="yes" xml:space="preserve">
+          <source>Not supported file extension.</source>
+          <target state="translated">지원되지 않는 파일 확장자 입니다.</target>
+        </trans-unit>
+        <trans-unit id="ApplicationTitleAd" translate="yes" xml:space="preserve">
+          <source>CCPlayer UWP Ad</source>
+          <target state="final">CCPlayer UWP Ad</target>
+        </trans-unit>
+        <trans-unit id="Message.Alert.Title" translate="yes" xml:space="preserve">
+          <source>Alert</source>
+          <target state="translated">알림</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialCanceled" translate="yes" xml:space="preserve">
+          <source>Didn't finish ad. Couldn't unlock network playback.</source>
+          <target state="translated">광고를 끝까지 시청하지 않으면 잠금이 해제되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialFailed" translate="yes" xml:space="preserve">
+          <source>Couldn't unlock playback because ad not supported area or request failed. 
+(Supported countries : Australia, Brazil, Canada, France, Germany, Italy, Japan, Spain, United Kindom, United States)</source>
+          <target state="translated">광고가 지원되지 않는 지역이거나 요청이 실패하여 잠금을 해제 할 수 없습니다.
+(지원 국가 : 호주, 브라질, 캐나다, 프랑스, 독일, 이탈리아, 일본, 스페인, 영국, 미국)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialQuestion" translate="yes" xml:space="preserve">
+          <source>Watch the video ad to unlock network play. 
+(required internet connection)</source>
+          <target state="translated">광고를 시청하면 네트워크 재생 잠금이 일시적으로 해제됩니다.
+(인터넷 연결 필요)</target>
+        </trans-unit>
+        <trans-unit id="Message.Info.InterstitialSucceed" translate="yes" xml:space="preserve">
+          <source>Network playback locking was unlocked.</source>
+          <target state="translated">네트워크 재생 잠금이 일시적으로 해제되었습니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Thanks.Title" translate="yes" xml:space="preserve">
+          <source>Thank you!</source>
+          <target state="translated">감사합니다!</target>
+        </trans-unit>
+        <trans-unit id="Cloud.OneDrive.Text" translate="yes" xml:space="preserve">
+          <source>OneDrive</source>
+          <target state="translated">OneDrive</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFile.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive files</source>
+          <target state="translated">OneDrive 파일</target>
+        </trans-unit>
+        <trans-unit id="Thumbnail.Unsupported.OneDriveFolder.Header" translate="yes" xml:space="preserve">
+          <source>OneDrive folders</source>
+          <target state="translated">OneDrive 폴더</target>
+        </trans-unit>
+        <trans-unit id="Loading.MediaInformation.Text" translate="yes" xml:space="preserve">
+          <source>Please wait... Reading the media information.</source>
+          <target state="translated">미디어 정보를 읽는 중입니다...</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.NotImplements" translate="yes" xml:space="preserve">
+          <source>The cause is not yet implemented the the feature by Microsoft.</source>
+          <target state="translated">원인은 아직 마이크로소프트에서 해당 기능을 구현하지 않았기 때문입니다.</target>
+        </trans-unit>
+        <trans-unit id="Message.Error.XboxIssue" translate="yes" xml:space="preserve">
+          <source>This feature is not yet supported on Xbox.</source>
+          <target state="translated">이 기능은 아직 Xbox에서 지원되지 않습니다.</target>
+        </trans-unit>
+        <trans-unit id="RotationSyncWithDeviceSwitch.Header" translate="yes" xml:space="preserve">
+          <source>Use rotate regardless device settings</source>
+          <target state="translated">기기 설정에 관계없이 회전 사용</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,91 @@
+﻿<UserControl
+    x:Class="CCPlayer.UWP.Views.Controls.PrivacySettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.UWP.Views.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding PrivacySetting, Source={StaticResource Locator}}"
+    mc:Ignorable="d"
+    d:DesignHeight="1000"
+    d:DesignWidth="400">
+
+    <Grid>
+        <ScrollViewer Grid.Row="1" Margin="0,0,0,12">
+            <StackPanel >
+                <!-- 비밀번호 설정 -->
+                <Grid Margin="0,6,0,18"
+                     x:Name="Password">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Uid="AppLock/Password/Header" 
+                               Text="[패스워드]"
+                               Grid.Row="0"
+                               Loaded="{x:Bind Vm.Loaded}"
+                               Style="{StaticResource ControlTextHeaderStyle}" />
+                    <Grid HorizontalAlignment="Left"
+                          Width="240"
+                          Margin="0,6"
+                          Grid.Row="1" >
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <PasswordBox MaxLength="8"
+                                     HorizontalAlignment="Stretch"
+                                     Password="{Binding Password, Mode=TwoWay}"
+                                     PasswordRevealMode="Peek"/>
+                        <Button x:Uid="Button/Change"
+                                Grid.Column="1"
+                                HorizontalAlignment="Right"
+                                IsEnabled="{x:Bind Vm.EnabledSaveButton, Mode=OneWay}"
+                                Tapped="{x:Bind Vm.SavePasswordTapped}"
+                                Margin="9,0,0,0"/>
+                    </Grid>
+                </Grid>
+                <!-- 비밀번호 힌트 -->
+                <Grid Margin="0,6,0,18"
+                     x:Name="PasswordHint">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Uid="AppLock/Hint/Header" 
+                               Text="[패스워드 힌트]"
+                               Grid.Row="0"
+                               Style="{StaticResource ControlTextHeaderStyle}" />
+                    <TextBox Grid.Row="1"
+                             Margin="0,6"
+                             MaxLength="8"
+                             Width="240"
+                             HorizontalAlignment="Left"
+                             Text="{Binding Settings.Privacy.AppLockPasswordHint, Mode=TwoWay}"/>
+                </Grid>
+                <!-- 잠금 활성화 설정 -->
+                <ToggleSwitch x:Name="UseAppLockSwitch" 
+                              x:Uid="AppLock/Use"
+                              Header="[앱 잠금 활성화]"
+                              Style="{StaticResource ToggleSwitchStyle}"
+                              IsEnabled="{Binding Settings.Privacy.CanAppLock}"
+                              Toggled="Vm.UseAppLockSwitchToggled"/>
+                <!-- 확장자 변경 -->
+                <Grid Margin="0,6,0,18">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Uid="FileAssociation/Change/Header" 
+                               Text="[다른앱에서 파일을 볼 수 없도록 확장자 변경]"
+                               Grid.Row="0"
+                               Style="{StaticResource ControlTextHeaderStyle}"  />
+                    <Button x:Uid="FileAssociation/Change/FilePicker"
+                            Grid.Row="1"
+                            Margin="0,6"
+                            Tapped="{x:Bind Vm.ChangeFileExtensionTapped}"/>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

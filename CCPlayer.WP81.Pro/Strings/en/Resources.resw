@@ -1,0 +1,1033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Header" xml:space="preserve">
+    <value>about</value>
+  </data>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>buy the pro version</value>
+  </data>
+  <data name="VelostepApps.Label" xml:space="preserve">
+    <value>more from L:me</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>version &amp; developers</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>credits</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>design</value>
+  </data>
+  <data name="AboutDesigner" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>development</value>
+  </data>
+  <data name="AboutFacebook" xml:space="preserve">
+    <value>facebook</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>support &amp; feedback</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>Thanks to the creators of the following libraries</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>rate &amp; review</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>share this app</value>
+  </data>
+  <data name="AboutSpecialPeople1" xml:space="preserve">
+    <value>Bomi, Jung</value>
+  </data>
+  <data name="AboutSpecialPeople3" xml:space="preserve">
+    <value>Seongmin, Yoon</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>Special thanks</value>
+  </data>
+  <data name="AboutUserVoice" xml:space="preserve">
+    <value>user voice</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>version</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>what's new</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arabic (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arabic (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arabic (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Auto detection</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltic (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltic (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltic (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Central European (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Central European (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Chinese Simplified</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Chinese Traditional</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Cyrillic (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Cyrillic (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Cyrillic (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Greek (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Greek (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>Hebrew (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>Hebrew (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>Hebrew (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japanese (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Korean (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latin9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Central European (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Western European EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Western European (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Russian (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Thai (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Turkish (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Turkish (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Turkish (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Extended ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnamese (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Western European (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Western European (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Use shadow</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>font size</value>
+  </data>
+  <data name="FontSizeOverride.Header" xml:space="preserve">
+    <value>Use font size overriding</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>font style</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Use font style overriding</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>font weight</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>CCPlayer - settings</value>
+  </data>
+  <data name="Settings.SubtitleFont.Text" xml:space="preserve">
+    <value>subtitle</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Use background of the subtitle</value>
+  </data>
+  <data name="Settings.Appbar.Label" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="MainHub.Text" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="Message.Delete.List" xml:space="preserve">
+    <value>Are you sure you want to delete the selected video in the {0}?</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>To upper</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>what's new</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>credits</value>
+  </data>
+  <data name="AllVideo.Text" xml:space="preserve">
+    <value>all videos</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>explorer</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>loading {0}...</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>play</value>
+  </data>
+  <data name="Playlist.Header" xml:space="preserve">
+    <value>playlist</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>remove</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Message.Exit" xml:space="preserve">
+    <value>Are you sure you want to exit CCPlayer?</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>complete</value>
+  </data>
+  <data name="UpdateHistory00001" xml:space="preserve">
+    <value>First release</value>
+  </data>
+  <data name="NotSupportedAudioCodec" xml:space="preserve">
+    <value>Can not play this audio codec.
+</value>
+  </data>
+  <data name="NotSupportedAudioLicenseCodec" xml:space="preserve">
+    <value>The audio codec has a license in {0}.</value>
+  </data>
+  <data name="NotSupportedVideoCodec" xml:space="preserve">
+    <value>Can not play this video codec.</value>
+  </data>
+  <data name="WrongFileFormat" xml:space="preserve">
+    <value>This file is not {0} format.</value>
+  </data>
+  <data name="Message.Error.Cluster" xml:space="preserve">
+    <value>Damaged part of the MKV file. Skipping a position that can be played ...</value>
+  </data>
+  <data name="Message.Info.Play.NoItems" xml:space="preserve">
+    <value>There is no item to play longer in the playlist.</value>
+  </data>
+  <data name="Message.Confirm.Play.Suspended" xml:space="preserve">
+    <value>This video has been paused at {0} / {1}</value>
+  </data>
+  <data name="Message.Info.Encoding.Fail" xml:space="preserve">
+    <value>Detection of the encoding of the subtitle file failed.
+If you can not recognize the characters, please change the encoding settings of subtitle. 😉</value>
+  </data>
+  <data name="Message.Info.Seek.Create" xml:space="preserve">
+    <value>Seek data being created...</value>
+  </data>
+  <data name="AudioBalance.Text" xml:space="preserve">
+    <value>Left / Right Balance</value>
+  </data>
+  <data name="AudioLanguage.Text" xml:space="preserve">
+    <value>Audio Language</value>
+  </data>
+  <data name="AudioVolume.Text" xml:space="preserve">
+    <value>Media Volume</value>
+  </data>
+  <data name="PlaybackRate.Text" xml:space="preserve">
+    <value>Playback rate</value>
+  </data>
+  <data name="SubtitleFontSize.Text" xml:space="preserve">
+    <value>Subtitle Font Size</value>
+  </data>
+  <data name="SubtitleLanguage.Text" xml:space="preserve">
+    <value>Subtitle Language</value>
+  </data>
+  <data name="SubtitleOnOff.Tag" xml:space="preserve">
+    <value>SUBTITLE</value>
+  </data>
+  <data name="SubtitleSync.Text" xml:space="preserve">
+    <value>Subtitle Sync</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="Brightness.Text" xml:space="preserve">
+    <value>Video Brightness</value>
+  </data>
+  <data name="BrightnessUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="UpdateHistory00002" xml:space="preserve">
+    <value>Fixed some bugs</value>
+  </data>
+  <data name="UpdateHistory00003" xml:space="preserve">
+    <value>Shortcuts subtitle setting (bottom appbar menu ...)</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>No Ad! Full features!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>Go buy now! CCPlayer pro!</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>subtitle</value>
+  </data>
+  <data name="UpdateHistory00004" xml:space="preserve">
+    <value>Fixed a bug related to the subtitle</value>
+  </data>
+  <data name="UpdateHistory00005" xml:space="preserve">
+    <value>Improved display performance of the subtitle</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Use outline</value>
+  </data>
+  <data name="UpdateHistory00006" xml:space="preserve">
+    <value>Fixed MKV playback bug</value>
+  </data>
+  <data name="UpdateHistory00007" xml:space="preserve">
+    <value>Added Text Outline effect (Subtitle settings menu)</value>
+  </data>
+  <data name="UpdateHistory00008" xml:space="preserve">
+    <value>Fixed srt bug (skip invalid timecode)</value>
+  </data>
+  <data name="UpdateHistory00009" xml:space="preserve">
+    <value>Improved loading performance in the explore.</value>
+  </data>
+  <data name="AboutTranslatePeople1" xml:space="preserve">
+    <value>Juan Carlos Ábalos Guerrero</value>
+    <comment>후안 masabalos@outlook.com (Spanish - español) 스페인어</comment>
+  </data>
+  <data name="AboutTranslators" xml:space="preserve">
+    <value>Thanks to the translators</value>
+  </data>
+  <data name="Settings.General.Text" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="HubBackgroundColor.Text" xml:space="preserve">
+    <value>Background color</value>
+  </data>
+  <data name="HubForegroundColor.Text" xml:space="preserve">
+    <value>Font color</value>
+  </data>
+  <data name="HubSubForegroundColor.Text" xml:space="preserve">
+    <value>Sub font color</value>
+  </data>
+  <data name="SubtitleFontColor.Text" xml:space="preserve">
+    <value>Subtitle Font Color</value>
+  </data>
+  <data name="UseAllVideoHub.Header" xml:space="preserve">
+    <value>Use all videos in hub</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>font family</value>
+  </data>
+  <data name="Settings.Subtitle.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>install font</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>You can install the (* .TTF / OTF) from the font file.</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>List of installed fonts</value>
+  </data>
+  <data name="FontManager.Button.Content" xml:space="preserve">
+    <value>font manager</value>
+  </data>
+  <data name="FontManager.Header.Text" xml:space="preserve">
+    <value>Manage custom fonts. 
+(Be careful when using the font license.)</value>
+  </data>
+  <data name="FontManager.Title.Text" xml:space="preserve">
+    <value>font manager</value>
+  </data>
+  <data name="Message.Delete.FontFamily" xml:space="preserve">
+    <value>Are you sure you want to delete the font({0})?</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>Save fonts(TTF) included in MKV</value>
+  </data>
+  <data name="UpdateHistory00010" xml:space="preserve">
+    <value>Supported theme customization</value>
+  </data>
+  <data name="UpdateHistory00011" xml:space="preserve">
+    <value>Added font manager for subtitle</value>
+  </data>
+  <data name="UpdateHistory00012" xml:space="preserve">
+    <value>Added on/off option of  the all videos list</value>
+  </data>
+  <data name="UpdateHistory00013" xml:space="preserve">
+    <value>Modified some UI</value>
+  </data>
+  <data name="UpdateHistory00014" xml:space="preserve">
+    <value>Fixed some bugs</value>
+  </data>
+  <data name="AboutTranslatePeople2" xml:space="preserve">
+    <value>Иван Корниенко</value>
+    <comment>이반 luciahedreh@gmail.com (Russian - русский) 러시아어</comment>
+  </data>
+  <data name="UpdateHistory00015" xml:space="preserve">
+    <value>Improved loading performance in the all videos list</value>
+  </data>
+  <data name="Message.Codec.NoLicense" xml:space="preserve">
+    <value>No license : {0}</value>
+  </data>
+  <data name="Message.Codec.NotSupported" xml:space="preserve">
+    <value>Not supported : {0}</value>
+  </data>
+  <data name="UpdateHistory00016" xml:space="preserve">
+    <value>Supported touch gestures. (audio volume &amp; brightness adjustment)</value>
+  </data>
+  <data name="AboutTranslatePeople3" xml:space="preserve">
+    <value>Meca Cosmin</value>
+    <comment>코스민 mecacosmin@hotmail.com (Romanian - român) 루마니아어</comment>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Add folder</value>
+  </data>
+  <data name="UpdateHistory00017" xml:space="preserve">
+    <value>Added folder management feature</value>
+  </data>
+  <data name="UpdateHistory00018" xml:space="preserve">
+    <value>Fragmentation of the playback speed options (0.1 units)</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>This feature can be used only in the Pro version.</value>
+  </data>
+  <data name="UpdateHistory00019" xml:space="preserve">
+    <value>Added touch gesture (rewind/ forward)
+- Only pro version</value>
+  </data>
+  <data name="UpdateHistory00020" xml:space="preserve">
+    <value>Supported fullscreen video
+- Removed adv on video playback screen
+- Added adv on list &amp; video control panel</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>search</value>
+  </data>
+  <data name="SearchInResults.Text" xml:space="preserve">
+    <value>search in results</value>
+  </data>
+  <data name="SearchVideoTitle.Text" xml:space="preserve">
+    <value>Search in all videos section</value>
+  </data>
+  <data name="UpdateHistory00021" xml:space="preserve">
+    <value>Added searching in the video list
+- Only pro version</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>(loading from cache)</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>synchronize</value>
+  </data>
+  <data name="AboutTranslatePeople4" xml:space="preserve">
+    <value>Sebi Németh</value>
+    <comment>세비 sebezhetetlen98@gmail.com  (Hungarian - Magyar) 헝가리아어</comment>
+  </data>
+  <data name="UpdateHistory00022" xml:space="preserve">
+    <value>Supported to adjust place of subtitle</value>
+  </data>
+  <data name="UpdateHistory00023" xml:space="preserve">
+    <value>Some fixes and improvements</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+    <comment>닫기</comment>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>Play was stopped for error occurs.</value>
+    <comment>오류가 발생하여 재생이 중단되었습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Network error has occurred.</value>
+    <comment>네트워크 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Decoding error has occurred.</value>
+    <comment>디코드 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Can't play because the item's file format isn't supported.</value>
+    <comment>지원되지 않는 형식의 미디어 포맷입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>It is encrypted media format.</value>
+    <comment>암호화된 미디어 형식입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Unknown error has occurred.</value>
+    <comment>알 수 없는 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Supported.Media.Format" xml:space="preserve">
+    <value>Supported media formats</value>
+    <comment>지원되는 미디어 포맷</comment>
+  </data>
+  <data name="UpdateHistory00024" xml:space="preserve">
+    <value>Fixed a bug of playback rate button</value>
+    <comment>재생속도 버튼 버그 수정</comment>
+  </data>
+  <data name="UpdateHistory00025" xml:space="preserve">
+    <value>Avi/MP4 in XviD codec support (OS bug patches)</value>
+    <comment>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</comment>
+  </data>
+  <data name="UpdateHistory00026" xml:space="preserve">
+    <value>Change the error message when it fails to play</value>
+    <comment>재생 실패 오류메세지 출력</comment>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Error - File not found</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Proportional to the running time</value>
+    <comment>상영시간에 비례  (V 1.5)</comment>
+  </data>
+  <data name="HardwareBackButtonAction.Text" xml:space="preserve">
+    <value>Back key action in the Explorer</value>
+    <comment>탐색기에서 뒤로가기 키 동작</comment>
+  </data>
+  <data name="MoveToUpperFolder" xml:space="preserve">
+    <value>Move to upper folder</value>
+    <comment>상위폴더로 이동 (V 1.5)</comment>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>TIme interval of the seeking</value>
+    <comment>시크 시간 간격</comment>
+  </data>
+  <data name="TerminateApplication" xml:space="preserve">
+    <value>Terminate application</value>
+    <comment>앱 종료  (V 1.5)</comment>
+  </data>
+  <data name="NotSupportedCodecDesc" xml:space="preserve">
+    <value>Supported Codec : {0}</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="NotSupportedLicenseCodecDesc" xml:space="preserve">
+    <value>Can not support this codec because expensive license fee than ccplayer price.</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Error - Folder not found</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="Message.Error.CodecNotSupported" xml:space="preserve">
+    <value>Error - Not supported codec</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="UpdateHistory00027" xml:space="preserve">
+    <value>The new UI / UX</value>
+  </data>
+  <data name="UpdateHistory00028" xml:space="preserve">
+    <value>Improved performance</value>
+  </data>
+  <data name="UpdateHistory00029" xml:space="preserve">
+    <value>Improved stability</value>
+  </data>
+  <data name="UpdateHistory00030" xml:space="preserve">
+    <value>Added thumbnail image</value>
+  </data>
+  <data name="AboutTranslatePeople5" xml:space="preserve">
+    <value>Daniel Peichev</value>
+    <comment>다니엘 antispamcan@gmail.com (Bulgarian - български) 불가리아어</comment>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Flip to pause</value>
+    <comment>뒤집으면 일시정지</comment>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Do you want to buy now?</value>
+  </data>
+  <data name="UpdateHistory00031" xml:space="preserve">
+    <value>Fixed bug for black screen</value>
+    <comment>V 1.5.2</comment>
+  </data>
+  <data name="UpdateHistory00032" xml:space="preserve">
+    <value>Applied immediately when is changing charset combo</value>
+  </data>
+  <data name="AboutTranslatePeople6" xml:space="preserve">
+    <value>Le Xiazi</value>
+    <comment>르시아지 a102103170@outlook.com Le Xiazi (Chinese - 中文) 중국어</comment>
+  </data>
+  <data name="UpdateHistory00033" xml:space="preserve">
+    <value>Fixed bug for playback rate (when switch pause to play)</value>
+  </data>
+  <data name="UpdateHistory00034" xml:space="preserve">
+    <value>Added Chinese translation</value>
+  </data>
+  <data name="ForceUseMediaElement.Header" xml:space="preserve">
+    <value>Disable CCPlayer engine</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="OptimizeEntryModel.Header" xml:space="preserve">
+    <value>Optimize for the entry device</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="RemoveCompletedVideo.Text" xml:space="preserve">
+    <value>Remove playlist when playback completed</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Settings.Playback.Text" xml:space="preserve">
+    <value>playback</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00035" xml:space="preserve">
+    <value>Supported Windows 10 For Phone TP </value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00036" xml:space="preserve">
+    <value>Added engine choice option</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00037" xml:space="preserve">
+    <value>Added remove from playlist when playback completed</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Message.Play.Next" xml:space="preserve">
+    <value>Do you want to play the next video?</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UseConfirmNextPlay.Header" xml:space="preserve">
+    <value>Confirm before to play next video</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="AboutTranslatePeople7" xml:space="preserve">
+    <value>Mykola Voytkiv</value>
+    <comment>Mykola Voytkiv voytkiv@msn.com (Ukrainian - Український) 우크라이나어</comment>
+  </data>
+  <data name="UpdateHistory00038" xml:space="preserve">
+    <value>Improved compatibility of the SRT parser</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00039" xml:space="preserve">
+    <value>Added Ukraine translation</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00040" xml:space="preserve">
+    <value>Fixed bug of the Lock screen</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00041" xml:space="preserve">
+    <value>Supported AC3 for Lumia830(Dolbi digital certified device) in the MKV</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00042" xml:space="preserve">
+    <value>Added option that confirm before to play next video</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00043" xml:space="preserve">
+    <value>improved clearness</value>
+    <comment>V 1.5.7</comment>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>The media can not be played by {0} decoder.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00044" xml:space="preserve">
+    <value>Supported SW decoder &amp; more codecs, extensions (containers)</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople8" xml:space="preserve">
+    <value>masoud mohammadi</value>
+    <comment>masoud mohammadi m4f19@outlook.com (Persian - فارسی) 이란어</comment>
+  </data>
+  <data name="UpdateHistory00045" xml:space="preserve">
+    <value>Added Persian translation</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="Message.Confirm.Source.SelectAudio" xml:space="preserve">
+    <value>This media file contains too many audio stream, please select one.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople9" xml:space="preserve">
+    <value>Dinesh Sangwan (xiniuss)</value>
+    <comment>V 1.7 xiniuss@live.com (hindi - भारतीय) 인도어</comment>
+  </data>
+  <data name="UpdateHistory00046" xml:space="preserve">
+    <value>Added Hindi translation</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="StartUpSection.Text" xml:space="preserve">
+    <value>Start Menu</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Create.Password" xml:space="preserve">
+    <value>If you set a password, you can protect your content.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Input.Password" xml:space="preserve">
+    <value>Please enter your password.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Remove.Password" xml:space="preserve">
+    <value>Please enter your password to disable the protection.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00047" xml:space="preserve">
+    <value>Folder protection feature (Only pro version)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00048" xml:space="preserve">
+    <value>Select startup menu option (Only pro version)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00049" xml:space="preserve">
+    <value>Improved  performance of the SW decoder</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>Use GPU shader in s/w decoder</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Korean (Windows MS949)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00050" xml:space="preserve">
+    <value>Fixed a bug of the shader color conversion.</value>
+    <comment>V 1.7.2</comment>
+  </data>
+  <data name="UpdateHistory00051" xml:space="preserve">
+    <value>Subtitle flicker bug</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00052" xml:space="preserve">
+    <value>Disable ASS effector </value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00053" xml:space="preserve">
+    <value>24Bit audio playback (down-sampling)</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00054" xml:space="preserve">
+    <value>Compatibility of the codecs</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00055" xml:space="preserve">
+    <value>App crash (starting playback)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00056" xml:space="preserve">
+    <value>Volume gesture bug (Hungarian)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00057" xml:space="preserve">
+    <value>Supported internal Timed Text format</value>
+    <comment>V 1.7.6</comment>
+  </data>
+  <data name="UpdateHistory00058" xml:space="preserve">
+    <value>Playback bug (avi etc)</value>
+    <comment>V 1.7.8</comment>
+  </data>
+  <data name="UpdateHistory00059" xml:space="preserve">
+    <value>Crash when the font name is empty of the SMI subtitle.</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>It looks like you've been using the app for a while now and we'd love to hear your comments. Would you like to rate the app or provide feedback?</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Fill</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Natural ratio</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Fill (Natural ratio)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatio.Text" xml:space="preserve">
+    <value>Aspect Ratio</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00060" xml:space="preserve">
+    <value>Aspect Ratios</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RemoveAds.Label" xml:space="preserve">
+    <value>Remove advertising</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UnlockFeatures.Label" xml:space="preserve">
+    <value>Unlock Pro version features</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00061" xml:space="preserve">
+    <value>In app products (Ad, Features)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00062" xml:space="preserve">
+    <value>Pinch to Zoom (Only Pro Feature &amp; CCP Engine)</value>
+    <comment>V 1.8.0</comment>
+  </data>
+  <data name="AboutTranslatePeople10" xml:space="preserve">
+    <value>Hayrullah</value>
+    <comment>V 1.8.1 rthayru@live.com (rthayru@gmail.com) (Turkish - Türk) 터키어</comment>
+  </data>
+  <data name="UpdateHistory00063" xml:space="preserve">
+    <value>Subtitle flicker bug</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00064" xml:space="preserve">
+    <value>Zoom in : max 4X</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00065" xml:space="preserve">
+    <value>Turkish translation</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00066" xml:space="preserve">
+    <value>S/W decoder performance</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="UpdateHistory00067" xml:space="preserve">
+    <value>ASS/SSA subtitle bug</value>
+    <comment>V 1.8.3</comment>
+  </data>
+  <data name="UpdateHistory00068" xml:space="preserve">
+    <value>Supported font collection file (.TTC, .OTC)</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00069" xml:space="preserve">
+    <value>Bugs related to font management</value>
+    <comment>V 1.8.4</comment>
+  </data>
+  <data name="UpdateHistory00070" xml:space="preserve">
+    <value>XviD codec in MKV/3G2 container</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00071" xml:space="preserve">
+    <value>Some FLV file's playback bugs</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00072" xml:space="preserve">
+    <value>Added option that toggle on/off of the "all video hub"</value>
+    <comment>V 1.8.5</comment>
+  </data>
+  <data name="UpdateHistory00073" xml:space="preserve">
+    <value>Crash bug when start playing in some mkv</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00074" xml:space="preserve">
+    <value>Skip some subtitles</value>
+    <comment>V 1.8.7</comment>
+  </data>
+  <data name="UpdateHistory00075" xml:space="preserve">
+    <value>Display battery level &amp; current time on control panel</value>
+    <comment>V 1.8.8</comment>
+  </data>
+  <data name="UpdateHistory00076" xml:space="preserve">
+    <value>Improved subtitle's charset detection</value>
+    <comment>V 1.8.9</comment>
+  </data>
+  <data name="AboutTranslatePeople11" xml:space="preserve">
+    <value>Eduardo Rodrigues</value>
+    <comment>V 1.9.0 포르투갈어(포르투갈, 브라질어)</comment>
+  </data>
+  <data name="UpdateHistory00077" xml:space="preserve">
+    <value>Portuguese, French translation</value>
+    <comment>V 1.9.0</comment>
+  </data>
+  <data name="AboutTranslatePeople12" xml:space="preserve">
+    <value>Pierre Kergaravat</value>
+    <comment>V 1.9.0 프랑스어</comment>
+  </data>
+  <data name="UpdateHistory00078" xml:space="preserve">
+    <value>Supported .webm extension</value>
+    <comment>V 1.9.0</comment>
+  </data>
+  <data name="UpdateHistory00079" xml:space="preserve">
+    <value>Updated Libraries</value>
+    <comment>V 1.9.1</comment>
+  </data>
+  <data name="UpdateHistory00080" xml:space="preserve">
+    <value>Supported .asf video files</value>
+    <comment>V 1.9.1</comment>
+  </data>
+</root>

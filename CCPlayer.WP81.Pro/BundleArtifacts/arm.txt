@@ -1,0 +1,17 @@
+MainPackage=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_ARM.appx
+SymbolPackage=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\AppPackages\CCPlayer.WP81.Pro_2016.317.192.45_Test\CCPlayer.WP81.Pro_2016.317.192.45_ARM.appxsym
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-bg.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-en.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-es.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-fa.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-fr.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-hi.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-hu.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-ja.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-ko.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-pt.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-ro.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-ru.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-tr.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-uk.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Pro\bin\ARM\Release\CCPlayer.WP81.Pro_2016.317.192.45_language-zh-hans.appx

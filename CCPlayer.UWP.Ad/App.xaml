@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="CCPlayer.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.UWP"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Assets/Styles/CommonStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <vm:ViewModelLocator xmlns:vm="using:CCPlayer.UWP.ViewModels" x:Key="Locator" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

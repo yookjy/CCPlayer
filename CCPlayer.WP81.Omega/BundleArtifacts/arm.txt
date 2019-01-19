@@ -1,0 +1,17 @@
+MainPackage=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_ARM.appx
+SymbolPackage=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\AppPackages\CCPlayer.WP81.Omega_2016.205.190.41_Test\CCPlayer.WP81.Omega_2016.205.190.41_ARM.appxsym
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-bg.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-en.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-es.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-fa.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-fr.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-hi.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-hu.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-ja.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-ko.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-pt.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-ro.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-ru.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-tr.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-uk.appx
+ResourcePack=D:\Repositories\limeapp.git\ccplayer\CCPlayer.WP81.Omega\bin\ARM\Release\CCPlayer.WP81.Omega_2016.205.190.41_language-zh-hans.appx

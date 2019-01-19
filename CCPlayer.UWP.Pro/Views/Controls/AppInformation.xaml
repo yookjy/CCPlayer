@@ -1,0 +1,255 @@
+﻿<UserControl
+    x:Class="CCPlayer.UWP.Views.Controls.AppInformation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.UWP.Views.Controls"
+    xmlns:conv="using:CCPlayer.UWP.Converters"
+    xmlns:data="using:Lime.Xaml.Models"
+    xmlns:vm="using:CCPlayer.UWP.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding AppInformation, Source={StaticResource Locator}}"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <x:Double x:Key="TextContentSize">15</x:Double>
+        <conv:LanguageCodeToNameConverter x:Key="LanguageCodeToNameConverter" />
+        <conv:StringToUriConverter x:Key="StringToUriConverter" />
+
+        <DataTemplate x:Key="HyperlinkButtonTemplate">
+            <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+        </DataTemplate>
+        <DataTemplate x:Key="HyperlinkButtonTemplate2">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="("/>
+                <TextBlock Text="{Binding}" Margin="-1,0"/>
+                <TextBlock Text=")"/>
+            </StackPanel>
+        </DataTemplate>
+        
+
+    </UserControl.Resources>
+
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1056"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="784"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="LibraryCreatorsInfoPanel.(RelativePanel.Below)" Value="MainInfoPanel" />
+                        <Setter Target="LibraryCreatorsInfoPanel.(RelativePanel.AlignLeftWith)" Value="MainInfoPanel" />
+                        <Setter Target="TranslatorsInfoPanel.(RelativePanel.RightOf)" Value="MainInfoPanel" />
+                        <Setter Target="TranslatorsInfoPanel.(RelativePanel.AlignTopWith)" Value="MainInfoPanel" />
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="TranslatorsInfoPanel.(RelativePanel.Below)" Value="MainInfoPanel" />
+                        <Setter Target="TranslatorsInfoPanel.(RelativePanel.AlignLeftWith)" Value="MainInfoPanel" />
+                        <Setter Target="LibraryCreatorsInfoPanel.(RelativePanel.Below)" Value="TranslatorsInfoPanel" />
+                        <Setter Target="LibraryCreatorsInfoPanel.(RelativePanel.AlignLeftWith)" Value="MainInfoPanel" />
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <ScrollViewer Grid.Row="1" Margin="0,0,0,12">
+            <RelativePanel >
+                <StackPanel x:Name="MainInfoPanel"
+                            Width="{StaticResource FlyoutWidth}">
+                    <!-- 정보 -->
+                    <StackPanel Margin="0,6,0,18" >
+                        <TextBlock x:Uid="App/Version"
+                                   Text="[버전]"
+                                   Margin="0,6"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center"
+                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                   FontWeight="Bold"
+                                   FontSize="{StaticResource TextContentSize}" />
+                        <StackPanel Orientation="Horizontal" Margin="6">
+                            <TextBlock Text="{Binding VersionTypeName}"
+                                       FontWeight="SemiBold"
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource TextStyleMediumFontSize}" >
+                            </TextBlock>
+                            <TextBlock Margin="3,0,0,0"
+                                       Text="{Binding BuildNumber}"
+                                       FontWeight="SemiBold"
+                                       VerticalAlignment="Center"
+                                       FontSize="{StaticResource TextStyleMediumFontSize}" >
+                            </TextBlock>
+                        </StackPanel>
+                    </StackPanel>
+                    <!-- 개발 및 디자인 -->
+                    <StackPanel Margin="0,6,0,18">
+                        <TextBlock x:Uid="Developer/Header"
+                                   Text="[개발 및 디자인]"
+                                   Grid.Row="0"
+                                   Margin="0,6"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center"
+                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                   FontWeight="Bold"
+                                   FontSize="{StaticResource TextContentSize}"/>
+                        <HyperlinkButton x:Uid="Developer/Name"
+                                         Margin="6,2,6,0"
+                                         Content="[육주용]"
+                                         FontWeight="SemiBold"
+                                         VerticalAlignment="Center"
+                                         FontSize="{StaticResource TextStyleMediumFontSize}"
+                                         Tapped="{x:Bind Vm.DeveloperTapped}"
+                                         ContentTemplate="{StaticResource HyperlinkButtonTemplate}">
+                        </HyperlinkButton>
+                        <!--<TextBlock Text="- Micosoft Windows Development MVP"
+                                   Grid.Row="0"
+                                   Margin="12,0"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center"
+                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                   FontWeight="Bold"
+                                   FontSize="12"/>-->
+                    </StackPanel>
+                    <!-- 피드백 -->
+                    <StackPanel Margin="0,6,0,18">
+                        <TextBlock x:Uid="Feedback/Header"
+                                   Text="[피드백]"
+                                   Grid.Row="0"
+                                   Margin="0,6"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center"
+                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                   FontWeight="Bold"
+                                   FontSize="{StaticResource TextContentSize}"/>
+                        <ItemsControl ItemsSource="{Binding FeedbackSource}" Margin="0,-4,0,0">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="vm:Feedback">
+                                    <Grid Margin="6,2,6,0">
+                                        <StackPanel Orientation="Horizontal">
+                                            <HyperlinkButton Content="{x:Bind Name}" 
+                                                             FontWeight="SemiBold"
+                                                             Tapped="{x:Bind Tapped}"
+                                                             FontSize="{StaticResource TextStyleMediumFontSize}" 
+                                                             ContentTemplate="{StaticResource HyperlinkButtonTemplate}" />
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </StackPanel>
+                    <!-- 정책 -->
+                    <StackPanel Margin="0,6,0,18">
+                        <TextBlock x:Uid="Policies/Header"
+                                   Text="[앱 정책]"
+                                   Grid.Row="0"
+                                   Margin="0,6"
+                                   TextWrapping="Wrap"
+                                   VerticalAlignment="Center"
+                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                   FontWeight="Bold"
+                                   FontSize="{StaticResource TextContentSize}"/>
+                        <HyperlinkButton x:Uid="Policies/Private"
+                                         Margin="6,2,6,0"
+                                         Content="[개인정보취급방침]"
+                                         FontWeight="SemiBold"
+                                         VerticalAlignment="Center"
+                                         FontSize="{StaticResource TextStyleMediumFontSize}"
+                                         Tapped="{x:Bind Vm.PrivatePolicyTapped}"
+                                         ContentTemplate="{StaticResource HyperlinkButtonTemplate}">
+                        </HyperlinkButton>
+                    </StackPanel>
+                </StackPanel>
+                <!-- 번역가 -->
+                <StackPanel x:Name="TranslatorsInfoPanel"
+                            Margin="0,6,0,18" 
+                            Width="{StaticResource FlyoutWidth}" 
+                            RelativePanel.RightOf="MainInfoPanel">
+                    <TextBlock x:Uid="Thanks/Translators"
+                               Text="[번역가]"
+                               Grid.Row="0"
+                               Margin="0,6"
+                               TextWrapping="Wrap"
+                               VerticalAlignment="Center"
+                               Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                               FontWeight="Bold"
+                               FontSize="{StaticResource TextContentSize}"/>
+                    <ItemsControl ItemsSource="{Binding TranslatorSource}" Margin="0,-4,0,0">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="data:Account">
+                                <Grid Margin="6,2,6,0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <HyperlinkButton Content="{x:Bind Name}" 
+                                                         MaxWidth="150"
+                                                         FontWeight="SemiBold"
+                                                         NavigateUri="{x:Bind Contact, Converter={StaticResource StringToUriConverter}}" 
+                                                         FontSize="{StaticResource TextStyleMediumFontSize}" 
+                                                         ContentTemplate="{StaticResource HyperlinkButtonTemplate}" />
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                                   Margin="6,3,0,0"
+                                                   Text="-"/>
+                                        <TextBlock VerticalAlignment="Center"
+                                                   Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                                   Margin="0,3,0,0"
+                                                   Text="{x:Bind Attr1, Converter={StaticResource LanguageCodeToNameConverter}, ConverterParameter=true}">
+                                        </TextBlock>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+                <!-- 라이브러리 제작자 -->
+                <StackPanel x:Name="LibraryCreatorsInfoPanel"
+                            RelativePanel.RightOf="TranslatorsInfoPanel"
+                            Width="{StaticResource FlyoutWidth}"
+                            Margin="0,6,0,18">
+                    <TextBlock x:Uid="Thanks/LibraryCreators"
+                               Text="[라이브러리 제작자]"
+                               Grid.Row="0"
+                               Margin="0,6"
+                               TextWrapping="Wrap"
+                               VerticalAlignment="Center"
+                               Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                               FontWeight="Bold"
+                               FontSize="{StaticResource TextContentSize}"/>
+                    <ItemsControl ItemsSource="{Binding LibraryCreatorSource}" Margin="0,-4,0,0">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="data:Account">
+                                <Grid Margin="6,2,6,0">
+                                    <StackPanel Orientation="Horizontal">
+                                        <HyperlinkButton Content="{x:Bind ContactName}" 
+                                                         MaxWidth="180"
+                                                         FontWeight="SemiBold"
+                                                         NavigateUri="{x:Bind Contact, Converter={StaticResource StringToUriConverter}}" 
+                                                         FontSize="{StaticResource TextStyleMediumFontSize}" 
+                                                         ContentTemplate="{StaticResource HyperlinkButtonTemplate}" />
+                                        <HyperlinkButton Content="{x:Bind ContactName2}" 
+                                                         NavigateUri="{x:Bind Contact2, Converter={StaticResource StringToUriConverter}}"
+                                                         Foreground="{ThemeResource ApplicationSecondaryForegroundThemeBrush}"
+                                                         Margin="6,0,0,0"
+                                                         ContentTemplate="{StaticResource HyperlinkButtonTemplate2}"/>
+                                    </StackPanel>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </RelativePanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

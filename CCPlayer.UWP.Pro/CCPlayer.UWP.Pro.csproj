@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{627240A5-28BC-40D7-AA0D-225B55452270}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCPlayer.UWP.Pro</RootNamespace>
+    <AssemblyName>CCPlayer.UWP.Pro</AssemblyName>
+    <DefaultLanguage>en</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.14393.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10586.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>CCPlayer.UWP.Pro_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>False</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64|arm</AppxBundlePlatforms>
+    <PackageCertificateThumbprint>65E240F283A54EB594C5DEC932511ABF9FC2848F</PackageCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NETFX_CORE;WINDOWS_UWP;CODE_ANALYSIS</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseDotNetNativeToolchain>true</UseDotNetNativeToolchain>
+  </PropertyGroup>
+  <PropertyGroup Label="MultilingualAppToolkit">
+    <MultilingualAppToolkitVersion>4.0</MultilingualAppToolkitVersion>
+    <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Assets\FileAssociationLogo.png" />
+    <Content Include="Assets\SampleSubtitleBackground-Black.jpg" />
+    <Content Include="Assets\SampleSubtitleBackground-Blue.jpg" />
+    <Content Include="Assets\SampleSubtitleBackground-Green.jpg" />
+    <Content Include="Assets\SampleSubtitleBackground-Red.jpg" />
+    <Content Include="Assets\SampleSubtitleBackground-White.jpg" />
+    <None Include="CCPlayer.UWP.Pro_StoreKey.pfx" />
+    <None Include="Data\PrivatePolicy\docs\README_AppPrivacy.pdf" />
+    <None Include="project.json" />
+    <PRIResource Include="Strings\de\Resources.resw" />
+    <PRIResource Include="Strings\fr\Resources.resw" />
+    <PRIResource Include="Strings\ar\Resources.resw" />
+    <PRIResource Include="Strings\fa\Resources.resw" />
+    <PRIResource Include="Strings\zh-Hans\Resources.resw" />
+    <PRIResource Include="Strings\uk\Resources.resw" />
+    <PRIResource Include="Strings\es\Resources.resw" />
+    <PRIResource Include="Strings\bg\Resources.resw" />
+    <PRIResource Include="Strings\ro\Resources.resw" />
+    <PRIResource Include="Strings\pt-BR\Resources.resw" />
+    <PRIResource Include="Strings\vi\Resources.resw" />
+    <PRIResource Include="Strings\be\Resources.resw" />
+    <PRIResource Include="Strings\ru\Resources.resw" />
+    <PRIResource Include="Strings\tr\Resources.resw" />
+    <PRIResource Include="Strings\ja\Resources.resw" />
+    <PRIResource Include="Strings\ko\Resources.resw" />
+    <PRIResource Include="Strings\en\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\BooleanToObjectConverter.cs" />
+    <Compile Include="Converters\BooleanReverseConverter.cs" />
+    <Compile Include="Converters\DecoderTypeToStringConverter.cs" />
+    <Compile Include="Converters\StringToVisibilityConverter.cs" />
+    <Compile Include="Converters\FontSymbolColorConverter.cs" />
+    <Compile Include="Converters\LanguageCodeToNameConverter.cs" />
+    <Compile Include="Converters\SampleRateConverter.cs" />
+    <Compile Include="Converters\StringToUriConverter.cs" />
+    <Compile Include="Converters\TimeSpanToVisibilityConverter.cs" />
+    <Compile Include="Converters\TimeSpanConverter.cs" />
+    <Compile Include="Converters\DurationTimeConverter.cs" />
+    <Compile Include="Converters\DateTimeConverter.cs" />
+    <Compile Include="Converters\FileSizeConverter.cs" />
+    <Compile Include="Converters\FontWeightConverter.cs" />
+    <Compile Include="Converters\ResourceFormatConverter.cs" />
+    <Compile Include="Converters\StringFormatConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Converters\VisibilityToBooleanConverter.cs" />
+    <Compile Include="Extensions\DataConvertExtensions.cs" />
+    <Compile Include="Helpers\DialogHelper.cs" />
+    <Compile Include="Helpers\FlyoutHelper.cs" />
+    <Compile Include="Helpers\PathHelper.cs" />
+    <Compile Include="Managers\ContinuationManager.cs" />
+    <Compile Include="Extensions\Extensions.cs" />
+    <Compile Include="Helpers\FontHelper.cs" />
+    <Compile Include="Helpers\VersionHelper.cs" />
+    <Compile Include="Models\DataAccess\FolderBaseDAO.cs" />
+    <Compile Include="Models\DataAccess\PlayListDAO.cs" />
+    <Compile Include="Models\DataAccess\FontDAO.cs" />
+    <Compile Include="Models\DataAccess\ThumbnailDAO.cs" />
+    <Compile Include="Models\EnumTypes.cs" />
+    <Compile Include="Models\FlyoutModelBase.cs" />
+    <Compile Include="Models\IMediaItemInfo.cs" />
+    <Compile Include="Models\ItemObjects.cs" />
+    <Compile Include="Models\Message.cs" />
+    <Compile Include="Models\PlayListFile.cs" />
+    <Compile Include="Models\StorageItemCodec.cs" />
+    <Compile Include="Models\NetworkItemGroup.cs" />
+    <Compile Include="Models\StorageItemGroup.cs" />
+    <Compile Include="Models\PlayList.cs" />
+    <Compile Include="Models\StoragePickerStatus.cs" />
+    <Compile Include="Models\Thumbnail.cs" />
+    <Compile Include="Models\NetworkItemInfo.cs" />
+    <Compile Include="Selectors\CodecItemTemplateSelector.cs" />
+    <Compile Include="Selectors\NetworkItemStyleSelector.cs" />
+    <Compile Include="StateTriggers\StateNameTrigger.cs" />
+    <Compile Include="StateTriggers\TimeSpanDataTrigger.cs" />
+    <Compile Include="StateTriggers\BooleanDataTrigger.cs" />
+    <Compile Include="Selectors\OddEvenStyleSelector.cs" />
+    <Compile Include="Selectors\StorageItemStyleSelector.cs" />
+    <Compile Include="ViewModels\Base\CCPThumbnailViewModelBase.cs" />
+    <Compile Include="ViewModels\Base\CCPViewModelBase.cs" />
+    <Compile Include="ViewModels\Base\RemoteFileViewModelBase.cs" />
+    <Compile Include="ViewModels\CloudViewModel.cs" />
+    <Compile Include="ViewModels\Base\FileViewModelBase.cs" />
+    <Compile Include="ViewModels\NetworkViewModel.cs" />
+    <Compile Include="ViewModels\DLNAViewModel.cs" />
+    <Compile Include="ViewModels\MediaFileInformationViewModel.cs" />
+    <Compile Include="ViewModels\ExplorerViewModel.cs" />
+    <Compile Include="ViewModels\FontSettingViewModel.cs" />
+    <Compile Include="ViewModels\PlayListViewModel.cs" />
+    <Compile Include="ViewModels\AppInformationViewModel.cs" />
+    <Compile Include="ViewModels\PrivacySettingViewModel.cs" />
+    <Compile Include="ViewModels\SettingsDetailViewModel.cs" />
+    <Compile Include="Views\Controls\AppProtection.xaml.cs">
+      <DependentUpon>AppProtection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\FontSettings.xaml.cs">
+      <DependentUpon>FontSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\AppInformation.xaml.cs">
+      <DependentUpon>AppInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\Loading.xaml.cs">
+      <DependentUpon>Loading.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\MediaFileInformation.xaml.cs">
+      <DependentUpon>MediaFileInformation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\PrivacySettings.xaml.cs">
+      <DependentUpon>PrivacySettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\DLNAPage.xaml.cs">
+      <DependentUpon>DLNAPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExplorerPage.xaml.cs">
+      <DependentUpon>ExplorerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.Xaml.IAPs.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DataAccess\BaseDAO.cs" />
+    <Compile Include="Models\DataAccess\FolderDAO.cs" />
+    <Compile Include="Models\DataAccess\SettingDAO.cs" />
+    <Compile Include="Models\StorageItemInfo.cs" />
+    <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\Settings.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\CCPlayerConstant.cs" />
+    <Compile Include="ViewModels\GeneralSettingViewModel.cs" />
+    <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\PlaybackSettingViewModel.cs" />
+    <Compile Include="ViewModels\SettingsMenuViewModel.cs" />
+    <Compile Include="ViewModels\SubtitleSettingViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelLocator.cs" />
+    <Compile Include="Views\Controls\GeneralSettings.xaml.cs">
+      <DependentUpon>GeneralSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\PlaybackSettings.xaml.cs">
+      <DependentUpon>PlaybackSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CloudPage.xaml.cs">
+      <DependentUpon>CloudPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayListPage.xaml.cs">
+      <DependentUpon>PlayListPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsDetailPage.xaml.cs">
+      <DependentUpon>SettingsDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SettingsMenuPage.xaml.cs">
+      <DependentUpon>SettingsMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\StorageItemPreview.xaml.cs">
+      <DependentUpon>StorageItemPreview.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Controls\SubtitleSettings.xaml.cs">
+      <DependentUpon>SubtitleSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NetworkPage.xaml.cs">
+      <DependentUpon>NetworkPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <None Include="CCPlayer.UWP.Pro_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avcodec-57.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avdevice-57.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avfilter-6.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avformat-57.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\avutil-55.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\swresample-2.dll" />
+    <Content Include="$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin\swscale-4.dll" />
+    <None Include="Package.StoreAssociation.xml" />
+    <Content Include="Assets\SplashScreen620x300.scale-200.png" />
+    <Content Include="Assets\SquareLogo150x150.scale-200.png" />
+    <Content Include="Assets\SquareLogo310x310.scale-200.png" />
+    <Content Include="Assets\SquareLogo44x44.scale-200.png" />
+    <Content Include="Assets\SquareLogo44x44.targetsize-256.png" />
+    <Content Include="Assets\SquareLogo44x44.targetsize-256_altform-unplated.png" />
+    <Content Include="Assets\SquareLogo71x71.scale-200.png" />
+    <Content Include="Assets\StoreLogo50x50.scale-200.png" />
+    <Content Include="Assets\TaskbarLogo256x256.png" />
+    <Content Include="Assets\WideLogo310x150.scale-200.png" />
+    <Content Include="Data\in-app-purchase.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\PrivatePolicy\advertising.html" />
+    <Content Include="Data\PrivatePolicy\analytics.html" />
+    <Content Include="Data\PrivatePolicy\control.html" />
+    <Content Include="Data\PrivatePolicy\css\bootstrap-responsive.css" />
+    <Content Include="Data\PrivatePolicy\css\bootstrap-responsive.min.css" />
+    <Content Include="Data\PrivatePolicy\css\bootstrap.css" />
+    <Content Include="Data\PrivatePolicy\css\bootstrap.min.css" />
+    <Content Include="Data\PrivatePolicy\css\main.css" />
+    <Content Include="Data\PrivatePolicy\data-collection.html" />
+    <Content Include="Data\PrivatePolicy\direct-marketing.html" />
+    <Content Include="Data\PrivatePolicy\img\arrow-back.png" />
+    <Content Include="Data\PrivatePolicy\img\arrow-down.png" />
+    <Content Include="Data\PrivatePolicy\img\arrow-right.png" />
+    <Content Include="Data\PrivatePolicy\img\arrow-up.png" />
+    <Content Include="Data\PrivatePolicy\img\contacts-off.png" />
+    <Content Include="Data\PrivatePolicy\img\contacts-on.png" />
+    <Content Include="Data\PrivatePolicy\img\cross.png" />
+    <Content Include="Data\PrivatePolicy\img\email-off.jpg" />
+    <Content Include="Data\PrivatePolicy\img\email-on.jpg" />
+    <Content Include="Data\PrivatePolicy\img\glyphicons-halflings-white.png" />
+    <Content Include="Data\PrivatePolicy\img\glyphicons-halflings.png" />
+    <Content Include="Data\PrivatePolicy\img\likes-off.png" />
+    <Content Include="Data\PrivatePolicy\img\likes-on.png" />
+    <Content Include="Data\PrivatePolicy\img\location-off.png" />
+    <Content Include="Data\PrivatePolicy\img\location-on.png" />
+    <Content Include="Data\PrivatePolicy\img\message-off.jpg" />
+    <Content Include="Data\PrivatePolicy\img\message-on.jpg" />
+    <Content Include="Data\PrivatePolicy\img\other-off.png" />
+    <Content Include="Data\PrivatePolicy\img\other-on.png" />
+    <Content Include="Data\PrivatePolicy\img\phone-off.jpg" />
+    <Content Include="Data\PrivatePolicy\img\phone-on.jpg" />
+    <Content Include="Data\PrivatePolicy\img\photos-off.png" />
+    <Content Include="Data\PrivatePolicy\img\photos-on.png" />
+    <Content Include="Data\PrivatePolicy\img\sms-off.jpg" />
+    <Content Include="Data\PrivatePolicy\img\sms-on.jpg" />
+    <Content Include="Data\PrivatePolicy\img\tick-off.png" />
+    <Content Include="Data\PrivatePolicy\img\tick-on.png" />
+    <Content Include="Data\PrivatePolicy\img\tick.png" />
+    <Content Include="Data\PrivatePolicy\index.html" />
+    <Content Include="Data\PrivatePolicy\js\bootstrap.js" />
+    <Content Include="Data\PrivatePolicy\js\bootstrap.min.js" />
+    <Content Include="Data\PrivatePolicy\js\jquery.min.js" />
+    <Content Include="Data\PrivatePolicy\js\main.js" />
+    <Content Include="Data\PrivatePolicy\location-services.html" />
+    <Content Include="Data\PrivatePolicy\payments.html" />
+    <Content Include="Data\PrivatePolicy\security.html" />
+    <Content Include="Data\PrivatePolicy\social-networking.html" />
+    <Content Include="FodyWeavers.xml" />
+    <Content Include="Properties\Default.rd.xml" />
+    <Content Include="Assets\LockScreenLogo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="Assets\Styles\CommonStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Controls\AppProtection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\FontSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\AppInformation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Controls\Loading.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\MediaFileInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\PrivacySettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\DLNAPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ExplorerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Controls\GeneralSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Controls\PlaybackSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\CloudPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PlayListPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingsDetailPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SettingsMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\StorageItemPreview.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Controls\SubtitleSettings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\NetworkPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.UniversalCRT.Debug, Version=10.0.10586.0">
+      <Name>Microsoft Universal CRT Debug Runtime</Name>
+    </SDKReference>
+    <SDKReference Include="Microsoft.VCLibs, Version=14.0">
+      <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
+    </SDKReference>
+    <SDKReference Include="SQLite.UWP.2015, Version=3.20.0">
+      <Name>SQLite for Universal Windows Platform</Name>
+    </SDKReference>
+    <SDKReference Include="WindowsMobile, Version=10.0.14393.0">
+      <Name>Windows Mobile Extensions for the UWP</Name>
+    </SDKReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\Lime.Common\Lime.Common.csproj">
+      <Project>{a2f51990-d692-44be-9289-80cc68ccac59}</Project>
+      <Name>Lime.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Lime.Encoding.Converter\Lime.Encoding.Converter.csproj">
+      <Project>{6663a50d-d69d-418c-b555-adefc319d72d}</Project>
+      <Name>Lime.Encoding.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Lime.Encoding\Lime.Encoding.csproj">
+      <Project>{0fd93f86-43fd-46eb-afd1-98fadd670c57}</Project>
+      <Name>Lime.Encoding</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\LIme.NativeHelper\LIme.NativeHelper.vcxproj">
+      <Project>{f0ce1619-e0bd-44ba-810d-7cbdc5c4d43c}</Project>
+      <Name>LIme.NativeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Lime.Network\Lime.Network.csproj">
+      <Project>{f9091efc-6083-49b9-89c9-f2c31330679b}</Project>
+      <Name>Lime.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\sdk\Lime.Xaml\Lime.Xaml.csproj">
+      <Project>{ea02c48a-4a69-4c3d-bd86-4f9526f404cd}</Project>
+      <Name>Lime.Xaml</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.UWP.Common\CCPlayer.UWP.Common.csproj">
+      <Project>{0b076e94-8248-47f7-843c-25eec0287a84}</Project>
+      <Name>CCPlayer.UWP.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.UWP.Factory\CCPlayer.UWP.Factory.csproj">
+      <Project>{8dacefe6-7c20-42b2-a427-39fc2d66ff1a}</Project>
+      <Name>CCPlayer.UWP.Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.UWP.Xaml.Control\CCPlayer.UWP.Xaml.Control.vcxproj">
+      <Project>{72d68a4e-b43f-430b-b874-dece6e3e1afe}</Project>
+      <Name>CCPlayer.UWP.Xaml.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.ar.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.be.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.bg.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.de.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.es.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.fa.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.fr.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.ja.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.ko.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.pt-BR.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.ro.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.ru.xlf" />
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.tr.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.uk.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.vi.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+    <XliffResource Include="MultilingualResources\CCPlayer.UWP.Pro.zh-Hans.xlf">
+      <SubType>Designer</SubType>
+    </XliffResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" />
+  <Target Name="MATPrerequisite" BeforeTargets="PrepareForBuild" Condition="!Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.PriResources.targets')" Label="MultilingualAppToolkit">
+    <Warning Text="$(MSBuildProjectFile) is Multilingual build enabled, but the Multilingual App Toolkit is unavailable during the build. If building with Visual Studio, please check to ensure that toolkit is properly installed." />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

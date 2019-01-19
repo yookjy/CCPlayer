@@ -1,0 +1,928 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>프로버전 구매</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>라이브러리 제작자</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>아랍어 (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>아랍어 (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>아랍어 (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>자동 검출</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>발트어 (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>발트어 (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>발트어 (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>중앙 유럽어 (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>중앙 유럽어 (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>중국어 간체</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>중국어 번체</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>크릴 자모 (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>크릴 자모 (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>크릴 자모 (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>그리스어 (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>그리스어 (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>히브리어 (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>히브리어 (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>히브리어 (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>일본어 (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>한국어 (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>라틴3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>라틴9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>중앙 유럽어 (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>서유럽 EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>서유럽어 (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>러시아어 (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>태국어 (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>터키어 (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>터키어 (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>터키어 (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>확장 아스키 (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>유니코드 (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>유니코드 (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>유니코드 (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>베트남어 (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>서유럽어 (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>서유럽어 (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>그림자 효과 사용</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>글자 크기</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>글자 스타일</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>글자 스타일 재정의</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>글자 굵기</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>배경 효과 사용</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>광고없음! 모든 기능!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>바로 지금 CCPlayer Pro 구매!</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>윤곽선 사용</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>번역 참여자</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>글자 색상</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>글꼴 그룹</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>글꼴 설치</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>글꼴 파일 설치 (*.ttf/ttc/otf/otc)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>설치된 글꼴 목록</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>재생시 미디어에 포함된 글꼴을 설치</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>이 기능은 프로버전에서만 사용할 수 있습니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>오류가 발생하여 재생이 중단되었습니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>네트워크 오류가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>디코딩 오류가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>지원되지 않는 형식의 미디어 포맷입니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>암호화된 미디어 형식입니다.</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>알 수 없는 오류가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>오류 - 파일일 찾을 수 없음</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>상영시간에 따라</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>탐색기에서 뒤로가기 키 사용</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>탐색 시간 간격</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>오류 - 폴더를 찾을 수 없음</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>뒤집으면 일시 정지</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>지금 바로 구매하시겠습니까?</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>이 미디어는 {0} 디코더로 재생할 수 없습니다. </value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>SW디코더에서 GPU 쉐이더 사용</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>한국어 (Windows MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0}시간 {1}분</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0}분 {1}초</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0}초</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} 동영상</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>폴더</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>정렬기준:</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>추가된 날짜</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>이 폴더를 탐색기에 추가</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>추가된 날짜 (내림차순)</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>이름 (내림차순)</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>첨부</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>오디오</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>비디오</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>즐겁게 시청하세요 :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>패스워드</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>공백은 입력해도 제거 되고 저장 됩니다.</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>패스워드는 4글자 이상이어야 합니다.</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>입력한 패스워드에 공백이 포함되어 있습니다.</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>앱 보호 사용</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>변경</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>패스워드 힌트</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>확장자 변경</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>해당 폴더내에 이미 동일한 이름으로 {0} 확장자가 존재하는지 확인하십시오.</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>확장자 변경이 실패하였습니다.</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>변경할 파일 선택</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>다른앱에서 파일을 볼 수 없도록 확장자 변경</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>변경된 파일들은 다른 앱에서는 나타나지 않게 됩니다.</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>{0} 외 {1}개 파일의 확장자가 {2}로 변경되었습니다.</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>{0} 파일의 확장자가 {1}로 변경되었습니다.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>앱 보호 기능을 작동시켜 사생활을 보호하세요.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>패스워드가 변경되었습니다.</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>끄기</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>켜기</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>테마</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>비우기</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>썸네일의 보존 기간</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>썸네일의 디스크 사용량</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>SW디코더를 기본 더코더로 사용</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>버전</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>개발자</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>육주용</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>버그 리포트</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>피드백</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>제안</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>페이스북</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>리뷰 &amp; 평가</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>패스워드를 입력하십시오.</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>패스워드가 올바르지 않습니다.</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>앱 보호 모드가 실행중입니다.</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>CCPlayer 종료</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>인증</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>앱 보호 : 실행중</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>앱 보호 : 정지됨</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>추가 후 재생목록으로 이동</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>선택 취소</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>전체 선택</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>이전</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>새로 고침</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>폴더 추가</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>재생목록에 추가</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>새 재생 목록</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>상위로 이동</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>이름 변경</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>순서 변경</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>포맷</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>상영시간</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>타이틀</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>미디어 파일이 디스크에서 제거되는것은 아닙니다.</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>재생목록 추가중 에러가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>일시적인 오류일 수도 있으니 잠시 후 다시 시도하십시오.
+동일한 에러가 계속 발생하면, 파일에 결함이 없는지 확인 하십시오.</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>이미 존재하는 이름입니다. 다른 이름을 입력하십시오.</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>미디어 정보를 읽을 수 없습니다.</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>제거중에 에러가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>나중에 다시 시도하십시오.
+동일한 에러가 계속 발생하면, 앱을 재설치하십시오.</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>저장중에 에러가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>업데이트중 에러가 발생하였습니다.</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>재생목록을 삭제합니다.</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>재생 목록 이름 입력</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>지금 재생 중</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>정보, 피드백, 리뷰 및 평가</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>앱</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>비밀번호, 잠금</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>앱 보호</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>설치 및 제거 관리</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>글꼴</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>테마, 썸네일</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>탐색, 디코더</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>글꼴, 스타일, 색상</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>자막</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>어둡게</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>밝게</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} 일</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>시간 초기화</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>음량 증폭</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>화면 비율</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>꽉찬화면</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>비율유지</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>비율유지 꽉찬화면</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>오디오 옵션</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>좌 / 우 균형</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>오디오 언어</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>오디오 싱크</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>음량</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>밝기</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>자막 옵션</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>자막 문자셋</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>자막 크기</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>외부 자막 열기</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>자막 언어</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>자막 위치 이동</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>자막 표시 설정</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>자막 싱크</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>재생 창 닫기</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>디코더</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>화면 회전</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>시계방향 180°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>시계방향 270°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>시계방향 90°</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>회전안함</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>빨리 감기</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>뒤로 감기</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>전체 화면 모드</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>창모드</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>좌우 바꿈</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>제어 패널 잠금</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>재생 속도</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>반복 재생</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>계속</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>반복 안함</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>한번만</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>재생</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>일시정지</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>회전 잠금</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>비디오 옵션</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>폴더 &amp; 파일</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>폴더 추가 버튼(우측 상단)을 클릭해서 영화가 담겨있는 폴더를 추가하세요.</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>비디오 재생을 위해 준비중입니다. </value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>L:me 미디어 콤포넌트 사용 (권장)</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>CCPlayer를 사용해보니 어떠신가요? 여러분의 소중한 의견을 듣고 싶습니다. 지금 별점과 함께 리뷰를 작성해주시겠습니까?</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>화면 확대 및 축소</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>구매</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>다음 2건의 구매이력이 존재합니다 : 
+ - {0}
+ - {1}
+제약없이 사용할 수 있습니다.</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>축하합니다. 마이그레이션에 성공하였습니다!</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>재시도</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>체험판이 만료되어 더 이상 사용할 수 없습니다.</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>체험판 만료됨.</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>체험판 ({0} 일 남음)</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>나중에 다시 시도하세요.</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>구매가 실패되었습니다.</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>모두 표시</value>
+  </data>
+  <data name="BeginLandscape.Header" xml:space="preserve">
+    <value>가로모드로 재생시작</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>아이템 선택</value>
+  </data>
+  <data name="Policies.Header.Text" xml:space="preserve">
+    <value>앱 정책</value>
+  </data>
+  <data name="Policies.Private.Content" xml:space="preserve">
+    <value>개인정보취급방침</value>
+  </data>
+  <data name="Exit.Information.Text" xml:space="preserve">
+    <value>"뒤로" 버튼을 한번 더 누르면 종료됩니다</value>
+  </data>
+  <data name="Developer.CheerUp.Content" xml:space="preserve">
+    <value>개발자 응원하기</value>
+  </data>
+  <data name="Developer.Donation.Text" xml:space="preserve">
+    <value>더 좋은 CCPlayer를 만들 수 있도록 개발자를 응원해주세요~ </value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Content" xml:space="preserve">
+    <value>커피 응원 감사합니다!
+더욱 좋은 CCPlayer를 만들도록 노력하겠습니다. ^0^</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Title" xml:space="preserve">
+    <value>대박 감사합니다~</value>
+  </data>
+  <data name="DefaultCharset.Text" xml:space="preserve">
+    <value>기본 문자 인코딩</value>
+  </data>
+  <data name="SuspendToPause.Header" xml:space="preserve">
+    <value>백그라운드 전환시 일시정지</value>
+  </data>
+  <data name="DefaultDecoderType.Text" xml:space="preserve">
+    <value>기본 디코더</value>
+  </data>
+  <data name="Message.Error.FailServerAuthentication" xml:space="preserve">
+    <value>서버 인증에 실패하였습니다. 아이디 혹은 패스워드를 확인하세요.</value>
+  </data>
+  <data name="Message.Error.Password" xml:space="preserve">
+    <value>패스워드를 입력하세요.</value>
+  </data>
+  <data name="Message.Error.ServerAddress" xml:space="preserve">
+    <value>서버 주소를 입력하세요.</value>
+  </data>
+  <data name="Message.Error.DisconnectedServer" xml:space="preserve">
+    <value>서버와 접속이 끊어졌습니다. 다시 접속하세요.</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="Server.Address.UNC.PlaceholderText" xml:space="preserve">
+    <value>예: \\server\share</value>
+  </data>
+  <data name="AddFolder.FolderPicker.Text" xml:space="preserve">
+    <value>로컬 폴더</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>범용 명명 규칙 (UNC)</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>연결해제</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>패스워드</value>
+  </data>
+  <data name="Server.NoItem.Text" xml:space="preserve">
+    <value>연결 버튼(우측상단)을 클릭하여 서버에 접속하세요.</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Server.Path.WebDAV.PlaceholderText" xml:space="preserve">
+    <value>예: webdav</value>
+  </data>
+  <data name="Server.Address.Host.PlaceholderText" xml:space="preserve">
+    <value>예: my.server.com or 192.168.0.1</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFolder.Header" xml:space="preserve">
+    <value>로컬 폴더</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFile.Header" xml:space="preserve">
+    <value>DLNA 파일</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFolder.Header" xml:space="preserve">
+    <value>DLNA 폴더</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFile.Header" xml:space="preserve">
+    <value>FTP 파일</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFolder.Header" xml:space="preserve">
+    <value>FTP 폴더</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFile.Header" xml:space="preserve">
+    <value>Local 파일</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFile.Header" xml:space="preserve">
+    <value>WebDAV 파일</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFolder.Header" xml:space="preserve">
+    <value>WebDAV 폴더</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>지원되지 않는 썸네일을 로드</value>
+  </data>
+  <data name="Message.Error.UserName" xml:space="preserve">
+    <value>아이디를 입력하세요.</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>유저 아이디</value>
+  </data>
+  <data name="AddFolder.Direct.Text" xml:space="preserve">
+    <value>URL 직접 재생</value>
+  </data>
+  <data name="Server.Address.Subtitle.PlaceholderText" xml:space="preserve">
+    <value>재생 가능한 자막파일의 웹 주소.
+(대소문자 구분에 주의!)</value>
+  </data>
+  <data name="Server.Address.Video.PlaceholderText" xml:space="preserve">
+    <value>재생가능한 비디오파일의 웹 주소.
+(대소문자 구분에 주의!)</value>
+  </data>
+  <data name="Message.Error.EmptySubtitleUrl" xml:space="preserve">
+    <value>자막 파일의 주소를 입력하세요.</value>
+  </data>
+  <data name="Message.Error.EmptyVideoUrl" xml:space="preserve">
+    <value>비디오 파일의 주소를 입력하세요.</value>
+  </data>
+  <data name="Message.Error.UnsupportedExtension" xml:space="preserve">
+    <value>지원되지 않는 파일 확장자 입니다.</value>
+  </data>
+  <data name="ApplicationTitleAd" xml:space="preserve">
+    <value>CCPlayer UWP Ad</value>
+  </data>
+  <data name="Message.Alert.Title" xml:space="preserve">
+    <value>알림</value>
+  </data>
+  <data name="Message.Info.InterstitialCanceled" xml:space="preserve">
+    <value>광고를 끝까지 시청하지 않으면 잠금이 해제되지 않습니다.</value>
+  </data>
+  <data name="Message.Info.InterstitialFailed" xml:space="preserve">
+    <value>광고가 지원되지 않는 지역이거나 요청이 실패하여 잠금을 해제 할 수 없습니다.
+(지원 국가 : 호주, 브라질, 캐나다, 프랑스, 독일, 이탈리아, 일본, 스페인, 영국, 미국)</value>
+  </data>
+  <data name="Message.Info.InterstitialQuestion" xml:space="preserve">
+    <value>광고를 시청하면 네트워크 재생 잠금이 일시적으로 해제됩니다.
+(인터넷 연결 필요)</value>
+  </data>
+  <data name="Message.Info.InterstitialSucceed" xml:space="preserve">
+    <value>네트워크 재생 잠금이 일시적으로 해제되었습니다.</value>
+  </data>
+  <data name="Message.Thanks.Title" xml:space="preserve">
+    <value>감사합니다!</value>
+  </data>
+  <data name="Cloud.OneDrive.Text" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFile.Header" xml:space="preserve">
+    <value>OneDrive 파일</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFolder.Header" xml:space="preserve">
+    <value>OneDrive 폴더</value>
+  </data>
+  <data name="Loading.MediaInformation.Text" xml:space="preserve">
+    <value>미디어 정보를 읽는 중입니다...</value>
+  </data>
+  <data name="Message.Error.NotImplements" xml:space="preserve">
+    <value>원인은 아직 마이크로소프트에서 해당 기능을 구현하지 않았기 때문입니다.</value>
+  </data>
+  <data name="Message.Error.XboxIssue" xml:space="preserve">
+    <value>이 기능은 아직 Xbox에서 지원되지 않습니다.</value>
+  </data>
+  <data name="RotationSyncWithDeviceSwitch.Header" xml:space="preserve">
+    <value>기기 설정에 관계없이 회전 사용</value>
+  </data>
+</root>

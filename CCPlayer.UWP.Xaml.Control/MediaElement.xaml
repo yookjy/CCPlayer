@@ -1,0 +1,48 @@
+﻿<UserControl
+    x:Name="CCPMediaElement"
+    x:Class="CCPlayer.UWP.Xaml.Controls.MediaElement"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="using:CCPlayer.UWP.Xaml.Controls"
+    xmlns:st="using:CCPlayer.UWP.Xaml.StateTriggers"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="Black">
+        <!--<VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name='MEBackgroundStates'>
+                <VisualState x:Name='MediaOpenedBackground'>
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty='Background' Storyboard.TargetName='LayoutRoot'>
+                            <DiscreteObjectKeyFrame KeyTime='0' Value="Black"/>
+                        </ObjectAnimationUsingKeyFrames>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name='MediaClosedBackground' />
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>-->
+        <MediaElement x:Name="WindowsME" AreTransportControlsEnabled="False" RenderTransformOrigin="0.5,0.5">
+            <!--<MediaElement.RenderTransform>
+                <CompositeTransform />
+            </MediaElement.RenderTransform>-->
+        </MediaElement>
+        <!-- 라임 미디어 엘리먼트용 패널 (SwapChainPanel을 붙혀넣기 위한 패널) -->
+        <Grid x:Name="LimeMediaElementPanel" />
+        <Popup x:Name="CCPopup" IsOpen="True" >
+            <!-- 
+            Popup이 여러개가 존재하는 경우, 팝업내 자식 요소의 등록 순서에 따라 z-order가 결정된다. 
+            ClosedCaptions를 동적으로 생성하여 등록하는 경우, MediaTransportControls의 순서가 앞서게 되므로 
+            자막이 MediaTransportControls의 위에 노출되므로 미리 패널을 하나 띄워놓음
+            -->
+            <Grid x:Name="CCPopupPanel"/>
+        </Popup>
+        <Popup x:Name="TCPopup" IsOpen="True">
+            <Grid x:Name="TCPopupPanel" >
+                <local:MediaTransportControls x:Name="TC" />
+            </Grid>
+        </Popup>
+    </Grid>
+</UserControl>

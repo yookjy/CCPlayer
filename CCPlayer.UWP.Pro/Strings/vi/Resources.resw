@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>mua phiên bản pro</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>Dựa vào các nguồn dữ liệu</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Tiếng Ả Rập (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Tiếng Ả Rập (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Tiếng Ả Rập (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Tự động phát hiện</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Tiếng Baltic (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Tiếng Baltic (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Tiếng Baltic (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Ngôn ngữ Trung Âu (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Ngôn ngữ Trung Âu (Windows) </value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Tiếng Hoa giản thể</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Tiếng Hoa phồn thể</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Tiếng Cyrillic (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Tiếng Cyrillic (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Tiếng Cyrillic (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Tiếng Hy Lạp (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Tiếng Hy Lạp (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>Tiếng Do Thái (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>Tiếng Do Thái (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>Tiếng Do Thái (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Tiếng Nhật (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Tiếng Hàn (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Tiếng Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Tiếng Latin9 (OEM) </value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Ngôn ngữ Trung Âu (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Ngôn ngữ Tây Âu EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Ngôn ngữ Tây Âu (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Tiếng Nga (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Tiếng Thái (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Tiếng Thổ Nhĩ Kỳ (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Tiếng Thổ Nhĩ Kỳ (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Tiếng Thổ Nhĩ Kỳ (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>ASCII mở rộng (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Tiếng Việt (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Ngôn ngữ Tây Âu (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Ngôn ngữ Tây Âu (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Bóng đổ </value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>Cỡ chữ</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>Kiểu chữ</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Sử dụng kiểu chữ khác</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>Độ dày của chữ</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Nền cho phụ đề</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>giây</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>Không quảng cáo! Có đầy đủ các tính năng!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>Hãy mua ngay! CCPlayer pro!</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Viền chữ</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>Cám ơn các biên dịch viên</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>Màu chữ</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>Danh sách phông chữ</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>Cài đặt phông chữ</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>Cài đặt phông chữ từ tập tin (*.ttf/ttc/otf/otc)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>Phông chữ đã cài đặt</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>Lưu phông chữ được tích hợp trong media</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>Tính năng này chỉ có thể sử dụng trong phiên bản Pro.</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>Đã dừng trình phát do xảy ra lỗi.</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Lỗi mạng.</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Đã xảy ra lỗi trong quá trình giải mã.</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Không thể phát do định dạng tập tin không được hỗ trợ.</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>Đây là định dạng media được mã hóa.</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Lỗi chưa biết.</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Lỗi – Không tìm thấy tập tin</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Phụ thuộc vào thời gian phát</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>Tích hợp phím Back vào menu video</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>Thời gian tìm kiếm</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Lỗi – Không tìm thấy thư mục</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Lật để tạm dừng</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Bạn có muốn mua ngay bây giờ không?</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>Không thể phát media bằng {0} trình giải mã.
+</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>Sử dụng GPU shader với trình giải mã.</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Tiếng Hàn (Windows MS949) </value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0} giờ {1} phút</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0} phút {1} giây</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0} giây</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} video</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>Tập tin</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>Thư mục</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>Sắp xếp theo:</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>Ngày thêm</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>Thêm thư mục này vào Explorer</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>Ngày thêm (Giảm dần)</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>Tên (Giảm dần)</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>Đính kèm</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>Âm thanh</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>Phụ đề</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>Hãy tận hưởng cùng phụ đề :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>Nó sẽ tự động được lưu sau khi khoảng trắng được xóa bỏ.</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>Chiều dài mật khẩu nên có ít nhất 4 kí tự.</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>Nó bao gồm khoảng trắng trong chuỗi nhập.</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>Sử dụng lớp bảo vệ ứng dụng</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>Thay đổi</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>Gợi ý mật khẩu</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>Chỉnh sửa phần mở rộng tập tin</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>Hãy chắn chắn rằng đã có {0} phần mở rộng cùng tên trong thư mục.</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>Thay đổi phần mở rộng không thành công.</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>Chọn tập tin để thay đổi</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>Thay đổi phần mở rộng tập tin để ẩn trong các ứng dụng khác.</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>Tập tin đã thay đổi sẽ không xuất hiện trong các ứng dụng khác.</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>Phần mở rộng {0} và {1} của các tập tin đã được đổi thành {2}.</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>Phần mở rộng {0} của tập tin đã được đổi thành {1}.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>Bảo vệ sự riêng tư của bạn bằng cách kích hoạt lớp bảo vệ ứng dụng.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>Đã đổi mật khẩu.</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>Tắt</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>Chủ đề</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>Thời hạn lưu trữ ảnh nhỏ</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>Lưu lượng ảnh nhỏ sử dụng</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>Sử dụng trình giải mã làm mặc định
+</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>Phiên bản</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>Nhà phát triển</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>Báo cáo lỗi</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>Phản hồi</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>Đề xuất</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>Đánh giá &amp; Xếp hạng</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>Vui lòng nhập mật khẩu.</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>Mật khẩu không đúng.</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>Chế độ bảo vệ đang hoạt động.</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>Thoát CCPlayer</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>Xác thực</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>Bảo vệ ứng dụng: Đang chạy</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>Bảo vệ ứng dụng: Đã dừng</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>Cài đặt</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>Di chuyển đến danh sách phát sau khi thêm.</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>Bỏ chọn tất cả</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>Chọn tất cả</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>Lùi</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>Kiểm tra</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>Làm mới</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>Dỡ bỏ</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>Thêm thư mục</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>Thêm vào danh sách phát</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>Danh sách phát mới</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>Di chuyển lên</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>Đổi tên</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>Sắp xếp lại</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>Hủy</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>Phát</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>Định dạng</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>Thời gian phát</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>Tiêu đề</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>Các tập tin media chưa được xóa khỏi ổ đĩa.</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi đang thêm các danh sách phát.</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>Đã xảy ra lỗi tạm thời. Hãy thử lại sau.
+Nếu vấn đề tương tự vẫn xảy ra, tập tin có thể là đã bị hỏng
+</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>Tên này đã được sử dụng. Vui lòng sử dụng tên khác.</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>Không thể đọc thông tin media.</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>Đã xảy ra lỗi trong quá trình xóa bỏ.</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>Hãy thử lại sau.
+Nếu vấn đề tương tự vẫn xảy ra, hãy cài đặt lại ứng dụng.</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi đang lưu.</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>Đã xảy ra lỗi trong quá trình cập nhật.</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>Xóa danh sách.</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>Nhập tên danh sách</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>Hiện đang phát</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>Thông tin, phản hồi, đánh giá &amp; xếp hạng</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>Ứng dụng</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>Mật khẩu, Khóa</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>Bảo vệ ứng dụng</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>Cài đặt &amp; Dỡ bỏ</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>Phông chữ</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>Chủ đề, ảnh nhỏ</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>Tổng quan</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>Tìm kiếm, Giải mã</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>Phát lại</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>Phông chữ, Kiểu chữ, Màu sắc</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>Phụ đề</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>Tối</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>Sáng</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} ngày</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>Đặt lại giờ</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Bộ khuếch đại âm thanh</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>giây</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tỉ lệ co</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Phủ tràn</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Vừa màn hình</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Đầy khít</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tùy chọn âm thanh</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Cân chỉnh trái/phải</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ngôn ngữ âm thanh</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Đồng bộ âm thanh</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Âm lượng</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Độ sáng</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tùy chọn phụ đề</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Bảng mã phụ đề</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kích thước phụ đề</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>Nhập phụ đề từ nguồn ngoài</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ngôn ngữ phụ đề</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>Di chuyển vị trí phụ đề</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>Cài đặt phụ đề</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Đồng bộ phụ đề</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Đóng cửa sổ phát lại</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Trình giải mã</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Xoay màn hình</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>Xoay 180°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>Xoay 270°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>Xoay 90°</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tua đi nhanh</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tua về nhanh</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>Toàn màn hình</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>Chế độ cửa sổ</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>Đối xứng ngang</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Khóa trình điều khiển</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tốc độ phát lại</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Phát lặp </value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>Vô số</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>Không có</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>Chỉ một lần</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>Phát</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>Tạm ngưng</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>Khóa xoay</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tùy chọn video</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>Thư mục &amp; Tập tin</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>Nhấn vào nút Thêm Thư mục (góc phải ở trên) để thêm thư mục có chứa phim hoặc video.</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>Vui lòng đợi, đang chuẩn bị phát video.</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>Sử dụng chương trình L:me (khuyên dùng)
+
+</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>Có vẻ như bạn đã và đang sử dụng ứng dụng trong một thời gian dài và chúng tôi muốn lắng nghe những góp ý từ bạn. Bạn có muốn đánh giá ứng dụng hay cung cấp phản hồi hay không?
+
+</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Phóng to/Thu nhỏ video</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value> Lịch sử mua hàng của hai sản phẩm được tìm thấy như sau:
+- {0}
+- {1}
+Bạn có thể sử dụng mà không bị giới hạn.
+</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>Chúc mừng. Di chuyển thành công!</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>Thử lại</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>Không khả dụng do bản dùng thử đã hết hạn.</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>Bản dùng thử đã hết hạn.</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>Bản dùng thử (Còn lại {0} ngày)</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>Vui lòng thử lại sau.</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>Mua hàng không thành công.</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>Mua hàng </value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>Hiển thị tất cả
+</value>
+  </data>
+  <data name="BeginLandscape.Header" xml:space="preserve">
+    <value>Bắt đầu phát lại ở chế độ nằm ngang</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>Chọn một mục</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>Quy ước đặt tên phổ quát (UNC)</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>Kết nối</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>Ngắt kết nối</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>Mật khẩu</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>Tải các ảnh nhỏ chưa được hỗ trợ</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+</root>

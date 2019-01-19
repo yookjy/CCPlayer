@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{46c483e2-308a-463d-9d4c-c0eb122cc72d}</ProjectGuid>
+    <Keyword>WindowsRuntimeComponent</Keyword>
+    <ProjectName>CCPlayer.UWP.FFmpeg</ProjectName>
+    <RootNamespace>CCPlayer.UWP</RootNamespace>
+    <DefaultLanguage>ko-KR</DefaultLanguage>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <AppContainerApplication>true</AppContainerApplication>
+    <ApplicationType>Windows Store</ApplicationType>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.10586.0</WindowsTargetPlatformMinVersion>
+    <ApplicationTypeRevision>10.0</ApplicationTypeRevision>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj /Zm140 %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;runtimeobject.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LTCG /NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LTCG /NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj /Zm140 %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;runtimeobject.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LTCG /NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;%(PreprocessorDefinitions);_FF30</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;runtimeobject.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_WINRT_DLL;NDEBUG;%(PreprocessorDefinitions);</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>$(IntDir)pch.pch</PrecompiledHeaderOutputFile>
+      <AdditionalUsingDirectories>$(WindowsSDK_WindowsMetadata);$(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <DisableSpecificWarnings>28204</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\include;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <AdditionalLibraryDirectories>$(SolutionDir)..\libiconv\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\zlib\Build\Windows10\$(PlatformTarget)\lib;$(SolutionDir)..\ffmpeg\Build\Windows10\$(PlatformTarget)\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mfplat.lib;mfuuid.lib;D3D11.lib;DXGI.lib;D2D1.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;swresample.lib;swscale.lib;shcore.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LTCG /NODEFAULTLIB:library %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\AsyncCB.h" />
+    <ClInclude Include="Common\CritSec.h" />
+    <ClInclude Include="Common\ExtensionsDefs.h" />
+    <ClInclude Include="Common\LinkList.h" />
+    <ClInclude Include="Common\OpQueue.h" />
+    <ClInclude Include="Common\SafeQueue.h" />
+    <ClInclude Include="Common\FFmpegMacro.h" />
+    <ClInclude Include="Decoder\ColorSpaceConvertModule.h" />
+    <ClInclude Include="Decoder\Decoder.h" />
+    <ClInclude Include="Decoder\DirectXVideoTransform.h" />
+    <ClInclude Include="Decoder\FFmpegUncompressedAudioDecoder.h" />
+    <ClInclude Include="Decoder\FFmpegUncompressedVideoDecoder.h" />
+    <ClInclude Include="Decoder\TextureLock.h" />
+    <ClInclude Include="Decoder\VideoBufferLock.h" />
+    <ClInclude Include="Information\MediaInformation.h" />
+    <ClInclude Include="Information\ThumbnailReader.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Source\CAVCodecContext.h" />
+    <ClInclude Include="Source\FFmpegByteStreamHandler.h" />
+    <ClInclude Include="Source\FFmpegReader.h" />
+    <ClInclude Include="Source\FFmpegSchemeHandler.h" />
+    <ClInclude Include="Source\FFmpegSource.h" />
+    <ClInclude Include="Source\FFmpegStream.h" />
+    <ClInclude Include="Source\Provider\Attachment\AttachmentProvider.h" />
+    <ClInclude Include="Source\Provider\Audio\AACSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Audio\AC3SampleProvider.h" />
+    <ClInclude Include="Source\Provider\Audio\MP3SampleProvider.h" />
+    <ClInclude Include="Source\Provider\Audio\WMASampleProvider.h" />
+    <ClInclude Include="Source\Provider\MFSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\ASSSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\PGSSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\SAMISampleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\SRTSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\SubtitleProvider.h" />
+    <ClInclude Include="Source\Provider\Subtitle\XSUBSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\HEVCSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\H264AVCSampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\H264SampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\MP4SampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\VC1SampleProvider.h" />
+    <ClInclude Include="Source\Provider\Video\WMVSampleProvider.h" />
+    <ClInclude Include="Subtitle\ExternalSubtitleReader.h" />
+    <ClInclude Include="Subtitle\ExternalSubtitleSource.h" />
+    <ClInclude Include="Subtitle\Subtitle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Decoder\ColorSpaceConvertModule.cpp" />
+    <ClCompile Include="Decoder\Decoder.cpp" />
+    <ClCompile Include="Decoder\FFmpegUncompressedAudioDecoder.cpp" />
+    <ClCompile Include="Decoder\FFmpegUncompressedVideoDecoder.cpp" />
+    <ClCompile Include="Information\MediaInformation.cpp" />
+    <ClCompile Include="Information\ThumbnailReader.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Source\CAVCodecContext.cpp" />
+    <ClCompile Include="Source\FFmpegByteStreamHandler.cpp" />
+    <ClCompile Include="Source\FFmpegReader.cpp" />
+    <ClCompile Include="Source\FFmpegSchemeHandler.cpp" />
+    <ClCompile Include="Source\FFmpegSource.cpp" />
+    <ClCompile Include="Source\FFmpegStream.cpp" />
+    <ClCompile Include="Source\Provider\Attachment\AttachmentProvider.cpp" />
+    <ClCompile Include="Source\Provider\Audio\AACSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Audio\AC3SampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Audio\MP3SampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Audio\WMASampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\MFSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\ASSSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\PGSSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\SAMISampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\SRTSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\SubtitleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Subtitle\XSUBSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\HEVCSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\H264AVCSampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\H264SampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\MP4SampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\VC1SampleProvider.cpp" />
+    <ClCompile Include="Source\Provider\Video\WMVSampleProvider.cpp" />
+    <ClCompile Include="Subtitle\ExternalSubtitleReader.cpp" />
+    <ClCompile Include="Subtitle\ExternalSubtitleSource.cpp" />
+    <ClCompile Include="Subtitle\Subtitle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Decoder\PixelShader.hlsl">
+      <EntryPointName>PSMain</EntryPointName>
+      <ShaderType>Pixel</ShaderType>
+      <VariableName>g_psshader</VariableName>
+      <HeaderFileOutput>PixelShader.hps</HeaderFileOutput>
+      <ObjectFileOutput>
+      </ObjectFileOutput>
+    </FxCompile>
+    <FxCompile Include="Decoder\VertexShader.hlsl">
+      <EntryPointName>VSMain</EntryPointName>
+      <ShaderType>Vertex</ShaderType>
+      <VariableName>g_vsshader</VariableName>
+      <HeaderFileOutput>VertexShader.hvs</HeaderFileOutput>
+      <ObjectFileOutput>
+      </ObjectFileOutput>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CCPlayer.UWP.FFmpeg.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\sdk\Lime.CPPHelper\Lime.CPPHelper.csproj">
+      <Project>{647128a5-e4a9-4e89-8a28-9534e560afe9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\CCPlayer.UWP.Common\CCPlayer.UWP.Common.csproj">
+      <Project>{0b076e94-8248-47f7-843c-25eec0287a84}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\libiconv.redist.1.14.0.11\build\native\libiconv.redist.targets" Condition="Exists('..\packages\libiconv.redist.1.14.0.11\build\native\libiconv.redist.targets')" />
+    <Import Project="..\packages\libiconv.vp.redist.1.14.0.1\build\native\libiconv.vp.redist.targets" Condition="Exists('..\packages\libiconv.vp.redist.1.14.0.1\build\native\libiconv.vp.redist.targets')" />
+    <Import Project="..\packages\zlib.v140.windesktop.msvcstl.static.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.static.rt-dyn.targets" Condition="Exists('..\packages\zlib.v140.windesktop.msvcstl.static.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.static.rt-dyn.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>이 프로젝트는 이 컴퓨터에 없는 NuGet 패키지를 참조합니다. 해당 패키지를 다운로드하려면 NuGet 패키지 복원을 사용하십시오. 자세한 내용은 http://go.microsoft.com/fwlink/?LinkID=322105를 참조하십시오. 누락된 파일은 {0}입니다.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\zlib.v140.windesktop.msvcstl.static.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.static.rt-dyn.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\zlib.v140.windesktop.msvcstl.static.rt-dyn.1.2.8.8\build\native\zlib.v140.windesktop.msvcstl.static.rt-dyn.targets'))" />
+  </Target>
+</Project>

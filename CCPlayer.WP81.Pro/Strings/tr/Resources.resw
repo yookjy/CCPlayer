@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About.Header" xml:space="preserve">
+    <value>hakkında</value>
+  </data>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>ücretli sürümü satın al</value>
+  </data>
+  <data name="VelostepApps.Label" xml:space="preserve">
+    <value>diğer L:me uygulamaları</value>
+  </data>
+  <data name="AboutAbout" xml:space="preserve">
+    <value>sürüm ve geliştirici</value>
+  </data>
+  <data name="AboutCredits" xml:space="preserve">
+    <value>destekleyenler</value>
+  </data>
+  <data name="AboutDesign" xml:space="preserve">
+    <value>tasarım</value>
+  </data>
+  <data name="AboutDesigner" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDeveloper" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="AboutDevelopment" xml:space="preserve">
+    <value>geliştirici</value>
+  </data>
+  <data name="AboutFacebook" xml:space="preserve">
+    <value>facebook</value>
+  </data>
+  <data name="AboutFeedback" xml:space="preserve">
+    <value>yardım ve destek</value>
+  </data>
+  <data name="AboutLibraryCreators" xml:space="preserve">
+    <value>Kütüphaneler ve yapımcıları</value>
+  </data>
+  <data name="AboutRateReview" xml:space="preserve">
+    <value>uygulamaya puan ver</value>
+  </data>
+  <data name="AboutShare" xml:space="preserve">
+    <value>paylaş</value>
+  </data>
+  <data name="AboutSpecialPeople1" xml:space="preserve">
+    <value>Bomi, Jung</value>
+  </data>
+  <data name="AboutSpecialPeople3" xml:space="preserve">
+    <value>Seongmin, Yoon</value>
+  </data>
+  <data name="AboutSpecialThanks" xml:space="preserve">
+    <value>Özel teşekkür</value>
+  </data>
+  <data name="AboutUserVoice" xml:space="preserve">
+    <value>öneri ve hata bildirme</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>sürüm</value>
+  </data>
+  <data name="AboutWhatsNew" xml:space="preserve">
+    <value>yenilikler</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arapça (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arapça (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arapça (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Otomatik algılama</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltık (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltık (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltık (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Orta Avrupa (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Orta Avrupa (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Basitleştirilmiş Çince</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Geleneksel Çince</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Kiril (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Kiril (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Kiril (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Rumca (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Rumca (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>İbranice (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>İbranice (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>İbranice (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japonca (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Kore dili (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latin9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Orta Avrupa (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Batı Avrupa EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Batı Avrupa (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Rusça (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Tay dili (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Türkçe (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Türkçe (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Türkçe (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Genişletilmiş ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnam dili (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Batı Avrupa (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Batı Avrupa (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Gölge kullan</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>yazı tipi boyutu</value>
+  </data>
+  <data name="FontSizeOverride.Header" xml:space="preserve">
+    <value>Yazı tipi boyutunu geçersiz kıl</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>yazı tipi stili</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Yazı tipi stilini geçersiz kılmayı kullan</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>yazı tipi genişliği</value>
+  </data>
+  <data name="SettingsPage.Text" xml:space="preserve">
+    <value>CCPlayer - ayarlar</value>
+  </data>
+  <data name="Settings.SubtitleFont.Text" xml:space="preserve">
+    <value>altyazı</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Altyazıda arkaplan kullan</value>
+  </data>
+  <data name="Settings.Appbar.Label" xml:space="preserve">
+    <value>ayarlar</value>
+  </data>
+  <data name="MainHub.Text" xml:space="preserve">
+    <value>CCPlayer</value>
+  </data>
+  <data name="Message.Delete.List" xml:space="preserve">
+    <value>Seçili {0} videoyu silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="ToUpper" xml:space="preserve">
+    <value>Yukarı git</value>
+  </data>
+  <data name="WhatsNew" xml:space="preserve">
+    <value>yenilikler</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>destekleyenler</value>
+  </data>
+  <data name="AllVideo.Text" xml:space="preserve">
+    <value>tüm videolar</value>
+  </data>
+  <data name="Explorer.Header" xml:space="preserve">
+    <value>tarayıcı</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>{0} yükleniyor...</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>oynat</value>
+  </data>
+  <data name="Playlist.Header" xml:space="preserve">
+    <value>çalma listesi</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>kaldır</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>İptal</value>
+  </data>
+  <data name="Message.Exit" xml:space="preserve">
+    <value>CCPlayer'ı kapat.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Tamam</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>tamamlandı</value>
+  </data>
+  <data name="UpdateHistory00001" xml:space="preserve">
+    <value>İlk yayın</value>
+  </data>
+  <data name="NotSupportedAudioCodec" xml:space="preserve">
+    <value>Desteklenmeyen ses çözücüsü.
+</value>
+  </data>
+  <data name="NotSupportedAudioLicenseCodec" xml:space="preserve">
+    <value>Ses çözücüsü {0} bir lisansa sahip.</value>
+  </data>
+  <data name="NotSupportedVideoCodec" xml:space="preserve">
+    <value>Desteklenmeyen video çözücüsü.</value>
+  </data>
+  <data name="WrongFileFormat" xml:space="preserve">
+    <value>Geçersiz dosya {0} biçimi.</value>
+  </data>
+  <data name="Message.Error.Cluster" xml:space="preserve">
+    <value>Hasarlı MKV parçası. Oynatmak için parçayı atla...</value>
+  </data>
+  <data name="Message.Info.Play.NoItems" xml:space="preserve">
+    <value>Çalma listesinde oynatılabilecek dosya yok.</value>
+  </data>
+  <data name="Message.Confirm.Play.Suspended" xml:space="preserve">
+    <value>Bu video {0} duraklatıldı / {1}</value>
+  </data>
+  <data name="Message.Info.Encoding.Fail" xml:space="preserve">
+    <value>Altyazı  kodlama hatası. 
+Lütfen altyazı kodlama ayarlarını değiştirin. 😉</value>
+  </data>
+  <data name="Message.Info.Seek.Create" xml:space="preserve">
+    <value>Arama verisi oluşturuldu...</value>
+  </data>
+  <data name="AudioBalance.Text" xml:space="preserve">
+    <value>Sol / Sağ Denge</value>
+  </data>
+  <data name="AudioLanguage.Text" xml:space="preserve">
+    <value>Ses Dili</value>
+  </data>
+  <data name="AudioVolume.Text" xml:space="preserve">
+    <value>Medya Ses Düzeyi</value>
+  </data>
+  <data name="PlaybackRate.Text" xml:space="preserve">
+    <value>Yürütme hızı</value>
+  </data>
+  <data name="SubtitleFontSize.Text" xml:space="preserve">
+    <value>Altyazı yazı tipi boyutu</value>
+  </data>
+  <data name="SubtitleLanguage.Text" xml:space="preserve">
+    <value>Altyazı dili</value>
+  </data>
+  <data name="SubtitleOnOff.Tag" xml:space="preserve">
+    <value>ALTYAZI</value>
+  </data>
+  <data name="SubtitleSync.Text" xml:space="preserve">
+    <value>Altyazı eşitleme</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>saniye</value>
+  </data>
+  <data name="Brightness.Text" xml:space="preserve">
+    <value>Video Parlaklığı</value>
+  </data>
+  <data name="BrightnessUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="UpdateHistory00002" xml:space="preserve">
+    <value>Bazı hatalar düzeltildi</value>
+  </data>
+  <data name="UpdateHistory00003" xml:space="preserve">
+    <value>Altyazı kısayol ayarları(alt menü...)</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>Reklamsız! tüm özellikler!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>CCPlayer pro'yu şimdi satın al!</value>
+  </data>
+  <data name="Subtitle" xml:space="preserve">
+    <value>altyazı</value>
+  </data>
+  <data name="UpdateHistory00004" xml:space="preserve">
+    <value>Altyazı ile ilgili hata düzeltildi</value>
+  </data>
+  <data name="UpdateHistory00005" xml:space="preserve">
+    <value>Altyazı görünümüyle ilgili geliştirmeler yapıldı</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Kontur kullan</value>
+  </data>
+  <data name="UpdateHistory00006" xml:space="preserve">
+    <value>MKV oynatma hatası düzeltildi</value>
+  </data>
+  <data name="UpdateHistory00007" xml:space="preserve">
+    <value>Metin kontur efekti eklendi (altyazı ayarlar menüsü)</value>
+  </data>
+  <data name="UpdateHistory00008" xml:space="preserve">
+    <value>Srt hatası düzeltildi (geçersiz zaman kodu atlama)</value>
+  </data>
+  <data name="UpdateHistory00009" xml:space="preserve">
+    <value>Tarayıcı performans iyileştirmeleri yapıldı</value>
+  </data>
+  <data name="AboutTranslatePeople1" xml:space="preserve">
+    <value>Juan Carlos Ábalos Guerrero</value>
+    <comment>후안 masabalos@outlook.com (Spanish - español) 스페인어</comment>
+  </data>
+  <data name="AboutTranslators" xml:space="preserve">
+    <value>Çevirmenler</value>
+  </data>
+  <data name="HubBackgroundColor.Text" xml:space="preserve">
+    <value>Arka plan rengi</value>
+  </data>
+  <data name="HubForegroundColor.Text" xml:space="preserve">
+    <value>Yazı tipi rengi</value>
+  </data>
+  <data name="HubSubForegroundColor.Text" xml:space="preserve">
+    <value>Alt yazı tipi rengi</value>
+  </data>
+  <data name="SubtitleFontColor.Text" xml:space="preserve">
+    <value>Altyazı yazı tipi rengi</value>
+  </data>
+  <data name="UseAllVideoHub.Header" xml:space="preserve">
+    <value>Hub'daki tüm videoları kullan</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>yazı tipi ailesi</value>
+  </data>
+  <data name="Settings.Subtitle.Text" xml:space="preserve">
+    <value>Ayarlar</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>yazı tipi yükle</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>Dosyadan yazı tipi yükle (*. TTF / OTF)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>Yüklü yazı tipi listesi</value>
+  </data>
+  <data name="FontManager.Button.Content" xml:space="preserve">
+    <value>yazı tipi yöneticisi</value>
+  </data>
+  <data name="FontManager.Header.Text" xml:space="preserve">
+    <value>Özel yazı tiplerini yönet. 
+(Lisanslı yazı tipi kullanırken dikkatli olun.)</value>
+  </data>
+  <data name="FontManager.Title.Text" xml:space="preserve">
+    <value>yazı tipi yöneticisi</value>
+  </data>
+  <data name="Message.Delete.FontFamily" xml:space="preserve">
+    <value>({0}) yazı tipini silmek istediğinizden emin misiniz?</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>MKV içinde bulunan yazı tiplerini(TTF) kaydet</value>
+  </data>
+  <data name="UpdateHistory00010" xml:space="preserve">
+    <value>Tema özelleştirme desteği</value>
+  </data>
+  <data name="UpdateHistory00011" xml:space="preserve">
+    <value>Altyazı için yazı tipi yöneticisi eklendi</value>
+  </data>
+  <data name="UpdateHistory00012" xml:space="preserve">
+    <value>Tüm videolar listesi için açık / kapalı seçeneği eklendi</value>
+  </data>
+  <data name="UpdateHistory00013" xml:space="preserve">
+    <value>Bazı kullanıcı arabirimi geliştirmeleri yapıldı</value>
+  </data>
+  <data name="UpdateHistory00014" xml:space="preserve">
+    <value>Bazı hatalar düzeltildi</value>
+  </data>
+  <data name="AboutTranslatePeople2" xml:space="preserve">
+    <value>Иван Корниенко</value>
+    <comment>이반 luciahedreh@gmail.com (Russian - русский) 러시아어</comment>
+  </data>
+  <data name="UpdateHistory00015" xml:space="preserve">
+    <value>Tüm videolar listesinde yükleme iyileştirmeleri yapıldı</value>
+  </data>
+  <data name="Message.Codec.NoLicense" xml:space="preserve">
+    <value>Lisans yok : {0}</value>
+  </data>
+  <data name="Message.Codec.NotSupported" xml:space="preserve">
+    <value>Desteklenmiyor: {0}</value>
+  </data>
+  <data name="UpdateHistory00016" xml:space="preserve">
+    <value>Dokunma jestleri eklendi. (ses seviyesi ve parlaklık ayarı)</value>
+  </data>
+  <data name="AboutTranslatePeople3" xml:space="preserve">
+    <value>Meca Cosmin</value>
+    <comment>코스민 mecacosmin@hotmail.com (Romanian - român) 루마니아어</comment>
+  </data>
+  <data name="AddFolder" xml:space="preserve">
+    <value>Klasör ekle</value>
+  </data>
+  <data name="UpdateHistory00017" xml:space="preserve">
+    <value>Klasör yönetimi özelliği eklendi</value>
+  </data>
+  <data name="UpdateHistory00018" xml:space="preserve">
+    <value>Oynatma hızı seçenekleri parçalanması (0.1 birim)</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>Bu özellik sadece ücretli sürümde kullanılabilir.</value>
+  </data>
+  <data name="UpdateHistory00019" xml:space="preserve">
+    <value>Dokunma jestleri eklendi (geri / ileri)
+- sadece ücretli sürümde</value>
+  </data>
+  <data name="UpdateHistory00020" xml:space="preserve">
+    <value>Tam ekran video desteği
+- Removed adv on video playback screen
+- Added adv on list &amp; video control panel</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>ara</value>
+  </data>
+  <data name="SearchInResults.Text" xml:space="preserve">
+    <value>arama sonuçları</value>
+  </data>
+  <data name="SearchVideoTitle.Text" xml:space="preserve">
+    <value>Tüm video bölümlerinde ara</value>
+  </data>
+  <data name="UpdateHistory00021" xml:space="preserve">
+    <value>Video listesinde arama eklendi
+- sadece ücretli sürümde</value>
+  </data>
+  <data name="Cache" xml:space="preserve">
+    <value>(önbellekten yükleniyor)</value>
+  </data>
+  <data name="Synchronize" xml:space="preserve">
+    <value>Eşitleme</value>
+  </data>
+  <data name="AboutTranslatePeople4" xml:space="preserve">
+    <value>Sebi Németh</value>
+    <comment>세비 sebezhetetlen98@gmail.com  (Hungarian - Magyar) 헝가리아어</comment>
+  </data>
+  <data name="UpdateHistory00022" xml:space="preserve">
+    <value>Altyazı yerini ayarlama eklendi</value>
+  </data>
+  <data name="UpdateHistory00023" xml:space="preserve">
+    <value>Bazı düzeltmeler ve geliştirmeler</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+    <comment>닫기</comment>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>Hata oluştu, oynatma durduruldu.</value>
+    <comment>오류가 발생하여 재생이 중단되었습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Ağ hatası oluştu.</value>
+    <comment>네트워크 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Kod çözme hatası oluştu.</value>
+    <comment>디코드 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Dosya biçimi desteklenmediği için oynatılamıyor.</value>
+    <comment>지원되지 않는 형식의 미디어 포맷입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>Şifreli medya biçimi.</value>
+    <comment>암호화된 미디어 형식입니다.</comment>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Bilinmeyen hata oluştu.</value>
+    <comment>알 수 없는 오류가 발생하였습니다.</comment>
+  </data>
+  <data name="Supported.Media.Format" xml:space="preserve">
+    <value>Desteklenen medya biçimleri</value>
+    <comment>지원되는 미디어 포맷</comment>
+  </data>
+  <data name="UpdateHistory00024" xml:space="preserve">
+    <value>Oynatma hızı düğmesiyle ilgili bir hata düzeltildi</value>
+    <comment>재생속도 버튼 버그 수정</comment>
+  </data>
+  <data name="UpdateHistory00025" xml:space="preserve">
+    <value>AVI/MP4 XviD çözücü desteği eklendi (İS hata yamaları) </value>
+    <comment>Avi/MP4에서 XviD 코덱 지원 (OS 버그 패치)</comment>
+  </data>
+  <data name="UpdateHistory00026" xml:space="preserve">
+    <value>Oynatma başarısız oldu hatası mesajı değiştirildi</value>
+    <comment>재생 실패 오류메세지 출력</comment>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Hata - dosya bulunamadı</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Toplam süre ile orantılı</value>
+    <comment>상영시간에 비례  (V 1.5)</comment>
+  </data>
+  <data name="HardwareBackButtonAction.Text" xml:space="preserve">
+    <value>Tarayıcı'da geri tuşu eylemi</value>
+    <comment>탐색기에서 뒤로가기 키 동작</comment>
+  </data>
+  <data name="MoveToUpperFolder" xml:space="preserve">
+    <value>Üst klasöre taşı</value>
+    <comment>상위폴더로 이동 (V 1.5)</comment>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>İleri-Geri sarma zaman aralığı</value>
+    <comment>시크 시간 간격</comment>
+  </data>
+  <data name="TerminateApplication" xml:space="preserve">
+    <value>Uygulamayı sonlandır</value>
+    <comment>앱 종료  (V 1.5)</comment>
+  </data>
+  <data name="NotSupportedCodecDesc" xml:space="preserve">
+    <value>Desteklenen çözücüler: {0}</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="NotSupportedLicenseCodecDesc" xml:space="preserve">
+    <value>Bu çözücü lisans ücreti fazla olduğu için desteklenmiyor.</value>
+    <comment>[1.5] 추가</comment>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Hata - klasör bulunamadı</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="Message.Error.CodecNotSupported" xml:space="preserve">
+    <value>Hata - Desteklenmeyen çözücü</value>
+    <comment>[1.5] 재생불가</comment>
+  </data>
+  <data name="UpdateHistory00027" xml:space="preserve">
+    <value>Kullanıcı arayüzü ve Tasarım yenilendi</value>
+  </data>
+  <data name="UpdateHistory00028" xml:space="preserve">
+    <value>Performans iyileştirmeleri</value>
+  </data>
+  <data name="UpdateHistory00029" xml:space="preserve">
+    <value>Kararlılık iyileştirmeleri</value>
+  </data>
+  <data name="UpdateHistory00030" xml:space="preserve">
+    <value>Küçük resim desteği eklendi</value>
+  </data>
+  <data name="AboutTranslatePeople5" xml:space="preserve">
+    <value>Daniel Peichev</value>
+    <comment>다니엘 antispamcan@gmail.com (Bulgarian - български) 불가리아어</comment>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Duraklatmak için dokun</value>
+    <comment>뒤집으면 일시정지</comment>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Şimdi satın almak istiyor musunuz?</value>
+  </data>
+  <data name="UpdateHistory00031" xml:space="preserve">
+    <value>Siyah ekran sorunu düzeltildi</value>
+    <comment>V 1.5.2</comment>
+  </data>
+  <data name="UpdateHistory00032" xml:space="preserve">
+    <value>Açılır kutu karakter kümesi uygulandıktan hemen sonra değişiyor
+</value>
+  </data>
+  <data name="AboutTranslatePeople6" xml:space="preserve">
+    <value>Le Xiazi</value>
+    <comment>르시아지 a102103170@outlook.com Le Xiazi (Chinese - 中文) 중국어</comment>
+  </data>
+  <data name="UpdateHistory00033" xml:space="preserve">
+    <value>Kayıttan yürütme hızi ile ilgili hata düzeltildi (geçiş yapıldığında oynamak için duraklat)</value>
+  </data>
+  <data name="UpdateHistory00034" xml:space="preserve">
+    <value>Çince çeviri eklendi</value>
+  </data>
+  <data name="ForceUseMediaElement.Header" xml:space="preserve">
+    <value>CCPlayer motorunu devre dışı bırak</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="OptimizeEntryModel.Header" xml:space="preserve">
+    <value>Giriş aygıtı için en iyi duruma getir</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="RemoveCompletedVideo.Text" xml:space="preserve">
+    <value>Oynatma tamamlandığında çalma listesini kaldır</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00035" xml:space="preserve">
+    <value>Windows 10 telefon desteği</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00036" xml:space="preserve">
+    <value>Motor seçim seçeneği eklendi</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="UpdateHistory00037" xml:space="preserve">
+    <value>Oynatma tamamlandığında çalma listesinden kaldırma eklendi</value>
+    <comment>V 1.5.5</comment>
+  </data>
+  <data name="Message.Play.Next" xml:space="preserve">
+    <value>Sonraki videoyu oynamak istiyor musunuz?</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UseConfirmNextPlay.Header" xml:space="preserve">
+    <value>Sonraki videoyu oynatmak için önce sor</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="AboutTranslatePeople7" xml:space="preserve">
+    <value>Mykola Voytkiv</value>
+    <comment>Mykola Voytkiv voytkiv@msn.com (Ukrainian - Український) 우크라이나어</comment>
+  </data>
+  <data name="UpdateHistory00038" xml:space="preserve">
+    <value>SRT ayrıştırıcısı için geliştirilmiş uyumluluk</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00039" xml:space="preserve">
+    <value>Ukranya dili eklendi</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00040" xml:space="preserve">
+    <value>Kilit ekranı hatası düzeltildi</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00041" xml:space="preserve">
+    <value>Lumia 830 için MKV içinde AC3 desteği (Dolbi dijital sertifikalı aygıt) MKV</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00042" xml:space="preserve">
+    <value>Bir sonraki videoyu oynatmadan önce sor seçeneği eklendi</value>
+    <comment>V 1.5.6</comment>
+  </data>
+  <data name="UpdateHistory00043" xml:space="preserve">
+    <value>netlik geliştirildi</value>
+    <comment>V 1.5.7</comment>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>Medya {0} kod çözücüsüyle oynatılamadı</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="UpdateHistory00044" xml:space="preserve">
+    <value>SW kod çözücü desteklendi &amp; daha fazla çözücü , uzantılar</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople8" xml:space="preserve">
+    <value>masoud mohammadi</value>
+    <comment>masoud mohammadi m4f19@outlook.com (Persian - فارسی) 이란어</comment>
+  </data>
+  <data name="UpdateHistory00045" xml:space="preserve">
+    <value>Farsça çeviri eklendi</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="Message.Confirm.Source.SelectAudio" xml:space="preserve">
+    <value>Bu medya dosyası çok fazla ses akışı içerir, lütfen birini seçin.</value>
+    <comment>V 1.7</comment>
+  </data>
+  <data name="AboutTranslatePeople9" xml:space="preserve">
+    <value>Dinesh Sangwan (xiniuss)</value>
+    <comment>V 1.7 xiniuss@live.com (hindi - भारतीय) 인도어</comment>
+  </data>
+  <data name="UpdateHistory00046" xml:space="preserve">
+    <value>Hintçe çeviri eklendi</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="StartUpSection.Text" xml:space="preserve">
+    <value>Başlangıçta</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Create.Password" xml:space="preserve">
+    <value>İçeriği korumak için parola oluşturun.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Input.Password" xml:space="preserve">
+    <value>Lütfen parolanızı girin.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="Message.Confirm.Remove.Password" xml:space="preserve">
+    <value>Korumayı devre dışı bırakmak için şifrenizi giriniz.</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00047" xml:space="preserve">
+    <value>Klasör koruma özelliği (sadece ücretli sürümde)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00048" xml:space="preserve">
+    <value>Başlangıç menüsü seçeneği (sadece ücretli sürümde)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00049" xml:space="preserve">
+    <value>SW kod çözücüsü için performans iyileştirmeleri</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>GPU gölgelendiricide s/w kod çözücü kullan</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Korean (Windows MS949)</value>
+    <comment>V 1.7.1</comment>
+  </data>
+  <data name="UpdateHistory00050" xml:space="preserve">
+    <value>Gölgelendirici renk dönüşümü bir hata düzeltildi.</value>
+    <comment>V 1.7.2</comment>
+  </data>
+  <data name="UpdateHistory00051" xml:space="preserve">
+    <value>Altyazı titreme hatası</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00052" xml:space="preserve">
+    <value>ASS efektörü devre dışı bırakma </value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00053" xml:space="preserve">
+    <value>24 bit ses çalma (aşağı örnekleme)</value>
+    <comment>V 1.7.3</comment>
+  </data>
+  <data name="UpdateHistory00054" xml:space="preserve">
+    <value>Çözücü desteği</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00055" xml:space="preserve">
+    <value>Uygulama çökme (başlangıç oynatma)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00056" xml:space="preserve">
+    <value>Ses jesti ile ilgili hata (Macarca)</value>
+    <comment>V 1.7.4</comment>
+  </data>
+  <data name="UpdateHistory00057" xml:space="preserve">
+    <value>İç zamanlı metin biçimi desteklendi</value>
+    <comment>V 1.7.6</comment>
+  </data>
+  <data name="UpdateHistory00058" xml:space="preserve">
+    <value>Kayıttan yürütme hatası (avi vb)</value>
+    <comment>V 1.7.8</comment>
+  </data>
+  <data name="UpdateHistory00059" xml:space="preserve">
+    <value>SMI altyazı tipi için adı boş olduğunda çökme</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>Uygulamayı bir süredir kullanıyorsun, görüşlerini bizimle paylaşmak istermisin?</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Dolgu</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Doğal oranı</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Dolgu (doğal oranı)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="AspectRatio.Text" xml:space="preserve">
+    <value>En Boy Oranı</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00060" xml:space="preserve">
+    <value>Boy oranları</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="RemoveAds.Label" xml:space="preserve">
+    <value>Reklamları kaldır</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UnlockFeatures.Label" xml:space="preserve">
+    <value>Ücretli sürüme geç</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00061" xml:space="preserve">
+    <value>Uygulama ürünleri (reklam, özellikler)</value>
+    <comment>V 1.7.9</comment>
+  </data>
+  <data name="UpdateHistory00062" xml:space="preserve">
+    <value>Yakınlaştırmak için çimdik (Şimdilik sadece ücretli sürümde) </value>
+    <comment>V 1.8.0</comment>
+  </data>
+  <data name="AboutTranslatePeople10" xml:space="preserve">
+    <value>Hayrullah</value>
+    <comment>V 1.8.1 rthayru@live.com (rthayru@gmail.com) (Turkish - Türk) 터키어</comment>
+  </data>
+  <data name="UpdateHistory00063" xml:space="preserve">
+    <value>Altyazı titreme hatası</value>
+    <comment>V 1.8.1</comment>
+  </data>
+  <data name="Settings.General.Text" xml:space="preserve">
+    <value>genel</value>
+  </data>
+  <data name="Settings.Playback.Text" xml:space="preserve">
+    <value>oynatma</value>
+    <comment>V 1.5.5</comment>
+  </data>
+</root>

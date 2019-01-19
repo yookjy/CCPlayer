@@ -1,0 +1,110 @@
+﻿<UserControl
+    x:Class="CCPlayer.UWP.Views.Controls.PlaybackSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.UWP.Views.Controls"
+    xmlns:helper="using:CCPlayer.UWP.Helpers"
+    xmlns:converter="using:CCPlayer.UWP.Converters"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding PlaybackSetting, Source={StaticResource Locator}}"
+    d:DesignHeight="1000"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <converter:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter" />
+        <converter:DecoderTypeToStringConverter x:Key="DecoderTypeToStringConverter" />
+    </UserControl.Resources>
+    
+    <ScrollViewer>
+        <StackPanel>
+            <!-- Flip to pause Settings.Playback.UseFlipToPause -->
+            <!--<ToggleSwitch x:Name="FlipToPauseSwitch" 
+                          x:Uid="FlipToPause"
+                          Header="[뒤집으면 일시 정지]"
+                          Margin="0,12"
+                          FontSize="{StaticResource TextStyleLargeFontSize}"
+                          IsEnabled="{Binding IsEnabledFlipToPause}"
+                          IsOn="{Binding UseFlipToPause, Mode=TwoWay}"
+                          Toggled="{x:Bind Vm.FlipToPauseToggledEventHandler}">-->
+            <ToggleSwitch x:Name="SuspendToPauseSwitch" 
+                          x:Uid="SuspendToPause"
+                          Header="[백그라운드 전환시 일시정지]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.Playback.UseSuspendToPause, Mode=TwoWay}">
+            </ToggleSwitch>
+            <ToggleSwitch x:Name="FlipToPauseSwitch" 
+                          x:Uid="FlipToPause"
+                          Header="[뒤집으면 일시 정지]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsEnabled="{Binding IsEnabledFlipToPause}"
+                          IsOn="{Binding Settings.Playback.UseFlipToPause, Mode=TwoWay}">
+            </ToggleSwitch>
+            <ToggleSwitch x:Name="BeginLandscapeSwitch" 
+                          x:Uid="BeginLandscape"
+                          Header="[가로모드로 재생 시작]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsEnabled="{Binding IsEnabledFlipToPause}"
+                          IsOn="{Binding Settings.Playback.UseBeginLandscape, Mode=TwoWay}">
+            </ToggleSwitch>
+            <!-- Seek Interval-->
+            <Grid Margin="0,6,0,18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="SeekTimeInterval" 
+                           Text="[시크 타임 간격]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <ComboBox Grid.Row="1"
+                          Margin="0,6"
+                          ItemsSource="{Binding SeekTimeIntervalSource}"
+                          SelectedValue="{Binding Settings.Playback.SeekTimeInterval, Mode=TwoWay}"
+                          DisplayMemberPath="Name"
+                          SelectedValuePath="Key">
+                </ComboBox>
+            </Grid>
+            <!-- Force use sw decoder -->
+            <!--<ToggleSwitch x:Name="UseDefaultSWDecoderSwitch"
+                          x:Uid="UseDefaultSWDecoder"
+                          Header="[기본 디코더로 SW디코더 사용]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.Playback.UseDefaultSWDecoder, Mode=TwoWay}"/>-->
+            <Grid Margin="0,6,0,18">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="DefaultDecoderType" 
+                           Text="[기본 디코더]"
+                           Grid.Row="0"
+                           Style="{StaticResource ControlTextHeaderStyle}" />
+                <ComboBox Grid.Row="1"
+                          Margin="0,6"
+                          SelectedValuePath="Content"
+                          SelectedValue="{Binding Settings.Playback.DefaultDecoderType, Mode=TwoWay, Converter={StaticResource DecoderTypeToStringConverter}}"
+                          HorizontalContentAlignment="Stretch"
+                          VerticalContentAlignment="Center">
+                    <ComboBoxItem>HW</ComboBoxItem>
+                    <ComboBoxItem>Hybrid</ComboBoxItem>
+                    <ComboBoxItem>SW</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+            <!-- Convert Color space module -->
+            <ToggleSwitch x:Name="UseGpuShaderSwitch"
+                          x:Uid="UseGpuShader"
+                          Header="[SW디코더에서 GPU쉐이더 사용]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.Playback.UseGpuShader, Mode=TwoWay}"/>
+            <!-- Convert Color space module -->
+            <ToggleSwitch x:Name="UseLimeEngineSwitch"
+                          x:Uid="UseLimeEngine"
+                          Header="[L:me 미디어 콤포넌트 사용]"
+                          Style="{StaticResource ToggleSwitchStyle}"
+                          IsOn="{Binding Settings.Playback.UseLimeEngine, Mode=TwoWay}"/>
+                          <!--Visibility="{Binding IsMobile, Converter={StaticResource BooleanToVisibilityConverter}}"-->
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

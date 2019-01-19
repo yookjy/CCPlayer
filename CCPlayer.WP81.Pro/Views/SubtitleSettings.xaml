@@ -1,0 +1,189 @@
+﻿<UserControl
+    x:Name="SubtitleSetting"
+    x:Class="CCPlayer.WP81.Views.SubtitleSettings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCPlayer.WP81.Views"
+    xmlns:converter="using:CCPlayer.WP81.Converters"
+    xmlns:velostep="using:Lime.Xaml.Controls"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:ic="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding SubtitleSetting, Source={StaticResource Locator}}"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="400">
+
+    <UserControl.Resources>
+        <converter:FontWeightConverter x:Key="FontWeightConverter" />
+    </UserControl.Resources>
+
+    <Grid Margin="0">
+        <StackPanel Margin="0">
+            <!--
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <ReorderThemeTransition></ReorderThemeTransition>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
+            -->
+            <ToggleSwitch x:Name="FontShadowSwitch" 
+                          x:Uid="FontShadow"
+                          FontSize="{StaticResource TextStyleLargeFontSize}" 
+                          IsOn="{Binding Settings.Subtitle.UseFontShadow, Mode=TwoWay}"/>
+            <ToggleSwitch x:Name="FontOutlineSwitch" 
+                          x:Uid="FontOutline"
+                          FontSize="{StaticResource TextStyleLargeFontSize}"
+                          IsOn="{Binding Settings.Subtitle.UseFontOutline, Mode=TwoWay}"/>
+            <ToggleSwitch x:Name="SubtitleBackgroundSwitch" 
+                          x:Uid="SubtitleBackground"
+                          FontSize="{StaticResource TextStyleLargeFontSize}"
+                          IsOn="{Binding Settings.Subtitle.UseBackground, Mode=TwoWay}"/>
+            <Grid Margin="0,6,0,0"
+                  x:Name="FontComboBox">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="FontFamily/Header" 
+                       Grid.Row="0"
+                       Foreground="{ThemeResource ToggleSwitchHeaderForegroundThemeBrush}" 
+                       FontSize="{StaticResource TextStyleMediumFontSize}" />
+                <Button x:Name="SubtitleEncodings"
+                        Grid.Row="2"
+                        Foreground="{ThemeResource ComboBoxForegroundThemeBrush}"
+                        BorderBrush="{ThemeResource ComboBoxBorderThemeBrush}" BorderThickness="{ThemeResource ComboBoxBorderThemeThickness}" 
+                        Background="{ThemeResource ComboBoxBackgroundThemeBrush}" FontWeight="Normal" FontSize="{ThemeResource ContentControlFontSize}" 
+                        MinHeight="{ThemeResource ComboBoxItemMinHeightThemeSize}" 
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Left" 
+                        Padding="6.5,0,0,0"
+                        Margin="0,6,0,0">
+                    <i:Interaction.Behaviors>
+                        <ic:EventTriggerBehavior EventName="Loaded">
+                            <ic:InvokeCommandAction Command="{Binding LoadedFontListCommand}" />
+                        </ic:EventTriggerBehavior>
+                    </i:Interaction.Behaviors>
+                    <Button.Flyout>
+                        <ListPickerFlyout x:Name="FontFamilyList" 
+                                          ItemsSource="{Binding FontSource}"
+                                          SelectedItem="{Binding FontFamily, Mode=TwoWay}">
+                            <ListPickerFlyout.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <TextBlock Text="{Binding Name}" FontSize="{StaticResource ContentControlFontSize}" FontFamily="{Binding Key}" Margin="0,6,0,0"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListPickerFlyout.ItemTemplate>
+                        </ListPickerFlyout>
+                    </Button.Flyout>
+                    <ContentPresenter Margin="0,6,6,0" MinHeight="31">
+                        <TextBlock Margin="0,0,0,0" 
+                                   Foreground="{ThemeResource ComboBoxForegroundThemeBrush}"
+                                   Text="{Binding SelectedItem.Name, ElementName=FontFamilyList, Mode=TwoWay}" 
+                                   FontSize="{StaticResource ContentControlFontSize}" 
+                                   FontFamily="{Binding SelectedItem.Key, ElementName=FontFamilyList, Mode=TwoWay}"/>
+                    </ContentPresenter>
+                </Button>
+                <!--<ComboBox x:Name="FontFamilyList"
+                          Grid.Row="1"
+                          ItemsSource="{Binding FontSource}"
+                          SelectedIndex="{Binding FontFamilySelectedIndex, Mode=TwoWay}" >
+                    <i:Interaction.Behaviors>
+                        <ic:EventTriggerBehavior EventName="Loaded">
+                            <ic:InvokeCommandAction Command="{Binding LoadedFontListCommand}" CommandParameter="{Binding ElementName=FontFamilyList}" />
+                        </ic:EventTriggerBehavior>
+                    </i:Interaction.Behaviors>
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <Grid> 
+                                <TextBlock Text="{Binding Name}" FontSize="{StaticResource ContentControlFontSize}" FontFamily="{Binding Key}" Margin="0,6,0,0"/>
+                            </Grid>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>-->
+            </Grid>
+            <ToggleSwitch x:Name="FontStyleOverrideSwitch" 
+                          x:Uid="FontStyleOverride" 
+                          FontSize="{StaticResource TextStyleLargeFontSize}"
+                          IsOn="{Binding Settings.Subtitle.FontStyleOverride, Mode=TwoWay}" >
+                <i:Interaction.Behaviors>
+                    <ic:DataTriggerBehavior Binding="{Binding IsOn, ElementName=FontStyleOverrideSwitch}" ComparisonCondition="Equal" Value="True">
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="True" TargetObject="{Binding ElementName=FontStyleCombo}" />
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="True" TargetObject="{Binding ElementName=FontWeightCombo}" />
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="True" TargetObject="{Binding ElementName=FontColorPicker}" />
+                    </ic:DataTriggerBehavior>
+                    <ic:DataTriggerBehavior Binding="{Binding IsOn, ElementName=FontStyleOverrideSwitch}" ComparisonCondition="Equal" Value="False">
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="False" TargetObject="{Binding ElementName=FontStyleCombo}" />
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="False" TargetObject="{Binding ElementName=FontWeightCombo}" />
+                        <ic:ChangePropertyAction PropertyName="IsEnabled" Value="False" TargetObject="{Binding ElementName=FontColorPicker}" />
+                    </ic:DataTriggerBehavior>
+                </i:Interaction.Behaviors>
+            </ToggleSwitch>
+            <Grid Margin="0,6,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="FontStyle" 
+                           Grid.Row="0"
+                           Foreground="{ThemeResource ToggleSwitchHeaderForegroundThemeBrush}" 
+                           FontSize="{StaticResource TextStyleMediumFontSize}" />
+                <ComboBox x:Name="FontStyleCombo" 
+                          Grid.Row="1"
+                          ItemsSource="{Binding FontStyleSource}"
+                          SelectedValuePath="Key"
+                          SelectedValue="{Binding Settings.Subtitle.FontStyle, Mode=TwoWay}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}" Margin="0" FontStyle="{Binding Key}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </Grid>
+            <Grid Margin="0,6,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="FontWeight"
+                           Grid.Row="0"
+                           Foreground="{ThemeResource ToggleSwitchHeaderForegroundThemeBrush}" 
+                           FontSize="{StaticResource TextStyleMediumFontSize}" />
+                <ComboBox x:Name="FontWeightCombo" 
+                          Grid.Row="1"
+                          ItemsSource="{Binding FontWeightSource}"
+                          SelectedValuePath="Key"
+                          SelectedValue="{Binding Settings.Subtitle.FontWeight, Mode=TwoWay}">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Name}" Margin="0" FontWeight="{Binding Key, Converter={StaticResource FontWeightConverter}}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
+            </Grid>
+            <Grid Margin="0,6,0,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock x:Uid="HubForegroundColor" 
+                       Grid.Row="0"
+                       Foreground="{ThemeResource ToggleSwitchHeaderForegroundThemeBrush}" 
+                       FontSize="{StaticResource TextStyleMediumFontSize}" />
+                <velostep:ColorPicker x:Name="FontColorPicker" 
+                                      x:Uid="SelectItem"
+                                      IsSimpleColor="True"
+                                      SelectedColor="{Binding Settings.Subtitle.ForegroundColor, Mode=TwoWay}"
+                                      Grid.Row="1"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+    
+</UserControl>

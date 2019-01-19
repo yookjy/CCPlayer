@@ -1,0 +1,925 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>Pro-Version kaufen</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>Danke an die Library-Entwickler</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arabisch (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arabisch (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arabisch (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Automatisch Erkennen</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltisch (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltisch (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltisch (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Mitteleuropäisch (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Mitteleuropäisch (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Chinesisch (Vereinfacht)</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Chinesisch (Traditionell)</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Kyrillisch (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Kyrillisch (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Kyrillisch (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Griechisch (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Griechisch (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>Hebräisch (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>Hebräisch (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>Hebräisch (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japanisch (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Koreanisch (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latein3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latein9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Mitteleuropäisch (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Westeuropäisch EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Westeuropäisch (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Russisch (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Thailändisch (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Türkisch (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Türkisch (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Türkisch (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Erweitertes ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnamesisch (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Westeuropäisch (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Westeuropäisch (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>Schatten anzeigen</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>Schriftgröße</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>Schriftstil</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>Schriftstil-Override benutzen</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>Schriftschnitt</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>Hintergrund für Untertitel benutzen</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>Keine Werbung! Alle Features!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>Jetzt kaufen! CCPlayer Pro!</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>Umrandung anzeigen</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>Danke an die Übersetzer</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>Schriftfarbe</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>Schriftart installieren</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>Schriftart aus Datei installieren (*.ttf/ttc/otf/otc)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>Installierte Schriftarten</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>In Medien inkludierte Schriftarten speichern</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>Dieses Feature kann ist nur in der Pro-Version verfügbar.</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>Die Wiedergabe wurde wegen eines Fehlers angehalten.</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>Netzwerkfehler aufgetreten.</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>Fehler bei der Dekodierung aufgetreten.</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>Wiedergabe nicht möglich, da das Dateiformat des Elements nicht unterstützt wird.</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>Die Datei ist verschlüsselt.</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>Unbekannter Fehler aufgetreten.</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>Fehler - Datei nicht gefunden</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>Hängt von der Spielzeit ab</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>Zurück-Button im Video-Menü</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>Zeitintervall der Suche</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>Fehler - Ordner nicht gefunden</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>Gerät zum Pausieren umdrehen</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>Möchtest du jetzt kaufen?</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>Das Medium konnte vom {0}-Decoder nicht wiedergegeben werden..</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>GPU-Shader innerhalb des SW-Decoders nutzen</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Koreanisch (Windows MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0}hr {1}min</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0}min {1}sec</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0}sec</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} Videos</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>Datei</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>Ordner</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>Sortieren nach:</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>Hinzugefügt am</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>Diesen Ordner zum Explorer hinzufügen</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>Hinzugefügt am (Zuletzt)</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>Name (Z - A)</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>Anhang</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>Untertitel</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>Video</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>Genießen mit Untertiteln :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>Wird gespeichert, wenn keine weißen Stellen mehr da sind.</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>Das Passwort sollte mindestens 4 Zeichen lang sein.</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>Es enthält eine Leerstelle.</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>App schützen</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>Ändern</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>Passworthinweis</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>Dateiendung bearbeiten</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>Stelle sicher, dass die Erweiterung {0} bereits mit dem selben Namen in diesem Ordner existiert.</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>Erweiterung konnte nicht geändert werden.</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>Zum Datei ändern auswählen</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>Dateiendung, die in anderen Apps ausgeblendet werden soll, auswählen</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>Die geänderte Datei wird in anderen Apps nicht mehr auftauchen.</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>Die Dateiendungen {0} und {1} wurden zu {2} geändert.</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>Die Dateiendung {0} wurde zu {1} geändert.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>Schütze deine Privatsphäre, indem du den App-Schutz einschaltest.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>Passwort geändert.</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>Ausschalten</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>Einschalten</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>Bereinigen</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>Vorschaubilder zurücksetzen alle</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>Speichernutzung durch Vorschaubilder</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>SW-Decoder als Standard-Decoder nutzen</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>Entwickler</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>Fehler melden</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>Vorschlag machen</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>Bewerten</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>Passwort eingeben.</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>Falsches Passwort.</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>App-Schutz wird ausgeführt.</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>CCPlayer beenden</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>Authentisieren</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>App-Schutz: Geschützt</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>App-Schutz: Gestoppt</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>Nach dem Hinzufügen zur Wiedergabeliste navigieren.</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>Alle abwählen</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>Alle auswählen</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>Aktualisieren</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>Ordner hinzufügen</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>Zu Wiedergabeliste hinzufügen</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>Neue Wiedergabeliste</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>Zur vorherigen Ebene</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>Umbenennen</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>Neu sortieren</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>Wiedergeben</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>Format</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>Laufzeit</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>Titel</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>Medien-Dateien werden nicht aus dem Speicher gelöscht.</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>Fehler beim Hinzufügen von Wiedergabelisten aufgetreten.</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>Möglicherweise gibt es einen temporären Fehler. Versuche es später noch einmal.
+Wenn der Fehler weiterhin auftritt, prüfe die Datei auf Beschädigungen.</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>Dieser Name wird bereits verwendet. Bitte gib einen anderen Namen ein.</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>Medien-Infos konnten nicht gelesen werden.</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>Fehler beim Löschen aufgetreten.</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>Versuche es später erneut.
+Wenn der Fehler weiterhin auftritt, installiere die App neu.</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>Fehler während des Speicherns aufgetreten.</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>Fehler während Aktualisierung aufgetreten.</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>Wiedergabeliste löschen.</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>Name eingeben</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>Aktuelle Wiedergabe</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>Infos, Feedback, Bewerten</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>App</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>Passwort, Schutz</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>App-Schutz</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>Installieren &amp; Entfernen</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>Schriftart</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>Design, Vorschaubilder</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>Suche, Decoder</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>Wiedergabe</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>Schriftart, Stil, Farbe</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>Untertitel</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>Dunkel</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>Hell</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} Tage</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>Zeit zurücksetzen</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Lautstärke-Booster</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Seitenverhältnis</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>Ausfüllen</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>Einheitlich</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>Einheitlich ausfüllen</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Audio-Optionen</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Audio-Balance</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tonspur</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Ton-Bild-Synchronisation</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Tonlautstärke</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Helligkeit</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Untertitel-Optionen</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Untertitel-Zeichenset</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Untertitel-Größe</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>Untertitel importieren</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Untertitel-Sprache</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>Untertitel-Position ändern</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>Untertitel-Einstellungen</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Untertitel-Synchronisation</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wiedergabefenster schließen</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Decoder</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Display-Rotation</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>Im Uhrzeigersinn180°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>Im Uhrzeigersinn 270°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>Im Uhrzeigersinn 90°</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Vorspulen</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Zurückspulen</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>Vollbildmodus</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>Fenstermodus</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>Horizontal spiegeln</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Kontrollleiste sperren</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wiedergabegeschwindigkeit</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Wiederholen</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>Unendlich</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>Aus</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>Einmal</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>Wiedergabe</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>Rotationssperre</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video-Optionen</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>Ordner &amp; Dateien</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>Nutze den "Ordner hinzufügen"-Button (oben rechts), um einen Ordner mit Video-Dateien hinzuzufügen.</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>Bitte warten... Video-Wiedergabe wird vorbereitet.</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>Nutze die L:me Media-Komponente (empfohlen)</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>Es sieht so aus, als würdest du die App bereits eine Weile benutzen, und wir würden gerne deine Meinung dazu hören. Würdest du die App eventuell bewerten oder Feedback abgeben?</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>Video-Zoom</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>Der Kauf-Verlauf der zwie Produkte sieht folgendermaßen aus:
+ - {0}
+ - {1}
+Du bist in der Nutzung nicht mehr beschränkt.</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>Glückwunsch. Erfolgreich migriert!</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>Erneut versuchen</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>Nicht länger verfügbar, da die Probephase abgelaufen ist.</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>Probephase beendet.</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>Probephase ({0} Tage übrig)</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>Bitte versuche es später erneut.</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>Kauf nicht erfolgreich.</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>Kaufen</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>Alle anzeigen</value>
+  </data>
+  <data name="BeginLandscape.Header" xml:space="preserve">
+    <value>Wiedergabe im Landscape-Modus starten</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>Element auswählen</value>
+  </data>
+  <data name="Policies.Header.Text" xml:space="preserve">
+    <value>App-Bestimmungen</value>
+  </data>
+  <data name="Policies.Private.Content" xml:space="preserve">
+    <value>Datenschutzerklärung</value>
+  </data>
+  <data name="Exit.Information.Text" xml:space="preserve">
+    <value>Drücke erneut "Zurück", um die App zu beenden.</value>
+  </data>
+  <data name="Developer.CheerUp.Content" xml:space="preserve">
+    <value>Muntere den Entwickler auf</value>
+  </data>
+  <data name="Developer.Donation.Text" xml:space="preserve">
+    <value>Bitte muntere mich auf, damit ich CCPlayer noch besser machen kann</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Content" xml:space="preserve">
+    <value>Sei herzlichst bedankt!
+Ich werde mir Mühe geben, CCPlayer zu verbessern.</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Title" xml:space="preserve">
+    <value>Danke für den Kaffe!</value>
+  </data>
+  <data name="DefaultCharset.Text" xml:space="preserve">
+    <value>Standard-Zeichenset</value>
+  </data>
+  <data name="DefaultDecoderType.Text" xml:space="preserve">
+    <value>Standard-Decoder</value>
+  </data>
+  <data name="Message.Error.UserName" xml:space="preserve">
+    <value>Bitte gib die User-ID ein.</value>
+  </data>
+  <data name="Message.Error.FailServerAuthentication" xml:space="preserve">
+    <value>Authentikation fehlgeschlagen. ID oder Passwort überprüfen.</value>
+  </data>
+  <data name="Message.Error.Password" xml:space="preserve">
+    <value>Passwort eingeben.</value>
+  </data>
+  <data name="Message.Error.ServerAddress" xml:space="preserve">
+    <value>Server-Adresse eingeben.</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>User-ID</value>
+  </data>
+  <data name="Server.Path.WebDAV.PlaceholderText" xml:space="preserve">
+    <value>Z.B.: webdav</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>Trennen</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Server.NoItem.Text" xml:space="preserve">
+    <value>Benutze den "Verbinden"-Button (oben rechts), um eine Verbindung mit einem Server herzustellen.</value>
+  </data>
+  <data name="Message.Error.DisconnectedServer" xml:space="preserve">
+    <value>Verbindung zum Server verloren. Bitte erneut verbinden.</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>Verbinden</value>
+  </data>
+  <data name="AddFolder.FolderPicker.Text" xml:space="preserve">
+    <value>Lokalen Ordner</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>Universal Naming Convention</value>
+  </data>
+  <data name="Server.Address.UNC.PlaceholderText" xml:space="preserve">
+    <value>Z.B.: \\server\share</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Server.Address.Host.PlaceholderText" xml:space="preserve">
+    <value>Z.B.:: my.server.com or 192.168.0.1</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>Nicht unterstützte Vorschaubilder laden</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFile.Header" xml:space="preserve">
+    <value>DLNA-Dateien</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFolder.Header" xml:space="preserve">
+    <value>DLNA-Ordner</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFile.Header" xml:space="preserve">
+    <value>FTP-Dateien</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFolder.Header" xml:space="preserve">
+    <value>FTP-Ordner</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFile.Header" xml:space="preserve">
+    <value>Lokale Dateien</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFolder.Header" xml:space="preserve">
+    <value>Lokale Ordner</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFile.Header" xml:space="preserve">
+    <value>WebDAV-Dateien</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFolder.Header" xml:space="preserve">
+    <value>WebDAV-Ordner</value>
+  </data>
+  <data name="AddFolder.Direct.Text" xml:space="preserve">
+    <value>URL-Direktwiedergabe</value>
+  </data>
+  <data name="Message.Error.EmptySubtitleUrl" xml:space="preserve">
+    <value>Untertitel-URL eingeben</value>
+  </data>
+  <data name="Message.Error.EmptyVideoUrl" xml:space="preserve">
+    <value>Video-URL eingeben</value>
+  </data>
+  <data name="Message.Error.UnsupportedExtension" xml:space="preserve">
+    <value>Nicht unterstützte Dateiendung.</value>
+  </data>
+  <data name="Server.Address.Subtitle.PlaceholderText" xml:space="preserve">
+    <value>Untertitel-Adresse kann direkt wiedergegeben werden.
+(Vorsicht bei sensitiven Daten)</value>
+  </data>
+  <data name="Server.Address.Video.PlaceholderText" xml:space="preserve">
+    <value>Video-Adresse kann direkt wiedergegeben werden.
+(Be careful case sensitive)</value>
+  </data>
+  <data name="ApplicationTitleAd" xml:space="preserve">
+    <value>CCPlayer UWP Ad</value>
+  </data>
+  <data name="Message.Alert.Title" xml:space="preserve">
+    <value>Achtung</value>
+  </data>
+  <data name="Message.Info.InterstitialCanceled" xml:space="preserve">
+    <value>Werbeeinblendung noch nicht beendet. Netzwerkwiedergabe nicht freigegeben.</value>
+  </data>
+  <data name="Message.Info.InterstitialFailed" xml:space="preserve">
+    <value>Wiedergabe konnte nicht freigegeben werden, weil die Werbung die Region nicht unterstützt oder die Anfrage fehlgeschlagen ist. 
+(Unterstützte Länder: Australien, Brasilien, Kanada, Frankreich, Deutschland, Italien, Japan, Spanien, Großbritannien, USA)</value>
+  </data>
+  <data name="Message.Info.InterstitialQuestion" xml:space="preserve">
+    <value>Schaue die Werbeeinblendung an, um die Netzwerkwiedergabe freizuschalten.
+(Internetverbindung nötig)</value>
+  </data>
+  <data name="Message.Info.InterstitialSucceed" xml:space="preserve">
+    <value>Netzwerkwiedergabe freigeschaltet</value>
+  </data>
+  <data name="Message.Thanks.Title" xml:space="preserve">
+    <value>Danke!</value>
+  </data>
+  <data name="Cloud.OneDrive.Text" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFile.Header" xml:space="preserve">
+    <value>OneDrive-Dateien</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFolder.Header" xml:space="preserve">
+    <value>OneDrive-Ordner</value>
+  </data>
+  <data name="Loading.MediaInformation.Text" xml:space="preserve">
+    <value>Bitte warten... Medien-Infos werden gelesen.</value>
+  </data>
+  <data name="Message.Error.NotImplements" xml:space="preserve">
+    <value>Dieser Gegenstand wurde noch nicht durch Microsoft in das Feature implementiert.</value>
+  </data>
+  <data name="Message.Error.XboxIssue" xml:space="preserve">
+    <value>Dieses Feature wird zur Zeit auf der XBOX nicht unterstützt.</value>
+  </data>
+  <data name="RotationSyncWithDeviceSwitch.Header" xml:space="preserve">
+    <value>Rotationseinstellungen des Geräts ignorieren</value>
+  </data>
+</root>

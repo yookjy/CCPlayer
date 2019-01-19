@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>プロ版を購入</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>ライブラリの作成者</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>Arabic (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>Arabic (OEM)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>Arabic (Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>Auto detection</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>Baltic (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>Baltic (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>Baltic (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>Central European (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>Central European (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>Chinese Simplified</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>Chinese Traditional</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>Cyrillic (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>Cyrillic (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>Cyrillic (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>Greek (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>Greek (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>Hebrew (ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>Hebrew (OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>Hebrew (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>Japanese (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>Korean (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latin9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>Central European (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>Western European EURO (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>Western European (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>Russian (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>Thai (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>Turkish (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>Turkish (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>Turkish (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Extended ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode (UTF-16 Big Endian)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode (UTF-16 Little Endian)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>Vietnamese (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>Western European (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>Western European (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>影の効果を使用</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>フォントスタイル</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>フォントスタイルの上書き</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>フォントの太さ</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>背景効果を使用</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>広告なし！すべての機能！</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>今CCPlayer Proを購入！</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>アウトラインを使用</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>翻訳の参加者</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>フォントの色</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>フォントファミリ</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>フォントのインストール</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>フォントファイルのインストール（*.ttf/ ttc/ otf/ otc）</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>インストール済みフォントのリスト</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>再生時のメディア内のフォントをインストール</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>この機能は、Proバージョンで使用することができます。</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>エラーが発生して再生が停止しました。</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>ネットワークエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>デコードエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>サポートされていない形式のメディアフォーマットです。</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>暗号化されたメディア形式です。</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>不明なエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>エラー : ファイルが見つかりません</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>上映時間に比例</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>エクスプローラで、戻るキーを使用</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>シーク時間間隔</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>エラー : フォルダが見つかりません</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>裏返すと一時停止</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>今すぐ購入しますか？</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>このメディアは、{0}のデコーダで再生できません。</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>HWデコーダでGPUのシェーダの使用</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>Korean (Windows MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0}時間 {1}分</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0}分 {1}秒</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0}秒</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0}ビデオ</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>ソート基準：</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>追加の日付</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>ファイル名</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>このフォルダを追加</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>追加の日付（降順）</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>ファイル名（降順）
+
+</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>添付</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>オーディオ</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>字幕とお楽しみください。 :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>空白は入力しても削除され、保存されます。</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>パスワードは4文字以上で入力してください。</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>入力したパスワードにスペースが含まれています。</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>アプリの保護モードの使用</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>変更</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>確認</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>パスワードのヒント</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>拡張子を変更</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>当フォルダ内には既に同名の{0}の拡張子が存在するかを確認してください。</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>拡張子の変更に失敗しました。</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>変更するファイルを選択</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>他のアプリでファイルを表示されないように拡張子を変更</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>変更されたファイルは他のアプリで、表示されなくなります。</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>{0}のほか{1}個のファイルの拡張子が{2}に変更されました。</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>{0}ファイルの拡張子が{1}に変更されました。</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>アプリの保護機能を作動させて、プライバシーを保護しましょう。</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>パスワードが変更されました。</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>オフ</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>オン</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>サムネイルの保存期間</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>サムネイルディスク使用量</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>SWデコーダを基本コーダに使用</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>開発者</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>バグレポート</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>フィードバック</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>提案</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>レビュー &amp; 評価</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>パスワードが正しくありません。</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>アプリの保護モードが実行中です。</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>CCPlayer終了</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>認証</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>アプリの保護：実行中</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>アプリの保護：停止中</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>追加後、プレイリストに遷移</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>選択を解除</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>戻る</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>フォルダの追加</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>プレイリストに追加</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>新しいプレイリスト</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>上部へ</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>名前の変更</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>順序の変更</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>フォーマット</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>上映時間</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>メディアファイルがディスクから削除されるものではありません。</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>プレイリストに追加中にエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>一時的なエラーである可能性がありますので、後に再試行してください。
+同じエラーが発生すると、ファイルに欠陥がないことを確認してください。</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>既に存在する名前です。別の名前を入力してください。</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>メディア情報を読み取ることができません。</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>削除中にエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>後でやり直してください。
+同じエラーが引き続き発生する場合、アプリを再インストールしてください。</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>保存中にエラーが発生しました。</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>更新中にエラーが発生しました。</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>プレイリストを削除します。</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>プレイリストの名前を入力</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>再生中</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>情報、フィードバック、レビュー&amp;評価</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>アプリ</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>パスワード、ロック</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>アプリの保護</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>インストールと削除の管理</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>フォント</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>テーマ、サムネイル</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>シーク, デコーダ</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>フォント、スタイル、色</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>暗く</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>明るく</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0}日</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>時間の初期化</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音量ブースター</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>アスペクト比</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>満杯画面</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>比を保持</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>比を保持満杯画面</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>オーディオオプション</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>左/右のバランス</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>オーディオ言語</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>オーディオシンク</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音量</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ブライトネス</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕オプション</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕文字セット</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕サイズ</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>外部字幕を開く</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕言語</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>字幕の位置を移動</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>字幕表示の設定</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕シンク</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>再生ウィンドウを閉じる</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>デコーダ</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>画面の回転</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>時計回り180°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>時計回り270°</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>時計回り90°</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>回転なし</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>前に進む</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>巻き戻し</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>フルスクリーンモード</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>ウィンドウモード</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>左右の折り返し</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>コントロールパネルのロック</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>再生速度</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>反復再生</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>無限</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>反復なし</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>一度</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>再生</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>一時停止</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>回転ロック</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>ビデオオプション</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>フォルダ&amp;ファイル</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>フォルダを追加ボタン（右上）をクリックして、映画が含まれているフォルダを追加してください。</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>ビデオの再生を準備中です...</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>L:meメディアコンポーネントを使用（推奨）</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>CCPlayerを使用してみるといかがでしょう？あなたの貴重なご意見を聞きたいと思います。今評価とレビューを書いていただけますか？</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>画面の拡大/縮小</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>購入</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>次の2件の購入履歴が存在します：
+ - {0}
+ - {1}
+制約なしで使用することができます。</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>おめでとうございます。マイグレーションに成功しました！</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>再試行</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>体験版の期限が切れされ、使用することができません。</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>体験版期限切れ。</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>体験版（{0}残り日）</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>後で再試行してください。</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>購入が失敗しました。</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>すべて表示</value>
+  </data>
+  <data name="BeginLandscape.Header" xml:space="preserve">
+    <value>ランドスケープモードで再生を開始</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>アイテムを選択</value>
+  </data>
+  <data name="Policies.Header.Text" xml:space="preserve">
+    <value>アプリのポリシー</value>
+  </data>
+  <data name="Policies.Private.Content" xml:space="preserve">
+    <value>個人情報保護方針</value>
+  </data>
+  <data name="Exit.Information.Text" xml:space="preserve">
+    <value>「戻る」をもう一度押すと終了します</value>
+  </data>
+  <data name="Developer.CheerUp.Content" xml:space="preserve">
+    <value>開発者応援する</value>
+  </data>
+  <data name="Developer.Donation.Text" xml:space="preserve">
+    <value>さらに良いCCPlayerを開発するように応援して下さい。</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Content" xml:space="preserve">
+    <value>コーヒー本当にありがとうございます。
+さらに良いCCPlayerを開発するように努力します。</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Title" xml:space="preserve">
+    <value>コーヒーありがとうございます！</value>
+  </data>
+  <data name="DefaultCharset.Text" xml:space="preserve">
+    <value>デフォルトの文字セット</value>
+  </data>
+  <data name="SuspendToPause.Header" xml:space="preserve">
+    <value>サスペンド移行時の一時停止</value>
+  </data>
+  <data name="DefaultDecoderType.Text" xml:space="preserve">
+    <value>デフォルトのデコーダ</value>
+  </data>
+  <data name="Message.Error.FailServerAuthentication" xml:space="preserve">
+    <value>サーバーの認証に失敗しました。ユーザ名またはパスワードを確認してください。</value>
+  </data>
+  <data name="Message.Error.Password" xml:space="preserve">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="Message.Error.ServerAddress" xml:space="preserve">
+    <value>サーバーのアドレスを入力してください。</value>
+  </data>
+  <data name="Message.Error.DisconnectedServer" xml:space="preserve">
+    <value>サーバとの接続が切断されました。再接続してください。</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="Server.Address.UNC.PlaceholderText" xml:space="preserve">
+    <value>例: \\server\share</value>
+  </data>
+  <data name="AddFolder.FolderPicker.Text" xml:space="preserve">
+    <value>ローカル フォルダ</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>汎用名前付け規則 (UNC)</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>接続</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>接続解除</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Server.NoItem.Text" xml:space="preserve">
+    <value>接続ボタン（右上）をクリックして、サーバーに接続してください。</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Server.Path.WebDAV.PlaceholderText" xml:space="preserve">
+    <value>例: webdav</value>
+  </data>
+  <data name="Server.Address.Host.PlaceholderText" xml:space="preserve">
+    <value>例: my.server.com または 192.168.0.1</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFolder.Header" xml:space="preserve">
+    <value>ローカル フォルダー</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFile.Header" xml:space="preserve">
+    <value>DLNA ファイル</value>
+  </data>
+  <data name="Thumbnail.Unsupported.DLNAFolder.Header" xml:space="preserve">
+    <value>DLNA フォルダー</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFile.Header" xml:space="preserve">
+    <value>FTP ファイル</value>
+  </data>
+  <data name="Thumbnail.Unsupported.FTPFolder.Header" xml:space="preserve">
+    <value>FTP フォルダー</value>
+  </data>
+  <data name="Thumbnail.Unsupported.LocalFile.Header" xml:space="preserve">
+    <value>ローカル ファイル</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFile.Header" xml:space="preserve">
+    <value>WebDAV ファイル</value>
+  </data>
+  <data name="Thumbnail.Unsupported.WebDAVFolder.Header" xml:space="preserve">
+    <value>WebDAV フォルダー</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>サポートされていないサムネイルをロード</value>
+  </data>
+  <data name="Message.Error.UserName" xml:space="preserve">
+    <value>ユーザー id を入力してください。</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>ユーザー ID</value>
+  </data>
+  <data name="AddFolder.Direct.Text" xml:space="preserve">
+    <value>URLの直接再生</value>
+  </data>
+  <data name="Server.Address.Subtitle.PlaceholderText" xml:space="preserve">
+    <value>再生可能な字幕ファイルのWebアドレス。
+（大文字小文字の区別に注意！）</value>
+  </data>
+  <data name="Server.Address.Video.PlaceholderText" xml:space="preserve">
+    <value>再生可能なビデオファイルのWebアドレス。
+（大文字小文字の区別に注意！）</value>
+  </data>
+  <data name="Message.Error.EmptySubtitleUrl" xml:space="preserve">
+    <value>字幕ファイルのアドレスを入力してください。</value>
+  </data>
+  <data name="Message.Error.EmptyVideoUrl" xml:space="preserve">
+    <value>ビデオファイルのアドレスを入力してください。</value>
+  </data>
+  <data name="Message.Error.UnsupportedExtension" xml:space="preserve">
+    <value>サポートされていないファイルの拡張子です。</value>
+  </data>
+  <data name="ApplicationTitleAd" xml:space="preserve">
+    <value>CCPlayer UWP Ad</value>
+  </data>
+  <data name="Message.Alert.Title" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Message.Info.InterstitialCanceled" xml:space="preserve">
+    <value>広告を最後まで申請しないと、ロックが解除されません。</value>
+  </data>
+  <data name="Message.Info.InterstitialFailed" xml:space="preserve">
+    <value>広告がサポートされていない地域であるか、要求が失敗してロックを解除することができません。
+（サポート国：オーストラリア、ブラジル、カナダ、フランス、ドイツ、イタリア、日本、スペイン、英国、米国）</value>
+  </data>
+  <data name="Message.Info.InterstitialQuestion" xml:space="preserve">
+    <value>広告を見ると、ネットワーク再生のロックが一時的に解除されます。
+（インターネット接続が必要）</value>
+  </data>
+  <data name="Message.Info.InterstitialSucceed" xml:space="preserve">
+    <value>ネットワーク再生のロックが一時的に解除されました。</value>
+  </data>
+  <data name="Message.Thanks.Title" xml:space="preserve">
+    <value>ありがとうございます！</value>
+  </data>
+  <data name="Cloud.OneDrive.Text" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFile.Header" xml:space="preserve">
+    <value>OneDrive ファイル</value>
+  </data>
+  <data name="Thumbnail.Unsupported.OneDriveFolder.Header" xml:space="preserve">
+    <value>OneDrive フォルダー</value>
+  </data>
+  <data name="Loading.MediaInformation.Text" xml:space="preserve">
+    <value>メディア情報の読み込み中です...</value>
+  </data>
+  <data name="Message.Error.NotImplements" xml:space="preserve">
+    <value>原因はまだマイクロソフトがその機能を実装していないからです。</value>
+  </data>
+  <data name="Message.Error.XboxIssue" xml:space="preserve">
+    <value>この機能はまだXboxでサポートされていません。</value>
+  </data>
+  <data name="RotationSyncWithDeviceSwitch.Header" xml:space="preserve">
+    <value>機器の設定に関係なく、回転を使用</value>
+  </data>
+</root>

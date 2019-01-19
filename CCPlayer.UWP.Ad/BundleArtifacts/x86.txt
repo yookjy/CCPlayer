@@ -1,0 +1,2 @@
+MainPackage=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Ad\bin\x86\Release\CCPlayer.UWP.Ad_1.1.14.0_x86.appx
+SymbolPackage=D:\Repositories\limeapp\ccplayer\CCPlayer.UWP.Ad\AppPackages\CCPlayer.UWP.Ad_1.1.14.0_Test\CCPlayer.UWP.Ad_1.1.14.0_x86.appxsym

@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>خرید نسخه پرو</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>با تشکر از سازندگان کتابخانه ها</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>عربی (ایزو)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>عربی (او ای ام)</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>عربی )ویندوز)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>تشخیص خودکار</value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>بالتیک (ایزو)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>بالتیک (او ای ام)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>بالتیک (ویندوز)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>اروپای مرکزی (ایزو)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>اروپای مرکزی (ویندوز)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>چینی (ساده شده)</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>چینی (سنتی)</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>سیریلیک (ایزو)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>سیریلیک (او ای ام)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>سیریلیک (ویندوز)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>یونانی (او ای ام)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>یونانی (ویندوز)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>عبری (ایزو-بصری)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>ابری (او ای ام)
+</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>عبری (ویندوز)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>ژاپنی (ویندوز)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>کره ای (ویندوز EUC-کره ای)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>لاتین 3 (او ای ام)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>لاتین 9 (او ای ام)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>اروپای مرکزی (او ای ام)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>اروپای غربی یورو (او ای ام)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>اروپای غربی (او ای ام)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>روسی (او ای ام)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>تایلندی (ویندوز)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>ترکی (ایزو)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>ترکی (او ای ام)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>ترکی (ویندوز)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>Extended ASCII (OEM)</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>یونیکد (یو تی اف-16 هندی بزرگ)</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>یونیکد (یو تی اف-16 هندی کوچک)</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>یونیکد (یو تی اف-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>ویتنامی (ویندوز)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>اروپای غربی (ایزو)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>اروپای غربی (ویندوز)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>یو اس ای (سایه)</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>اندازه فونت</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>حالت فونت</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>استفاده از حالت فونت برجسته</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>وزن فونت</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>استفاده از تصویر زمینه برای زیرنویس</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>ثانیه</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>بدون تبلیغات! با امکانات کامل!</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>برو به خرید! پخش کننده سی سی پلیر پرو!</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>استفاده از خط خارجی</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>تشکر از مترجم ها</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>رنگ فونت</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>گروه فونت</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>نصب فونت</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>نصب فونت از روی فایل (*.ttf/ttc/otf/otc)</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>فونت های نصب شده</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>ذخیره فونت از داخل رسانه</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>این قابلیت تنها در نسخه پرو در دسترس است.</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>به دلیل رخ دادن خطا، پخش متوقف شد.</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>خطا در شبکه رخ داد.</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>خطایی در دیکد رخ داد.</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>به دلیل عدم پشتیبانی از فرمت، فایل قابل پخش نیست.</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>این یک رسانه رمز گذاری شده است.</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>خطای نا شناخته رخ داد.</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>خطا - فایل پیدا نشد.</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>وابسته به مدت زمان اجرا</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>دکمه بازگشت به فهرست ویدیو </value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>زمان پرش به عقب و جلو</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>خطا - پوشه یافت نشد</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>توقف پخش با چرخش</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>آیا می خواهید بخرید؟</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>این رسانه نمی تواند با {0} دیکد کننده پخش شود.</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>استفاده از GPU sahder به همراه دیکد کننده SW</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>کره ای (ویندوز MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0}ساعت {1} دقیقه</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0}دقیقه {1}ثانیه</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0} ثانیه</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} ویدیو</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>فایل</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>پوشه</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>چینش بر اساس:</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>زمان اضافه شدن</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>نام</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>این پوشه را به اکسپلورر اضافه کن</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>تاریخ اضافه شدن (کاهشی)</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>نام (کاهشی)</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>پیوست</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>صدا</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>زیرنویس</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>ویدیو</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>از زیرنویس لذت ببرید :)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>گذرواژه</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>بعد از بین رفتن فضای خالی، ذخیره می شود</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>طول گذرواژه بایستی حداقل 4 کراکتر باشد</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>در طوالی ورودی فضای خالی وجود دارد</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>استفاده از حفاظت اپ</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>تغییر</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>قبول</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>راهنمای گذرواژه</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>تنظیم افزونه</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>اطمینان حاصل کنید که {0} افزونه در پوشه ای به همان نام وجود دارد.</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>خطا در تغییر افزونه</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>برای تغییر فایل انتخاب کنید</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>افزونه فایل را برای مخفی شدن درون سایر اپ ها تغییر دهید</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>فایل تغییر یافته در میان دیگر اپ ها ظاهر نخواهد شد.</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>{0} و {1} افزونه فایل به {2} تغییر کرده اند.</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>{0} افزونه فایل به {1} تغییر کرده است. </value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>با فعال کردن حفاظت از حریم شخصی خود مراقبت کنید.</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>گذرواژه تغییر کرده است.</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>خاموش</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>پوسته</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>پاک کردن</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>دوره نگهداری از نمایه ها</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>فضای اشغال شده توسط نمایه ها</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>استفاده از دیکد کننده SW به عنوان پیش فرض</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>نسخه</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>توسعه دهنده</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>گزارش خرابی</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>بازخورد</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>پیشنهاد</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>فیسبوک</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>بازبینی و امتیازدهی</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>لطفا گذرواژه را وارد کنید</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>گذرواژه اشتباه است</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>حالت حفاظت از اپ فعال است</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>خروج از برنامه</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>هویت سنجی</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>حالت حفاظت از اپ : اجرا شده</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>حالت حفاظت از اپ : متوقف شده</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>جا به جایی لیست پخش پس از اضافه کردن</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>حذف همه انتخاب ها</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>انتخاب همه</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>بازگشت</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>انتخاب</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>بارگذاری مجدد</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>زدودن</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>اضافه کردن پوشه</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>اضافه به فهرست پخش</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>فهرست پخش جدید</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>با بالاتر</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>تغییر نام</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>سفارش مجدد</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>لغو </value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>بستن</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>پخش</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>ذخیره</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>فرمت</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>زمان اجرا</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>عنوان</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>فایل رسانه از دیسک حذف نشده است.</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>در هنگام اضافه کردن فهرست پخش، خطایی رخ داد.</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>این ممکن است یک خطای موقت باشد. لطفا بعدا تلاش کنید. 
+اگر مجددا با همان خطا مواجه شدید، معیوب بودن فایل را کنترل کنید.</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>این نام پیش تر استفاده شده است. لطفا نام دیگری را وارد کنید.</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>توانایی خواندن رسانه وجود ندارد. </value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>خطایی در حین زدودن رخ داد.</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>لطفا بعدا تلاش کنید.
+اگر همین خطا مجددا رخ داد، اپ را مجددا نصب کنید.</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>خطایی در هنگام ذخیره سازی رخ داد.</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>خطایی در حین به روز رسانی رخ داد.</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>حذف فهرست پخش.</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>وارد نمودن نام فهرست پخش</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>در حال پخش</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>اطلاعات، بازخورد، بازبینی و امتیازدهی</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>اپ</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>گذرواژه، قفل</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>حفاظت اپ</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>نصب و زدودن</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>فونت</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>پوسته، نمایه</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>عمومی</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>پرش، دیکد کننده</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>پخش</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>فونت، حالت، رنگ</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>زیرنویس</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>تیره</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>روشن</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} روز</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>تنظیم مجدد زمان</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>تقویت کننده صدا</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>ثانیه</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>نسبت تصویر</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>تمام صفحه</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>یک اندازه</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>یک اندازه تا تمام صفحه</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>گزینه های  صدا</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>بالانس چپ/راست</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>زبان صدا</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>همگام سازی صدا</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>حجم صدا</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>روشنایی</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>گزینه های زیر نویس</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>کاراکترهای زیرنویس</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>اندازه زیرنویس</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>وارد کردن زیرنویس </value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>زبان های زیرنویس</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>جا به جایی زیرنویس</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>تنظیمات زیرنویس</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>همگام سازی زیرنویس</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>بستن پنجره پخش</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>دیکد کننده</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>چرخش صفحه</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>180 درجه در جهت ساعت</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>270 درجه در جهت ساعت</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>90 درجه در جهت ساعت</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>هیچکدام</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>سریع به جلو</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>سریع به عقب</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>حالت تمام صفحه</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>حالت پنجره</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>آینه افقی</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>صفحه کنترل قفل</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>نرخ سرعت پخش</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>تکرار پخش</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>بی نهایت</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>هیچکدام</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>یک بار</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>پخش </value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>توقف</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>قفل چرخش</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>گزینه های ویدیو</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>پوشه ها و فایل ها</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>بر روی دکمه اضافه کردن پوشه کلیک کنید (بالا راست) تا پوشه حاوی فیلم را اضافه نمایید.</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>لطفا صبر کنید، در حال آماده سازی برای پخش ویدیو.</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>از جز L:me استفاده کنید (توصیه شده)</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>به نظر می رسد، مدتی است که از اپ استفاده می کنید، بسیار خوشحال می شویم که نظرتان را بشنویم. آیا مایل هستید که به اپ امتیاز داده یا بازخورد بفرستید؟</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>بزرگ/کوچک نمایی</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>تاریخچه پرداخت برای دو محصول یافت شد:
+- {0}
+- {1}
+می توانید بدون محدودیت استفاده کنید.</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>تبریک! ادغام با موفقیت انجام شد!</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>سعی مجدد</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>به دلیل پایان یافتن تاریخ نسخه آزمایشی، بیش از این در دسترس نیست.</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>تاریخ نسخه آزمایشی به پایان رسید.</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>تاریخ نسخه آزمایشی (مانده {0} روز)</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>لطفا بعدا مجدد سعی کنید.</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>خرید نا موفق بود.</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>خرید</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>نمایش همه</value>
+  </data>
+  <data name="BeginLandscape.Header" xml:space="preserve">
+    <value>پخش را در حالت عرضی شروع کن</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>یک گزینه را انتخاب کن</value>
+  </data>
+  <data name="Policies.Header.Text" xml:space="preserve">
+    <value>سیاست های اپ</value>
+  </data>
+  <data name="Policies.Private.Content" xml:space="preserve">
+    <value>سیاست های حریم شخصی</value>
+  </data>
+  <data name="Exit.Information.Text" xml:space="preserve">
+    <value>یک بار دیگر دکمه "بازگشت" را برای خروج بزنید</value>
+  </data>
+  <data name="Developer.CheerUp.Content" xml:space="preserve">
+    <value>تشویق توسعه دهنده</value>
+  </data>
+  <data name="Developer.Donation.Text" xml:space="preserve">
+    <value>لطفا من را برای ساخت نسخه بهتری از پخش کننده سی سی تشویق کنید</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Content" xml:space="preserve">
+    <value>بسیار از شما ممنونم!
+سعی می کنم که پخش کننده سی سی را بهتر کنم.</value>
+  </data>
+  <data name="IAPs.Donation.Thanks.Title" xml:space="preserve">
+    <value>بابت قهوه ممنون!
+</value>
+  </data>
+  <data name="DefaultCharset.Text" xml:space="preserve">
+    <value>کاراکتر پیش فرض انتخاب شد</value>
+  </data>
+  <data name="SuspendToPause.Header" xml:space="preserve">
+    <value>توقف در هنگام رفتن اپ به پس زمینه</value>
+  </data>
+  <data name="DefaultDecoderType.Text" xml:space="preserve">
+    <value>دیکد کننده پیش فرض</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>‏‏متصل شود</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>‏‏متصل شود</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>‏‏قطع ارتباط</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>رمز عبور</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>بارگذاری نمایه های پشتیبانی نشده</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>شناسه کاربری</value>
+  </data>
+</root>

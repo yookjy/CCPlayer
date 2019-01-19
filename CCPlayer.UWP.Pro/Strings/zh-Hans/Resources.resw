@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buy.Label" xml:space="preserve">
+    <value>购买专业版</value>
+  </data>
+  <data name="Thanks.LibraryCreators.Text" xml:space="preserve">
+    <value>感谢存储库的创建者</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>CCPlayer UWP Pro</value>
+  </data>
+  <data name="CharsetArabicISO" xml:space="preserve">
+    <value>阿拉伯语 (ISO)</value>
+  </data>
+  <data name="CharsetArabicOem" xml:space="preserve">
+    <value>阿拉伯语（OME）</value>
+  </data>
+  <data name="CharsetArabicWindows" xml:space="preserve">
+    <value>阿拉伯语(Windows)</value>
+  </data>
+  <data name="CharsetAutoDetect" xml:space="preserve">
+    <value>自动检测 </value>
+  </data>
+  <data name="CharsetBalticISO" xml:space="preserve">
+    <value>波罗的海 (ISO)</value>
+  </data>
+  <data name="CharsetBalticOem" xml:space="preserve">
+    <value>波罗的海 (OEM)</value>
+  </data>
+  <data name="CharsetBalticWindows" xml:space="preserve">
+    <value>波罗的海 (Windows)</value>
+  </data>
+  <data name="CharsetCentralEuropeanISO" xml:space="preserve">
+    <value>中欧 (ISO)</value>
+  </data>
+  <data name="CharsetCentralEuropeanWindows" xml:space="preserve">
+    <value>中欧 (Windows)</value>
+  </data>
+  <data name="CharsetChineseSimplifiedGB" xml:space="preserve">
+    <value>简体中文</value>
+  </data>
+  <data name="CharsetChineseTraditionalBig5" xml:space="preserve">
+    <value>繁体中文</value>
+  </data>
+  <data name="CharsetCyrillicISO" xml:space="preserve">
+    <value>西里尔文 (ISO)</value>
+  </data>
+  <data name="CharsetCyrillicOem" xml:space="preserve">
+    <value>西里尔文 (OEM)</value>
+  </data>
+  <data name="CharsetCyrillicWindows" xml:space="preserve">
+    <value>西里尔文 (Windows)</value>
+  </data>
+  <data name="CharsetGreekOem" xml:space="preserve">
+    <value>希腊 (OEM)</value>
+  </data>
+  <data name="CharsetGreekWindows" xml:space="preserve">
+    <value>希腊 (Windows)</value>
+  </data>
+  <data name="CharsetHebrewISO_Visual" xml:space="preserve">
+    <value>希伯来语(ISO-Visual)</value>
+  </data>
+  <data name="CharsetHebrewOem" xml:space="preserve">
+    <value>希伯来语(OEM)</value>
+  </data>
+  <data name="CharsetHebrewWindows" xml:space="preserve">
+    <value>希伯来语 (Windows)</value>
+  </data>
+  <data name="CharsetJapaneseShift_JIS" xml:space="preserve">
+    <value>日语 (Windows)</value>
+  </data>
+  <data name="CharsetKoreanEUC" xml:space="preserve">
+    <value>韩语 (Windows EUC-KR)</value>
+  </data>
+  <data name="CharsetLatin3" xml:space="preserve">
+    <value>Latin3 (OEM)</value>
+  </data>
+  <data name="CharsetLatin9" xml:space="preserve">
+    <value>Latin9 (OEM)</value>
+  </data>
+  <data name="CharsetLatinIIOem" xml:space="preserve">
+    <value>中欧 (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIEuroOem" xml:space="preserve">
+    <value>西方欧洲欧元 (OEM)</value>
+  </data>
+  <data name="CharsetMultilingualLatinIOem" xml:space="preserve">
+    <value>西欧 (OEM)</value>
+  </data>
+  <data name="CharsetRussianOem" xml:space="preserve">
+    <value>俄罗斯 (OEM)</value>
+  </data>
+  <data name="CharsetThaiWindows" xml:space="preserve">
+    <value>泰国 (Windows)</value>
+  </data>
+  <data name="CharsetTurkishISO" xml:space="preserve">
+    <value>土耳其语 (ISO)</value>
+  </data>
+  <data name="CharsetTurkishOem" xml:space="preserve">
+    <value>土耳其语 (OEM)</value>
+  </data>
+  <data name="CharsetTurkishWindows" xml:space="preserve">
+    <value>土耳其语 (Windows)</value>
+  </data>
+  <data name="CharsetUsOem" xml:space="preserve">
+    <value>扩展ASCII（OEM）</value>
+  </data>
+  <data name="CharsetUTF_16BE" xml:space="preserve">
+    <value>Unicode （UTF-16 大字节序）</value>
+  </data>
+  <data name="CharsetUTF_16LE" xml:space="preserve">
+    <value>Unicode （UTF-16 小字节序）</value>
+  </data>
+  <data name="CharsetUTF_8" xml:space="preserve">
+    <value>Unicode (UTF-8)</value>
+  </data>
+  <data name="CharsetVietnameseWindows" xml:space="preserve">
+    <value>越南 (Windows)</value>
+  </data>
+  <data name="CharsetWesternEuropeanISO" xml:space="preserve">
+    <value>西欧 (ISO)</value>
+  </data>
+  <data name="CharsetWesternEuropeanWindows" xml:space="preserve">
+    <value>西欧 (Windows)</value>
+  </data>
+  <data name="FontShadow.Header" xml:space="preserve">
+    <value>使用阴影</value>
+  </data>
+  <data name="FontSize.Text" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="FontStyle.Text" xml:space="preserve">
+    <value>字体样式</value>
+  </data>
+  <data name="FontStyleOverride.Header" xml:space="preserve">
+    <value>使用字体样式重写</value>
+  </data>
+  <data name="FontWeight.Text" xml:space="preserve">
+    <value>字体粗细</value>
+  </data>
+  <data name="SubtitleBackground.Header" xml:space="preserve">
+    <value>使用背景字幕</value>
+  </data>
+  <data name="SubtitleSyncUnit.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="AdvertisingContent.Text" xml:space="preserve">
+    <value>没有广告！全功能！</value>
+  </data>
+  <data name="AdvertisingTitle.Text" xml:space="preserve">
+    <value>现在购买 ！CCPlayer 专业版 ！</value>
+  </data>
+  <data name="FontOutline.Header" xml:space="preserve">
+    <value>使用概述</value>
+  </data>
+  <data name="Thanks.Translators.Text" xml:space="preserve">
+    <value>感谢翻译者们</value>
+  </data>
+  <data name="SubtitleColor.Text" xml:space="preserve">
+    <value>字体颜色</value>
+  </data>
+  <data name="FontFamily.Header.Text" xml:space="preserve">
+    <value>字体系列</value>
+  </data>
+  <data name="FontExternal.Import.Button.Content" xml:space="preserve">
+    <value>安装字体</value>
+  </data>
+  <data name="FontExternal.Import.Header.Text" xml:space="preserve">
+    <value>从文件 (*.ttf/ttc/otf/otc)中安装字体</value>
+  </data>
+  <data name="FontFamily.List.Text" xml:space="preserve">
+    <value>已安装的字体</value>
+  </data>
+  <data name="SaveTruTypeFontInMKV.Header" xml:space="preserve">
+    <value>保存在媒体中包含的字体</value>
+  </data>
+  <data name="Message.Info.Pro.Feature1" xml:space="preserve">
+    <value>该功能只能在专业版使用。</value>
+  </data>
+  <data name="Message.Error.MFEngine01" xml:space="preserve">
+    <value>发生错误停止播放。</value>
+  </data>
+  <data name="Message.Error.MFEngine02" xml:space="preserve">
+    <value>发生网络错误。</value>
+  </data>
+  <data name="Message.Error.MFEngine03" xml:space="preserve">
+    <value>发生解码错误</value>
+  </data>
+  <data name="Message.Error.MFEngine04" xml:space="preserve">
+    <value>不能播放因为该项目的文件格式不支持。</value>
+  </data>
+  <data name="Message.Error.MFEngine05" xml:space="preserve">
+    <value>它是加密的媒体格式。</value>
+  </data>
+  <data name="Message.Error.MFEngine99" xml:space="preserve">
+    <value>发生未知错误。</value>
+  </data>
+  <data name="Message.Error.FileNotFound" xml:space="preserve">
+    <value>错误-未找到文件</value>
+  </data>
+  <data name="AutoSeekInterval" xml:space="preserve">
+    <value>根据运行时间</value>
+  </data>
+  <data name="HardwareBackButtonWithinVideo.Header" xml:space="preserve">
+    <value>视频菜单内的后退按钮</value>
+  </data>
+  <data name="SeekTimeInterval.Text" xml:space="preserve">
+    <value>寻找的时间间隔</value>
+  </data>
+  <data name="Message.Error.FolderNotFound" xml:space="preserve">
+    <value>错误-找不到文件夹</value>
+  </data>
+  <data name="FlipToPause.Header" xml:space="preserve">
+    <value>停止翻转</value>
+  </data>
+  <data name="Message.Info.Pro.Feature2" xml:space="preserve">
+    <value>你现在想买吗？</value>
+  </data>
+  <data name="NotSupportedDecoder" xml:space="preserve">
+    <value>媒体不能由{ 0 }解码器播放。</value>
+  </data>
+  <data name="UseGpuShader.Header" xml:space="preserve">
+    <value>使用GPU着色器内SW解码器</value>
+  </data>
+  <data name="CharsetKoreanMS" xml:space="preserve">
+    <value>韩国 (Windows MS949)</value>
+  </data>
+  <data name="Format.Duration.Time.HM" xml:space="preserve">
+    <value>{0} 小时 {1} 分钟</value>
+  </data>
+  <data name="Format.Duration.Time.MS" xml:space="preserve">
+    <value>{0} 分 {1} 秒</value>
+  </data>
+  <data name="Format.Duration.Time.S" xml:space="preserve">
+    <value>{0} 秒</value>
+  </data>
+  <data name="Format.Folder.Video.Count" xml:space="preserve">
+    <value>{0} 视频</value>
+  </data>
+  <data name="List.File.Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="List.Folder.Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="OrderBy.Text" xml:space="preserve">
+    <value>排序方式 ︰</value>
+  </data>
+  <data name="Sort.CreatedDate.Ascending" xml:space="preserve">
+    <value>添加日期</value>
+  </data>
+  <data name="Sort.Name.Ascending" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Folder.AddButton.Text" xml:space="preserve">
+    <value>将该文件夹添加到资源管理器</value>
+  </data>
+  <data name="Sort.CreatedDate.Descending" xml:space="preserve">
+    <value>添加日期（降序）</value>
+  </data>
+  <data name="Sort.Name.Descending" xml:space="preserve">
+    <value>名称 （降序）</value>
+  </data>
+  <data name="Stream.Type.Attachment" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="Stream.Type.Audio" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="Stream.Type.Subtitle" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Stream.Type.Video" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="Sample.Subtitle.Text" xml:space="preserve">
+    <value>享受字幕:)</value>
+  </data>
+  <data name="AppLock.Password.Header.Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="AppLock.Password.Validate.Text" xml:space="preserve">
+    <value>移除空格后它将被保存。</value>
+  </data>
+  <data name="AppLock.Password.Validate1.Title" xml:space="preserve">
+    <value>密码长度应该至少有4个字符。</value>
+  </data>
+  <data name="AppLock.Password.Validate2.Title" xml:space="preserve">
+    <value>它包含输入字符串中的空格。</value>
+  </data>
+  <data name="AppLock.Use.Header" xml:space="preserve">
+    <value>使用应用程序保护</value>
+  </data>
+  <data name="Button.Change.Content" xml:space="preserve">
+    <value>更改</value>
+  </data>
+  <data name="Button.Ok.Content" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="AppLock.Hint.Header.Text" xml:space="preserve">
+    <value>密码提示</value>
+  </data>
+  <data name="FileAssociation.Change.Commit.Content" xml:space="preserve">
+    <value>修改文件扩展名</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Content" xml:space="preserve">
+    <value>确保已经存在{ 0 }扩展具有相同名称的文件夹。</value>
+  </data>
+  <data name="FileAssociation.Change.Fail.Title" xml:space="preserve">
+    <value>无法更改扩展名。</value>
+  </data>
+  <data name="FileAssociation.Change.FilePicker.Content" xml:space="preserve">
+    <value>选择更改文件</value>
+  </data>
+  <data name="FileAssociation.Change.Header.Text" xml:space="preserve">
+    <value>更改在其他应用程序中隐藏的文件扩展名</value>
+  </data>
+  <data name="FileAssociation.Change.Success.Title" xml:space="preserve">
+    <value>更改后的文件不会在其他应用程序中。</value>
+  </data>
+  <data name="FileAssociation.Change.Success1.Content" xml:space="preserve">
+    <value>{0} 和 {1} 文件扩展名已改 {2}。</value>
+  </data>
+  <data name="FileAssociation.Change.Success2.Content" xml:space="preserve">
+    <value>{0} 文件扩展名已改 {1}。</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Text" xml:space="preserve">
+    <value>通过激活应用程序保护来保护您的隐私。</value>
+  </data>
+  <data name="AppLock.Password.Validate3.Title" xml:space="preserve">
+    <value>密码已更改。</value>
+  </data>
+  <data name="Button.AppLock.TurnOff" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Button.AppLock.TurnOn" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Theme.Header.Text" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="Button.Clear.Content" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Thumbnail.Retention.Period.Text" xml:space="preserve">
+    <value>缩略图的保留时间</value>
+  </data>
+  <data name="Thumbnail.Retention.Size.Text" xml:space="preserve">
+    <value>磁盘使用情况的缩略图</value>
+  </data>
+  <data name="UseDefaultSWDecoder.Header" xml:space="preserve">
+    <value>使用 SW 解码器作为默认解码器</value>
+  </data>
+  <data name="App.Version.Text" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Developer.Header.Text" xml:space="preserve">
+    <value>开发人员</value>
+  </data>
+  <data name="Developer.Name.Content" xml:space="preserve">
+    <value>Jooyong, Yook</value>
+  </data>
+  <data name="Feedback.BugReport.Content" xml:space="preserve">
+    <value>Bug 报告</value>
+  </data>
+  <data name="Feedback.Header.Text" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="Feedback.Suggest.Content" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="Feedback.Facebook.Content" xml:space="preserve">
+    <value>Facebook</value>
+  </data>
+  <data name="Feedback.ReviewRate.Content" xml:space="preserve">
+    <value>评论 &amp; 评级</value>
+  </data>
+  <data name="AppLock.Login.Description.Text" xml:space="preserve">
+    <value>请输入密码。</value>
+  </data>
+  <data name="AppLock.Login.InvalidPassword.Text" xml:space="preserve">
+    <value>密码不正确。</value>
+  </data>
+  <data name="AppLock.Login.Title.Text" xml:space="preserve">
+    <value>正在执行的应用程序保护模式。</value>
+  </data>
+  <data name="Button.CCPClose.Content" xml:space="preserve">
+    <value>退出 CCPlayer</value>
+  </data>
+  <data name="Button.Login.Content" xml:space="preserve">
+    <value>进行身份验证</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Tag" xml:space="preserve">
+    <value>应用程序保护 ︰ 执行</value>
+  </data>
+  <data name="MainMenu.AppLock.Switch.Text" xml:space="preserve">
+    <value>应用程序保护 ︰ 停止</value>
+  </data>
+  <data name="MainMenu.Settings.Title.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Message.Check.MovePlayList.Content" xml:space="preserve">
+    <value>添加后移动到播放列表。</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Tag" xml:space="preserve">
+    <value>取消全选</value>
+  </data>
+  <data name="TopMenu.Common.AllCheck.Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="TopMenu.Common.Back.Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="TopMenu.Common.Check.Text" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="TopMenu.Common.Delete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="TopMenu.Common.Refresh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="TopMenu.Common.Remove.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="TopMenu.Explorer.AddFolder.Text" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="TopMenu.Explorer.AddToPlayList.Text" xml:space="preserve">
+    <value>添加到播放列表</value>
+  </data>
+  <data name="TopMenu.Explorer.NewPlayList.Text" xml:space="preserve">
+    <value>新建播放列表</value>
+  </data>
+  <data name="TopMenu.Explorer.Upper.Text" xml:space="preserve">
+    <value>向上</value>
+  </data>
+  <data name="TopMenu.PlayList.Rename.Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="TopMenu.PlayList.Reorder.Text" xml:space="preserve">
+    <value>重新排序</value>
+  </data>
+  <data name="Button.Cancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Button.Close.Content" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Button.Play.Content" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Button.Save.Content" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Media.Information.Format.Text" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="Media.Information.RunningTime.Text" xml:space="preserve">
+    <value>运行时间</value>
+  </data>
+  <data name="Media.Information.Title.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Message.Confirm.DeletePlayList" xml:space="preserve">
+    <value>媒体文件不会从磁盘删除。</value>
+  </data>
+  <data name="Message.Error.AddPlayList" xml:space="preserve">
+    <value>添加播放列表时发生错误。</value>
+  </data>
+  <data name="Message.Error.CheckFile" xml:space="preserve">
+    <value>有可能是一个暂时的错误。 请稍后再试。
+如果同样的错误仍然出现，确保该文件有缺陷。</value>
+  </data>
+  <data name="Message.Error.DuplicatedName" xml:space="preserve">
+    <value>名称已经被使用。请输入一个不同的名称。</value>
+  </data>
+  <data name="Message.Error.LoadMedia" xml:space="preserve">
+    <value>无法读取媒体信息。</value>
+  </data>
+  <data name="Message.Error.Remove" xml:space="preserve">
+    <value>试图删除时出错。</value>
+  </data>
+  <data name="Message.Error.Retry" xml:space="preserve">
+    <value>请稍后再试。
+如果同样的错误仍然出现，请重新安装该应用程序。</value>
+  </data>
+  <data name="Message.Error.Save" xml:space="preserve">
+    <value>保存时发生错误。</value>
+  </data>
+  <data name="Message.Error.Update" xml:space="preserve">
+    <value>在更新过程中发生错误。</value>
+  </data>
+  <data name="Message.Information.DeletePlayList" xml:space="preserve">
+    <value>删除播放列表。</value>
+  </data>
+  <data name="PlayList.New.Title" xml:space="preserve">
+    <value>输入播放列表名称</value>
+  </data>
+  <data name="PlayList.NowPlaying.Text" xml:space="preserve">
+    <value>现在播放</value>
+  </data>
+  <data name="Settings.Menu.App.Description" xml:space="preserve">
+    <value>信息，反馈，审核 &amp; 评分</value>
+  </data>
+  <data name="Settings.Menu.App.Title" xml:space="preserve">
+    <value>应用程序</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Description" xml:space="preserve">
+    <value>密码锁</value>
+  </data>
+  <data name="Settings.Menu.AppLock.Title" xml:space="preserve">
+    <value>应用程序保护</value>
+  </data>
+  <data name="Settings.Menu.Font.Description" xml:space="preserve">
+    <value>安装&amp;删除</value>
+  </data>
+  <data name="Settings.Menu.Font.Title" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="Settings.Menu.General.Description" xml:space="preserve">
+    <value>主题，缩略图</value>
+  </data>
+  <data name="Settings.Menu.General.Title" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Settings.Menu.Playback.Description" xml:space="preserve">
+    <value>寻求解码器</value>
+  </data>
+  <data name="Settings.Menu.Playback.Title" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Description" xml:space="preserve">
+    <value>字体，样式，颜色</value>
+  </data>
+  <data name="Settings.Menu.Subtitle.Title" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="Theme.Dark.Text" xml:space="preserve">
+    <value>暗</value>
+  </data>
+  <data name="Theme.Light.Text" xml:space="preserve">
+    <value>亮</value>
+  </data>
+  <data name="Thumbnail.Retention.Days.Content" xml:space="preserve">
+    <value>{0} 天</value>
+  </data>
+  <data name="TopMenu.PlayList.ResetPausedTime.Text" xml:space="preserve">
+    <value>重置时间</value>
+  </data>
+  <data name="AudioVolumeBooster.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音量助推器</value>
+  </data>
+  <data name="PercentageUnit.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SecondUnit.Text" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="AspectRatio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>高宽比</value>
+  </data>
+  <data name="AspectRatioItems.Fill" xml:space="preserve">
+    <value>填满</value>
+  </data>
+  <data name="AspectRatioItems.Uniform" xml:space="preserve">
+    <value>统一</value>
+  </data>
+  <data name="AspectRatioItems.UniformToFill" xml:space="preserve">
+    <value>统一填满</value>
+  </data>
+  <data name="Audio.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音频选项</value>
+  </data>
+  <data name="AudioBalance.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>左 / 右平衡</value>
+  </data>
+  <data name="AudioLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音频语言</value>
+  </data>
+  <data name="AudioSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音频同步</value>
+  </data>
+  <data name="AudioVolume.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>音频音量</value>
+  </data>
+  <data name="Brightness.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="ClosedCaption.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>选择字幕</value>
+  </data>
+  <data name="ClosedCaptionCharset.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕数据</value>
+  </data>
+  <data name="ClosedCaptionFontSize.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕大小</value>
+  </data>
+  <data name="ClosedCaptionImport.Text" xml:space="preserve">
+    <value>导入外部字幕</value>
+  </data>
+  <data name="ClosedCaptionLanguage.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕语言</value>
+  </data>
+  <data name="ClosedCaptionPosition.Text" xml:space="preserve">
+    <value>移动字幕位置</value>
+  </data>
+  <data name="ClosedCaptionSetting.Text" xml:space="preserve">
+    <value>字幕设置</value>
+  </data>
+  <data name="ClosedCaptionSync.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>字幕同步</value>
+  </data>
+  <data name="ClosePlayback.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>关闭播放窗口</value>
+  </data>
+  <data name="Decoder.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>解码器</value>
+  </data>
+  <data name="DisplayRotation.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>显示旋转</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise180" xml:space="preserve">
+    <value>顺时针旋转 180 °</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise270" xml:space="preserve">
+    <value>顺时针旋转 270 °</value>
+  </data>
+  <data name="DisplayRotationItems.Clockwise90" xml:space="preserve">
+    <value>顺时针旋转 90 °</value>
+  </data>
+  <data name="DisplayRotationItems.None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="FastForward.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>快进</value>
+  </data>
+  <data name="FastRewind.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>快退</value>
+  </data>
+  <data name="FullWindow.Tag" xml:space="preserve">
+    <value>全屏模式</value>
+  </data>
+  <data name="FullWindow2.Tag" xml:space="preserve">
+    <value>窗口模式</value>
+  </data>
+  <data name="HorizontalMirror.Label" xml:space="preserve">
+    <value>水平镜像</value>
+  </data>
+  <data name="LockControlPanel.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>锁定控制面板</value>
+  </data>
+  <data name="PlaybackRate.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>播放速度 （速度）</value>
+  </data>
+  <data name="PlaybackRepeat.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>重复播放</value>
+  </data>
+  <data name="PlaybackRepeatItems.All" xml:space="preserve">
+    <value>无限</value>
+  </data>
+  <data name="PlaybackRepeatItems.None" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="PlaybackRepeatItems.Once" xml:space="preserve">
+    <value>一次</value>
+  </data>
+  <data name="PlayPause.Tag" xml:space="preserve">
+    <value>播放</value>
+  </data>
+  <data name="PlayPause2.Tag" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="RotationLock.Label" xml:space="preserve">
+    <value>旋转锁定</value>
+  </data>
+  <data name="Video.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>视频选项</value>
+  </data>
+  <data name="Sample.Subtitle.BaseFontSize" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="Explorer.Title.Text" xml:space="preserve">
+    <value>文件夹 &amp; 文件</value>
+  </data>
+  <data name="Explorer.NoItem.Text" xml:space="preserve">
+    <value>单击“添加文件夹”按钮（右上）添加包含电影的文件夹。</value>
+  </data>
+  <data name="Loading.Playback.Text" xml:space="preserve">
+    <value>请稍候，准备播放视频。</value>
+  </data>
+  <data name="UseLimeEngine.Header" xml:space="preserve">
+    <value>使用 L:me 媒体组件(推荐)</value>
+  </data>
+  <data name="RateReminder.CustomReminderText" xml:space="preserve">
+    <value>看起来你已经使用了一段时间的应用程序，现在我们很想听到您的意见。你想给应用程序提供反馈吗？</value>
+  </data>
+  <data name="DisplayZoomItem.[using:Windows.UI.Xaml.Controls]ToolTipService.ToolTip" xml:space="preserve">
+    <value>视频放大/缩小</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Content" xml:space="preserve">
+    <value>这两种产品的购买历史记录，发现如下：
+  - {0}
+  - {1}
+您可以使用没有任何限制。</value>
+  </data>
+  <data name="IAPs.Migrate.Success.Title" xml:space="preserve">
+    <value>恭喜。迁移成功！</value>
+  </data>
+  <data name="IAPs.Purchase.Button.Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Content" xml:space="preserve">
+    <value>它不再可用，因为试用期已结束。</value>
+  </data>
+  <data name="IAPs.Purchase.Expired.Title" xml:space="preserve">
+    <value>试用期满。</value>
+  </data>
+  <data name="IAPs.Purchase.ExpiredLeftDay.Title" xml:space="preserve">
+    <value>试用（左{0}天）</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Content" xml:space="preserve">
+    <value>请稍后再试。</value>
+  </data>
+  <data name="IAPs.Purchase.Failed.Title" xml:space="preserve">
+    <value>它未能购买。</value>
+  </data>
+  <data name="MainMenu.IAPs.Button.Text" xml:space="preserve">
+    <value>购买</value>
+  </data>
+  <data name="Subtitle.Language.Sub.All" xml:space="preserve">
+    <value>显示所有</value>
+  </data>
+  <data name="Picker.Choose.Title" xml:space="preserve">
+    <value>选择一项</value>
+  </data>
+  <data name="Button.Connect.Content" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="AddFolder.UNC.Text" xml:space="preserve">
+    <value>通用命名约定 (UNC)</value>
+  </data>
+  <data name="Server.Connect.General.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="Server.Disonnect.General.Text" xml:space="preserve">
+    <value>断开连接</value>
+  </data>
+  <data name="Server.Password.General.PlaceholderText" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="AddFolder.FTP.Text" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="AddFolder.WebDAV.Text" xml:space="preserve">
+    <value>WebDAV</value>
+  </data>
+  <data name="Thumbnail.Unsupported.Title.Text" xml:space="preserve">
+    <value>不支持加载缩略图</value>
+  </data>
+  <data name="Server.UserName.General.PlaceholderText" xml:space="preserve">
+    <value>用户 Id</value>
+  </data>
+</root>
